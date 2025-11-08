@@ -4,31 +4,31 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Todas las rutas que necesitamos prerrenderizar
+// All language/page combinations to prerender
 const routes = [
   { path: '', lang: 'es', page: 'home' },
   { path: 'es', lang: 'es', page: 'home' },
-  { path: 'es/classes', lang: 'es', page: 'classes' },
+  { path: 'es/clases', lang: 'es', page: 'classes' },
   { path: 'es/dancehall', lang: 'es', page: 'dancehall' },
   { path: 'es/afrobeats', lang: 'es', page: 'afrobeats' },
 
   { path: 'ca', lang: 'ca', page: 'home' },
-  { path: 'ca/classes', lang: 'ca', page: 'classes' },
+  { path: 'ca/clases', lang: 'ca', page: 'classes' },
   { path: 'ca/dancehall', lang: 'ca', page: 'dancehall' },
   { path: 'ca/afrobeats', lang: 'ca', page: 'afrobeats' },
 
   { path: 'en', lang: 'en', page: 'home' },
-  { path: 'en/classes', lang: 'en', page: 'classes' },
+  { path: 'en/clases', lang: 'en', page: 'classes' },
   { path: 'en/dancehall', lang: 'en', page: 'dancehall' },
   { path: 'en/afrobeats', lang: 'en', page: 'afrobeats' },
 
   { path: 'fr', lang: 'fr', page: 'home' },
-  { path: 'fr/classes', lang: 'fr', page: 'classes' },
+  { path: 'fr/clases', lang: 'fr', page: 'classes' },
   { path: 'fr/dancehall', lang: 'fr', page: 'dancehall' },
   { path: 'fr/afrobeats', lang: 'fr', page: 'afrobeats' },
 ];
 
-// Metadata para cada página en cada idioma
+// Metadata for each page in each language
 const metadata = {
   es: {
     home: {
@@ -104,18 +104,20 @@ const metadata = {
   },
 };
 
-// Contenido inicial básico para cada página (será reemplazado por React, pero los bots verán esto)
+// Basic prerendered content for each page (bots will see this)
 const initialContent = {
   es: {
     home: `
-      <header class="relative z-10 flex items-center justify-between px-6 py-4 sm:px-12">
-        <div class="text-2xl font-bold text-primary-accent holographic-text">FarRays Center</div>
-        <nav class="hidden md:flex space-x-8 text-neutral/90 font-medium text-lg">
-          <a href="/es" class="hover:text-primary-accent transition-colors">Inicio</a>
-          <a href="/es/classes" class="hover:text-primary-accent transition-colors">Clases</a>
-          <a href="/es/dancehall" class="hover:text-primary-accent transition-colors">Dancehall</a>
-          <a href="/es/afrobeats" class="hover:text-primary-accent transition-colors">Afrobeats</a>
-        </nav>
+      <header class="fixed top-0 left-0 right-0 z-50 bg-transparent">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+          <div class="text-2xl font-bold text-primary-accent holographic-text">FarRays Center</div>
+          <nav class="hidden md:flex space-x-8 text-neutral/90 font-medium text-lg">
+            <a href="/es" class="hover:text-primary-accent transition-colors">Inicio</a>
+            <a href="/es/clases" class="hover:text-primary-accent transition-colors">Clases</a>
+            <a href="/es/dancehall" class="hover:text-primary-accent transition-colors">Dancehall</a>
+            <a href="/es/afrobeats" class="hover:text-primary-accent transition-colors">Afrobeats</a>
+          </nav>
+        </div>
       </header>
       <main id="main-content" class="relative z-0 pt-20 pb-32 px-6 sm:px-12 text-center">
         <h1 class="text-5xl sm:text-6xl md:text-7xl font-extrabold text-neutral mb-6 holographic-text">
@@ -125,22 +127,13 @@ const initialContent = {
           Escuela de baile urbano en Barcelona. Aprende Dancehall, Afrobeats y más con los mejores profesores.
         </p>
         <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <a href="/es/classes" class="bg-primary-accent text-neutral px-10 py-4 rounded-full text-lg font-bold shadow-lg hover:bg-primary-dark transition-all">
+          <a href="/es/clases" class="bg-primary-accent text-neutral px-10 py-4 rounded-full text-lg font-bold shadow-lg hover:bg-primary-dark transition-all">
             Ver Clases
           </a>
         </div>
       </main>
     `,
     classes: `
-      <header class="relative z-10 flex items-center justify-between px-6 py-4 sm:px-12">
-        <div class="text-2xl font-bold text-primary-accent holographic-text">FarRays Center</div>
-        <nav class="hidden md:flex space-x-8 text-neutral/90 font-medium text-lg">
-          <a href="/es" class="hover:text-primary-accent transition-colors">Inicio</a>
-          <a href="/es/classes" class="hover:text-primary-accent transition-colors">Clases</a>
-          <a href="/es/dancehall" class="hover:text-primary-accent transition-colors">Dancehall</a>
-          <a href="/es/afrobeats" class="hover:text-primary-accent transition-colors">Afrobeats</a>
-        </nav>
-      </header>
       <main id="main-content" class="relative z-0 pt-20 pb-32 px-6 sm:px-12">
         <h1 class="text-4xl sm:text-5xl font-bold text-neutral mb-8 text-center holographic-text">
           Nuestras Clases
@@ -151,15 +144,6 @@ const initialContent = {
       </main>
     `,
     dancehall: `
-      <header class="relative z-10 flex items-center justify-between px-6 py-4 sm:px-12">
-        <div class="text-2xl font-bold text-primary-accent holographic-text">FarRays Center</div>
-        <nav class="hidden md:flex space-x-8 text-neutral/90 font-medium text-lg">
-          <a href="/es" class="hover:text-primary-accent transition-colors">Inicio</a>
-          <a href="/es/classes" class="hover:text-primary-accent transition-colors">Clases</a>
-          <a href="/es/dancehall" class="hover:text-primary-accent transition-colors">Dancehall</a>
-          <a href="/es/afrobeats" class="hover:text-primary-accent transition-colors">Afrobeats</a>
-        </nav>
-      </header>
       <main id="main-content" class="relative z-0 pt-20 pb-32 px-6 sm:px-12">
         <h1 class="text-4xl sm:text-5xl font-bold text-neutral mb-8 text-center holographic-text">
           Clases de Dancehall
@@ -170,15 +154,6 @@ const initialContent = {
       </main>
     `,
     afrobeats: `
-      <header class="relative z-10 flex items-center justify-between px-6 py-4 sm:px-12">
-        <div class="text-2xl font-bold text-primary-accent holographic-text">FarRays Center</div>
-        <nav class="hidden md:flex space-x-8 text-neutral/90 font-medium text-lg">
-          <a href="/es" class="hover:text-primary-accent transition-colors">Inicio</a>
-          <a href="/es/classes" class="hover:text-primary-accent transition-colors">Clases</a>
-          <a href="/es/dancehall" class="hover:text-primary-accent transition-colors">Dancehall</a>
-          <a href="/es/afrobeats" class="hover:text-primary-accent transition-colors">Afrobeats</a>
-        </nav>
-      </header>
       <main id="main-content" class="relative z-0 pt-20 pb-32 px-6 sm:px-12">
         <h1 class="text-4xl sm:text-5xl font-bold text-neutral mb-8 text-center holographic-text">
           Clases de Afrobeats
@@ -189,30 +164,30 @@ const initialContent = {
       </main>
     `,
   },
-  // Para los otros idiomas, usamos traducciones simples
+  // Simplified content for other languages
   ca: {
-    home: `<main id="main-content"><h1 class="holographic-text">FarRays Center</h1><p>Escola de ball urbà a Barcelona. Aprèn Dancehall, Afrobeats i més amb els millors professors.</p></main>`,
-    classes: `<main id="main-content"><h1 class="holographic-text">Les nostres Classes</h1><p>Classes de Dancehall, Afrobeats i ball urbà per a tots els nivells.</p></main>`,
-    dancehall: `<main id="main-content"><h1 class="holographic-text">Classes de Dancehall</h1><p>Aprèn Dancehall autèntic de Jamaica.</p></main>`,
-    afrobeats: `<main id="main-content"><h1 class="holographic-text">Classes d'Afrobeats</h1><p>Domina l'Afrobeats amb classes professionals.</p></main>`,
+    home: `<main id="main-content"><h1 class="holographic-text text-5xl font-extrabold">FarRays Center</h1><p class="text-xl">Escola de ball urbà a Barcelona. Aprèn Dancehall, Afrobeats i més.</p></main>`,
+    classes: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Les nostres Classes</h1><p>Classes de Dancehall, Afrobeats i ball urbà per a tots els nivells.</p></main>`,
+    dancehall: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Classes de Dancehall</h1><p>Aprèn Dancehall autèntic de Jamaica.</p></main>`,
+    afrobeats: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Classes d'Afrobeats</h1><p>Domina l'Afrobeats amb classes professionals.</p></main>`,
   },
   en: {
-    home: `<main id="main-content"><h1 class="holographic-text">FarRays Center</h1><p>Urban dance school in Barcelona. Learn Dancehall, Afrobeats and more with the best teachers.</p></main>`,
-    classes: `<main id="main-content"><h1 class="holographic-text">Our Classes</h1><p>Dancehall, Afrobeats and urban dance classes for all levels.</p></main>`,
-    dancehall: `<main id="main-content"><h1 class="holographic-text">Dancehall Classes</h1><p>Learn authentic Dancehall from Jamaica.</p></main>`,
-    afrobeats: `<main id="main-content"><h1 class="holographic-text">Afrobeats Classes</h1><p>Master Afrobeats with professional classes.</p></main>`,
+    home: `<main id="main-content"><h1 class="holographic-text text-5xl font-extrabold">FarRays Center</h1><p class="text-xl">Urban dance school in Barcelona. Learn Dancehall, Afrobeats and more.</p></main>`,
+    classes: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Our Classes</h1><p>Dancehall, Afrobeats and urban dance classes for all levels.</p></main>`,
+    dancehall: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Dancehall Classes</h1><p>Learn authentic Dancehall from Jamaica.</p></main>`,
+    afrobeats: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Afrobeats Classes</h1><p>Master Afrobeats with professional classes.</p></main>`,
   },
   fr: {
-    home: `<main id="main-content"><h1 class="holographic-text">FarRays Center</h1><p>École de danse urbaine à Barcelone. Apprenez le Dancehall, l'Afrobeats et plus avec les meilleurs professeurs.</p></main>`,
-    classes: `<main id="main-content"><h1 class="holographic-text">Nos Cours</h1><p>Cours de Dancehall, Afrobeats et danse urbaine pour tous les niveaux.</p></main>`,
-    dancehall: `<main id="main-content"><h1 class="holographic-text">Cours de Dancehall</h1><p>Apprenez le Dancehall authentique de Jamaïque.</p></main>`,
-    afrobeats: `<main id="main-content"><h1 class="holographic-text">Cours d'Afrobeats</h1><p>Maîtrisez l'Afrobeats avec des cours professionnels.</p></main>`,
+    home: `<main id="main-content"><h1 class="holographic-text text-5xl font-extrabold">FarRays Center</h1><p class="text-xl">École de danse urbaine à Barcelone. Apprenez le Dancehall, l'Afrobeats et plus.</p></main>`,
+    classes: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Nos Cours</h1><p>Cours de Dancehall, Afrobeats et danse urbaine pour tous les niveaux.</p></main>`,
+    dancehall: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Cours de Dancehall</h1><p>Apprenez le Dancehall authentique de Jamaïque.</p></main>`,
+    afrobeats: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Cours d'Afrobeats</h1><p>Maîtrisez l'Afrobeats avec des cours professionnels.</p></main>`,
   },
 };
 
 console.log('🚀 Starting prerendering process...\n');
 
-// Leer el HTML base
+// Read base HTML
 const distPath = path.join(__dirname, 'dist');
 const indexHtmlPath = path.join(distPath, 'index.html');
 
@@ -228,28 +203,44 @@ let generatedCount = 0;
 routes.forEach(route => {
   const { path: routePath, lang, page } = route;
 
-  // Obtener metadata y contenido
+  // Get metadata and content
   const meta = metadata[lang][page];
   const content = initialContent[lang][page];
 
-  // Generar hreflang alternates
+  // Generate hreflang alternates
+  const pagePath = page === 'home' ? '' : (page === 'classes' ? 'clases' : page);
   const hreflangLinks = [
-    `<link rel="alternate" hreflang="es" href="https://www.farrayscenter.com/es${page !== 'home' ? `/${page}` : ''}" />`,
-    `<link rel="alternate" hreflang="ca" href="https://www.farrayscenter.com/ca${page !== 'home' ? `/${page}` : ''}" />`,
-    `<link rel="alternate" hreflang="en" href="https://www.farrayscenter.com/en${page !== 'home' ? `/${page}` : ''}" />`,
-    `<link rel="alternate" hreflang="fr" href="https://www.farrayscenter.com/fr${page !== 'home' ? `/${page}` : ''}" />`,
-    `<link rel="alternate" hreflang="x-default" href="https://www.farrayscenter.com/es${page !== 'home' ? `/${page}` : ''}" />`,
+    `<link rel="alternate" hreflang="es" href="https://www.farrayscenter.com/es${pagePath ? `/${pagePath}` : ''}" />`,
+    `<link rel="alternate" hreflang="ca" href="https://www.farrayscenter.com/ca${pagePath ? `/${pagePath}` : ''}" />`,
+    `<link rel="alternate" hreflang="en" href="https://www.farrayscenter.com/en${pagePath ? `/${pagePath}` : ''}" />`,
+    `<link rel="alternate" hreflang="fr" href="https://www.farrayscenter.com/fr${pagePath ? `/${pagePath}` : ''}" />`,
+    `<link rel="alternate" hreflang="x-default" href="https://www.farrayscenter.com/es${pagePath ? `/${pagePath}` : ''}" />`,
   ].join('\n    ');
 
   const currentUrl = `https://www.farrayscenter.com/${routePath}`;
 
-  // Crear HTML prerenderizado
+  // Locale persistence script - runs before React mounts
+  const localeScript = `
+    <script>
+      // Set locale before React hydration
+      (function() {
+        const locale = '${lang}';
+        localStorage.setItem('fidc_preferred_locale', locale);
+        const expires = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toUTCString();
+        document.cookie = 'fidc_locale=' + locale + '; expires=' + expires + '; path=/; SameSite=Lax';
+        document.documentElement.lang = locale;
+      })();
+    </script>
+  `;
+
+  // Create prerendered HTML
   let html = baseHtml;
 
-  // Actualizar lang
-  html = html.replace('<html lang="en">', `<html lang="${lang}">`);
+  // Update lang attribute
+  html = html.replace(/<html([^>]*)lang="[^"]*"/, `<html$1lang="${lang}"`);
+  html = html.replace(/<html(?![^>]*lang=)/, `<html lang="${lang}"`);
 
-  // Inyectar metadata en el <head>
+  // Inject metadata in <head>
   html = html.replace('</head>', `
     <title>${meta.title}</title>
     <meta name="description" content="${meta.description}" />
@@ -270,36 +261,39 @@ routes.forEach(route => {
     <meta name="twitter:title" content="${meta.title}" />
     <meta name="twitter:description" content="${meta.description}" />
     <meta name="twitter:image" content="https://www.farrayscenter.com/images/og-${page}.jpg" />
+
+    ${localeScript}
   </head>`);
 
-  // Inyectar contenido inicial en <div id="root">
+  // Inject prerendered content in <div id="root">
   html = html.replace(
     '<div id="root"></div>',
     `<div id="root"><div class="bg-black text-neutral antialiased font-sans overflow-x-hidden">${content}</div></div>`
   );
 
-  // Determinar la ruta del archivo
+  // Determine file path
   const filePath = routePath === ''
     ? path.join(distPath, 'index.html')
     : path.join(distPath, routePath, 'index.html');
 
-  // Crear directorio si no existe
+  // Create directory if it doesn't exist
   const dir = path.dirname(filePath);
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
   }
 
-  // Guardar archivo
+  // Save file
   fs.writeFileSync(filePath, html);
   generatedCount++;
 
-  console.log(`✅ Generated: /${routePath || '(root)'} → ${filePath}`);
+  console.log(`✅ Generated: /${routePath || '(root)'} [${lang}] → ${filePath}`);
 });
 
 console.log(`\n🎉 Prerendering complete! Generated ${generatedCount} pages.`);
 console.log('\n📊 Summary:');
 console.log(`   - Total pages: ${generatedCount}`);
 console.log(`   - Languages: es, ca, en, fr (4)`);
-console.log(`   - Pages per language: home, classes, dancehall, afrobeats (4)`);
+console.log(`   - Pages per language: home, clases, dancehall, afrobeats (4)`);
 console.log(`   - SEO: ✅ Metadata, ✅ hreflang, ✅ Canonical, ✅ Open Graph`);
+console.log(`   - Locale: ✅ Pre-set via localStorage + cookie before React hydration`);
 console.log('\n🔍 Verify: Run "npm run preview" and view page source to see prerendered content\n');
