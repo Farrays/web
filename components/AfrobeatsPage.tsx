@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { useI18n } from '../hooks/useI18n';
 import AnimateOnScroll from './AnimateOnScroll';
 import FinalCTA from './FinalCTA';
+import FAQSection from './FAQSection';
 import type { Testimonial, ValuePillar } from '../types';
 import { imageUrls } from '../utils/imageConfig';
 
@@ -38,6 +39,7 @@ const afrobeatsPillars: ValuePillar[] = [
 const AfrobeatsPage: React.FC = () => {
     const { t, locale } = useI18n();
     const baseUrl = 'https://www.farrayscenter.com';
+const afrobeatsFaqs = [    { id: 'ab-1', question: t('afrobeatsFaqQ1'), answer: t('afrobeatsFaqA1') },    { id: 'ab-2', question: t('afrobeatsFaqQ2'), answer: t('afrobeatsFaqA2') },    { id: 'ab-3', question: t('afrobeatsFaqQ3'), answer: t('afrobeatsFaqA3') },    { id: 'ab-4', question: t('afrobeatsFaqQ4'), answer: t('afrobeatsFaqA4') },  ];
 
     const afrobeatsTestimonials: Testimonial[] = [
       { id: 1, name: t('afrobeatsTestimonial1Name'), image: imageUrls.testimonials.fatouD, rating: 5, 
@@ -227,6 +229,8 @@ const AfrobeatsPage: React.FC = () => {
                     </div>
                 </div>
             </section>
+
+            <FAQSection title={t('faqTitle')} faqs={afrobeatsFaqs} pageUrl={`${baseUrl}/${locale}/afrobeats`} />
 
             <FinalCTA />
             </div>

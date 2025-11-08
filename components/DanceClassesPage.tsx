@@ -5,6 +5,7 @@ import type { DetailedClassInfo } from '../types';
 import { imageUrls } from '../utils/imageConfig';
 import AnimateOnScroll from './AnimateOnScroll';
 import FinalCTA from './FinalCTA';
+import FAQSection from './FAQSection';
 
 const detailedClassData: DetailedClassInfo[] = [
   { 
@@ -66,6 +67,7 @@ const detailedClassData: DetailedClassInfo[] = [
 const DanceClassesPage: React.FC = () => {
     const { t, locale } = useI18n();
     const baseUrl = 'https://www.farrayscenter.com';
+const classesFaqs = [    { id: 'cl-1', question: t('classesFaqQ1'), answer: t('classesFaqA1') },    { id: 'cl-2', question: t('classesFaqQ2'), answer: t('classesFaqA2') },    { id: 'cl-3', question: t('classesFaqQ3'), answer: t('classesFaqA3') },    { id: 'cl-4', question: t('classesFaqQ4'), answer: t('classesFaqA4') },    { id: 'cl-5', question: t('classesFaqQ5'), answer: t('classesFaqA5') },  ];
 
     return (
         <>
@@ -157,6 +159,8 @@ const DanceClassesPage: React.FC = () => {
                     </div>
                 </div>
             </section>
+            <FAQSection title={t('faqTitle')} faqs={classesFaqs} pageUrl={`${baseUrl}/${locale}/clases`} />
+
             <FinalCTA />
             </div>
         </>

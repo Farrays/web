@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { useI18n } from '../hooks/useI18n';
 import AnimateOnScroll from './AnimateOnScroll';
 import FinalCTA from './FinalCTA';
+import FAQSection from './FAQSection';
 import type { Testimonial, ValuePillar } from '../types';
 import { imageUrls } from '../utils/imageConfig';
 
@@ -44,6 +45,13 @@ const dancehallPillars: ValuePillar[] = [
 const DancehallPage: React.FC = () => {
     const { t, locale } = useI18n();
     const baseUrl = 'https://www.farrayscenter.com';
+
+    const dancehallFaqs = [
+      { id: 'dh-1', question: t('dancehallFaqQ1'), answer: t('dancehallFaqA1') },
+      { id: 'dh-2', question: t('dancehallFaqQ2'), answer: t('dancehallFaqA2') },
+      { id: 'dh-3', question: t('dancehallFaqQ3'), answer: t('dancehallFaqA3') },
+      { id: 'dh-4', question: t('dancehallFaqQ4'), answer: t('dancehallFaqA4') },
+    ];
 
     const dancehallTestimonials: Testimonial[] = [
       { id: 1, name: t('dancehallTestimonial1Name'), image: imageUrls.testimonials.marcoV, rating: 5, 
@@ -233,6 +241,8 @@ const DancehallPage: React.FC = () => {
                     </div>
                 </div>
             </section>
+
+            <FAQSection title={t('faqTitle')} faqs={dancehallFaqs} pageUrl={`${baseUrl}/${locale}/dancehall`} />
 
             <FinalCTA />
             </div>

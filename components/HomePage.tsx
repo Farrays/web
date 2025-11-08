@@ -12,10 +12,22 @@ import Testimonials from './Testimonials';
 import HowToGetHere from './HowToGetHere';
 import FinalCTA from './FinalCTA';
 import InstagramFeed from './InstagramFeed';
+import FAQSection from './FAQSection';
 
 const HomePage: React.FC = () => {
   const { t, locale } = useI18n();
   const baseUrl = 'https://www.farrayscenter.com';
+
+  const homeFaqs = [
+    { id: 'home-1', question: t('homeFaqQ1'), answer: t('homeFaqA1') },
+    { id: 'home-2', question: t('homeFaqQ2'), answer: t('homeFaqA2') },
+    { id: 'home-3', question: t('homeFaqQ3'), answer: t('homeFaqA3') },
+    { id: 'home-4', question: t('homeFaqQ4'), answer: t('homeFaqA4') },
+    { id: 'home-5', question: t('homeFaqQ5'), answer: t('homeFaqA5') },
+    { id: 'home-6', question: t('homeFaqQ6'), answer: t('homeFaqA6') },
+    { id: 'home-7', question: t('homeFaqQ7'), answer: t('homeFaqA7') },
+    { id: 'home-8', question: t('homeFaqQ8'), answer: t('homeFaqA8') },
+  ];
 
   return (
     <>
@@ -55,6 +67,7 @@ const HomePage: React.FC = () => {
       <Teachers />
       <Testimonials />
       <InstagramFeed />
+      <FAQSection title={t('faqTitle')} faqs={homeFaqs} pageUrl={`${baseUrl}/${locale}`} />
       <FinalCTA />
       <HowToGetHere />
     </>
