@@ -38,7 +38,11 @@ const About: React.FC = () => {
               </p>
             </AnimateOnScroll>
             <AnimateOnScroll delay={200}>
-              <div className="text-lg text-neutral/80 leading-relaxed space-y-4" dangerouslySetInnerHTML={{ __html: t('aboutBio').replace(/\n/g, '<br />') }} />
+              <div className="text-lg text-neutral/80 leading-relaxed space-y-4">
+                {t('aboutBio').split('\n\n').map((paragraph, index) => (
+                  <p key={index}>{paragraph}</p>
+                ))}
+              </div>
             </AnimateOnScroll>
           </div>
           <AnimateOnScroll delay={400}>

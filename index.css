@@ -1,36 +1,53 @@
 /* Farray's International Dance Center - Global Styles */
 
-/* CSS Reset básico */
-*, *::before, *::after {
-  box-sizing: border-box;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Reset básico (complementa Tailwind's preflight) */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
+/* Custom scrollbar aesthetics */
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
 
-html {
-  scroll-behavior: smooth;
-}
+  ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
 
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  ::-webkit-scrollbar-thumb {
+    background: #c82260;
+    border-radius: 4px;
+  }
 
-img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
-}
+  ::-webkit-scrollbar-thumb:hover {
+    background: #e63d7e;
+  }
 
-input, button, textarea, select {
-  font: inherit;
-}
+  .holographic-text {
+    color: white;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c82260, 0 0 30px #c82260, 0 0 40px #c82260, 0 0 55px #c82260, 0 0 75px #c82260;
+  }
 
-p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
+  /* Accessibility: Reduce motion */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
 }
-
-/* Estilos globales adicionales si son necesarios */

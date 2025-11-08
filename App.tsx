@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { I18nProvider, useI18n } from './hooks/useI18n';
+import ErrorBoundary from './components/ErrorBoundary';
 import Header from './components/Header';
+import SkipLink from './components/SkipLink';
 import HomePage from './components/HomePage';
 import DanceClassesPage from './components/DanceClassesPage';
 import DancehallPage from './components/DancehallPage';
@@ -46,8 +48,9 @@ const AppContent: React.FC = () => {
 
   return (
     <div className="bg-black text-neutral antialiased font-sans overflow-x-hidden">
+      <SkipLink />
       <Header setPage={setPage} currentPage={page} />
-      <main>
+      <main id="main-content">
         {renderPage()}
       </main>
       <Footer />
@@ -57,9 +60,11 @@ const AppContent: React.FC = () => {
 
 const App: React.FC = () => {
   return (
-    <I18nProvider>
-      <AppContent />
-    </I18nProvider>
+    <ErrorBoundary>
+      <I18nProvider>
+        <AppContent />
+      </I18nProvider>
+    </ErrorBoundary>
   );
 };
 

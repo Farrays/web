@@ -1,5 +1,5 @@
 
-import React, { createContext, useState, useContext, ReactNode, useCallback } from 'react';
+import React, { createContext, useState, useContext, ReactNode, useCallback, useEffect } from 'react';
 import type { Locale } from '../types';
 import { translations } from '../i18n/locales';
 
@@ -11,31 +11,104 @@ interface I18nContextType {
 
 const I18nContext = createContext<I18nContextType | undefined>(undefined);
 
+const LOCALE_STORAGE_KEY = 'fidc_preferred_locale';
+const LOCALE_COOKIE_NAME = 'fidc_locale';
+
+// Set cookie helper
+const setCookie = (name: string, value: string, days: number = 365) => {
+  const expires = new Date();
+  expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
+  document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;SameSite=Lax`;
+};
+
+// Get cookie helper
+const getCookie = (name: string): string | null => {
+  const value = `; ${document.cookie}`;
+  const parts = value.split(`; ${name}=`);
+  if (parts.length === 2) return parts.pop()?.split(';').shift() || null;
+  return null;
+};
+
 export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [locale, setLocale] = useState<Locale>(() => {
-    const browserLang = navigator.language.split('-')[0];
+  const [locale, setLocaleState] = useState<Locale>(() => {
+    // Priority: 1) localStorage, 2) Cookie, 3) Navigator, 4) Default
     const supportedLocales: Locale[] = ['en', 'es', 'ca', 'fr'];
+
+    // Try localStorage first
+    const stored = localStorage.getItem(LOCALE_STORAGE_KEY) as Locale | null;
+    if (stored && supportedLocales.includes(stored)) {
+      return stored;
+    }
+
+    // Try cookie
+    const cookieLocale = getCookie(LOCALE_COOKIE_NAME) as Locale | null;
+    if (cookieLocale && supportedLocales.includes(cookieLocale)) {
+      return cookieLocale;
+    }
+
+    // Fallback to browser language
+    const browserLang = navigator.language.split('-')[0];
     if (supportedLocales.includes(browserLang as Locale)) {
       return browserLang as Locale;
     }
+
     return 'es'; // Default to Spanish
   });
 
+  const setLocale = useCallback((newLocale: Locale) => {
+    setLocaleState(newLocale);
+
+    // Persist to localStorage
+    localStorage.setItem(LOCALE_STORAGE_KEY, newLocale);
+
+    // Persist to cookie (for SSR/prerender)
+    setCookie(LOCALE_COOKIE_NAME, newLocale);
+
+    // Update html lang attribute
+    document.documentElement.lang = newLocale;
+  }, []);
+
+  useEffect(() => {
+    // Ensure html lang is set on mount
+    document.documentElement.lang = locale;
+  }, [locale]);
+
   const t = useCallback((key: string): string => {
     const keys = key.split('.');
-    let result: any = translations[locale];
+    let result: unknown = translations[locale];
+
     for (const k of keys) {
-      result = result?.[k];
-      if (result === undefined) {
-        // Fallback to English if translation is missing
-        let fallbackResult: any = translations.en;
-        for (const fk of keys) {
-          fallbackResult = fallbackResult?.[fk];
-        }
-        return fallbackResult || key;
+      if (result && typeof result === 'object') {
+        result = (result as Record<string, unknown>)[k];
+      } else {
+        result = undefined;
+        break;
       }
     }
-    return result || key;
+
+    if (result === undefined) {
+      // Fallback to English if translation is missing
+      let fallbackResult: unknown = translations.en;
+      for (const fk of keys) {
+        if (fallbackResult && typeof fallbackResult === 'object') {
+          fallbackResult = (fallbackResult as Record<string, unknown>)[fk];
+        } else {
+          fallbackResult = undefined;
+          break;
+        }
+      }
+
+      if (typeof fallbackResult === 'string') return fallbackResult;
+
+      // Report missing key in development
+      if (import.meta.env.DEV) {
+        console.warn(`Missing translation key: ${key} for locale: ${locale}`);
+      }
+
+      return key;
+    }
+
+    return typeof result === 'string' ? result : key;
   }, [locale]);
 
   return (

@@ -10,10 +10,11 @@ export default defineConfig(({ mode }) => {
         host: '0.0.0.0',
       },
       plugins: [react()],
-      define: {
-        'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
-        'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
-      },
+      // SECURITY: API keys should NEVER be exposed to the client bundle
+      // If you need to call Gemini API, create a backend proxy endpoint instead
+      // define: {
+      //   'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
+      // },
       resolve: {
         alias: {
           '@': path.resolve(__dirname, '.'),
