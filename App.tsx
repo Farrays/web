@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import { HelmetProvider } from 'react-helmet-async';
 import { I18nProvider, useI18n } from './hooks/useI18n';
 import ErrorBoundary from './components/ErrorBoundary';
+import SEO from './components/SEO';
 import Header from './components/Header';
 import SkipLink from './components/SkipLink';
 import HomePage from './components/HomePage';
@@ -11,26 +13,12 @@ import Footer from './components/Footer';
 import type { Page } from './types';
 
 const AppContent: React.FC = () => {
-  const { locale, t } = useI18n();
   const [page, setPage] = useState<Page>('home');
 
   useEffect(() => {
     // Scroll to the top of the page whenever the page changes
     window.scrollTo(0, 0);
   }, [page]);
-
-  useEffect(() => {
-    document.documentElement.lang = locale;
-    let titleKey = 'pageTitle';
-    if (page === 'classes') {
-        titleKey = 'danceClassesPageTitle';
-    } else if (page === 'dancehall') {
-        titleKey = 'dancehallPageTitle';
-    } else if (page === 'afrobeats') {
-        titleKey = 'afrobeatsPageTitle';
-    }
-    document.title = t(titleKey);
-  }, [locale, t, page]);
 
   const renderPage = () => {
     switch (page) {
@@ -48,6 +36,7 @@ const AppContent: React.FC = () => {
 
   return (
     <div className="bg-black text-neutral antialiased font-sans overflow-x-hidden">
+      <SEO page={page} />
       <SkipLink />
       <Header setPage={setPage} currentPage={page} />
       <main id="main-content">
@@ -61,9 +50,11 @@ const AppContent: React.FC = () => {
 const App: React.FC = () => {
   return (
     <ErrorBoundary>
-      <I18nProvider>
-        <AppContent />
-      </I18nProvider>
+      <HelmetProvider>
+        <I18nProvider>
+          <AppContent />
+        </I18nProvider>
+      </HelmetProvider>
     </ErrorBoundary>
   );
 };
