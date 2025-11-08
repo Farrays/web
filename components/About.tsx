@@ -38,8 +38,10 @@ const About: React.FC = () => {
               </p>
             </AnimateOnScroll>
             <AnimateOnScroll delay={200}>
-              <div className="text-lg text-neutral/80 leading-relaxed whitespace-pre-line">
-                {t('aboutBio')}
+              <div className="text-lg text-neutral/80 leading-relaxed space-y-4">
+                {t('aboutBio').split('\n\n').map((paragraph, index) => (
+                  <p key={index}>{paragraph}</p>
+                ))}
               </div>
             </AnimateOnScroll>
           </div>

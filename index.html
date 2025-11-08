@@ -32,90 +32,11 @@
     <link rel="alternate" hreflang="x-default" href="https://www.farrayscenter.com/es" />
 
 
+    <!-- Preconnect to fonts for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              'primary-dark': '#800020',
-              'primary-accent': '#c82260',
-              'neutral': '#ffffff',
-              'dark-text': '#000000',
-            },
-            fontFamily: {
-              sans: ['Roboto', 'sans-serif'],
-            },
-            animation: {
-              'glow': 'glow 3s ease-in-out infinite alternate',
-              'pulse-strong': 'pulse-strong 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-              'subtle-bob': 'subtle-bob 4s ease-in-out infinite',
-              'fade-in-up': 'fade-in-up 1s ease-out forwards',
-            },
-            keyframes: {
-              glow: {
-                'from': { 
-                  boxShadow: '0 0 5px #c82260, 0 0 10px #c82260, 0 0 15px #c82260',
-                  textShadow: '0 0 5px #c82260'
-                },
-                'to': { 
-                  boxShadow: '0 0 20px #c82260, 0 0 30px #c82260, 0 0 40px #c82260',
-                  textShadow: '0 0 10px #c82260'
-                },
-              },
-              'pulse-strong': {
-                '0%, 100%': { transform: 'scale(1)' },
-                '50%': { transform: 'scale(1.05)' },
-              },
-              'subtle-bob': {
-                '0%, 100%': { transform: 'translateY(0)' },
-                '50%': { transform: 'translateY(-10px)' },
-              },
-              'fade-in-up': {
-                '0%': { opacity: '0', transform: 'translateY(20px)' },
-                '100%': { opacity: '1', transform: 'translateY(0)' },
-              },
-            },
-            boxShadow: {
-              'accent-glow': '0 0 15px rgba(200, 34, 96, 0.8)',
-            }
-          },
-        },
-      }
-    </script>
-    <style>
-      /* For custom scrollbar aesthetics */
-      ::-webkit-scrollbar {
-        width: 8px;
-        height: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #0a0a0a;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #c82260;
-        border-radius: 4px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #e63d7e;
-      }
-      .holographic-text {
-        color: white;
-        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c82260, 0 0 30px #c82260, 0 0 40px #c82260, 0 0 55px #c82260, 0 0 75px #c82260;
-      }
-      /* Accessibility: Reduce motion */
-      @media (prefers-reduced-motion: reduce) {
-        *, *::before, *::after {
-          animation-duration: 0.01ms !important;
-          animation-iteration-count: 1 !important;
-          transition-duration: 0.01ms !important;
-          scroll-behavior: auto !important;
-        }
-      }
-    </style>
+
     <!-- Structured Data (JSON-LD) for SEO and E-E-A-T -->
     <script type="application/ld+json">
     {
@@ -228,6 +149,7 @@
       ]
     }
     </script>
+  <!-- Import Maps for development -->
   <script type="importmap">
 {
   "imports": {

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useI18n } from '../hooks/useI18n';
 import type { Locale } from '../types';
@@ -21,8 +21,6 @@ const Header: React.FC = () => {
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const mobileMenuRef = useRef<HTMLDivElement>(null);
-  const closeButtonRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,41 +29,6 @@ const Header: React.FC = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
-  // Focus trap for mobile menu
-  useEffect(() => {
-    if (isMenuOpen && mobileMenuRef.current) {
-      const focusableElements = mobileMenuRef.current.querySelectorAll(
-        'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
-      );
-      const firstElement = focusableElements[0] as HTMLElement;
-      const lastElement = focusableElements[focusableElements.length - 1] as HTMLElement;
-
-      // Focus the close button when menu opens
-      closeButtonRef.current?.focus();
-
-      const handleTabKey = (e: KeyboardEvent) => {
-        if (e.key !== 'Tab') return;
-
-        if (e.shiftKey) {
-          // Shift + Tab
-          if (document.activeElement === firstElement || document.activeElement === closeButtonRef.current) {
-            e.preventDefault();
-            lastElement?.focus();
-          }
-        } else {
-          // Tab
-          if (document.activeElement === lastElement) {
-            e.preventDefault();
-            (closeButtonRef.current || firstElement)?.focus();
-          }
-        }
-      };
-
-      document.addEventListener('keydown', handleTabKey);
-      return () => document.removeEventListener('keydown', handleTabKey);
-    }
-  }, [isMenuOpen]);
 
   const handleLanguageChange = (lang: Locale) => {
     setLocale(lang);
@@ -101,13 +64,17 @@ const Header: React.FC = () => {
             <ul className="flex items-center space-x-8 text-sm font-medium">
               {navLinks.map(link => (
                 <li key={link.path}>
-                    <Link
-                        to={link.path}
-                        className={`transition-colors duration-300 ${location.pathname === link.path ? 'text-white' : 'text-neutral/60 hover:text-white'}`}
-                        aria-current={location.pathname === link.path ? 'page' : undefined}
-                    >
-                        {t(link.textKey)}
-                    </Link>
+                  <Link
+                    to={link.path}
+                    className={`transition-colors duration-300 ${
+                      location.pathname === link.path
+                        ? 'text-white'
+                        : 'text-neutral/60 hover:text-white'
+                    }`}
+                    aria-current={location.pathname === link.path ? 'page' : undefined}
+                  >
+                    {t(link.textKey)}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -130,14 +97,17 @@ const Header: React.FC = () => {
                 </button>
               ))}
             </div>
-            
-            <Link to="/#enroll" onClick={handleEnrollClick} className="bg-primary-accent text-white font-bold py-2 px-6 rounded-full transition-all duration-300 hover:bg-white hover:text-primary-accent shadow-md hover:shadow-accent-glow animate-pulse-strong">
+
+            <Link
+              to="/#enroll"
+              onClick={handleEnrollClick}
+              className="bg-primary-accent text-white font-bold py-2 px-6 rounded-full transition-all duration-300 hover:bg-white hover:text-primary-accent shadow-md hover:shadow-accent-glow animate-pulse-strong"
+            >
               {t('enrollNow')}
             </Link>
           </div>
           <div className="md:hidden">
             <button
-              ref={closeButtonRef}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="z-50 relative"
               aria-controls="mobile-menu"
@@ -149,49 +119,56 @@ const Header: React.FC = () => {
           </div>
         </div>
       </header>
-      
+
       {/* Mobile Menu Overlay */}
       <div
-        ref={mobileMenuRef}
         id="mobile-menu"
         className={`fixed inset-0 bg-black/95 backdrop-blur-xl z-40 transition-transform duration-500 ease-in-out transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden`}
         role="dialog"
         aria-modal="true"
       >
-          <div className="flex flex-col items-center justify-center h-full space-y-12">
-            <nav className="flex flex-col items-center space-y-6">
-                {navLinks.map(link => (
-                    <Link
-                        key={link.path}
-                        to={link.path}
-                        onClick={() => setIsMenuOpen(false)}
-                        className={`text-2xl font-bold transition-colors duration-300 ${location.pathname === link.path ? 'text-primary-accent' : 'text-neutral/80 hover:text-white'}`}
-                        aria-current={location.pathname === link.path ? 'page' : undefined}
-                    >
-                        {t(link.textKey)}
-                    </Link>
-                ))}
-            </nav>
-              <div className="flex items-center space-x-2 bg-black/20 p-1 rounded-full">
-                {(['es', 'ca', 'en', 'fr'] as Locale[]).map((lang) => (
-                  <button
-                    key={lang}
-                    onClick={() => { handleLanguageChange(lang); setIsMenuOpen(false); }}
-                    className={`px-4 py-2 rounded-full text-lg font-bold transition-colors duration-300 ${
-                      locale === lang
-                        ? 'bg-primary-accent text-white'
-                        : 'text-neutral/70 hover:bg-neutral/20 hover:text-white'
-                    }`}
-                    aria-label={`Switch to ${lang}`}
-                  >
-                    {lang.toUpperCase()}
-                  </button>
-                ))}
-              </div>
-              <Link to="/#enroll" onClick={(e) => { handleEnrollClick(e); setIsMenuOpen(false); }} className="bg-primary-accent text-white text-xl font-bold py-4 px-10 rounded-full transition-all duration-300 hover:bg-white hover:text-primary-accent shadow-md hover:shadow-accent-glow animate-pulse-strong">
-              {t('enrollNow')}
-            </Link>
+        <div className="flex flex-col items-center justify-center h-full space-y-12">
+          <nav className="flex flex-col items-center space-y-6">
+            {navLinks.map(link => (
+              <Link
+                key={link.path}
+                to={link.path}
+                onClick={() => setIsMenuOpen(false)}
+                className={`text-2xl font-bold transition-colors duration-300 ${
+                  location.pathname === link.path
+                    ? 'text-primary-accent'
+                    : 'text-neutral/80 hover:text-white'
+                }`}
+                aria-current={location.pathname === link.path ? 'page' : undefined}
+              >
+                {t(link.textKey)}
+              </Link>
+            ))}
+          </nav>
+          <div className="flex items-center space-x-2 bg-black/20 p-1 rounded-full">
+            {(['es', 'ca', 'en', 'fr'] as Locale[]).map((lang) => (
+              <button
+                key={lang}
+                onClick={() => { handleLanguageChange(lang); setIsMenuOpen(false); }}
+                className={`px-4 py-2 rounded-full text-lg font-bold transition-colors duration-300 ${
+                  locale === lang
+                    ? 'bg-primary-accent text-white'
+                    : 'text-neutral/70 hover:bg-neutral/20 hover:text-white'
+                }`}
+                aria-label={`Switch to ${lang}`}
+              >
+                {lang.toUpperCase()}
+              </button>
+            ))}
           </div>
+          <Link
+            to="/#enroll"
+            onClick={(e) => { handleEnrollClick(e); setIsMenuOpen(false); }}
+            className="bg-primary-accent text-white text-xl font-bold py-4 px-10 rounded-full transition-all duration-300 hover:bg-white hover:text-primary-accent shadow-md hover:shadow-accent-glow animate-pulse-strong"
+          >
+            {t('enrollNow')}
+          </Link>
+        </div>
       </div>
     </>
   );
