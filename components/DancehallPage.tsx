@@ -4,6 +4,7 @@ import { useI18n } from '../hooks/useI18n';
 import AnimateOnScroll from './AnimateOnScroll';
 import FinalCTA from './FinalCTA';
 import type { Testimonial, ValuePillar } from '../types';
+import { imageUrls } from '../utils/imageConfig';
 
 const StarIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -45,10 +46,10 @@ const DancehallPage: React.FC = () => {
     const baseUrl = 'https://www.farrayscenter.com';
 
     const dancehallTestimonials: Testimonial[] = [
-      { id: 1, name: t('dancehallTestimonial1Name'), image: '/images/testimonials/marco-v.jpg', rating: 5, 
+      { id: 1, name: t('dancehallTestimonial1Name'), image: imageUrls.testimonials.marcoV, rating: 5, 
         city: { en: 'Barcelona, Spain', es: 'Barcelona, España', ca: 'Barcelona, Espanya', fr: 'Barcelone, Espagne' },
         quote: { en: t('dancehallTestimonial1Quote'), es: t('dancehallTestimonial1Quote'), ca: t('dancehallTestimonial1Quote'), fr: t('dancehallTestimonial1Quote') } },
-      { id: 2, name: t('dancehallTestimonial2Name'), image: '/images/testimonials/chloe-b.jpg', rating: 5, 
+      { id: 2, name: t('dancehallTestimonial2Name'), image: imageUrls.testimonials.chloeB, rating: 5, 
         city: { en: 'Manchester, UK', es: 'Manchester, Reino Unido', ca: 'Manchester, Regne Unit', fr: 'Manchester, Royaume-Uni' },
         quote: { en: t('dancehallTestimonial2Quote'), es: t('dancehallTestimonial2Quote'), ca: t('dancehallTestimonial2Quote'), fr: t('dancehallTestimonial2Quote') } }
     ];
@@ -88,13 +89,15 @@ const DancehallPage: React.FC = () => {
                  <div className="absolute inset-0 bg-gradient-to-br from-primary-dark/40 via-black to-black opacity-70 z-10"></div>
                  <video
                     className="absolute z-0 top-0 left-0 w-full h-full object-cover opacity-30"
-                    src="/videos/dancehall-hero.mp4"
+                    poster={imageUrls.videoPosters.dancehall}
                     autoPlay
                     loop
                     muted
                     playsInline
                     title="Dynamic dancehall performance"
-                ></video>
+                >
+                  <source src="/videos/dancehall-hero.mp4" type="video/mp4" />
+                </video>
                 <div className="relative z-20 container mx-auto px-6">
                     <AnimateOnScroll>
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter leading-tight mb-4 holographic-text">

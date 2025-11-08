@@ -14,16 +14,16 @@ const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20"></div>
       </div>
       
-      <div className="relative z-10 text-center text-neutral px-4 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter leading-tight mb-4">
+      <div className="relative z-10 text-center text-neutral px-4">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter leading-tight mb-4 min-h-[120px] md:min-h-[180px] lg:min-h-[200px] flex flex-col items-center justify-center">
           {t('heroTitle1')}
           <br />
           <span className="text-3xl md:text-5xl lg:text-6xl opacity-90 font-bold tracking-normal">{t('heroTitle2')}</span>
         </h1>
-        <p className="text-xl md:text-2xl my-6 holographic-text font-medium animate-glow">
+        <p className="text-xl md:text-2xl my-6 holographic-text font-medium animate-glow min-h-[40px]">
           {t('heroTagline')}
         </p>
-        <p className="max-w-3xl mx-auto text-lg md:text-xl text-neutral/80 mb-10">
+        <p className="max-w-3xl mx-auto text-lg md:text-xl text-neutral/80 mb-10 min-h-[60px]">
           {t('heroValue')}
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

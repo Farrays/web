@@ -126,6 +126,7 @@ const Header: React.FC = () => {
         className={`fixed inset-0 bg-black/95 backdrop-blur-xl z-40 transition-transform duration-500 ease-in-out transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden`}
         role="dialog"
         aria-modal="true"
+        aria-label="Main navigation menu"
       >
         <div className="flex flex-col items-center justify-center h-full space-y-12">
           <nav className="flex flex-col items-center space-y-6">

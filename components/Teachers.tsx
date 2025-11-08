@@ -1,6 +1,7 @@
 import React from 'react';
 import { useI18n } from '../hooks/useI18n';
 import type { Teacher } from '../types';
+import { imageUrls } from '../utils/imageConfig';
 import AnimateOnScroll from './AnimateOnScroll';
 
 const teacherData: Teacher[] = [

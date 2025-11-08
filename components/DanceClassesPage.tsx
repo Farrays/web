@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useI18n } from '../hooks/useI18n';
 import type { DetailedClassInfo } from '../types';
+import { imageUrls } from '../utils/imageConfig';
 import AnimateOnScroll from './AnimateOnScroll';
 import FinalCTA from './FinalCTA';
 
@@ -13,7 +14,7 @@ const detailedClassData: DetailedClassInfo[] = [
     detailedDescriptionKey: 'classDetailContemporaryDesc',
     substylesKey: 'classDetailContemporarySubstyles',
     levelKey: 'classDetailContemporaryLevel',
-    image: '/images/classes/class-contemporary-jazz.jpg' 
+    image: imageUrls.classes.contemporaryJazz 
   },
   { 
     id: 'urban', 
@@ -22,7 +23,7 @@ const detailedClassData: DetailedClassInfo[] = [
     detailedDescriptionKey: 'classDetailUrbanDesc',
     substylesKey: 'classDetailUrbanSubstyles',
     levelKey: 'classDetailUrbanLevel',
-    image: '/images/classes/class-urban.jpg' 
+    image: imageUrls.classes.urban 
   },
   { 
     id: 'latin', 
@@ -31,7 +32,7 @@ const detailedClassData: DetailedClassInfo[] = [
     detailedDescriptionKey: 'classDetailLatinDesc',
     substylesKey: 'classDetailLatinSubstyles',
     levelKey: 'classDetailLatinLevel',
-    image: '/images/classes/class-latin.jpg' 
+    image: imageUrls.classes.latin 
   },
   { 
     id: 'fitness', 
@@ -40,7 +41,7 @@ const detailedClassData: DetailedClassInfo[] = [
     detailedDescriptionKey: 'classDetailFitnessDesc',
     substylesKey: 'classDetailFitnessSubstyles',
     levelKey: 'classDetailFitnessLevel',
-    image: '/images/classes/class-fitness.jpg' 
+    image: imageUrls.classes.fitness 
   },
   { 
     id: 'morning', 
@@ -49,7 +50,7 @@ const detailedClassData: DetailedClassInfo[] = [
     detailedDescriptionKey: 'classDetailMorningDesc',
     substylesKey: 'classDetailMorningSubstyles',
     levelKey: 'classDetailMorningLevel',
-    image: '/images/classes/class-morning.jpg' 
+    image: imageUrls.classes.morning 
   },
   { 
     id: 'world', 
@@ -58,7 +59,7 @@ const detailedClassData: DetailedClassInfo[] = [
     detailedDescriptionKey: 'classDetailWorldDesc',
     substylesKey: 'classDetailWorldSubstyles',
     levelKey: 'classDetailWorldLevel',
-    image: '/images/classes/class-world.jpg' 
+    image: imageUrls.classes.world 
   },
 ];
 
