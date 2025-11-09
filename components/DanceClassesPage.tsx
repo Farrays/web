@@ -2,8 +2,10 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useI18n } from '../hooks/useI18n';
 import type { DetailedClassInfo } from '../types';
+import { imageUrls } from '../utils/imageConfig';
 import AnimateOnScroll from './AnimateOnScroll';
 import FinalCTA from './FinalCTA';
+import FAQSection from './FAQSection';
 
 const detailedClassData: DetailedClassInfo[] = [
   { 
@@ -13,7 +15,7 @@ const detailedClassData: DetailedClassInfo[] = [
     detailedDescriptionKey: 'classDetailContemporaryDesc',
     substylesKey: 'classDetailContemporarySubstyles',
     levelKey: 'classDetailContemporaryLevel',
-    image: '/images/classes/class-contemporary-jazz.jpg' 
+    image: imageUrls.classes.contemporaryJazz 
   },
   { 
     id: 'urban', 
@@ -22,7 +24,7 @@ const detailedClassData: DetailedClassInfo[] = [
     detailedDescriptionKey: 'classDetailUrbanDesc',
     substylesKey: 'classDetailUrbanSubstyles',
     levelKey: 'classDetailUrbanLevel',
-    image: '/images/classes/class-urban.jpg' 
+    image: imageUrls.classes.urban 
   },
   { 
     id: 'latin', 
@@ -31,7 +33,7 @@ const detailedClassData: DetailedClassInfo[] = [
     detailedDescriptionKey: 'classDetailLatinDesc',
     substylesKey: 'classDetailLatinSubstyles',
     levelKey: 'classDetailLatinLevel',
-    image: '/images/classes/class-latin.jpg' 
+    image: imageUrls.classes.latin 
   },
   { 
     id: 'fitness', 
@@ -40,7 +42,7 @@ const detailedClassData: DetailedClassInfo[] = [
     detailedDescriptionKey: 'classDetailFitnessDesc',
     substylesKey: 'classDetailFitnessSubstyles',
     levelKey: 'classDetailFitnessLevel',
-    image: '/images/classes/class-fitness.jpg' 
+    image: imageUrls.classes.fitness 
   },
   { 
     id: 'morning', 
@@ -49,7 +51,7 @@ const detailedClassData: DetailedClassInfo[] = [
     detailedDescriptionKey: 'classDetailMorningDesc',
     substylesKey: 'classDetailMorningSubstyles',
     levelKey: 'classDetailMorningLevel',
-    image: '/images/classes/class-morning.jpg' 
+    image: imageUrls.classes.morning 
   },
   { 
     id: 'world', 
@@ -58,13 +60,14 @@ const detailedClassData: DetailedClassInfo[] = [
     detailedDescriptionKey: 'classDetailWorldDesc',
     substylesKey: 'classDetailWorldSubstyles',
     levelKey: 'classDetailWorldLevel',
-    image: '/images/classes/class-world.jpg' 
+    image: imageUrls.classes.world 
   },
 ];
 
 const DanceClassesPage: React.FC = () => {
     const { t, locale } = useI18n();
     const baseUrl = 'https://www.farrayscenter.com';
+const classesFaqs = [    { id: 'cl-1', question: t('classesFaqQ1'), answer: t('classesFaqA1') },    { id: 'cl-2', question: t('classesFaqQ2'), answer: t('classesFaqA2') },    { id: 'cl-3', question: t('classesFaqQ3'), answer: t('classesFaqA3') },    { id: 'cl-4', question: t('classesFaqQ4'), answer: t('classesFaqA4') },    { id: 'cl-5', question: t('classesFaqQ5'), answer: t('classesFaqA5') },  ];
 
     return (
         <>
@@ -156,6 +159,8 @@ const DanceClassesPage: React.FC = () => {
                     </div>
                 </div>
             </section>
+            <FAQSection title={t('faqTitle')} faqs={classesFaqs} pageUrl={`${baseUrl}/${locale}/clases`} />
+
             <FinalCTA />
             </div>
         </>

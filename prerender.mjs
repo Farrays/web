@@ -266,9 +266,10 @@ routes.forEach(route => {
   </head>`);
 
   // Inject prerendered content in <div id="root">
+  // Use data-prerendered to mark for hydration compatibility
   html = html.replace(
     '<div id="root"></div>',
-    `<div id="root"><div class="bg-black text-neutral antialiased font-sans overflow-x-hidden">${content}</div></div>`
+    `<div id="root" data-prerendered="true"></div><!--${content}-->`
   );
 
   // Determine file path

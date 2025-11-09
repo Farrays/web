@@ -1,6 +1,7 @@
 import React from 'react';
 import { useI18n } from '../hooks/useI18n';
 import type { Locale, Testimonial } from '../types';
+import { imageUrls } from '../utils/imageConfig';
 import AnimateOnScroll from './AnimateOnScroll';
 
 const testimonialData: Testimonial[] = [

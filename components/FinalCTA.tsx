@@ -1,6 +1,7 @@
 import React from 'react';
 import { useI18n } from '../hooks/useI18n';
 import AnimateOnScroll from './AnimateOnScroll';
+import { imageUrls } from '../utils/imageConfig';
 
 const FinalCTA: React.FC = () => {
   const { t } = useI18n();
@@ -10,14 +11,14 @@ const FinalCTA: React.FC = () => {
       <div className="absolute inset-0 z-0">
          <video
           className="w-full h-full object-cover"
-          src="/videos/final-cta-epic.mp4"
-          poster="/images/video-posters/final-cta-poster.jpg"
+          poster={imageUrls.videoPosters.finalCta}
           autoPlay
           loop
           muted
           playsInline
           title="Energetic dance performances at FIDC"
         >
+          <source src="/videos/final-cta-epic.mp4" type="video/mp4" />
           <track kind="captions" src="/videos/captions/captions_en.vtt" srcLang="en" label="English" />
           <track kind="captions" src="/videos/captions/captions_es.vtt" srcLang="es" label="Español" />
           <track kind="captions" src="/videos/captions/captions_ca.vtt" srcLang="ca" label="Català" />

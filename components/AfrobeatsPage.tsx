@@ -3,7 +3,9 @@ import { Helmet } from 'react-helmet-async';
 import { useI18n } from '../hooks/useI18n';
 import AnimateOnScroll from './AnimateOnScroll';
 import FinalCTA from './FinalCTA';
+import FAQSection from './FAQSection';
 import type { Testimonial, ValuePillar } from '../types';
+import { imageUrls } from '../utils/imageConfig';
 
 const StarIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -37,12 +39,13 @@ const afrobeatsPillars: ValuePillar[] = [
 const AfrobeatsPage: React.FC = () => {
     const { t, locale } = useI18n();
     const baseUrl = 'https://www.farrayscenter.com';
+const afrobeatsFaqs = [    { id: 'ab-1', question: t('afrobeatsFaqQ1'), answer: t('afrobeatsFaqA1') },    { id: 'ab-2', question: t('afrobeatsFaqQ2'), answer: t('afrobeatsFaqA2') },    { id: 'ab-3', question: t('afrobeatsFaqQ3'), answer: t('afrobeatsFaqA3') },    { id: 'ab-4', question: t('afrobeatsFaqQ4'), answer: t('afrobeatsFaqA4') },  ];
 
     const afrobeatsTestimonials: Testimonial[] = [
-      { id: 1, name: t('afrobeatsTestimonial1Name'), image: '/images/testimonials/fatou-d.jpg', rating: 5, 
+      { id: 1, name: t('afrobeatsTestimonial1Name'), image: imageUrls.testimonials.fatouD, rating: 5, 
         city: { en: 'Dakar, Senegal', es: 'Dakar, Senegal', ca: 'Dakar, Senegal', fr: 'Dakar, Sénégal' },
         quote: { en: t('afrobeatsTestimonial1Quote'), es: t('afrobeatsTestimonial1Quote'), ca: t('afrobeatsTestimonial1Quote'), fr: t('afrobeatsTestimonial1Quote') } },
-      { id: 2, name: t('afrobeatsTestimonial2Name'), image: '/images/testimonials/liam-s.jpg', rating: 5, 
+      { id: 2, name: t('afrobeatsTestimonial2Name'), image: imageUrls.testimonials.liamS, rating: 5, 
         city: { en: 'Dublin, Ireland', es: 'Dublín, Irlanda', ca: 'Dublín, Irlanda', fr: 'Dublin, Irlande' },
         quote: { en: t('afrobeatsTestimonial2Quote'), es: t('afrobeatsTestimonial2Quote'), ca: t('afrobeatsTestimonial2Quote'), fr: t('afrobeatsTestimonial2Quote') } }
     ];
@@ -82,13 +85,15 @@ const AfrobeatsPage: React.FC = () => {
                  <div className="absolute inset-0 bg-gradient-to-br from-primary-dark/40 via-black to-black opacity-70 z-10"></div>
                  <video
                     className="absolute z-0 top-0 left-0 w-full h-full object-cover opacity-30"
-                    src="/videos/afrobeats-hero.mp4"
+                    poster={imageUrls.videoPosters.afrobeats}
                     autoPlay
                     loop
                     muted
                     playsInline
                     title="Dynamic afrobeats performance"
-                ></video>
+                >
+                  <source src="/videos/afrobeats-hero.mp4" type="video/mp4" />
+                </video>
                 <div className="relative z-20 container mx-auto px-6">
                     <AnimateOnScroll>
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter leading-tight mb-4 holographic-text">
@@ -224,6 +229,8 @@ const AfrobeatsPage: React.FC = () => {
                     </div>
                 </div>
             </section>
+
+            <FAQSection title={t('faqTitle')} faqs={afrobeatsFaqs} pageUrl={`${baseUrl}/${locale}/afrobeats`} />
 
             <FinalCTA />
             </div>

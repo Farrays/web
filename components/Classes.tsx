@@ -1,15 +1,16 @@
 import React from 'react';
 import { useI18n } from '../hooks/useI18n';
 import type { ClassInfo } from '../types';
+import { imageUrls } from '../utils/imageConfig';
 import AnimateOnScroll from './AnimateOnScroll';
 
 const classData: ClassInfo[] = [
-  { id: 'contemporary', titleKey: 'classCatContemporaryTitle', descriptionKey: 'classCatContemporaryDesc', image: '/images/classes/class-contemporary-jazz.jpg' },
-  { id: 'urban', titleKey: 'classCatUrbanTitle', descriptionKey: 'classCatUrbanDesc', image: '/images/classes/class-urban.jpg' },
-  { id: 'latin', titleKey: 'classCatLatinTitle', descriptionKey: 'classCatLatinDesc', image: '/images/classes/class-latin.jpg' },
-  { id: 'fitness', titleKey: 'classCatFitnessTitle', descriptionKey: 'classCatFitnessDesc', image: '/images/classes/class-fitness.jpg' },
-  { id: 'morning', titleKey: 'classCatMorningTitle', descriptionKey: 'classCatMorningDesc', image: '/images/classes/class-morning.jpg' },
-  { id: 'world', titleKey: 'classCatWorldTitle', descriptionKey: 'classCatWorldDesc', image: '/images/classes/class-world.jpg' },
+  { id: 'contemporary', titleKey: 'classCatContemporaryTitle', descriptionKey: 'classCatContemporaryDesc', image: imageUrls.classes.contemporaryJazz },
+  { id: 'urban', titleKey: 'classCatUrbanTitle', descriptionKey: 'classCatUrbanDesc', image: imageUrls.classes.urban },
+  { id: 'latin', titleKey: 'classCatLatinTitle', descriptionKey: 'classCatLatinDesc', image: imageUrls.classes.latin },
+  { id: 'fitness', titleKey: 'classCatFitnessTitle', descriptionKey: 'classCatFitnessDesc', image: imageUrls.classes.fitness },
+  { id: 'morning', titleKey: 'classCatMorningTitle', descriptionKey: 'classCatMorningDesc', image: imageUrls.classes.morning },
+  { id: 'world', titleKey: 'classCatWorldTitle', descriptionKey: 'classCatWorldDesc', image: imageUrls.classes.world },
 ];
 
 const CIDLogo: React.FC = () => (
