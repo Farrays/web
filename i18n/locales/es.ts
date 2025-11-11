@@ -294,5 +294,160 @@ export const es = {
     classesFaqQ4: "¿Con qué frecuencia debería asistir a clases para ver progreso?",
     classesFaqA4: "Para un progreso constante y notable, recomendamos asistir al menos 2 veces por semana. Con esta frecuencia, la mayoría de los estudiantes ven mejoras significativas en 2-3 meses. Si puedes asistir 3-4 veces por semana, el progreso será aún más rápido. Sin embargo, incluso una clase semanal te permitirá avanzar, aunque a un ritmo más gradual. La consistencia es más importante que la intensidad.",
     classesFaqQ5: "¿Ofrecen clases privadas o solo grupales?",
-    classesFaqA5: "Ofrecemos ambas opciones. Las clases grupales son excelentes para aprender en comunidad, hacer amigos y beneficiarte de la energía del grupo. Las clases privadas son ideales si buscas atención personalizada, tienes objetivos específicos (como prepararte para una presentación o boda), o prefieres un horario más flexible. Muchos estudiantes combinan ambas: clases grupales regulares complementadas con sesiones privadas ocasionales para trabajar aspectos específicos."
+    classesFaqA5: "Ofrecemos ambas opciones. Las clases grupales son excelentes para aprender en comunidad, hacer amigos y beneficiarte de la energía del grupo. Las clases privadas son ideales si buscas atención personalizada, tienes objetivos específicos (como prepararte para una presentación o boda), o prefieres un horario más flexible. Muchos estudiantes combinan ambas: clases grupales regulares complementadas con sesiones privadas ocasionales para trabajar aspectos específicos.",
+    // Dancehall Images
+    dancehallImage1Alt: "Clases de Dancehall en Barcelona - Estudiantes bailando en Farray's International Dance Center",
+    dancehallImage2Alt: "Estudiantes disfrutando de clases de Dancehall en Barcelona - Ambiente energético en Farray's Center",
+    dancehallImage3Alt: "Grupo de estudiantes bailando Dancehall en Barcelona - Academia de danza urbana Farray's",
+
+    // ====================
+    // DANCEHALL PAGE V2 - HYBRID COPY (Persuasión + Estructura Limpia + Autoridad Cultural)
+    // ====================
+
+    // SEO Meta
+    dancehallPageTitleV2: "Clases de Dancehall en Barcelona | Puro Dancehall Jamaicano | Farray's Center",
+    dancehallMetaDescriptionV2: "Aprende Dancehall auténtico en Barcelona con profesoras expertas. Desde principiantes hasta avanzado. Más que baile: energía, cultura y transformación. Prueba 1 clase gratis.",
+
+    // Hero Section
+    dancehallHeroTitleV2: "Clases de Dancehall en Barcelona",
+    dancehallHeroSubtitleV2: "Puro Dancehall Jamaicano en Farray's Center. Mucho más que baile, una forma de vivir. Viaja a Jamaica sin salir de Barcelona | Clases desde iniciación hasta avanzado, entre Plaza España y Sants.",
+    dancehallCTA1: "Date de Alta Ahora",
+    dancehallCTA2: "Ver Horarios",
+    dancehallUrgency: "Solo quedan 3 plazas este mes",
+    dancehallUrgency2: "Oferta válida solo hasta el viernes",
+
+    // Trust Indicators
+    yearsExperience: "Años de Experiencia",
+    activeStudents: "Estudiantes Activos",
+    satisfiedStudents: "Alumnos Satisfechos",
+    googleReviews: "Reseñas de Google",
+
+    // Problem-Agitate Section
+    dancehallProblemsTitle: "¿Te Identificas en Alguna de Estas Situaciones?",
+    dancehallProblem1Title: "¿Te Sientes Estresado, Sin Energía y Cansado de Tu Rutina?",
+    dancehallProblem1Desc: "No debes dejar que la monotonía te domine. Es hora de hacer un cambio y recuperar tu vitalidad, motivación y ganas de hacer cosas.",
+    dancehallProblem2Title: "¿Sientes Que Podrías Mostrar Una Versión Más Segura de Ti?",
+    dancehallProblem2Desc: "Los que hoy se muestran seguros y confiados aprendieron a vencer sus miedos. Tú también puedes descubrir la mejor versión de ti.",
+    dancehallProblem3Title: "¿Estás Cansado de Rutinas de Ejercicio Aburridas?",
+    dancehallProblem3Desc: "Deberías poder mantenerte en forma de una manera divertida, agradable y amena, porque hacer siempre lo mismo es lo que te aburre.",
+    dancehallProblem4Title: "¿Sientes Que Deberías Divertirte y Socializar Más?",
+    dancehallProblem4Desc: "Necesitas un momento en tu semana para divertirte, ampliar tu círculo de amigos y hacer una actividad que te conecte contigo y con los demás.",
+    dancehallProblem5Title: "¿Te Encanta Bailar Pero Necesitas Probar Algo Diferente y Fresco?",
+    dancehallProblem5Desc: "Necesitas un soplo de aire fresco para despertar tu creatividad y reconectar con tu cuerpo de una forma totalmente nueva.",
+    dancehallProblem6Title: "¿La Esencia de Jamaica y Su Cultura Te Mueven Por Dentro?",
+    dancehallProblem6Desc: "Si te inspira todo lo que representa Jamaica deberías encontrar formas de experimentar su cultura sin tener que cruzar el océano.",
+
+    // Solution
+    dancehallSolutionTitle: "Necesitas Apuntarte a Clases de Dancehall en Una Academia de Baile",
+    dancehallSolutionDesc: "Decenas de personas ya han dado el paso y lo viven cada semana en nuestras clases de Dancehall en Barcelona, a tan solo 5 minutos de Plaza España y Estación de Sants. Y cuando salen... ya no son los mismos. Si quieres salir de la rutina, sentirte mejor contigo mismo, conocer gente nueva y ponerte en forma mientras te diviertes, este estilo caribeño es lo tuyo.",
+
+    // Cultural History Section
+    dancehallCulturalTitle: "¿Qué es el Dancehall? Mucho Más Que Un Baile",
+    dancehallCulturalShort: "El Dancehall es una danza tradicional jamaicana que nació en los años 70 y refleja una cultura con fuertes raíces en el reggae, referencias africanas y caribeñas, y la energía del hip-hop y otras danzas urbanas. Dancehall es mucho más que un baile; es una manera de andar, de hablar y de entender la vida; es una declaración de quién eres. Es expresión pura, ritmo, actitud y flow. En el dancehall no hay que ser bueno, hay que ser tú.",
+    dancehallCulturalFull: `<div class="space-y-6">
+      <h3 class="text-2xl font-bold text-primary-accent mb-4">🇯🇲 Los Orígenes: Kingston, Jamaica (1970s-1980s)</h3>
+      <p>El Dancehall nació en los guetos de Kingston, Jamaica, a finales de los años 70. Surgió como una evolución natural del reggae, cuando los "sound systems" (sistemas de sonido móviles) empezaron a llevar la música a las calles y a los dancehalls (salas de baile).</p>
+      <p>El nombre "dancehall" proviene literalmente de estos espacios donde la comunidad se reunía para bailar, socializar y expresarse. Era el lugar donde las tensiones sociales se liberaban a través de la música y el movimiento.</p>
+
+      <h3 class="text-2xl font-bold text-primary-accent mb-4 mt-8">💃 Las Leyendas: Bogle, Passa Passa y Los Pioneros</h3>
+      <p><strong>Gerald "Bogle" Levy</strong> (1964-2005) es considerado el padre del dancehall moderno. Creó movimientos icónicos como el "Bogle", "Row Di Boat", "Log On" y "Willie Bounce" que se convirtieron en la base del vocabulario dancehall.</p>
+      <p><strong>Passa Passa</strong>, las sesiones legendarias de street dancehall todos los miércoles en Tivoli Gardens, Kingston, se convirtieron en el epicentro donde nacían los nuevos pasos y se consagraban los bailarines.</p>
+      <p>Otros pioneers como <strong>Ding Dong, Keiva, John Hype</strong> y crews como <strong>Ravers Clavers</strong> llevaron el dancehall a nivel internacional en los 2000s.</p>
+
+      <h3 class="text-2xl font-bold text-primary-accent mb-4 mt-8">🌍 La Expansión Global (2000s-Presente)</h3>
+      <p>En los años 2000, el dancehall explotó globalmente gracias a artistas como Sean Paul, Shaggy, Elephant Man y Beenie Man. Las redes sociales y YouTube permitieron que pasos como el "Dutty Wine", "Daggering" y "Nuh Linga" se viralizaran mundialmente.</p>
+      <p>Hoy, el dancehall es un fenómeno global con comunidades activas en Europa, África, Asia y América. Barcelona se ha convertido en uno de los epicentros europeos del dancehall auténtico.</p>
+
+      <h3 class="text-2xl font-bold text-primary-accent mb-4 mt-8">🎶 La Música: Riddims y Cultura Soundsystem</h3>
+      <p>El dancehall se baila sobre "riddims" (ritmos instrumentales) que los productores crean y múltiples artistas vocalizan. Riddims legendarios como "Diwali", "Coolie Dance" o "Dump Truck" han definido épocas enteras.</p>
+      <p>La cultura del <strong>sound system</strong> —con sus selectores, MCs y el famoso "rewind" cuando una canción es tan buena que se vuelve a poner desde el principio— es fundamental para entender el dancehall.</p>
+
+      <h3 class="text-2xl font-bold text-primary-accent mb-4 mt-8">✊ Más Que Baile: Identidad y Resistencia</h3>
+      <p>El dancehall ha sido siempre una forma de resistencia cultural y expresión de identidad para las comunidades marginadas de Jamaica. Es la voz de los guetos, una celebración de la alegría a pesar de las dificultades.</p>
+      <p>Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce" (homenaje a Willie Haggart), "Nuh Linga" (no te demores). Cada movimiento cuenta una historia.</p>
+    </div>`,
+    readMore: "Leer Más Sobre la Historia y Cultura",
+    readLess: "Leer Menos",
+
+    // Benefits Section
+    dancehallBenefitsTitle: "¿Por Qué Apuntarte a Clases de Dancehall Mejorará Tu Vida?",
+    dancehallBenefitsSubtitle: "Imagina Tu 'Antes y Después'",
+    dancehallBenefit1Title: "Recuperas Energía, Motivación y Ganas",
+    dancehallBenefit1Desc: "Las clases de dancehall rompen la rutina, te ayudan a liberar el estrés y te devuelven las ganas de moverte y de volver a disfrutar.",
+    dancehallBenefit2Title: "Ganas Seguridad, Confianza y Autoestima",
+    dancehallBenefit2Desc: "Bailar dancehall te permite subir tu autoestima, superar miedos, soltarte y descubrir una versión más segura y auténtica de ti mismo.",
+    dancehallBenefit3Title: "Evitas Las Rutinas de Ejercicio Aburridas",
+    dancehallBenefit3Desc: "Las clases de dancehall son dinámicas, divertidas y siempre diferentes. Te pones en forma con una sonrisa en la cara y te sorprendes con cada clase.",
+    dancehallBenefit4Title: "Te Diviertes, Conoces Personas Nuevas y Socializas",
+    dancehallBenefit4Desc: "Las clases de dancehall son el lugar perfecto para conocer gente nueva, reírte y crear conexiones reales mientras te diviertes.",
+    dancehallBenefit5Title: "Conoces Pasos Nuevos y Evitas la Monotonía en el Baile",
+    dancehallBenefit5Desc: "Bailar dancehall te permitirá descubrir movimientos y sensaciones nuevas, reconectar con tu cuerpo y volver a disfrutar bailando.",
+    dancehallBenefit6Title: "Viajas a Jamaica Sin Moverte de Barcelona",
+    dancehallBenefit6Desc: "El Dancehall te conectará con la esencia y las raíces de Jamaica sin que tengas que salir de Barcelona. Te contagiará por su estilo, alegría y autenticidad.",
+    dancehallBenefit7Title: "Descubres Nuevos Ritmos y Entrenas Tu Oído",
+    dancehallBenefit7Desc: "Vas a conocer nuevas músicas y ritmos, ejercitar tu coordinación y memoria, y mejorar tu capacidad de improvisación e interpretación musical.",
+
+    // Mid-page CTA
+    dancehallMidCTATitle: "¿Listo Para Transformar Tu Vida?",
+    dancehallMidCTADesc: "Habla con nosotros por WhatsApp y reserva tu clase gratis ahora mismo. ¡Te respondemos en minutos!",
+    whatsappCTA: "Escríbenos por WhatsApp",
+
+    // How It Works Section
+    dancehallHowItWorksTitle: "¿Cómo Funcionan Nuestras Clases de Dancehall en Barcelona?",
+    dancehallClassStructureTitle: "Estructura de Cada Clase (60 min)",
+    dancehallClassStructureDesc: "En nuestras clases de Dancehall en Barcelona generalmente se enseña una secuencia coreografiada, pero en la práctica el Dancehall es una danza improvisada. Cada sesión está diseñada para que aprendas, te diviertas y te expreses.",
+    warmupTitle: "Calentamiento",
+    warmupDesc: "Prepara tu cuerpo con ejercicios específicos para evitar lesiones y mejorar tu técnica.",
+    choreographyTitle: "Coreografía",
+    choreographyDesc: "Aprende secuencias dinámicas que combinan pasos tradicionales y modernos del Dancehall.",
+    improvisationTitle: "Improvisación",
+    improvisationDesc: "Trabajamos la improvisación para estimular tus capacidades creativas y llevar tu baile a un nivel informal, sensual y atrevido.",
+
+    dancehallLevelsTitle: "Niveles Para Todos",
+    beginnerLevel: "Principiantes",
+    basicLevel: "Básico",
+    intermediateLevel: "Intermedio",
+    advancedLevel: "Avanzado",
+    beginnerLevelDesc: "Ideal para estudiantes que quieren empezar desde cero, aprender paso a paso con buen rollo.",
+    intermediateLevelDesc: "Para estudiantes que quieren mejorar técnica, coordinación y expresión con pasos más complejos.",
+    advancedLevelDesc: "Pensado para quienes quieren llevar su nivel al máximo y su estilo al siguiente nivel.",
+
+    // Days of week
+    monday: "Lunes",
+    wednesday: "Miércoles",
+    thursday: "Jueves",
+    friday: "Viernes",
+
+    // Teachers Section
+    dancehallTeachersTitle: "Conoce Nuestras Profesoras de Dancehall",
+    dancehallTeachersSubtitle: "Increíbles Profesionales, Mejores Personas",
+    dancehallTeacher1Specialty: "Profesora de Dancehall | +5 años de Experiencia",
+    dancehallTeacher1Bio: "Isabel López es una apasionada del dancehall con más de 5 años de experiencia como profesora especializada en baile urbano y reggaeton. Entrenada con maestros jamaicanos, su energía contagiosa y técnica profesional la convierten en una de las instructoras más queridas de Farray's Center. Sus clases mezclan old school moves (Willie Bounce, Nuh Linga) con los últimos hits.",
+    dancehallTeacher2Specialty: "Profesora de Dancehall y Twerk | +6 años de Experiencia",
+    dancehallTeacher2Bio: "Sandra Gómez es una bailarina profesional con más de 6 años de experiencia en dancehall y twerk. Su estilo único fusiona movimientos del Twerk/Bootydance con la esencia jamaicana. Su técnica impecable y metodología de enseñanza la convierten en una de las profesoras más solicitadas. Energía, sensualidad y feminidad pura.",
+
+    // Schedule Section
+    dancehallScheduleTitle: "Horarios de Nuestras Clases de Dancehall en Barcelona",
+    dancehallScheduleSubtitle: "Clases disponibles prácticamente todos los días de la semana",
+
+    // FAQ Section
+    dancehallFaqTitle: "Preguntas Frecuentes Sobre Nuestra Escuela de Dancehall en Barcelona",
+    dancehallFaqQ5: "¿Dónde puedo encontrar clases de Dancehall cerca de Plaza España en Barcelona?",
+    dancehallFaqA5: "Farray's Center está ubicado en Calle Entença 100, Barcelona, a solo 5 minutos de Plaza España y Estación de Sants. Contamos con profesoras con amplia experiencia y un ambiente familiar para todos los niveles.",
+    dancehallFaqQ6: "¿Organizáis eventos o talleres especiales de Dancehall?",
+    dancehallFaqA6: "Sí, organizamos workshops, masterclasses y eventos sociales durante el año. Síguenos en redes o consulta nuestra web para estar al día. También participamos en los mejores festivales de danza de todo el mundo.",
+    dancehallFaqQ7: "¿Las clases son solo para mujeres o también para hombres?",
+    dancehallFaqA7: "Nuestras clases están abiertas a todas las personas, sin importar género o experiencia previa. ¡El Dancehall es para todos! La diversidad enriquece la experiencia para todos.",
+
+    // Final CTA Section
+    dancehallFinalCTATitle: "¿Por Qué Hoy Es el Mejor Momento Para Empezar?",
+    dancehallFinalCTADesc: "Porque cada día que no te mueves, tu cuerpo te pide un poco más. Porque estás solo a una clase de cambiar tu rutina. En Farray's no vendemos clases. Creamos experiencias. Te esperamos con música cañera, profesoras con duende y una energía que no encontrarás en ningún otro lugar de Barcelona.",
+
+    // Schema Markup
+    dancehallCourseSchemaName: "Clases de Dancehall Jamaicano en Barcelona - Todos los Niveles",
+    dancehallCourseSchemaDesc: "Aprende Dancehall auténtico en Barcelona con el método exclusivo de Farray's International Dance Center. Clases para principiantes, intermedios y avanzados con profesoras expertas formadas en Jamaica.",
+
+    // Testimonials
+    basedOn: "basado en",
+    reviews: "reseñas"
   };

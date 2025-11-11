@@ -15,6 +15,7 @@ import NotFoundPage from './components/NotFoundPage';
 // Code splitting: Lazy load secondary pages to reduce initial bundle size
 const DanceClassesPage = lazy(() => import('./components/DanceClassesPage'));
 const DancehallPage = lazy(() => import('./components/DancehallPage'));
+const DancehallPageV2 = lazy(() => import('./components/DancehallPageV2'));
 const AfrobeatsPage = lazy(() => import('./components/AfrobeatsPage'));
 
 // Valid locales
@@ -71,16 +72,23 @@ const AppContent: React.FC = () => {
             {/* Locale-based routes */}
             <Route path="/:locale" element={<><LocaleSync /><HomePage /></>} />
             <Route path="/:locale/clases" element={<><LocaleSync /><DanceClassesPage /></>} />
-            <Route path="/:locale/dancehall" element={<><LocaleSync /><DancehallPage /></>} />
-            <Route path="/:locale/afrobeats" element={<><LocaleSync /><AfrobeatsPage /></>} />
+            <Route path="/:locale/clases/dancehall-barcelona" element={<><LocaleSync /><DancehallPage /></>} />
+            <Route path="/:locale/clases/dancehall-v2" element={<><LocaleSync /><DancehallPageV2 /></>} />
+            <Route path="/:locale/clases/afrobeats-barcelona" element={<><LocaleSync /><AfrobeatsPage /></>} />
 
             {/* 404 pages - localized */}
             <Route path="/:locale/404" element={<><LocaleSync /><NotFoundPage /></>} />
 
+            {/* Redirects from old URLs to new SEO-friendly URLs */}
+            <Route path="/:locale/dancehall" element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />} />
+            <Route path="/:locale/afrobeats" element={<Navigate to={`/${locale}/clases/afrobeats-barcelona`} replace />} />
+
             {/* Legacy routes without locale - redirect to current locale */}
             <Route path="/clases" element={<Navigate to={`/${locale}/clases`} replace />} />
-            <Route path="/dancehall" element={<Navigate to={`/${locale}/dancehall`} replace />} />
-            <Route path="/afrobeats" element={<Navigate to={`/${locale}/afrobeats`} replace />} />
+            <Route path="/dancehall" element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />} />
+            <Route path="/afrobeats" element={<Navigate to={`/${locale}/clases/afrobeats-barcelona`} replace />} />
+            <Route path="/clases/dancehall-barcelona" element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />} />
+            <Route path="/clases/afrobeats-barcelona" element={<Navigate to={`/${locale}/clases/afrobeats-barcelona`} replace />} />
 
             {/* Catch-all for 404 - redirect to localized 404 page */}
             <Route path="*" element={<Navigate to={`/${locale}/404`} replace />} />
