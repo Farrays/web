@@ -21,6 +21,7 @@ export default {
       animation: {
         'glow': 'glow 3s ease-in-out infinite alternate',
         'pulse-strong': 'pulse-strong 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'pulse-slow': 'pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         'subtle-bob': 'subtle-bob 4s ease-in-out infinite',
         'fade-in-up': 'fade-in-up 1s ease-out forwards',
       },
@@ -38,6 +39,10 @@ export default {
         'pulse-strong': {
           '0%, 100%': { transform: 'scale(1)' },
           '50%': { transform: 'scale(1.05)' },
+        },
+        'pulse-slow': {
+          '0%, 100%': { opacity: '0.6' },
+          '50%': { opacity: '0.8' },
         },
         'subtle-bob': {
           '0%, 100%': { transform: 'translateY(0)' },
