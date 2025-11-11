@@ -12,7 +12,7 @@ interface ProblemAgitateSectionV2Props {
   problems: Problem[];
   solutionTitleKey: string;
   solutionDescKey: string;
-  t: (key: string) => string;
+  t: (_key: string) => string;
 }
 
 // SVG Icon Components

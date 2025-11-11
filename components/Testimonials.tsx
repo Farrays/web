@@ -137,7 +137,7 @@ const Testimonials: React.FC = () => {
                   ))}
                 </div>
                 <blockquote className="flex-grow text-neutral/90 italic mb-6">
-                  <p className="text-lg">"{testimonial.quote[locale]}"</p>
+                  <p className="text-lg">&ldquo;{testimonial.quote[locale]}&rdquo;</p>
                 </blockquote>
                 <div className="flex items-center space-x-4 mt-auto">
                   <img

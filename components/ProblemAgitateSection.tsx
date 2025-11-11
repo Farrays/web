@@ -12,7 +12,7 @@ interface ProblemAgitateSectionProps {
   problems: Problem[];
   solutionTitleKey: string;
   solutionDescKey: string;
-  t: (key: string) => string;
+  t: (_key: string) => string;
 }
 
 const ProblemAgitateSection: React.FC<ProblemAgitateSectionProps> = ({

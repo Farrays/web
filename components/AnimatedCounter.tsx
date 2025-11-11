@@ -54,9 +54,10 @@ const AnimatedCounter: React.FC<AnimatedCounterProps> = ({
       observer.observe(elementRef.current);
     }
 
+    const element = elementRef.current;
     return () => {
-      if (elementRef.current) {
-        observer.unobserve(elementRef.current);
+      if (element) {
+        observer.unobserve(element);
       }
     };
   }, [target, duration, hasAnimated]);

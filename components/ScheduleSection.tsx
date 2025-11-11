@@ -14,7 +14,7 @@ interface ScheduleSectionProps {
   titleKey: string;
   subtitleKey: string;
   schedules: ClassSchedule[];
-  t: (key: string) => string;
+  t: (_key: string) => string;
 }
 
 const ScheduleSection: React.FC<ScheduleSectionProps> = ({

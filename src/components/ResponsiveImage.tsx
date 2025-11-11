@@ -1,3 +1,4 @@
+import React from 'react';
 type Props = {
   basePath: string; // ej. "/images/classes/dancehall/img/dancehall-classes-barcelona-01"
   alt: string;
@@ -12,7 +13,7 @@ export default function ResponsiveImage({
   widths = [640, 960, 1440],
   className,
   aspectRatio = '4/5',
-}: Props) {
+}: Props): React.ReactElement {
   const srcWebp = widths.map(w => `${basePath}_${w}.webp ${w}w`).join(', ');
   const srcJpg = widths.map(w => `${basePath}_${w}.jpg ${w}w`).join(', ');
 

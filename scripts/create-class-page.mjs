@@ -12,7 +12,7 @@
  *   npm run create:class
  */
 
-import { readFile, writeFile, mkdir, copyFile } from 'node:fs/promises';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import readline from 'node:readline';
@@ -335,7 +335,7 @@ async function updateBuildImagesScript(className) {
   }
 }
 
-async function generateSummary(className, componentName, instructor, specialty) {
+async function generateSummary(className, componentName) {
   log.title('✅ ¡Página Generada con Éxito!');
 
   console.log(`
@@ -435,7 +435,7 @@ async function main() {
     await updateBuildImagesScript(className);
 
     // Resumen final
-    await generateSummary(className, componentName, instructor, specialty);
+    await generateSummary(className, componentName);
 
   } catch (error) {
     log.error(`❌ Error: ${error.message}`);

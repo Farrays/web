@@ -9,7 +9,7 @@ const mockIntersectionObserver = vi.fn().mockImplementation(() => ({
   disconnect: vi.fn(),
 }));
 
-global.IntersectionObserver = mockIntersectionObserver as any;
+global.IntersectionObserver = mockIntersectionObserver as unknown as typeof IntersectionObserver;
 
 // Cleanup after each test
 afterEach(() => {

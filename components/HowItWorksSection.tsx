@@ -2,7 +2,7 @@ import React from 'react';
 import AnimateOnScroll from './AnimateOnScroll';
 
 interface HowItWorksSectionProps {
-  t: (key: string) => string;
+  t: (_key: string) => string;
 }
 
 // SVG Icons
