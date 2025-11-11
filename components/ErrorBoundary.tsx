@@ -1,4 +1,4 @@
-import React, { Component, ErrorInfo, ReactNode } from 'react';
+import { Component, ErrorInfo, ReactNode } from 'react';
 
 interface Props {
   children: ReactNode;
@@ -11,7 +11,7 @@ interface State {
 }
 
 class ErrorBoundary extends Component<Props, State> {
-  public state: State = {
+  public override state: State = {
     hasError: false,
     error: null,
   };
@@ -20,7 +20,7 @@ class ErrorBoundary extends Component<Props, State> {
     return { hasError: true, error };
   }
 
-  public componentDidCatch(error: Error, errorInfo: ErrorInfo) {
+  public override componentDidCatch(error: Error, errorInfo: ErrorInfo) {
     console.error('ErrorBoundary caught an error:', error, errorInfo);
 
     // TODO: Send to error tracking service (Sentry, etc.)
@@ -29,7 +29,7 @@ class ErrorBoundary extends Component<Props, State> {
     // }
   }
 
-  public render() {
+  public override render() {
     if (this.state.hasError) {
       if (this.props.fallback) {
         return this.props.fallback;
@@ -38,12 +38,8 @@ class ErrorBoundary extends Component<Props, State> {
       return (
         <div className="min-h-screen flex items-center justify-center bg-black text-white p-6">
           <div className="max-w-md text-center">
-            <h1 className="text-4xl font-bold text-primary-accent mb-4">
-              Oops! Algo salió mal
-            </h1>
-            <p className="text-neutral/80 mb-6">
-              Lo sentimos, ha ocurrido un error inesperado.
-            </p>
+            <h1 className="text-4xl font-bold text-primary-accent mb-4">Oops! Algo salió mal</h1>
+            <p className="text-neutral/80 mb-6">Lo sentimos, ha ocurrido un error inesperado.</p>
             <button
               onClick={() => window.location.reload()}
               className="bg-primary-accent text-white px-6 py-3 rounded-lg hover:bg-primary-accent/90 transition font-bold"
@@ -55,9 +51,7 @@ class ErrorBoundary extends Component<Props, State> {
                 <summary className="cursor-pointer text-sm">
                   Detalles del error (solo en desarrollo)
                 </summary>
-                <pre className="text-xs mt-2 overflow-auto">
-                  {this.state.error.toString()}
-                </pre>
+                <pre className="text-xs mt-2 overflow-auto">{this.state.error.toString()}</pre>
               </details>
             )}
           </div>

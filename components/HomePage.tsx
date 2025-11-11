@@ -51,11 +51,11 @@ const HomePage: React.FC = () => {
         <meta name="twitter:image" content={`${baseUrl}/images/twitter-image.jpg`} />
 
         {/* Hreflang tags */}
-        <link rel="alternate" hreflang="es" href={`${baseUrl}/es`} />
-        <link rel="alternate" hreflang="ca" href={`${baseUrl}/ca`} />
-        <link rel="alternate" hreflang="en" href={`${baseUrl}/en`} />
-        <link rel="alternate" hreflang="fr" href={`${baseUrl}/fr`} />
-        <link rel="alternate" hreflang="x-default" href={`${baseUrl}/es`} />
+        <link rel="alternate" hrefLang="es" href={`${baseUrl}/es`} />
+        <link rel="alternate" hrefLang="ca" href={`${baseUrl}/ca`} />
+        <link rel="alternate" hrefLang="en" href={`${baseUrl}/en`} />
+        <link rel="alternate" hrefLang="fr" href={`${baseUrl}/fr`} />
+        <link rel="alternate" hrefLang="x-default" href={`${baseUrl}/es`} />
       </Helmet>
 
       <Hero />

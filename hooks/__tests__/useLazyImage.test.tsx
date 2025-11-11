@@ -4,9 +4,7 @@ import { useLazyImage } from '../useLazyImage';
 
 describe('useLazyImage', () => {
   it('returns imgRef, imageSrc, and isLoaded', () => {
-    const { result } = renderHook(() =>
-      useLazyImage('/test.jpg', '/placeholder.jpg')
-    );
+    const { result } = renderHook(() => useLazyImage('/test.jpg', '/placeholder.jpg'));
 
     expect(result.current.imgRef).toBeDefined();
     expect(result.current.imageSrc).toBeDefined();
@@ -14,9 +12,7 @@ describe('useLazyImage', () => {
   });
 
   it('initializes with placeholder image', () => {
-    const { result } = renderHook(() =>
-      useLazyImage('/test.jpg', '/placeholder.jpg')
-    );
+    const { result } = renderHook(() => useLazyImage('/test.jpg', '/placeholder.jpg'));
 
     expect(result.current.imageSrc).toBe('/placeholder.jpg');
     expect(result.current.isLoaded).toBe(false);

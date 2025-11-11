@@ -54,140 +54,139 @@ interface ReviewSchemaProps {
   datePublished?: string;
 }
 
-export const LocalBusinessSchema: React.FC<LocalBusinessSchemaProps> = (props) => {
+export const LocalBusinessSchema: React.FC<LocalBusinessSchemaProps> = props => {
   const schema = {
-    "@context": "https://schema.org",
-    "@type": "DanceSchool",
-    "name": props.name,
-    "description": props.description,
-    "url": props.url,
-    "telephone": props.telephone,
-    "email": props.email,
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": props.address.streetAddress,
-      "addressLocality": props.address.addressLocality,
-      "postalCode": props.address.postalCode,
-      "addressCountry": props.address.addressCountry
+    '@context': 'https://schema.org',
+    '@type': 'DanceSchool',
+    name: props.name,
+    description: props.description,
+    url: props.url,
+    telephone: props.telephone,
+    email: props.email,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: props.address.streetAddress,
+      addressLocality: props.address.addressLocality,
+      postalCode: props.address.postalCode,
+      addressCountry: props.address.addressCountry,
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": props.geo.latitude,
-      "longitude": props.geo.longitude
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: props.geo.latitude,
+      longitude: props.geo.longitude,
     },
-    ...(props.priceRange && { "priceRange": props.priceRange }),
+    ...(props.priceRange && { priceRange: props.priceRange }),
     ...(props.aggregateRating && {
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": props.aggregateRating.ratingValue,
-        "reviewCount": props.aggregateRating.reviewCount
-      }
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: props.aggregateRating.ratingValue,
+        reviewCount: props.aggregateRating.reviewCount,
+      },
     }),
-    ...(props.openingHours && { "openingHoursSpecification": props.openingHours })
+    ...(props.openingHours && { openingHoursSpecification: props.openingHours }),
   };
 
   return (
     <Helmet>
-      <script type="application/ld+json">
-        {JSON.stringify(schema)}
-      </script>
+      <script type="application/ld+json">{JSON.stringify(schema)}</script>
     </Helmet>
   );
 };
 
-export const CourseSchema: React.FC<CourseSchemaProps> = (props) => {
+export const CourseSchema: React.FC<CourseSchemaProps> = props => {
   const schema = {
-    "@context": "https://schema.org",
-    "@type": "Course",
-    "name": props.name,
-    "description": props.description,
-    "provider": {
-      "@type": "Organization",
-      "name": props.provider.name,
-      "url": props.provider.url
+    '@context': 'https://schema.org',
+    '@type': 'Course',
+    name: props.name,
+    description: props.description,
+    provider: {
+      '@type': 'Organization',
+      name: props.provider.name,
+      url: props.provider.url,
     },
-    ...(props.educationalLevel && { "educationalLevel": props.educationalLevel }),
-    ...(props.teaches && { "teaches": props.teaches }),
-    ...(props.coursePrerequisites && { "coursePrerequisites": props.coursePrerequisites }),
-    ...(props.numberOfLessons && { "numberOfLessons": props.numberOfLessons }),
-    ...(props.timeRequired && { "timeRequired": props.timeRequired }),
-    ...(props.availableLanguage && { "availableLanguage": props.availableLanguage })
+    ...(props.educationalLevel && { educationalLevel: props.educationalLevel }),
+    ...(props.teaches && { teaches: props.teaches }),
+    ...(props.coursePrerequisites && { coursePrerequisites: props.coursePrerequisites }),
+    ...(props.numberOfLessons && { numberOfLessons: props.numberOfLessons }),
+    ...(props.timeRequired && { timeRequired: props.timeRequired }),
+    ...(props.availableLanguage && { availableLanguage: props.availableLanguage }),
   };
 
   return (
     <Helmet>
-      <script type="application/ld+json">
-        {JSON.stringify(schema)}
-      </script>
+      <script type="application/ld+json">{JSON.stringify(schema)}</script>
     </Helmet>
   );
 };
 
-export const ReviewSchema: React.FC<ReviewSchemaProps> = (props) => {
+export const ReviewSchema: React.FC<ReviewSchemaProps> = props => {
   const schema = {
-    "@context": "https://schema.org",
-    "@type": "Review",
-    "itemReviewed": {
-      "@type": props.itemReviewed.type,
-      "name": props.itemReviewed.name
+    '@context': 'https://schema.org',
+    '@type': 'Review',
+    itemReviewed: {
+      '@type': props.itemReviewed.type,
+      name: props.itemReviewed.name,
     },
-    "author": {
-      "@type": "Person",
-      "name": props.author
+    author: {
+      '@type': 'Person',
+      name: props.author,
     },
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": props.reviewRating.ratingValue,
-      "bestRating": props.reviewRating.bestRating
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: props.reviewRating.ratingValue,
+      bestRating: props.reviewRating.bestRating,
     },
-    "reviewBody": props.reviewBody,
-    ...(props.datePublished && { "datePublished": props.datePublished })
+    reviewBody: props.reviewBody,
+    ...(props.datePublished && { datePublished: props.datePublished }),
   };
 
   return (
     <Helmet>
-      <script type="application/ld+json">
-        {JSON.stringify(schema)}
-      </script>
+      <script type="application/ld+json">{JSON.stringify(schema)}</script>
     </Helmet>
   );
 };
 
-export const AggregateReviewsSchema: React.FC<{ reviews: ReviewSchemaProps[]; itemName: string; itemType: string }> = ({ reviews, itemName, itemType }) => {
-  const totalRating = reviews.reduce((sum, review) => sum + parseFloat(review.reviewRating.ratingValue), 0);
+export const AggregateReviewsSchema: React.FC<{
+  reviews: ReviewSchemaProps[];
+  itemName: string;
+  itemType: string;
+}> = ({ reviews, itemName, itemType }) => {
+  const totalRating = reviews.reduce(
+    (sum, review) => sum + parseFloat(review.reviewRating.ratingValue),
+    0
+  );
   const averageRating = (totalRating / reviews.length).toFixed(1);
 
   const schema = {
-    "@context": "https://schema.org",
-    "@type": itemType,
-    "name": itemName,
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": averageRating,
-      "reviewCount": reviews.length.toString(),
-      "bestRating": "5"
+    '@context': 'https://schema.org',
+    '@type': itemType,
+    name: itemName,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: averageRating,
+      reviewCount: reviews.length.toString(),
+      bestRating: '5',
     },
-    "review": reviews.map(review => ({
-      "@type": "Review",
-      "author": {
-        "@type": "Person",
-        "name": review.author
+    review: reviews.map(review => ({
+      '@type': 'Review',
+      author: {
+        '@type': 'Person',
+        name: review.author,
       },
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": review.reviewRating.ratingValue,
-        "bestRating": review.reviewRating.bestRating
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue: review.reviewRating.ratingValue,
+        bestRating: review.reviewRating.bestRating,
       },
-      "reviewBody": review.reviewBody,
-      ...(review.datePublished && { "datePublished": review.datePublished })
-    }))
+      reviewBody: review.reviewBody,
+      ...(review.datePublished && { datePublished: review.datePublished }),
+    })),
   };
 
   return (
     <Helmet>
-      <script type="application/ld+json">
-        {JSON.stringify(schema)}
-      </script>
+      <script type="application/ld+json">{JSON.stringify(schema)}</script>
     </Helmet>
   );
 };

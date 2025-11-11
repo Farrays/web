@@ -23,10 +23,30 @@ const About: React.FC = () => {
           src="/videos/yunaisy-farray-performance.mp4"
           title="Performance by Yunaisy Farray"
         >
-          <track kind="captions" src="/videos/captions/captions_en.vtt" srcLang="en" label="English" />
-          <track kind="captions" src="/videos/captions/captions_es.vtt" srcLang="es" label="Español" />
-          <track kind="captions" src="/videos/captions/captions_ca.vtt" srcLang="ca" label="Català" />
-          <track kind="captions" src="/videos/captions/captions_fr.vtt" srcLang="fr" label="Français" />
+          <track
+            kind="captions"
+            src="/videos/captions/captions_en.vtt"
+            srcLang="en"
+            label="English"
+          />
+          <track
+            kind="captions"
+            src="/videos/captions/captions_es.vtt"
+            srcLang="es"
+            label="Español"
+          />
+          <track
+            kind="captions"
+            src="/videos/captions/captions_ca.vtt"
+            srcLang="ca"
+            label="Català"
+          />
+          <track
+            kind="captions"
+            src="/videos/captions/captions_fr.vtt"
+            srcLang="fr"
+            label="Français"
+          />
         </VideoWithSchema>
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black"></div>
       </div>
@@ -44,9 +64,11 @@ const About: React.FC = () => {
             </AnimateOnScroll>
             <AnimateOnScroll delay={200}>
               <div className="text-lg text-neutral/80 leading-relaxed space-y-4">
-                {t('aboutBio').split('\n\n').map((paragraph, index) => (
-                  <p key={index}>{paragraph}</p>
-                ))}
+                {t('aboutBio')
+                  .split('\n\n')
+                  .map((paragraph, index) => (
+                    <p key={index}>{paragraph}</p>
+                  ))}
               </div>
             </AnimateOnScroll>
           </div>
@@ -56,7 +78,10 @@ const About: React.FC = () => {
                 {t('aboutMethodTitle')}
               </h3>
               <MethodInfographic />
-              <a href="#legacy" className="inline-block border-2 border-primary-accent text-primary-accent font-bold py-3 px-8 rounded-full transition-all duration-300 hover:bg-primary-accent hover:text-white hover:shadow-accent-glow">
+              <a
+                href="#legacy"
+                className="inline-block border-2 border-primary-accent text-primary-accent font-bold py-3 px-8 rounded-full transition-all duration-300 hover:bg-primary-accent hover:text-white hover:shadow-accent-glow"
+              >
                 {t('aboutMethodCTA')}
               </a>
             </div>

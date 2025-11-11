@@ -26,7 +26,7 @@ export interface Testimonial {
 }
 
 export interface ValuePillar {
-  id:string;
+  id: string;
   titleKey: string;
   contentKey: string;
   Icon: React.FC<React.SVGProps<SVGSVGElement>>;

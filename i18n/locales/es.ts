@@ -1,453 +1,665 @@
 export const es = {
-    // General
-    pageTitle: "Farray's International Dance Center | Escuela de Baile en Barcelona",
-    ratingAriaLabel: "{rating} de 5 estrellas",
-    closeButton: "Cerrar",
-    // Header
-    navHome: "Inicio",
-    navClasses: "Clases de Baile",
-    navDancehall: "Dancehall",
-    navAfrobeats: "Afrobeats",
-    enrollNow: "Inscríbete Ahora",
-    // Hero
-    heroTitle1: "Escuela de Baile en Barcelona",
-    heroTitle2: "Clases de Danza, Salsa, Bachata, Danza Urbana, y Más",
-    heroTagline: "Bailar es trabajar tu felicidad.",
-    heroValue: "Experimenta una formación de baile inigualable con el exclusivo 'Método Farray®' de Yunaisy Farray, donde la disciplina, el ritmo global y la innovación encienden tu potencial.",
-    heroCTA1: "Prueba una Clase Gratis",
-    heroCTA2: "Explora las Clases",
-    heroScroll: "Despliega Tu Potencial",
-    // Philosophy
-    philosophyIntro: "Bailar es trabajar tu felicidad.",
-    philosophyBody1: "Ningún esfuerzo te reportará más beneficios que el de aprender y practicar un baile. Las endorfinas que produces bailando generan un aumento inmediato de la serotonina, y con ello, de tu nivel de bienestar. Cuando bailas, sonríes más, te gustas más, eres más sociable, más flexible y más comprensivo. Si hay una cosa capaz de cambiar tu vida desde el primer instante, esa es, sin duda alguna, el baile.",
-    philosophyBody2: "Más que una escuela de baile convencional, lo que Yunaisy Farray y su equipo te ofrecen es un centro reflejo de sus ideales artísticos y de su forma de vida. Las actividades de Farray’s International Dance Center se distinguen por seguir un método exclusivo y único creado por Yunaisy Farray, que asegura resultados rápidos, sólidos y contrastados.",
-    philosophyQuote: "El arte más noble es el de hacer felices a los demás.",
-    philosophyQuoteAuthor: "Phineas Taylor Barnum",
-    // About
-    aboutTitle: "Yunaisy Farray: La Arquitecta de la Innovación, El Alma del Farray's Center",
-    aboutSubtitle: "Arte, Rigor y Pasión",
-    aboutBio: "Con más de dos décadas como artista global y maestra educadora, Yunaisy Farray se ha consolidado como un referente internacional de la danza. Su formación en la prestigiosa Escuela Nacional de Arte de Cuba (ENA) le inculcó una fusión única de disciplina rusa y los ritmos y el sabor de los bailarines afrodescendientes. Ha participado en la taquillera película “Street Dance 2” y cautivó a millones en las finales de “Got Talent”. Además, ha colaborado en diferentes programas de televisión, como “The Dancer”, y cuenta con innumerables participaciones en diversos ámbitos del espectáculo.\n\nComo miembro del CID‑UNESCO y creadora del exclusivo Método Farray®, Yunaisy dirige una escuela que combina rigor, creatividad y resultados rápidos en un ambiente familiar e inclusivo.\n\nSu experiencia transforma cada clase en un viaje cultural y emocional, garantizando una formación de élite para bailarines de todos los niveles.",
-    aboutMethodTitle: "El 'Método Farray®': La Cúspide de la Pedagogía de la Danza.",
-    aboutMethodPillar1Title: "Disciplina y Rigor",
-    aboutMethodPillar1Desc: "Fundamentos técnicos de precisión inspirados en la disciplina clásica. Estructura, control y poder en cada movimiento.",
-    aboutMethodPillar2Title: "Sabor y Ritmo",
-    aboutMethodPillar2Desc: "La herencia y el alma de los ritmos afrodescendientes. Fluidez, expresión y una conexión musical profunda.",
-    aboutMethodPillar3Title: "Innovación Global",
-    aboutMethodPillar3Desc: "Una metodología en constante evolución que fusiona estilos y rompe barreras, preparándote para el escenario global.",
-    aboutMethodPillarInfo: "Haz clic en un pilar para saber más",
-    aboutMethodCTA: "Explora el Legado de Yunaisy",
-    // Classes
-    classesTitle: "Clases de Baile para Adultos",
-    classesIntro: "Descubre nuestras clases de baile para adultos y encuentra el estilo perfecto para ti. Calidad, profesionalidad y comunidad en el corazón de Barcelona, en una academia acreditada por CID-UNESCO.",
-    classesCTA: "Ver Clases de Baile en Barcelona",
-    classCatLatinTitle: "Clases de Salsa y Bachata",
-    classCatLatinDesc: "Aprende a bailar salsa y bachata muy cerca de Plaza España y la estación de Sants.",
-    classCatUrbanTitle: "Clases de Danza Urbana y Hip Hop",
-    classCatUrbanDesc: "Siente la energía de la calle con los estilos de Hip Hop, Reggaeton, Dancehall y Commercial.",
-    classCatContemporaryTitle: "Ballet, Contemporáneo y Jazz",
-    classCatContemporaryDesc: "Explora la técnica y la expresión a través de la elegancia del Ballet, Contemporáneo y Jazz.",
-    classCatFitnessTitle: "Preparación Física",
-    classCatFitnessDesc: "Mejora tu fuerza, flexibilidad y resistencia con clases diseñadas para bailarines.",
-    classCatMorningTitle: "Clases de Baile por la Mañana",
-    classCatMorningDesc: "Empieza tu día con energía. Consulta nuestro horario de clases de baile y fitness por la mañana.",
-    classCatWorldTitle: "Danzas del Mundo y Exóticas",
-    classCatWorldDesc: "Viaja por el mundo a través del baile con Flamenco, Pole Dance, Telas Aéreas y más estilos únicos.",
-    // Why FIDC
-    whyTitle: "La Diferencia FIDC: ¿Por qué elegir nuestra escuela de baile en Barcelona?",
-    whyPillar1Title: "Profesores de Clase Mundial",
-    whyPillar1Content: "Déjate guiar por un claustro de maestros reconocidos internacionalmente, con amplia experiencia y calidad docente para acelerar tu aprendizaje.",
-    whyPillar2Title: "Exclusivo 'Método Farray®'",
-    whyPillar2Content: "Aprende con un sistema de enseñanza único en el mundo, creado por Yunaisy Farray, que asegura resultados rápidos, sólidos y contrastados.",
-    whyPillar3Title: "700 m² de Instalaciones Premium",
-    whyPillar3Content: "Disfruta de 700 m² de instalaciones de primer nivel, con amplias salas de baile, equipamiento profesional y climatización para tu máximo confort.",
-    whyPillar4Title: "Ambiente Familiar y Eventos",
-    whyPillar4Content: "Únete a una familia internacional. Disfruta de actividades de ocio y prácticas regulares para socializar y perfeccionar lo aprendido.",
-    whyPillar5Title: "Flexibilidad Total",
-    whyPillar5Content: "Adaptamos el baile a tu vida. Ofrecemos una gran variedad de horarios, incluyendo clases por las mañanas y programas intensivos, para que siempre encuentres tu momento para bailar.",
-    whyPillar6Title: "Prestigio CID-UNESCO y Colaboraciones",
-    whyPillar6Content: "Fórmate en un centro miembro de CID-UNESCO que colabora en grandes proyectos de TV y espectáculos en vivo, un sello de la más alta calidad.",
-    whyPillar7Title: "Ubicación Privilegiada",
-    whyPillar7Content: "Estamos ubicados en el corazón de Barcelona, a tan solo 5 minutos caminando de Plaza España y Estación de Sants.",
-    // Services
-    servicesTitle: "Servicios Adicionales",
-    servicesIntro: "En Farray’s International Dance Center ofrecemos mucho más que clases de baile. Descubre todos los servicios que ponemos a tu disposición para ayudarte a crear, celebrar y crecer bailando.",
-    serviceRentalTitle: "Alquiler de Salas",
-    serviceRentalDesc: "Salas amplias y equipadas para ensayos, clases y eventos privados en el corazón de Barcelona.",
-    serviceRentalCTA: "Reserva tu Sala",
-    servicePhotoTitle: "Grabaciones y Fotografía",
-    servicePhotoDesc: "Tu arte merece un escenario. Alquila nuestras salas para producciones audiovisuales o sesiones de fotos profesionales.",
-    servicePhotoCTA: "Ver Opciones",
-    servicePartiesTitle: "Fiestas y Despedidas",
-    servicePartiesDesc: "Celebra tu cumpleaños o despedida de soltera/o bailando con tu grupo en una experiencia divertida y original.",
-    servicePartiesCTA: "Organiza tu Fiesta",
-    servicePrivateTitle: "Clases Particulares",
-    servicePrivateDesc: "Formación personalizada a tu ritmo y nivel, de forma individual o en grupo, en la academia o a domicilio.",
-    servicePrivateCTA: "Solicita una Clase",
-    serviceAgencyTitle: "Agencia y Productora",
-    serviceAgencyDesc: "Contrata bailarines y coreógrafos profesionales para eventos, videoclips o espectáculos.",
-    serviceAgencyCTA: "Descubre Nuestro Talento",
-    serviceCorporateTitle: "Servicios para Empresas",
-    serviceCorporateDesc: "Creamos experiencias de team-building y bienestar a través del baile. Perfecto para motivar y cohesionar equipos.",
-    serviceCorporateCTA: "Saber Más",
-    serviceGiftTitle: "Regala Baile",
-    serviceGiftDesc: "Sorprende con un regalo único: una experiencia de baile inolvidable para disfrutar o compartir.",
-    serviceGiftCTA: "Regala una Experiencia",
-    // Teachers
-    teachersTitle: "Conoce a Nuestros Profesores",
-    teachersCTA: "Ver Todo el Claustro",
-    teacher1Specialty: "Fundadora y Maestra | Método Farray®",
-    teacher1Bio: "Icono mundial, creadora del revolucionario 'Método Farray®'. Su estilo único fusiona el fuego cubano con una técnica rigurosa, formando artistas de talla mundial.",
-    teacher2Specialty: "Especialista en Danza Urbana y Hip Hop",
-    teacher2Bio: "Joni trae la energía cruda de la calle al estudio, conocido por sus coreografías innovadoras y su estilo de enseñanza empoderador.",
-    teacher3Specialty: "Maestra de Contemporáneo y Ballet",
-    teacher3Bio: "Con la gracia y precisión perfeccionadas en las mejores compañías de Europa, Elena guía a los estudiantes a encontrar su voz expresiva a través de técnicas clásicas y modernas.",
-    // Testimonials
-    testimonialsTitle: "Voces de Transformación: Historias de Nuestra Comunidad",
-    // FinalCTA
-    finalCtaTitle: "Tu Escenario te Espera: Inscríbete en la Mejor Academia de Barcelona",
-    finalCtaSubtitle: "Enciende tu pasión, refina tu técnica y únete a una comunidad global guiada por verdaderas leyendas. Descubre por qué FIDC está redefiniendo la enseñanza de la danza en todo el mundo.",
-    finalCtaButton1: "Inscríbete Ahora",
-    finalCtaButton2: "Reserva tu Clase de Prueba",
-    // Footer
-    followOnFacebook: "Síguenos en Facebook",
-    followOnInstagram: "Síguenos en Instagram",
-    followOnYoutube: "Síguenos en YouTube",
-    footerContact: "Contacto",
-    footerAddressValue: "Carrer d'Entença, 100, Local 1\n08015 Barcelona, España",
-    footerPhone: "Teléfono",
-    footerPhoneValue: "+34 622 24 70 85",
-    footerEmail: "Correo",
-    footerEmailValue: "info@farrayscenter.com",
-    footerHoursTitle: "Horario de Apertura",
-    footerHoursContent: "Lun: 10:30-12:30, 17:30-23:00\nMar: 10:30-13:30, 17:30-23:00\nMié: 17:30-23:00\nJue: 09:30-11:30, 17:30-23:00\nVie: 17:30-20:30",
-    footerPhoneHoursTitle: "Atención Telefónica",
-    footerPhoneHoursContent: "L-V: 10:00 - 14:00 y 16:00 - 20:00",
-    footerSitemapTitle: "Mapa del Sitio",
-    sitemapSchool: "La Escuela",
-    sitemapYunaisy: "Yunaisy Farray",
-    sitemapKids: "Farray's Kids",
-    sitemapSocial: "Bailes Sociales",
-    sitemapUrban: "Danzas Urbanas",
-    sitemapFitness: "Fitness y Bienestar",
-    sitemapSchedule: "Horarios y Precios",
-    sitemapFAQ: "Preguntas Frecuentes",
-    sitemapContact: "Contacto",
-    sitemapCID: "CID-UNESCO",
-    sitemapLegal: "Aviso Legal",
-    sitemapTerms: "Términos y Condiciones",
-    sitemapPrivacy: "Política de Privacidad",
-    sitemapCookies: "Política de Cookies",
-    footerCopyright: "© 2024 Farray's International Dance Center. Todos los Derechos Reservados.",
-    // InstagramFeed
-    instagramTitle: "Únete a Nuestra Comunidad en Instagram",
-    instagramHandle: "@farrays_centerbcn",
-    // HowToGetHere
-    howToGetHereTitle: "Cómo Llegar a Farray's Center",
-    howToGetHereIntro: "Encuéntranos en el corazón del Eixample Esquerra de Barcelona, perfectamente conectados con toda la ciudad.",
-    metroTitle: "Metro",
-    metroLine1: "L1 (Roja): Parada Rocafort (4 min a pie)",
-    metroLine2: "L3 (Verde) y L5 (Azul): Sants Estació (8 min a pie)",
-    trainTitle: "Tren (Renfe)",
-    trainStop1: "Sants Estació (8 min a pie)",
-    trainStop2: "Todas las conexiones nacionales e internacionales.",
-    busTitle: "Autobús",
-    busStop1: "Líneas H10, V7, 27, 41, 52, 109, D40",
-    busStop2: "Múltiples paradas en un radio de 5 minutos.",
-    bikeTitle: "Bicing y Bici",
-    bikeInfo1: "Múltiples estaciones de Bicing en los alrededores.",
-    bikeInfo2: "Amplio espacio para aparcar tu bici particular.",
-    carTitle: "Coche",
-    carInfo1: "Parking público disponible en Carrer d'Entença.",
-    carInfo2: "Fácil acceso desde Gran Via y Avinguda de Roma.",
-    // Dance Classes Page
-    danceClassesPageTitle: "Forja Tu Camino en la Danza | FIDC Barcelona",
-    danceClassesPageSubtitle: "Explora nuestras disciplinas de élite. Cada clase es un portal hacia la maestría, impulsado por el revolucionario 'Método Farray®'. Encuentra tu ritmo, desata tu poder.",
-    danceClassesSubstylesTitle: "Estilos Destacados",
-    danceClassesLevelTitle: "Nivel de Dominio",
-    danceClassesViewSchedule: "Ver Horarios",
-    classDetailContemporaryDesc: "Domina el arte de la expresión a través del movimiento fluido y la profundidad emocional. Nuestro programa de contemporáneo fusiona la técnica clásica con la innovación moderna, creando bailarines potentes y versátiles.",
-    classDetailContemporarySubstyles: "Contemporáneo, Modern Jazz, Lírico, Fusión Ballet",
-    classDetailContemporaryLevel: "Todos los Niveles (Iniciación a Profesional)",
-    classDetailUrbanDesc: "Domina la pista con energía cruda y coreografías de vanguardia. Desde los cimientos del Hip Hop hasta las últimas tendencias comerciales, nuestras clases urbanas construyen estilo, confianza y actitud.",
-    classDetailUrbanSubstyles: "Hip Hop, Reggaeton, Dancehall, Commercial, Heels",
-    classDetailUrbanLevel: "Todos los Niveles",
-    classDetailLatinDesc: "Enciende tu pasión con los ritmos electrizantes del baile latino. Dirigidas por expertos de talla mundial, nuestras clases se centran en la conexión auténtica, el trabajo de pies intrincado y un 'sabor' contagioso.",
-    classDetailLatinSubstyles: "Salsa Cubana, Bachata (Sensual y Dominicana), Rueda de Casino",
-    classDetailLatinLevel: "Todos los Niveles (Iniciación a Master)",
-    classDetailFitnessDesc: "Esculpe el físico definitivo del bailarín. Nuestros programas de fitness especializados están diseñados para potenciar la fuerza, la flexibilidad y la resistencia, dándote el poder para superar tus límites.",
-    classDetailFitnessSubstyles: "Acrobacias, Flexibilidad, Acondicionamiento Corporal, Pilates para Bailarines",
-    classDetailFitnessLevel: "Todos los Niveles",
-    classDetailMorningDesc: "Conquista el día con una sesión matutina energizante. Estas clases están diseñadas para despertar tu cuerpo, agudizar tu mente y establecer un tono poderoso para las horas venideras.",
-    classDetailMorningSubstyles: "Yoga Matutino, Acondicionamiento, Pasos Libres de Salsa, Pasos Libres de Bachata",
-    classDetailMorningLevel: "Todos los Niveles",
-    classDetailWorldDesc: "Embárcate en un viaje de danza global. Explora diversas expresiones culturales y disciplinas únicas que expanden tus horizontes artísticos y desafían tu cuerpo de nuevas maneras.",
-    classDetailWorldSubstyles: "Flamenco, Pole Dance, Telas Aéreas, Afrocubano",
-    classDetailWorldLevel: "Varía según la Disciplina (Consultar Horario)",
-    // Dancehall Page
-    dancehallPageTitle: "Clases de Dancehall en Barcelona | Farray's International Dance Center",
-    dancehallHeroTitle: "Libera el Fuego: Dancehall en Barcelona",
-    dancehallHeroSubtitle: "Experimenta la auténtica energía y cultura del Dancehall jamaicano. No es solo una clase, es un movimiento.",
-    dancehallAboutTitle: "¿Qué es el Dancehall?",
-    dancehallAboutDesc1: "Nacido en las vibrantes calles de Kingston, Jamaica, el Dancehall es más que un estilo de baile: es un fenómeno cultural. Es el ritmo de la gente, una forma de expresión que encarna actitud, comunidad y energía pura. Desde los pasos 'old school' hasta las últimas tendencias 'new school', el Dancehall evoluciona constantemente, reflejando el pulso de la isla.",
-    dancehallAboutDesc2: "En FIDC, nuestras clases de Dancehall honran estas raíces mientras desafían los límites creativos. Nos centramos en la técnica auténtica, la musicalidad ('riddim') y la poderosa narrativa que convierte al Dancehall en una fuerza global. Es un entrenamiento de alta intensidad para todo el cuerpo que te desafiará, aumentará tu confianza y te conectará con una increíble comunidad global.",
-    dancehallPillar1Title: "Riddims Auténticos",
-    dancehallPillar1Desc: "Aprende los pasos fundamentales y el contexto cultural de la mano de instructores apasionados por la herencia jamaicana.",
-    dancehallPillar2Title: "Entrenamiento Total",
-    dancehallPillar2Desc: "Desarrolla resistencia, coordinación y fuerza con coreografías de alta energía que trabajan cada músculo.",
-    dancehallPillar3Title: "Libera tu Confianza",
-    dancehallPillar3Desc: "Adopta la actitud y la autoexpresión que son el núcleo del Dancehall. Encuentra tu poder en la pista de baile.",
-    dancehallClassesTitle: "Nuestros Programas de Dancehall",
-    dancehallClassesSubtitle: "Desde principiantes absolutos hasta bailarines experimentados, tenemos una clase que te desafiará e inspirará.",
-    dancehallLevelBeginnerTitle: "Dancehall Fundamentos (Nivel 1)",
-    dancehallLevelBeginnerDesc: "¿Nuevo en el Dancehall? Empieza aquí. Desglosamos los pasos fundamentales, los 'grooves' y el 'riddim' de la música en un ambiente divertido y de apoyo.",
-    dancehallLevelInterTitle: "Dancehall Dinámico (Nivel 2)",
-    dancehallLevelInterDesc: "Para bailarines con conocimientos básicos. Esta clase se centra en coreografías más complejas, musicalidad y el desarrollo de tu estilo personal.",
-    dancehallLevelAdvancedTitle: "Dancehall Pro (Nivel 3)",
-    dancehallLevelAdvancedDesc: "Una clase intensiva para bailarines avanzados que buscan perfeccionar su técnica, habilidades escénicas y profundizar en rutinas complejas de nivel profesional.",
-    dancehallInstructorTitle: "Conoce a Tu Gurú del Dancehall",
-    dancehallInstructorName: "Isabella 'Izzy' King",
-    dancehallInstructorSpecialty: "Especialista en Dancehall y Afro-Fusión",
-    dancehallInstructorBio: "Con raíces en Jamaica y años de formación con leyendas del dancehall, Izzy aporta una autenticidad y un fuego inigualables a sus clases. Es conocida por su energía contagiosa y su capacidad para hacer que todos se sientan como una estrella.",
-    dancehallTestimonialsTitle: "Lo que Dicen Nuestros Bailarines",
-    dancehallTestimonial1Quote: "¡La clase de Izzy es lo mejor de mi semana! La energía es una locura y he aprendido mucho sobre la cultura, no solo sobre los pasos. FIDC es el lugar de referencia para el Dancehall en Barcelona.",
-    dancehallTestimonial1Name: "Marco V.",
-    dancehallTestimonial1City: "Barcelona, España",
-    dancehallTestimonial2Quote: "Estaba nerviosa al empezar, pero la comunidad es muy acogedora. Es un entrenamiento increíble y me siento mucho más segura. Las mejores clases de Dancehall que he tomado.",
-    dancehallTestimonial2Name: "Chloe B.",
-    dancehallTestimonial2City: "Manchester, Reino Unido",
-    // Afrobeats Page
-    afrobeatsPageTitle: "Clases de Afrobeats en Barcelona | Farray's International Dance Center",
-    afrobeatsHeroTitle: "Siente el Pulso: Afrobeats en Barcelona",
-    afrobeatsHeroSubtitle: "Conecta con los vibrantes ritmos de África. Más que un baile, es una celebración de la vida.",
-    afrobeatsAboutTitle: "¿Qué es el Afrobeats?",
-    afrobeatsAboutDesc1: "Afrobeats es un estilo de baile dinámico y contagioso originario del África subsahariana. Es un término diverso que engloba estilos de danza urbana de países como Nigeria, Ghana y Senegal. Caracterizado por sus movimientos fluidos de torso, su intrincado trabajo de pies y sus gestos expresivos, el Afrobeats consiste en sentir la música y celebrar la comunidad.",
-    afrobeatsAboutDesc2: "Nuestras clases profundizan en los fundamentos de varios estilos de Afrobeats, desde el Azonto hasta el Shaku Shaku. Nos centramos en la musicalidad, la expresión individual y las historias culturales detrás de los movimientos. Prepárate para una clase de alta energía que es tanto una fiesta como un entrenamiento, conectándote con un movimiento global poderoso y alegre.",
-    afrobeatsPillar1Title: "Groove y Flow",
-    afrobeatsPillar1Desc: "Domina los movimientos fluidos y polirrítmicos que te conectan directamente con el latido de la música.",
-    afrobeatsPillar2Title: "Fusión Cultural",
-    afrobeatsPillar2Desc: "Explora un rico tapiz de estilos de baile de todo el continente africano, celebrando la tradición y la innovación.",
-    afrobeatsPillar3Title: "Expresión Alegre",
-    afrobeatsPillar3Desc: "Libérate y encuentra tu libertad en un estilo de baile que se trata de pura alegría contagiosa y energía positiva.",
-    afrobeatsClassesTitle: "Nuestros Programas de Afrobeats",
-    afrobeatsClassesSubtitle: "Tanto si das tu primer paso como si eres un bailarín experimentado, tenemos una clase para ti.",
-    afrobeatsLevelBeginnerTitle: "Afrobeats Fundamentos (Nivel 1)",
-    afrobeatsLevelBeginnerDesc: "Perfecto para principiantes. Aprende los pasos básicos, las disociaciones corporales y los ritmos de Afrobeats en un ambiente acogedor y enérgico.",
-    afrobeatsLevelInterTitle: "Afrobeats Flow (Nivel 2)",
-    afrobeatsLevelInterDesc: "Construye sobre tus fundamentos con coreografías más complejas, ritmos más rápidos y un enfoque en desarrollar tu estilo personal.",
-    afrobeatsLevelAdvancedTitle: "Afrobeats Pro (Nivel 3)",
-    afrobeatsLevelAdvancedDesc: "Para bailarines experimentados. Esta clase desafía con técnicas avanzadas, calidad escénica e inmersiones profundas en estilos regionales específicos.",
-    afrobeatsInstructorTitle: "Conoce a Tu Guía de Afrobeats",
-    afrobeatsInstructorName: "David 'Dee' Adeleke",
-    afrobeatsInstructorSpecialty: "Experto en Afrobeats y Danza de África Occidental",
-    afrobeatsInstructorBio: "Originario de Lagos, David vive y respira Afrobeats. Ha girado con grandes artistas y es célebre por su estilo auténtico y su don para compartir la alegría y la cultura del baile con estudiantes de todos los niveles.",
-    afrobeatsTestimonialsTitle: "Lo que Dicen Nuestros Bailarines",
-    afrobeatsTestimonial1Quote: "¡La clase de David es puro fuego! La música, la energía, la comunidad... es la mejor parte de mi semana. Nunca me he sentido tan libre y feliz bailando. FIDC es el hogar del Afrobeats en BCN.",
-    afrobeatsTestimonial1Name: "Fatou D.",
-    afrobeatsTestimonial1City: "Dakar, Senegal",
-    afrobeatsTestimonial2Quote: "Llegué con dos pies izquierdos y ahora no puedo parar de bailar. Es un entrenamiento increíble y el ambiente siempre es positivo. Muy recomendable para cualquiera que quiera divertirse y aprender algo nuevo.",
-    afrobeatsTestimonial2Name: "Liam S.",
-    afrobeatsTestimonial2City: "Dublín, Irlanda",
-    // FAQ Section
-    faqTitle: "Preguntas Frecuentes",
-    // Home FAQ
-    homeFaqQ1: "¿Necesito experiencia previa para asistir a las clases?",
-    homeFaqA1: "No, absolutamente no. Ofrecemos clases para todos los niveles, desde principiantes completos hasta bailarines avanzados. Nuestro 'Método Farray®' está diseñado para adaptarse a tu nivel y ayudarte a progresar rápidamente sin importar tu punto de partida. Muchos de nuestros estudiantes más exitosos comenzaron sin experiencia alguna.",
-    homeFaqQ2: "¿Cuánto cuestan las clases de baile en Farray's Center?",
-    homeFaqA2: "Ofrecemos diferentes opciones de matrícula para adaptarnos a tus necesidades: clases sueltas, bonos mensuales y paquetes trimestrales. Los precios varían según el tipo de clase y la frecuencia. Te recomendamos contactarnos directamente o visitar la escuela para conocer nuestras ofertas actuales y promociones. Además, tu primera clase es gratuita para que puedas probar sin compromiso.",
-    homeFaqQ3: "¿Qué hace especial al 'Método Farray®'?",
-    homeFaqA3: "El 'Método Farray®' es una metodología exclusiva creada por Yunaisy Farray que combina la disciplina rigurosa de la formación clásica rusa con el sabor y el ritmo de los bailes afrodescendientes, más la innovación de los estilos contemporáneos globales. Este enfoque único garantiza resultados rápidos, sólidos y contrastados, preparándote tanto técnica como artísticamente para cualquier escenario.",
-    homeFaqQ4: "¿Necesito llevar pareja para las clases de salsa o bachata?",
-    homeFaqA4: "No, no necesitas traer pareja. En nuestras clases rotamos parejas regularmente para que todos aprendan a bailar con diferentes personas y estilos. Esto es excelente para tu desarrollo como bailarín y te ayuda a sentirte cómodo en cualquier situación social de baile. Además, fomentamos un ambiente inclusivo donde todos se sienten bienvenidos.",
-    homeFaqQ5: "¿Cuál es la mejor forma de empezar?",
-    homeFaqA5: "La mejor forma de empezar es reservar tu primera clase gratuita. Ven cómodo, con ropa deportiva y zapatillas limpias. Nuestros instructores te guiarán desde el primer momento y te ayudarán a elegir el nivel y estilo más adecuado para ti. No necesitas preparación previa, solo ganas de aprender y disfrutar.",
-    homeFaqQ6: "¿Qué horarios tienen las clases?",
-    homeFaqA6: "Ofrecemos clases de lunes a viernes en horarios matinales, de tarde y noche para adaptarnos a diferentes estilos de vida. Los horarios exactos varían según el tipo de clase y nivel. Te recomendamos consultar nuestro horario actualizado en la web o contactarnos directamente para encontrar el horario perfecto para ti.",
-    homeFaqQ7: "¿La escuela está acreditada?",
-    homeFaqA7: "Sí, Farray's International Dance Center está acreditado por CID-UNESCO (Consejo Internacional de la Danza de la UNESCO). Esta acreditación garantiza que cumplimos con los más altos estándares de calidad en la enseñanza de la danza a nivel internacional. Además, Yunaisy Farray es miembro activo de esta prestigiosa organización.",
-    homeFaqQ8: "¿Ofrecen formación profesional para quienes quieren dedicarse a la danza?",
-    homeFaqA8: "Sí, además de nuestras clases regulares, ofrecemos programas intensivos y formación avanzada para estudiantes que desean profesionalizarse. El 'Método Farray®' proporciona las herramientas técnicas, artísticas y escénicas necesarias para desarrollar una carrera en la danza. Yunaisy y su equipo han formado a bailarines que ahora trabajan profesionalmente en todo el mundo.",
-    // Dancehall FAQ
-    dancehallFaqQ1: "¿Qué es exactamente el dancehall?",
-    dancehallFaqA1: "El dancehall es un estilo de música y baile que se originó en Jamaica en los años 70. Se caracteriza por movimientos enérgicos, ritmos potentes ('riddims') y una actitud audaz y segura. Es mucho más que solo pasos: es una expresión cultural completa con su propia historia, música y comunidad. En nuestras clases, no solo aprendes los movimientos sino también la cultura y el contexto detrás de ellos.",
-    dancehallFaqQ2: "¿Es el dancehall difícil de aprender?",
-    dancehallFaqA2: "No más que cualquier otro estilo de baile. El dancehall puede parecer intimidante al principio por su energía y ritmo, pero nuestro enfoque pedagógico desglosa cada movimiento paso a paso. Comenzamos con los fundamentos (grooves, riddims básicos) y avanzamos gradualmente. La mayoría de nuestros estudiantes principiantes están bailando coreografías completas en pocas semanas. Lo más importante es la actitud y las ganas de divertirse.",
-    dancehallFaqQ3: "¿Necesito estar en forma para las clases de dancehall?",
-    dancehallFaqA3: "No necesitas estar en forma específica para empezar. El dancehall es en sí mismo un excelente entrenamiento cardiovascular y de resistencia, así que irás mejorando tu condición física con cada clase. Trabajamos a diferentes intensidades y siempre puedes adaptar los movimientos a tu nivel actual. Lo importante es escuchar a tu cuerpo y progresar a tu ritmo.",
-    dancehallFaqQ4: "¿Qué debo llevar a la clase de dancehall?",
-    dancehallFaqA4: "Ropa cómoda y deportiva que te permita moverte libremente. Muchos estudiantes usan pantalones deportivos o leggings y una camiseta. Para el calzado, zapatillas deportivas limpias con buena suela son ideales. Trae una botella de agua porque ¡vas a sudar! Opcional: una toalla pequeña y tu mejor actitud.",
-    // Afrobeats FAQ
-    afrobeatsFaqQ1: "¿Cuál es la diferencia entre afrobeats y afrobeat?",
-    afrobeatsFaqA1: "Excelente pregunta. 'Afrobeat' (sin 's') es un género musical creado por Fela Kuti en los años 70, fusionando jazz, funk y música tradicional africana. 'Afrobeats' (con 's') es un término más moderno que describe la música pop contemporánea de África Occidental (Nigeria, Ghana, etc.) y sus estilos de baile asociados. En nuestras clases nos enfocamos en Afrobeats, el estilo moderno lleno de energía que está conquistando el mundo.",
-    afrobeatsFaqA2: "Las clases de afrobeats son increíblemente divertidas y enérgicas. Comenzamos con un calentamiento al ritmo de la música, luego trabajamos en fundamentos como el movimiento de torso, trabajo de pies y disociaciones corporales. Después aprendemos coreografías y pasos de estilos específicos (Azonto, Shaku Shaku, Zanku, etc.). Terminamos con una sesión de freestyle donde todos pueden expresarse libremente. Es una combinación perfecta de entrenamiento, aprendizaje cultural y celebración.",
-    afrobeatsFaqQ2: "¿Cómo es una clase típica de afrobeats?",
-    afrobeatsFaqQ3: "¿El afrobeats es solo para personas de origen africano?",
-    afrobeatsFaqA3: "¡Absolutamente no! El afrobeats es para todos. Aunque tiene raíces en la cultura africana, es un movimiento global que celebra la inclusión y la alegría universal. Nuestras clases acogen a personas de todos los orígenes, edades y niveles. Lo que importa es tu deseo de aprender, divertirte y conectar con la música y la comunidad. La diversidad enriquece la experiencia para todos.",
-    afrobeatsFaqQ4: "¿Es afrobeats un buen ejercicio físico?",
-    afrobeatsFaqA4: "¡Sí, definitivamente! El afrobeats es un entrenamiento cardiovascular completo que involucra todo el cuerpo. Los movimientos de torso trabajan tu core, el trabajo de pies mejora tu coordinación y resistencia, y los grooves desarrollan tu flexibilidad. Una clase de una hora puede quemar entre 300-500 calorías, pero es tan divertida que ni te das cuenta del esfuerzo. Muchos de nuestros estudiantes dicen que es el mejor entrenamiento que han hecho.",
-    // Classes FAQ
-    classesFaqQ1: "¿Cuántos estilos de baile enseñan en Farray's Center?",
-    classesFaqA1: "Ofrecemos formación en más de 25 estilos diferentes de baile. Nuestro catálogo incluye bailes latinos (salsa, bachata, kizomba), danza urbana (hip hop, dancehall, afrobeats, reggaeton), estilos clásicos (ballet, contemporáneo, jazz), y especializaciones como preparación física para bailarines. Esta variedad te permite explorar diferentes estilos y encontrar los que más resuenan contigo, o especializarte en uno mientras complementas con otros.",
-    classesFaqQ2: "¿Puedo tomar clases de diferentes estilos al mismo tiempo?",
-    classesFaqA2: "¡Por supuesto! De hecho, lo recomendamos. Aprender múltiples estilos de baile te hace un bailarín más completo y versátil. Por ejemplo, el ballet mejora tu postura y técnica para la salsa, mientras que el hip hop puede hacer tu bachata más dinámica. Nuestros paquetes de clases te permiten asistir a diferentes tipos de clases según tus intereses. Muchos de nuestros estudiantes más avanzados practican 3-4 estilos simultáneamente.",
-    classesFaqQ3: "¿Cómo sé qué nivel es el adecuado para mí?",
-    classesFaqA3: "Si es tu primera clase, siempre recomendamos comenzar en el nivel de fundamentos o principiantes. Sin embargo, si tienes experiencia previa en baile, nuestros instructores pueden evaluarte en tu primera clase gratuita y recomendarte el nivel más apropiado. También puedes probar una clase de nivel intermedio si sientes que los fundamentos son demasiado básicos. Lo importante es que te sientas desafiado pero no abrumado.",
-    classesFaqQ4: "¿Con qué frecuencia debería asistir a clases para ver progreso?",
-    classesFaqA4: "Para un progreso constante y notable, recomendamos asistir al menos 2 veces por semana. Con esta frecuencia, la mayoría de los estudiantes ven mejoras significativas en 2-3 meses. Si puedes asistir 3-4 veces por semana, el progreso será aún más rápido. Sin embargo, incluso una clase semanal te permitirá avanzar, aunque a un ritmo más gradual. La consistencia es más importante que la intensidad.",
-    classesFaqQ5: "¿Ofrecen clases privadas o solo grupales?",
-    classesFaqA5: "Ofrecemos ambas opciones. Las clases grupales son excelentes para aprender en comunidad, hacer amigos y beneficiarte de la energía del grupo. Las clases privadas son ideales si buscas atención personalizada, tienes objetivos específicos (como prepararte para una presentación o boda), o prefieres un horario más flexible. Muchos estudiantes combinan ambas: clases grupales regulares complementadas con sesiones privadas ocasionales para trabajar aspectos específicos.",
-    // Dancehall Images
-    dancehallImage1Alt: "Clases de Dancehall en Barcelona - Estudiantes bailando en Farray's International Dance Center",
-    dancehallImage2Alt: "Estudiantes disfrutando de clases de Dancehall en Barcelona - Ambiente energético en Farray's Center",
-    dancehallImage3Alt: "Grupo de estudiantes bailando Dancehall en Barcelona - Academia de danza urbana Farray's",
+  // General
+  pageTitle: "Farray's International Dance Center | Escuela de Baile en Barcelona",
+  ratingAriaLabel: '{rating} de 5 estrellas',
+  closeButton: 'Cerrar',
+  // Header
+  navHome: 'Inicio',
+  navClasses: 'Clases de Baile',
+  navDancehall: 'Dancehall',
+  navAfrobeats: 'Afrobeats',
+  enrollNow: 'Inscríbete Ahora',
+  // Hero
+  heroTitle1: 'Escuela de Baile en Barcelona',
+  heroTitle2: 'Clases de Danza, Salsa, Bachata, Danza Urbana, y Más',
+  heroTagline: 'Bailar es trabajar tu felicidad.',
+  heroValue:
+    "Experimenta una formación de baile inigualable con el exclusivo 'Método Farray®' de Yunaisy Farray, donde la disciplina, el ritmo global y la innovación encienden tu potencial.",
+  heroCTA1: 'Prueba una Clase Gratis',
+  heroCTA2: 'Explora las Clases',
+  heroScroll: 'Despliega Tu Potencial',
+  // Philosophy
+  philosophyIntro: 'Bailar es trabajar tu felicidad.',
+  philosophyBody1:
+    'Ningún esfuerzo te reportará más beneficios que el de aprender y practicar un baile. Las endorfinas que produces bailando generan un aumento inmediato de la serotonina, y con ello, de tu nivel de bienestar. Cuando bailas, sonríes más, te gustas más, eres más sociable, más flexible y más comprensivo. Si hay una cosa capaz de cambiar tu vida desde el primer instante, esa es, sin duda alguna, el baile.',
+  philosophyBody2:
+    'Más que una escuela de baile convencional, lo que Yunaisy Farray y su equipo te ofrecen es un centro reflejo de sus ideales artísticos y de su forma de vida. Las actividades de Farray’s International Dance Center se distinguen por seguir un método exclusivo y único creado por Yunaisy Farray, que asegura resultados rápidos, sólidos y contrastados.',
+  philosophyQuote: 'El arte más noble es el de hacer felices a los demás.',
+  philosophyQuoteAuthor: 'Phineas Taylor Barnum',
+  // About
+  aboutTitle: "Yunaisy Farray: La Arquitecta de la Innovación, El Alma del Farray's Center",
+  aboutSubtitle: 'Arte, Rigor y Pasión',
+  aboutBio:
+    'Con más de dos décadas como artista global y maestra educadora, Yunaisy Farray se ha consolidado como un referente internacional de la danza. Su formación en la prestigiosa Escuela Nacional de Arte de Cuba (ENA) le inculcó una fusión única de disciplina rusa y los ritmos y el sabor de los bailarines afrodescendientes. Ha participado en la taquillera película “Street Dance 2” y cautivó a millones en las finales de “Got Talent”. Además, ha colaborado en diferentes programas de televisión, como “The Dancer”, y cuenta con innumerables participaciones en diversos ámbitos del espectáculo.\n\nComo miembro del CID‑UNESCO y creadora del exclusivo Método Farray®, Yunaisy dirige una escuela que combina rigor, creatividad y resultados rápidos en un ambiente familiar e inclusivo.\n\nSu experiencia transforma cada clase en un viaje cultural y emocional, garantizando una formación de élite para bailarines de todos los niveles.',
+  aboutMethodTitle: "El 'Método Farray®': La Cúspide de la Pedagogía de la Danza.",
+  aboutMethodPillar1Title: 'Disciplina y Rigor',
+  aboutMethodPillar1Desc:
+    'Fundamentos técnicos de precisión inspirados en la disciplina clásica. Estructura, control y poder en cada movimiento.',
+  aboutMethodPillar2Title: 'Sabor y Ritmo',
+  aboutMethodPillar2Desc:
+    'La herencia y el alma de los ritmos afrodescendientes. Fluidez, expresión y una conexión musical profunda.',
+  aboutMethodPillar3Title: 'Innovación Global',
+  aboutMethodPillar3Desc:
+    'Una metodología en constante evolución que fusiona estilos y rompe barreras, preparándote para el escenario global.',
+  aboutMethodPillarInfo: 'Haz clic en un pilar para saber más',
+  aboutMethodCTA: 'Explora el Legado de Yunaisy',
+  // Classes
+  classesTitle: 'Clases de Baile para Adultos',
+  classesIntro:
+    'Descubre nuestras clases de baile para adultos y encuentra el estilo perfecto para ti. Calidad, profesionalidad y comunidad en el corazón de Barcelona, en una academia acreditada por CID-UNESCO.',
+  classesCTA: 'Ver Clases de Baile en Barcelona',
+  classCatLatinTitle: 'Clases de Salsa y Bachata',
+  classCatLatinDesc:
+    'Aprende a bailar salsa y bachata muy cerca de Plaza España y la estación de Sants.',
+  classCatUrbanTitle: 'Clases de Danza Urbana y Hip Hop',
+  classCatUrbanDesc:
+    'Siente la energía de la calle con los estilos de Hip Hop, Reggaeton, Dancehall y Commercial.',
+  classCatContemporaryTitle: 'Ballet, Contemporáneo y Jazz',
+  classCatContemporaryDesc:
+    'Explora la técnica y la expresión a través de la elegancia del Ballet, Contemporáneo y Jazz.',
+  classCatFitnessTitle: 'Preparación Física',
+  classCatFitnessDesc:
+    'Mejora tu fuerza, flexibilidad y resistencia con clases diseñadas para bailarines.',
+  classCatMorningTitle: 'Clases de Baile por la Mañana',
+  classCatMorningDesc:
+    'Empieza tu día con energía. Consulta nuestro horario de clases de baile y fitness por la mañana.',
+  classCatWorldTitle: 'Danzas del Mundo y Exóticas',
+  classCatWorldDesc:
+    'Viaja por el mundo a través del baile con Flamenco, Pole Dance, Telas Aéreas y más estilos únicos.',
+  // Why FIDC
+  whyTitle: 'La Diferencia FIDC: ¿Por qué elegir nuestra escuela de baile en Barcelona?',
+  whyPillar1Title: 'Profesores de Clase Mundial',
+  whyPillar1Content:
+    'Déjate guiar por un claustro de maestros reconocidos internacionalmente, con amplia experiencia y calidad docente para acelerar tu aprendizaje.',
+  whyPillar2Title: "Exclusivo 'Método Farray®'",
+  whyPillar2Content:
+    'Aprende con un sistema de enseñanza único en el mundo, creado por Yunaisy Farray, que asegura resultados rápidos, sólidos y contrastados.',
+  whyPillar3Title: '700 m² de Instalaciones Premium',
+  whyPillar3Content:
+    'Disfruta de 700 m² de instalaciones de primer nivel, con amplias salas de baile, equipamiento profesional y climatización para tu máximo confort.',
+  whyPillar4Title: 'Ambiente Familiar y Eventos',
+  whyPillar4Content:
+    'Únete a una familia internacional. Disfruta de actividades de ocio y prácticas regulares para socializar y perfeccionar lo aprendido.',
+  whyPillar5Title: 'Flexibilidad Total',
+  whyPillar5Content:
+    'Adaptamos el baile a tu vida. Ofrecemos una gran variedad de horarios, incluyendo clases por las mañanas y programas intensivos, para que siempre encuentres tu momento para bailar.',
+  whyPillar6Title: 'Prestigio CID-UNESCO y Colaboraciones',
+  whyPillar6Content:
+    'Fórmate en un centro miembro de CID-UNESCO que colabora en grandes proyectos de TV y espectáculos en vivo, un sello de la más alta calidad.',
+  whyPillar7Title: 'Ubicación Privilegiada',
+  whyPillar7Content:
+    'Estamos ubicados en el corazón de Barcelona, a tan solo 5 minutos caminando de Plaza España y Estación de Sants.',
+  // Services
+  servicesTitle: 'Servicios Adicionales',
+  servicesIntro:
+    'En Farray’s International Dance Center ofrecemos mucho más que clases de baile. Descubre todos los servicios que ponemos a tu disposición para ayudarte a crear, celebrar y crecer bailando.',
+  serviceRentalTitle: 'Alquiler de Salas',
+  serviceRentalDesc:
+    'Salas amplias y equipadas para ensayos, clases y eventos privados en el corazón de Barcelona.',
+  serviceRentalCTA: 'Reserva tu Sala',
+  servicePhotoTitle: 'Grabaciones y Fotografía',
+  servicePhotoDesc:
+    'Tu arte merece un escenario. Alquila nuestras salas para producciones audiovisuales o sesiones de fotos profesionales.',
+  servicePhotoCTA: 'Ver Opciones',
+  servicePartiesTitle: 'Fiestas y Despedidas',
+  servicePartiesDesc:
+    'Celebra tu cumpleaños o despedida de soltera/o bailando con tu grupo en una experiencia divertida y original.',
+  servicePartiesCTA: 'Organiza tu Fiesta',
+  servicePrivateTitle: 'Clases Particulares',
+  servicePrivateDesc:
+    'Formación personalizada a tu ritmo y nivel, de forma individual o en grupo, en la academia o a domicilio.',
+  servicePrivateCTA: 'Solicita una Clase',
+  serviceAgencyTitle: 'Agencia y Productora',
+  serviceAgencyDesc:
+    'Contrata bailarines y coreógrafos profesionales para eventos, videoclips o espectáculos.',
+  serviceAgencyCTA: 'Descubre Nuestro Talento',
+  serviceCorporateTitle: 'Servicios para Empresas',
+  serviceCorporateDesc:
+    'Creamos experiencias de team-building y bienestar a través del baile. Perfecto para motivar y cohesionar equipos.',
+  serviceCorporateCTA: 'Saber Más',
+  serviceGiftTitle: 'Regala Baile',
+  serviceGiftDesc:
+    'Sorprende con un regalo único: una experiencia de baile inolvidable para disfrutar o compartir.',
+  serviceGiftCTA: 'Regala una Experiencia',
+  // Teachers
+  teachersTitle: 'Conoce a Nuestros Profesores',
+  teachersCTA: 'Ver Todo el Claustro',
+  teacher1Specialty: 'Fundadora y Maestra | Método Farray®',
+  teacher1Bio:
+    "Icono mundial, creadora del revolucionario 'Método Farray®'. Su estilo único fusiona el fuego cubano con una técnica rigurosa, formando artistas de talla mundial.",
+  teacher2Specialty: 'Especialista en Danza Urbana y Hip Hop',
+  teacher2Bio:
+    'Joni trae la energía cruda de la calle al estudio, conocido por sus coreografías innovadoras y su estilo de enseñanza empoderador.',
+  teacher3Specialty: 'Maestra de Contemporáneo y Ballet',
+  teacher3Bio:
+    'Con la gracia y precisión perfeccionadas en las mejores compañías de Europa, Elena guía a los estudiantes a encontrar su voz expresiva a través de técnicas clásicas y modernas.',
+  // Testimonials
+  testimonialsTitle: 'Voces de Transformación: Historias de Nuestra Comunidad',
+  // FinalCTA
+  finalCtaTitle: 'Tu Escenario te Espera: Inscríbete en la Mejor Academia de Barcelona',
+  finalCtaSubtitle:
+    'Enciende tu pasión, refina tu técnica y únete a una comunidad global guiada por verdaderas leyendas. Descubre por qué FIDC está redefiniendo la enseñanza de la danza en todo el mundo.',
+  finalCtaButton1: 'Inscríbete Ahora',
+  finalCtaButton2: 'Reserva tu Clase de Prueba',
+  // Footer
+  followOnFacebook: 'Síguenos en Facebook',
+  followOnInstagram: 'Síguenos en Instagram',
+  followOnYoutube: 'Síguenos en YouTube',
+  footerContact: 'Contacto',
+  footerAddressValue: "Carrer d'Entença, 100, Local 1\n08015 Barcelona, España",
+  footerPhone: 'Teléfono',
+  footerPhoneValue: '+34 622 24 70 85',
+  footerEmail: 'Correo',
+  footerEmailValue: 'info@farrayscenter.com',
+  footerHoursTitle: 'Horario de Apertura',
+  footerHoursContent:
+    'Lun: 10:30-12:30, 17:30-23:00\nMar: 10:30-13:30, 17:30-23:00\nMié: 17:30-23:00\nJue: 09:30-11:30, 17:30-23:00\nVie: 17:30-20:30',
+  footerPhoneHoursTitle: 'Atención Telefónica',
+  footerPhoneHoursContent: 'L-V: 10:00 - 14:00 y 16:00 - 20:00',
+  footerSitemapTitle: 'Mapa del Sitio',
+  sitemapSchool: 'La Escuela',
+  sitemapYunaisy: 'Yunaisy Farray',
+  sitemapKids: "Farray's Kids",
+  sitemapSocial: 'Bailes Sociales',
+  sitemapUrban: 'Danzas Urbanas',
+  sitemapFitness: 'Fitness y Bienestar',
+  sitemapSchedule: 'Horarios y Precios',
+  sitemapFAQ: 'Preguntas Frecuentes',
+  sitemapContact: 'Contacto',
+  sitemapCID: 'CID-UNESCO',
+  sitemapLegal: 'Aviso Legal',
+  sitemapTerms: 'Términos y Condiciones',
+  sitemapPrivacy: 'Política de Privacidad',
+  sitemapCookies: 'Política de Cookies',
+  footerCopyright: "© 2025 Farray's International Dance Center. Todos los Derechos Reservados.",
+  // InstagramFeed
+  instagramTitle: 'Únete a Nuestra Comunidad en Instagram',
+  instagramHandle: '@farrays_centerbcn',
+  // HowToGetHere
+  howToGetHereTitle: "Cómo Llegar a Farray's Center",
+  howToGetHereIntro:
+    'Encuéntranos en el corazón del Eixample Esquerra de Barcelona, perfectamente conectados con toda la ciudad.',
+  metroTitle: 'Metro',
+  metroLine1: 'L1 (Roja): Parada Rocafort (4 min a pie)',
+  metroLine2: 'L3 (Verde) y L5 (Azul): Sants Estació (8 min a pie)',
+  trainTitle: 'Tren (Renfe)',
+  trainStop1: 'Sants Estació (8 min a pie)',
+  trainStop2: 'Todas las conexiones nacionales e internacionales.',
+  busTitle: 'Autobús',
+  busStop1: 'Líneas H10, V7, 27, 41, 52, 109, D40',
+  busStop2: 'Múltiples paradas en un radio de 5 minutos.',
+  bikeTitle: 'Bicing y Bici',
+  bikeInfo1: 'Múltiples estaciones de Bicing en los alrededores.',
+  bikeInfo2: 'Amplio espacio para aparcar tu bici particular.',
+  carTitle: 'Coche',
+  carInfo1: "Parking público disponible en Carrer d'Entença.",
+  carInfo2: 'Fácil acceso desde Gran Via y Avinguda de Roma.',
+  // Dance Classes Page
+  danceClassesPageTitle: 'Forja Tu Camino en la Danza | FIDC Barcelona',
+  danceClassesPageSubtitle:
+    "Explora nuestras disciplinas de élite. Cada clase es un portal hacia la maestría, impulsado por el revolucionario 'Método Farray®'. Encuentra tu ritmo, desata tu poder.",
+  danceClassesSubstylesTitle: 'Estilos Destacados',
+  danceClassesLevelTitle: 'Nivel de Dominio',
+  danceClassesViewSchedule: 'Ver Horarios',
+  classDetailContemporaryDesc:
+    'Domina el arte de la expresión a través del movimiento fluido y la profundidad emocional. Nuestro programa de contemporáneo fusiona la técnica clásica con la innovación moderna, creando bailarines potentes y versátiles.',
+  classDetailContemporarySubstyles: 'Contemporáneo, Modern Jazz, Lírico, Fusión Ballet',
+  classDetailContemporaryLevel: 'Todos los Niveles (Iniciación a Profesional)',
+  classDetailUrbanDesc:
+    'Domina la pista con energía cruda y coreografías de vanguardia. Desde los cimientos del Hip Hop hasta las últimas tendencias comerciales, nuestras clases urbanas construyen estilo, confianza y actitud.',
+  classDetailUrbanSubstyles: 'Hip Hop, Reggaeton, Dancehall, Commercial, Heels',
+  classDetailUrbanLevel: 'Todos los Niveles',
+  classDetailLatinDesc:
+    "Enciende tu pasión con los ritmos electrizantes del baile latino. Dirigidas por expertos de talla mundial, nuestras clases se centran en la conexión auténtica, el trabajo de pies intrincado y un 'sabor' contagioso.",
+  classDetailLatinSubstyles: 'Salsa Cubana, Bachata (Sensual y Dominicana), Rueda de Casino',
+  classDetailLatinLevel: 'Todos los Niveles (Iniciación a Master)',
+  classDetailFitnessDesc:
+    'Esculpe el físico definitivo del bailarín. Nuestros programas de fitness especializados están diseñados para potenciar la fuerza, la flexibilidad y la resistencia, dándote el poder para superar tus límites.',
+  classDetailFitnessSubstyles:
+    'Acrobacias, Flexibilidad, Acondicionamiento Corporal, Pilates para Bailarines',
+  classDetailFitnessLevel: 'Todos los Niveles',
+  classDetailMorningDesc:
+    'Conquista el día con una sesión matutina energizante. Estas clases están diseñadas para despertar tu cuerpo, agudizar tu mente y establecer un tono poderoso para las horas venideras.',
+  classDetailMorningSubstyles:
+    'Yoga Matutino, Acondicionamiento, Pasos Libres de Salsa, Pasos Libres de Bachata',
+  classDetailMorningLevel: 'Todos los Niveles',
+  classDetailWorldDesc:
+    'Embárcate en un viaje de danza global. Explora diversas expresiones culturales y disciplinas únicas que expanden tus horizontes artísticos y desafían tu cuerpo de nuevas maneras.',
+  classDetailWorldSubstyles: 'Flamenco, Pole Dance, Telas Aéreas, Afrocubano',
+  classDetailWorldLevel: 'Varía según la Disciplina (Consultar Horario)',
+  // Dancehall Page
+  dancehallPageTitle: "Clases de Dancehall en Barcelona | Farray's International Dance Center",
+  dancehallHeroTitle: 'Libera el Fuego: Dancehall en Barcelona',
+  dancehallHeroSubtitle:
+    'Experimenta la auténtica energía y cultura del Dancehall jamaicano. No es solo una clase, es un movimiento.',
+  dancehallAboutTitle: '¿Qué es el Dancehall?',
+  dancehallAboutDesc1:
+    "Nacido en las vibrantes calles de Kingston, Jamaica, el Dancehall es más que un estilo de baile: es un fenómeno cultural. Es el ritmo de la gente, una forma de expresión que encarna actitud, comunidad y energía pura. Desde los pasos 'old school' hasta las últimas tendencias 'new school', el Dancehall evoluciona constantemente, reflejando el pulso de la isla.",
+  dancehallAboutDesc2:
+    "En FIDC, nuestras clases de Dancehall honran estas raíces mientras desafían los límites creativos. Nos centramos en la técnica auténtica, la musicalidad ('riddim') y la poderosa narrativa que convierte al Dancehall en una fuerza global. Es un entrenamiento de alta intensidad para todo el cuerpo que te desafiará, aumentará tu confianza y te conectará con una increíble comunidad global.",
+  dancehallPillar1Title: 'Riddims Auténticos',
+  dancehallPillar1Desc:
+    'Aprende los pasos fundamentales y el contexto cultural de la mano de instructores apasionados por la herencia jamaicana.',
+  dancehallPillar2Title: 'Entrenamiento Total',
+  dancehallPillar2Desc:
+    'Desarrolla resistencia, coordinación y fuerza con coreografías de alta energía que trabajan cada músculo.',
+  dancehallPillar3Title: 'Libera tu Confianza',
+  dancehallPillar3Desc:
+    'Adopta la actitud y la autoexpresión que son el núcleo del Dancehall. Encuentra tu poder en la pista de baile.',
+  dancehallClassesTitle: 'Nuestros Programas de Dancehall',
+  dancehallClassesSubtitle:
+    'Desde principiantes absolutos hasta bailarines experimentados, tenemos una clase que te desafiará e inspirará.',
+  dancehallLevelBeginnerTitle: 'Dancehall Fundamentos (Nivel 1)',
+  dancehallLevelBeginnerDesc:
+    "¿Nuevo en el Dancehall? Empieza aquí. Desglosamos los pasos fundamentales, los 'grooves' y el 'riddim' de la música en un ambiente divertido y de apoyo.",
+  dancehallLevelInterTitle: 'Dancehall Dinámico (Nivel 2)',
+  dancehallLevelInterDesc:
+    'Para bailarines con conocimientos básicos. Esta clase se centra en coreografías más complejas, musicalidad y el desarrollo de tu estilo personal.',
+  dancehallLevelAdvancedTitle: 'Dancehall Pro (Nivel 3)',
+  dancehallLevelAdvancedDesc:
+    'Una clase intensiva para bailarines avanzados que buscan perfeccionar su técnica, habilidades escénicas y profundizar en rutinas complejas de nivel profesional.',
+  dancehallInstructorTitle: 'Conoce a Tu Gurú del Dancehall',
+  dancehallInstructorName: "Isabella 'Izzy' King",
+  dancehallInstructorSpecialty: 'Especialista en Dancehall y Afro-Fusión',
+  dancehallInstructorBio:
+    'Con raíces en Jamaica y años de formación con leyendas del dancehall, Izzy aporta una autenticidad y un fuego inigualables a sus clases. Es conocida por su energía contagiosa y su capacidad para hacer que todos se sientan como una estrella.',
+  dancehallTestimonialsTitle: 'Lo que Dicen Nuestros Bailarines',
+  dancehallTestimonial1Quote:
+    '¡La clase de Izzy es lo mejor de mi semana! La energía es una locura y he aprendido mucho sobre la cultura, no solo sobre los pasos. FIDC es el lugar de referencia para el Dancehall en Barcelona.',
+  dancehallTestimonial1Name: 'Marco V.',
+  dancehallTestimonial1City: 'Barcelona, España',
+  dancehallTestimonial2Quote:
+    'Estaba nerviosa al empezar, pero la comunidad es muy acogedora. Es un entrenamiento increíble y me siento mucho más segura. Las mejores clases de Dancehall que he tomado.',
+  dancehallTestimonial2Name: 'Chloe B.',
+  dancehallTestimonial2City: 'Manchester, Reino Unido',
+  // Afrobeats Page
+  afrobeatsPageTitle: "Clases de Afrobeats en Barcelona | Farray's International Dance Center",
+  afrobeatsHeroTitle: 'Siente el Pulso: Afrobeats en Barcelona',
+  afrobeatsHeroSubtitle:
+    'Conecta con los vibrantes ritmos de África. Más que un baile, es una celebración de la vida.',
+  afrobeatsAboutTitle: '¿Qué es el Afrobeats?',
+  afrobeatsAboutDesc1:
+    'Afrobeats es un estilo de baile dinámico y contagioso originario del África subsahariana. Es un término diverso que engloba estilos de danza urbana de países como Nigeria, Ghana y Senegal. Caracterizado por sus movimientos fluidos de torso, su intrincado trabajo de pies y sus gestos expresivos, el Afrobeats consiste en sentir la música y celebrar la comunidad.',
+  afrobeatsAboutDesc2:
+    'Nuestras clases profundizan en los fundamentos de varios estilos de Afrobeats, desde el Azonto hasta el Shaku Shaku. Nos centramos en la musicalidad, la expresión individual y las historias culturales detrás de los movimientos. Prepárate para una clase de alta energía que es tanto una fiesta como un entrenamiento, conectándote con un movimiento global poderoso y alegre.',
+  afrobeatsPillar1Title: 'Groove y Flow',
+  afrobeatsPillar1Desc:
+    'Domina los movimientos fluidos y polirrítmicos que te conectan directamente con el latido de la música.',
+  afrobeatsPillar2Title: 'Fusión Cultural',
+  afrobeatsPillar2Desc:
+    'Explora un rico tapiz de estilos de baile de todo el continente africano, celebrando la tradición y la innovación.',
+  afrobeatsPillar3Title: 'Expresión Alegre',
+  afrobeatsPillar3Desc:
+    'Libérate y encuentra tu libertad en un estilo de baile que se trata de pura alegría contagiosa y energía positiva.',
+  afrobeatsClassesTitle: 'Nuestros Programas de Afrobeats',
+  afrobeatsClassesSubtitle:
+    'Tanto si das tu primer paso como si eres un bailarín experimentado, tenemos una clase para ti.',
+  afrobeatsLevelBeginnerTitle: 'Afrobeats Fundamentos (Nivel 1)',
+  afrobeatsLevelBeginnerDesc:
+    'Perfecto para principiantes. Aprende los pasos básicos, las disociaciones corporales y los ritmos de Afrobeats en un ambiente acogedor y enérgico.',
+  afrobeatsLevelInterTitle: 'Afrobeats Flow (Nivel 2)',
+  afrobeatsLevelInterDesc:
+    'Construye sobre tus fundamentos con coreografías más complejas, ritmos más rápidos y un enfoque en desarrollar tu estilo personal.',
+  afrobeatsLevelAdvancedTitle: 'Afrobeats Pro (Nivel 3)',
+  afrobeatsLevelAdvancedDesc:
+    'Para bailarines experimentados. Esta clase desafía con técnicas avanzadas, calidad escénica e inmersiones profundas en estilos regionales específicos.',
+  afrobeatsInstructorTitle: 'Conoce a Tu Guía de Afrobeats',
+  afrobeatsInstructorName: "David 'Dee' Adeleke",
+  afrobeatsInstructorSpecialty: 'Experto en Afrobeats y Danza de África Occidental',
+  afrobeatsInstructorBio:
+    'Originario de Lagos, David vive y respira Afrobeats. Ha girado con grandes artistas y es célebre por su estilo auténtico y su don para compartir la alegría y la cultura del baile con estudiantes de todos los niveles.',
+  afrobeatsTestimonialsTitle: 'Lo que Dicen Nuestros Bailarines',
+  afrobeatsTestimonial1Quote:
+    '¡La clase de David es puro fuego! La música, la energía, la comunidad... es la mejor parte de mi semana. Nunca me he sentido tan libre y feliz bailando. FIDC es el hogar del Afrobeats en BCN.',
+  afrobeatsTestimonial1Name: 'Fatou D.',
+  afrobeatsTestimonial1City: 'Dakar, Senegal',
+  afrobeatsTestimonial2Quote:
+    'Llegué con dos pies izquierdos y ahora no puedo parar de bailar. Es un entrenamiento increíble y el ambiente siempre es positivo. Muy recomendable para cualquiera que quiera divertirse y aprender algo nuevo.',
+  afrobeatsTestimonial2Name: 'Liam S.',
+  afrobeatsTestimonial2City: 'Dublín, Irlanda',
+  // FAQ Section
+  faqTitle: 'Preguntas Frecuentes',
+  // Home FAQ
+  homeFaqQ1: '¿Necesito experiencia previa para asistir a las clases?',
+  homeFaqA1:
+    "No, absolutamente no. Ofrecemos clases para todos los niveles, desde principiantes completos hasta bailarines avanzados. Nuestro 'Método Farray®' está diseñado para adaptarse a tu nivel y ayudarte a progresar rápidamente sin importar tu punto de partida. Muchos de nuestros estudiantes más exitosos comenzaron sin experiencia alguna.",
+  homeFaqQ2: "¿Cuánto cuestan las clases de baile en Farray's Center?",
+  homeFaqA2:
+    'Ofrecemos diferentes opciones de matrícula para adaptarnos a tus necesidades: clases sueltas, bonos mensuales y paquetes trimestrales. Los precios varían según el tipo de clase y la frecuencia. Te recomendamos contactarnos directamente o visitar la escuela para conocer nuestras ofertas actuales y promociones. Además, tu primera clase es gratuita para que puedas probar sin compromiso.',
+  homeFaqQ3: "¿Qué hace especial al 'Método Farray®'?",
+  homeFaqA3:
+    "El 'Método Farray®' es una metodología exclusiva creada por Yunaisy Farray que combina la disciplina rigurosa de la formación clásica rusa con el sabor y el ritmo de los bailes afrodescendientes, más la innovación de los estilos contemporáneos globales. Este enfoque único garantiza resultados rápidos, sólidos y contrastados, preparándote tanto técnica como artísticamente para cualquier escenario.",
+  homeFaqQ4: '¿Necesito llevar pareja para las clases de salsa o bachata?',
+  homeFaqA4:
+    'No, no necesitas traer pareja. En nuestras clases rotamos parejas regularmente para que todos aprendan a bailar con diferentes personas y estilos. Esto es excelente para tu desarrollo como bailarín y te ayuda a sentirte cómodo en cualquier situación social de baile. Además, fomentamos un ambiente inclusivo donde todos se sienten bienvenidos.',
+  homeFaqQ5: '¿Cuál es la mejor forma de empezar?',
+  homeFaqA5:
+    'La mejor forma de empezar es reservar tu primera clase gratuita. Ven cómodo, con ropa deportiva y zapatillas limpias. Nuestros instructores te guiarán desde el primer momento y te ayudarán a elegir el nivel y estilo más adecuado para ti. No necesitas preparación previa, solo ganas de aprender y disfrutar.',
+  homeFaqQ6: '¿Qué horarios tienen las clases?',
+  homeFaqA6:
+    'Ofrecemos clases de lunes a viernes en horarios matinales, de tarde y noche para adaptarnos a diferentes estilos de vida. Los horarios exactos varían según el tipo de clase y nivel. Te recomendamos consultar nuestro horario actualizado en la web o contactarnos directamente para encontrar el horario perfecto para ti.',
+  homeFaqQ7: '¿La escuela está acreditada?',
+  homeFaqA7:
+    "Sí, Farray's International Dance Center está acreditado por CID-UNESCO (Consejo Internacional de la Danza de la UNESCO). Esta acreditación garantiza que cumplimos con los más altos estándares de calidad en la enseñanza de la danza a nivel internacional. Además, Yunaisy Farray es miembro activo de esta prestigiosa organización.",
+  homeFaqQ8: '¿Ofrecen formación profesional para quienes quieren dedicarse a la danza?',
+  homeFaqA8:
+    "Sí, además de nuestras clases regulares, ofrecemos programas intensivos y formación avanzada para estudiantes que desean profesionalizarse. El 'Método Farray®' proporciona las herramientas técnicas, artísticas y escénicas necesarias para desarrollar una carrera en la danza. Yunaisy y su equipo han formado a bailarines que ahora trabajan profesionalmente en todo el mundo.",
+  // Dancehall Key Stats
+  classMinutes: 'Minutos de Clase',
+  caloriesBurned: 'Calorías Quemadas',
+  funGuaranteed: 'Diversión Garantizada',
 
-    // ====================
-    // DANCEHALL PAGE V2 - HYBRID COPY (Persuasión + Estructura Limpia + Autoridad Cultural)
-    // ====================
+  // Dancehall FAQ
+  dancehallFaqQ1: '¿Qué es exactamente el dancehall?',
+  dancehallFaqA1:
+    "El dancehall es un estilo de música y baile que se originó en Jamaica en los años 70. Se caracteriza por movimientos enérgicos, ritmos potentes ('riddims') y una actitud audaz y segura. Es mucho más que solo pasos: es una expresión cultural completa con su propia historia, música y comunidad. En nuestras clases, no solo aprendes los movimientos sino también la cultura y el contexto detrás de ellos.",
+  dancehallFaqQ2: '¿Es el dancehall difícil de aprender?',
+  dancehallFaqA2:
+    'No más que cualquier otro estilo de baile. El dancehall puede parecer intimidante al principio por su energía y ritmo, pero nuestro enfoque pedagógico desglosa cada movimiento paso a paso. Comenzamos con los fundamentos (grooves, riddims básicos) y avanzamos gradualmente. La mayoría de nuestros estudiantes principiantes están bailando coreografías completas en pocas semanas. Lo más importante es la actitud y las ganas de divertirse.',
+  dancehallFaqQ3: '¿Necesito estar en forma para las clases de dancehall?',
+  dancehallFaqA3:
+    'No necesitas estar en forma específica para empezar. El dancehall es en sí mismo un excelente entrenamiento cardiovascular y de resistencia, así que irás mejorando tu condición física con cada clase. Trabajamos a diferentes intensidades y siempre puedes adaptar los movimientos a tu nivel actual. Lo importante es escuchar a tu cuerpo y progresar a tu ritmo.',
+  dancehallFaqQ4: '¿Qué debo llevar a la clase de dancehall?',
+  dancehallFaqA4:
+    'Ropa cómoda y deportiva que te permita moverte libremente. Muchos estudiantes usan pantalones deportivos o leggings y una camiseta. Para el calzado, zapatillas deportivas limpias con buena suela son ideales. Trae una botella de agua porque ¡vas a sudar! Opcional: una toalla pequeña y tu mejor actitud.',
+  // Afrobeats FAQ
+  afrobeatsFaqQ1: '¿Cuál es la diferencia entre afrobeats y afrobeat?',
+  afrobeatsFaqA1:
+    "Excelente pregunta. 'Afrobeat' (sin 's') es un género musical creado por Fela Kuti en los años 70, fusionando jazz, funk y música tradicional africana. 'Afrobeats' (con 's') es un término más moderno que describe la música pop contemporánea de África Occidental (Nigeria, Ghana, etc.) y sus estilos de baile asociados. En nuestras clases nos enfocamos en Afrobeats, el estilo moderno lleno de energía que está conquistando el mundo.",
+  afrobeatsFaqA2:
+    'Las clases de afrobeats son increíblemente divertidas y enérgicas. Comenzamos con un calentamiento al ritmo de la música, luego trabajamos en fundamentos como el movimiento de torso, trabajo de pies y disociaciones corporales. Después aprendemos coreografías y pasos de estilos específicos (Azonto, Shaku Shaku, Zanku, etc.). Terminamos con una sesión de freestyle donde todos pueden expresarse libremente. Es una combinación perfecta de entrenamiento, aprendizaje cultural y celebración.',
+  afrobeatsFaqQ2: '¿Cómo es una clase típica de afrobeats?',
+  afrobeatsFaqQ3: '¿El afrobeats es solo para personas de origen africano?',
+  afrobeatsFaqA3:
+    '¡Absolutamente no! El afrobeats es para todos. Aunque tiene raíces en la cultura africana, es un movimiento global que celebra la inclusión y la alegría universal. Nuestras clases acogen a personas de todos los orígenes, edades y niveles. Lo que importa es tu deseo de aprender, divertirte y conectar con la música y la comunidad. La diversidad enriquece la experiencia para todos.',
+  afrobeatsFaqQ4: '¿Es afrobeats un buen ejercicio físico?',
+  afrobeatsFaqA4:
+    '¡Sí, definitivamente! El afrobeats es un entrenamiento cardiovascular completo que involucra todo el cuerpo. Los movimientos de torso trabajan tu core, el trabajo de pies mejora tu coordinación y resistencia, y los grooves desarrollan tu flexibilidad. Una clase de una hora puede quemar entre 300-500 calorías, pero es tan divertida que ni te das cuenta del esfuerzo. Muchos de nuestros estudiantes dicen que es el mejor entrenamiento que han hecho.',
+  // Classes FAQ
+  classesFaqQ1: "¿Cuántos estilos de baile enseñan en Farray's Center?",
+  classesFaqA1:
+    'Ofrecemos formación en más de 25 estilos diferentes de baile. Nuestro catálogo incluye bailes latinos (salsa, bachata, kizomba), danza urbana (hip hop, dancehall, afrobeats, reggaeton), estilos clásicos (ballet, contemporáneo, jazz), y especializaciones como preparación física para bailarines. Esta variedad te permite explorar diferentes estilos y encontrar los que más resuenan contigo, o especializarte en uno mientras complementas con otros.',
+  classesFaqQ2: '¿Puedo tomar clases de diferentes estilos al mismo tiempo?',
+  classesFaqA2:
+    '¡Por supuesto! De hecho, lo recomendamos. Aprender múltiples estilos de baile te hace un bailarín más completo y versátil. Por ejemplo, el ballet mejora tu postura y técnica para la salsa, mientras que el hip hop puede hacer tu bachata más dinámica. Nuestros paquetes de clases te permiten asistir a diferentes tipos de clases según tus intereses. Muchos de nuestros estudiantes más avanzados practican 3-4 estilos simultáneamente.',
+  classesFaqQ3: '¿Cómo sé qué nivel es el adecuado para mí?',
+  classesFaqA3:
+    'Si es tu primera clase, siempre recomendamos comenzar en el nivel de fundamentos o principiantes. Sin embargo, si tienes experiencia previa en baile, nuestros instructores pueden evaluarte en tu primera clase gratuita y recomendarte el nivel más apropiado. También puedes probar una clase de nivel intermedio si sientes que los fundamentos son demasiado básicos. Lo importante es que te sientas desafiado pero no abrumado.',
+  classesFaqQ4: '¿Con qué frecuencia debería asistir a clases para ver progreso?',
+  classesFaqA4:
+    'Para un progreso constante y notable, recomendamos asistir al menos 2 veces por semana. Con esta frecuencia, la mayoría de los estudiantes ven mejoras significativas en 2-3 meses. Si puedes asistir 3-4 veces por semana, el progreso será aún más rápido. Sin embargo, incluso una clase semanal te permitirá avanzar, aunque a un ritmo más gradual. La consistencia es más importante que la intensidad.',
+  classesFaqQ5: '¿Ofrecen clases privadas o solo grupales?',
+  classesFaqA5:
+    'Ofrecemos ambas opciones. Las clases grupales son excelentes para aprender en comunidad, hacer amigos y beneficiarte de la energía del grupo. Las clases privadas son ideales si buscas atención personalizada, tienes objetivos específicos (como prepararte para una presentación o boda), o prefieres un horario más flexible. Muchos estudiantes combinan ambas: clases grupales regulares complementadas con sesiones privadas ocasionales para trabajar aspectos específicos.',
+  // Dancehall Images
+  dancehallImage1Alt:
+    "Clases de Dancehall en Barcelona - Estudiantes bailando en Farray's International Dance Center",
+  dancehallImage2Alt:
+    "Estudiantes disfrutando de clases de Dancehall en Barcelona - Ambiente energético en Farray's Center",
+  dancehallImage3Alt:
+    "Grupo de estudiantes bailando Dancehall en Barcelona - Academia de danza urbana Farray's",
 
-    // SEO Meta
-    dancehallPageTitleV2: "Clases de Dancehall en Barcelona | Puro Dancehall Jamaicano | Farray's Center",
-    dancehallMetaDescriptionV2: "Aprende Dancehall auténtico en Barcelona con profesoras expertas. Desde principiantes hasta avanzado. Más que baile: energía, cultura y transformación. Prueba 1 clase gratis.",
+  // ====================
+  // DANCEHALL PAGE V2 - HYBRID COPY (Persuasión + Estructura Limpia + Autoridad Cultural)
+  // ====================
 
-    // Hero Section
-    dancehallHeroTitleV2: "Clases de Dancehall en Barcelona",
-    dancehallHeroSubtitleV2: "Puro Dancehall Jamaicano en Farray's Center. Mucho más que baile, una forma de vivir. Viaja a Jamaica sin salir de Barcelona | Clases desde iniciación hasta avanzado, entre Plaza España y Sants.",
-    dancehallCTA1: "Date de Alta Ahora",
-    dancehallCTA2: "Ver Horarios",
-    dancehallUrgency: "Solo quedan 3 plazas este mes",
-    dancehallUrgency2: "Oferta válida solo hasta el viernes",
+  // SEO Meta
+  dancehallPageTitleV2:
+    "Clases de Dancehall en Barcelona | Puro Dancehall Jamaicano | Farray's Center",
+  dancehallMetaDescriptionV2:
+    'Aprende Dancehall auténtico en Barcelona con profesoras expertas. Desde principiantes hasta avanzado. Más que baile: energía, cultura y transformación. Prueba 1 clase gratis.',
 
-    // Trust Indicators
-    yearsExperience: "Años de Experiencia",
-    activeStudents: "Estudiantes Activos",
-    satisfiedStudents: "Alumnos Satisfechos",
-    googleReviews: "Reseñas de Google",
+  // Hero Section
+  dancehallHeroTitleV2: 'Clases de Dancehall en Barcelona',
+  dancehallHeroSubtitleV2:
+    "Puro Dancehall Jamaicano en Farray's Center. Mucho más que baile, una forma de vivir. Viaja a Jamaica sin salir de Barcelona | Clases desde iniciación hasta avanzado, entre Plaza España y Sants.",
+  dancehallCTA1: 'Date de Alta Ahora',
+  dancehallCTA2: 'Ver Horarios',
+  dancehallUrgency: 'Solo quedan 3 plazas este mes',
+  dancehallUrgency2: 'Oferta válida solo hasta el viernes',
 
-    // Problem-Agitate Section
-    dancehallProblemsTitle: "¿Te Identificas en Alguna de Estas Situaciones?",
-    dancehallProblem1Title: "¿Te Sientes Estresado, Sin Energía y Cansado de Tu Rutina?",
-    dancehallProblem1Desc: "No debes dejar que la monotonía te domine. Es hora de hacer un cambio y recuperar tu vitalidad, motivación y ganas de hacer cosas.",
-    dancehallProblem2Title: "¿Sientes Que Podrías Mostrar Una Versión Más Segura de Ti?",
-    dancehallProblem2Desc: "Los que hoy se muestran seguros y confiados aprendieron a vencer sus miedos. Tú también puedes descubrir la mejor versión de ti.",
-    dancehallProblem3Title: "¿Estás Cansado de Rutinas de Ejercicio Aburridas?",
-    dancehallProblem3Desc: "Deberías poder mantenerte en forma de una manera divertida, agradable y amena, porque hacer siempre lo mismo es lo que te aburre.",
-    dancehallProblem4Title: "¿Sientes Que Deberías Divertirte y Socializar Más?",
-    dancehallProblem4Desc: "Necesitas un momento en tu semana para divertirte, ampliar tu círculo de amigos y hacer una actividad que te conecte contigo y con los demás.",
-    dancehallProblem5Title: "¿Te Encanta Bailar Pero Necesitas Probar Algo Diferente y Fresco?",
-    dancehallProblem5Desc: "Necesitas un soplo de aire fresco para despertar tu creatividad y reconectar con tu cuerpo de una forma totalmente nueva.",
-    dancehallProblem6Title: "¿La Esencia de Jamaica y Su Cultura Te Mueven Por Dentro?",
-    dancehallProblem6Desc: "Si te inspira todo lo que representa Jamaica deberías encontrar formas de experimentar su cultura sin tener que cruzar el océano.",
+  // Trust Indicators
+  yearsExperience: 'Años de Experiencia',
+  activeStudents: 'Estudiantes Activos',
+  satisfiedStudents: 'Alumnos Satisfechos',
+  googleReviews: 'Reseñas de Google',
 
-    // Solution
-    dancehallSolutionTitle: "Necesitas Apuntarte a Clases de Dancehall en Una Academia de Baile",
-    dancehallSolutionDesc: "Decenas de personas ya han dado el paso y lo viven cada semana en nuestras clases de Dancehall en Barcelona, a tan solo 5 minutos de Plaza España y Estación de Sants. Y cuando salen... ya no son los mismos. Si quieres salir de la rutina, sentirte mejor contigo mismo, conocer gente nueva y ponerte en forma mientras te diviertes, este estilo caribeño es lo tuyo.",
+  // Problem-Agitate Section
+  dancehallProblemsTitle: '¿Te Identificas en Alguna de Estas Situaciones?',
+  dancehallProblem1Title: '¿Te Sientes Estresado, Sin Energía y Cansado de Tu Rutina?',
+  dancehallProblem1Desc:
+    'No debes dejar que la monotonía te domine. Es hora de hacer un cambio y recuperar tu vitalidad, motivación y ganas de hacer cosas.',
+  dancehallProblem2Title: '¿Sientes Que Podrías Mostrar Una Versión Más Segura de Ti?',
+  dancehallProblem2Desc:
+    'Los que hoy se muestran seguros y confiados aprendieron a vencer sus miedos. Tú también puedes descubrir la mejor versión de ti.',
+  dancehallProblem3Title: '¿Estás Cansado de Rutinas de Ejercicio Aburridas?',
+  dancehallProblem3Desc:
+    'Deberías poder mantenerte en forma de una manera divertida, agradable y amena, porque hacer siempre lo mismo es lo que te aburre.',
+  dancehallProblem4Title: '¿Sientes Que Deberías Divertirte y Socializar Más?',
+  dancehallProblem4Desc:
+    'Necesitas un momento en tu semana para divertirte, ampliar tu círculo de amigos y hacer una actividad que te conecte contigo y con los demás.',
+  dancehallProblem5Title: '¿Te Encanta Bailar Pero Necesitas Probar Algo Diferente y Fresco?',
+  dancehallProblem5Desc:
+    'Necesitas un soplo de aire fresco para despertar tu creatividad y reconectar con tu cuerpo de una forma totalmente nueva.',
+  dancehallProblem6Title: '¿La Esencia de Jamaica y Su Cultura Te Mueven Por Dentro?',
+  dancehallProblem6Desc:
+    'Si te inspira todo lo que representa Jamaica deberías encontrar formas de experimentar su cultura sin tener que cruzar el océano.',
 
-    // Cultural History Section
-    dancehallCulturalTitle: "¿Qué es el Dancehall? Mucho Más Que Un Baile",
-    dancehallCulturalShort: "El Dancehall es una danza tradicional jamaicana que nació en los años 70 y refleja una cultura con fuertes raíces en el reggae, referencias africanas y caribeñas, y la energía del hip-hop y otras danzas urbanas. Dancehall es mucho más que un baile; es una manera de andar, de hablar y de entender la vida; es una declaración de quién eres. Es expresión pura, ritmo, actitud y flow. En el dancehall no hay que ser bueno, hay que ser tú.",
-    dancehallCulturalFull: `<div class="space-y-6">
-      <h3 class="text-2xl font-bold text-primary-accent mb-4">🇯🇲 Los Orígenes: Kingston, Jamaica (1970s-1980s)</h3>
-      <p>El Dancehall nació en los guetos de Kingston, Jamaica, a finales de los años 70. Surgió como una evolución natural del reggae, cuando los "sound systems" (sistemas de sonido móviles) empezaron a llevar la música a las calles y a los dancehalls (salas de baile).</p>
-      <p>El nombre "dancehall" proviene literalmente de estos espacios donde la comunidad se reunía para bailar, socializar y expresarse. Era el lugar donde las tensiones sociales se liberaban a través de la música y el movimiento.</p>
+  // Solution
+  dancehallSolutionTitle: 'Necesitas Apuntarte a Clases de Dancehall en Una Academia de Baile',
+  dancehallSolutionDesc:
+    'Decenas de personas ya han dado el paso y lo viven cada semana en nuestras clases de Dancehall en Barcelona, a tan solo 5 minutos de Plaza España y Estación de Sants. Y cuando salen... ya no son los mismos. Si quieres salir de la rutina, sentirte mejor contigo mismo, conocer gente nueva y ponerte en forma mientras te diviertes, este estilo caribeño es lo tuyo.',
 
-      <h3 class="text-2xl font-bold text-primary-accent mb-4 mt-8">💃 Las Leyendas: Bogle, Passa Passa y Los Pioneros</h3>
-      <p><strong>Gerald "Bogle" Levy</strong> (1964-2005) es considerado el padre del dancehall moderno. Creó movimientos icónicos como el "Bogle", "Row Di Boat", "Log On" y "Willie Bounce" que se convirtieron en la base del vocabulario dancehall.</p>
-      <p><strong>Passa Passa</strong>, las sesiones legendarias de street dancehall todos los miércoles en Tivoli Gardens, Kingston, se convirtieron en el epicentro donde nacían los nuevos pasos y se consagraban los bailarines.</p>
-      <p>Otros pioneers como <strong>Ding Dong, Keiva, John Hype</strong> y crews como <strong>Ravers Clavers</strong> llevaron el dancehall a nivel internacional en los 2000s.</p>
+  // Cultural History Section
+  dancehallCulturalTitle: '¿Qué es el Dancehall? Mucho Más Que Un Baile',
+  dancehallCulturalShort:
+    'El Dancehall es una danza tradicional jamaicana que nació en los años 70 y refleja una cultura con fuertes raíces en el reggae, referencias africanas y caribeñas, y la energía del hip-hop y otras danzas urbanas. Dancehall es mucho más que un baile; es una manera de andar, de hablar y de entender la vida; es una declaración de quién eres. Es expresión pura, ritmo, actitud y flow. En el dancehall no hay que ser bueno, hay que ser tú.',
+  dancehallCulturalFull: `### Los Orígenes: Kingston, Jamaica (1970s-1980s)
 
-      <h3 class="text-2xl font-bold text-primary-accent mb-4 mt-8">🌍 La Expansión Global (2000s-Presente)</h3>
-      <p>En los años 2000, el dancehall explotó globalmente gracias a artistas como Sean Paul, Shaggy, Elephant Man y Beenie Man. Las redes sociales y YouTube permitieron que pasos como el "Dutty Wine", "Daggering" y "Nuh Linga" se viralizaran mundialmente.</p>
-      <p>Hoy, el dancehall es un fenómeno global con comunidades activas en Europa, África, Asia y América. Barcelona se ha convertido en uno de los epicentros europeos del dancehall auténtico.</p>
+El Dancehall nació en los guetos de Kingston, Jamaica, a finales de los años 70. Surgió como una evolución natural del reggae, cuando los "sound systems" (sistemas de sonido móviles) empezaron a llevar la música a las calles y a los dancehalls (salas de baile).
 
-      <h3 class="text-2xl font-bold text-primary-accent mb-4 mt-8">🎶 La Música: Riddims y Cultura Soundsystem</h3>
-      <p>El dancehall se baila sobre "riddims" (ritmos instrumentales) que los productores crean y múltiples artistas vocalizan. Riddims legendarios como "Diwali", "Coolie Dance" o "Dump Truck" han definido épocas enteras.</p>
-      <p>La cultura del <strong>sound system</strong> —con sus selectores, MCs y el famoso "rewind" cuando una canción es tan buena que se vuelve a poner desde el principio— es fundamental para entender el dancehall.</p>
+El nombre "dancehall" proviene literalmente de estos espacios donde la comunidad se reunía para bailar, socializar y expresarse. Era el lugar donde las tensiones sociales se liberaban a través de la música y el movimiento.
 
-      <h3 class="text-2xl font-bold text-primary-accent mb-4 mt-8">✊ Más Que Baile: Identidad y Resistencia</h3>
-      <p>El dancehall ha sido siempre una forma de resistencia cultural y expresión de identidad para las comunidades marginadas de Jamaica. Es la voz de los guetos, una celebración de la alegría a pesar de las dificultades.</p>
-      <p>Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce" (homenaje a Willie Haggart), "Nuh Linga" (no te demores). Cada movimiento cuenta una historia.</p>
-    </div>`,
-    readMore: "Leer Más Sobre la Historia y Cultura",
-    readLess: "Leer Menos",
+### Las Leyendas: Bogle, Passa Passa y Los Pioneros
 
-    // Benefits Section
-    dancehallBenefitsTitle: "¿Por Qué Apuntarte a Clases de Dancehall Mejorará Tu Vida?",
-    dancehallBenefitsSubtitle: "Imagina Tu 'Antes y Después'",
-    dancehallBenefit1Title: "Recuperas Energía, Motivación y Ganas",
-    dancehallBenefit1Desc: "Las clases de dancehall rompen la rutina, te ayudan a liberar el estrés y te devuelven las ganas de moverte y de volver a disfrutar.",
-    dancehallBenefit2Title: "Ganas Seguridad, Confianza y Autoestima",
-    dancehallBenefit2Desc: "Bailar dancehall te permite subir tu autoestima, superar miedos, soltarte y descubrir una versión más segura y auténtica de ti mismo.",
-    dancehallBenefit3Title: "Evitas Las Rutinas de Ejercicio Aburridas",
-    dancehallBenefit3Desc: "Las clases de dancehall son dinámicas, divertidas y siempre diferentes. Te pones en forma con una sonrisa en la cara y te sorprendes con cada clase.",
-    dancehallBenefit4Title: "Te Diviertes, Conoces Personas Nuevas y Socializas",
-    dancehallBenefit4Desc: "Las clases de dancehall son el lugar perfecto para conocer gente nueva, reírte y crear conexiones reales mientras te diviertes.",
-    dancehallBenefit5Title: "Conoces Pasos Nuevos y Evitas la Monotonía en el Baile",
-    dancehallBenefit5Desc: "Bailar dancehall te permitirá descubrir movimientos y sensaciones nuevas, reconectar con tu cuerpo y volver a disfrutar bailando.",
-    dancehallBenefit6Title: "Viajas a Jamaica Sin Moverte de Barcelona",
-    dancehallBenefit6Desc: "El Dancehall te conectará con la esencia y las raíces de Jamaica sin que tengas que salir de Barcelona. Te contagiará por su estilo, alegría y autenticidad.",
-    dancehallBenefit7Title: "Descubres Nuevos Ritmos y Entrenas Tu Oído",
-    dancehallBenefit7Desc: "Vas a conocer nuevas músicas y ritmos, ejercitar tu coordinación y memoria, y mejorar tu capacidad de improvisación e interpretación musical.",
+**Gerald "Bogle" Levy** (1964-2005) es considerado el padre del dancehall moderno. Creó movimientos icónicos como el "Bogle", "Row Di Boat", "Log On" y "Willie Bounce" que se convirtieron en la base del vocabulario dancehall.
 
-    // Mid-page CTA
-    dancehallMidCTATitle: "¿Listo Para Transformar Tu Vida?",
-    dancehallMidCTADesc: "Habla con nosotros por WhatsApp y reserva tu clase gratis ahora mismo. ¡Te respondemos en minutos!",
-    whatsappCTA: "Escríbenos por WhatsApp",
+**Passa Passa**, las sesiones legendarias de street dancehall todos los miércoles en Tivoli Gardens, Kingston, se convirtieron en el epicentro donde nacían los nuevos pasos y se consagraban los bailarines.
 
-    // How It Works Section
-    dancehallHowItWorksTitle: "¿Cómo Funcionan Nuestras Clases de Dancehall en Barcelona?",
-    dancehallClassStructureTitle: "Estructura de Cada Clase (60 min)",
-    dancehallClassStructureDesc: "En nuestras clases de Dancehall en Barcelona generalmente se enseña una secuencia coreografiada, pero en la práctica el Dancehall es una danza improvisada. Cada sesión está diseñada para que aprendas, te diviertas y te expreses.",
-    warmupTitle: "Calentamiento",
-    warmupDesc: "Prepara tu cuerpo con ejercicios específicos para evitar lesiones y mejorar tu técnica.",
-    choreographyTitle: "Coreografía",
-    choreographyDesc: "Aprende secuencias dinámicas que combinan pasos tradicionales y modernos del Dancehall.",
-    improvisationTitle: "Improvisación",
-    improvisationDesc: "Trabajamos la improvisación para estimular tus capacidades creativas y llevar tu baile a un nivel informal, sensual y atrevido.",
+Otros pioneers como **Ding Dong, Keiva, John Hype** y crews como **Ravers Clavers** llevaron el dancehall a nivel internacional en los 2000s.
 
-    dancehallLevelsTitle: "Niveles Para Todos",
-    beginnerLevel: "Principiantes",
-    basicLevel: "Básico",
-    intermediateLevel: "Intermedio",
-    advancedLevel: "Avanzado",
-    beginnerLevelDesc: "Ideal para estudiantes que quieren empezar desde cero, aprender paso a paso con buen rollo.",
-    intermediateLevelDesc: "Para estudiantes que quieren mejorar técnica, coordinación y expresión con pasos más complejos.",
-    advancedLevelDesc: "Pensado para quienes quieren llevar su nivel al máximo y su estilo al siguiente nivel.",
+### La Expansión Global (2000s-Presente)
 
-    // Days of week
-    monday: "Lunes",
-    wednesday: "Miércoles",
-    thursday: "Jueves",
-    friday: "Viernes",
+En los años 2000, el dancehall explotó globalmente gracias a artistas como Sean Paul, Shaggy, Elephant Man y Beenie Man. Las redes sociales y YouTube permitieron que pasos como el "Dutty Wine", "Daggering" y "Nuh Linga" se viralizaran mundialmente.
 
-    // Teachers Section
-    dancehallTeachersTitle: "Conoce Nuestras Profesoras de Dancehall",
-    dancehallTeachersSubtitle: "Increíbles Profesionales, Mejores Personas",
-    dancehallTeacher1Specialty: "Profesora de Dancehall | +5 años de Experiencia",
-    dancehallTeacher1Bio: "Isabel López es una apasionada del dancehall con más de 5 años de experiencia como profesora especializada en baile urbano y reggaeton. Entrenada con maestros jamaicanos, su energía contagiosa y técnica profesional la convierten en una de las instructoras más queridas de Farray's Center. Sus clases mezclan old school moves (Willie Bounce, Nuh Linga) con los últimos hits.",
-    dancehallTeacher2Specialty: "Profesora de Dancehall y Twerk | +6 años de Experiencia",
-    dancehallTeacher2Bio: "Sandra Gómez es una bailarina profesional con más de 6 años de experiencia en dancehall y twerk. Su estilo único fusiona movimientos del Twerk/Bootydance con la esencia jamaicana. Su técnica impecable y metodología de enseñanza la convierten en una de las profesoras más solicitadas. Energía, sensualidad y feminidad pura.",
+Hoy, el dancehall es un fenómeno global con comunidades activas en Europa, África, Asia y América. Barcelona se ha convertido en uno de los epicentros europeos del dancehall auténtico.
 
-    // Schedule Section
-    dancehallScheduleTitle: "Horarios de Nuestras Clases de Dancehall en Barcelona",
-    dancehallScheduleSubtitle: "Clases disponibles prácticamente todos los días de la semana",
+### La Música: Riddims y Cultura Soundsystem
 
-    // FAQ Section
-    dancehallFaqTitle: "Preguntas Frecuentes Sobre Nuestra Escuela de Dancehall en Barcelona",
-    dancehallFaqQ5: "¿Dónde puedo encontrar clases de Dancehall cerca de Plaza España en Barcelona?",
-    dancehallFaqA5: "Farray's Center está ubicado en Calle Entença 100, Barcelona, a solo 5 minutos de Plaza España y Estación de Sants. Contamos con profesoras con amplia experiencia y un ambiente familiar para todos los niveles.",
-    dancehallFaqQ6: "¿Organizáis eventos o talleres especiales de Dancehall?",
-    dancehallFaqA6: "Sí, organizamos workshops, masterclasses y eventos sociales durante el año. Síguenos en redes o consulta nuestra web para estar al día. También participamos en los mejores festivales de danza de todo el mundo.",
-    dancehallFaqQ7: "¿Las clases son solo para mujeres o también para hombres?",
-    dancehallFaqA7: "Nuestras clases están abiertas a todas las personas, sin importar género o experiencia previa. ¡El Dancehall es para todos! La diversidad enriquece la experiencia para todos.",
+El dancehall se baila sobre "riddims" (ritmos instrumentales) que los productores crean y múltiples artistas vocalizan. Riddims legendarios como "Diwali", "Coolie Dance" o "Dump Truck" han definido épocas enteras.
 
-    // Final CTA Section
-    dancehallFinalCTATitle: "¿Por Qué Hoy Es el Mejor Momento Para Empezar?",
-    dancehallFinalCTADesc: "Porque cada día que no te mueves, tu cuerpo te pide un poco más. Porque estás solo a una clase de cambiar tu rutina. En Farray's no vendemos clases. Creamos experiencias. Te esperamos con música cañera, profesoras con duende y una energía que no encontrarás en ningún otro lugar de Barcelona.",
+La cultura del **sound system** —con sus selectores, MCs y el famoso "rewind" cuando una canción es tan buena que se vuelve a poner desde el principio— es fundamental para entender el dancehall.
 
-    // Schema Markup
-    dancehallCourseSchemaName: "Clases de Dancehall Jamaicano en Barcelona - Todos los Niveles",
-    dancehallCourseSchemaDesc: "Aprende Dancehall auténtico en Barcelona con el método exclusivo de Farray's International Dance Center. Clases para principiantes, intermedios y avanzados con profesoras expertas formadas en Jamaica.",
+### Más Que Baile: Identidad y Resistencia
 
-    // Testimonials
-    basedOn: "basado en",
-    reviews: "reseñas"
-  };
+El dancehall ha sido siempre una forma de resistencia cultural y expresión de identidad para las comunidades marginadas de Jamaica. Es la voz de los guetos, una celebración de la alegría a pesar de las dificultades.
+
+Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce" (homenaje a Willie Haggart), "Nuh Linga" (no te demores). Cada movimiento cuenta una historia.`,
+  readMore: 'Leer Más Sobre la Historia y Cultura',
+  readLess: 'Leer Menos',
+
+  // Benefits Section
+  dancehallBenefitsTitle: '¿Por Qué Apuntarte a Clases de Dancehall Mejorará Tu Vida?',
+  dancehallBenefitsSubtitle: "Imagina Tu 'Antes y Después'",
+  dancehallBenefit1Title: 'Recuperas Energía, Motivación y Ganas',
+  dancehallBenefit1Desc:
+    'Las clases de dancehall rompen la rutina, te ayudan a liberar el estrés y te devuelven las ganas de moverte y de volver a disfrutar.',
+  dancehallBenefit2Title: 'Ganas Seguridad, Confianza y Autoestima',
+  dancehallBenefit2Desc:
+    'Bailar dancehall te permite subir tu autoestima, superar miedos, soltarte y descubrir una versión más segura y auténtica de ti mismo.',
+  dancehallBenefit3Title: 'Evitas Las Rutinas de Ejercicio Aburridas',
+  dancehallBenefit3Desc:
+    'Las clases de dancehall son dinámicas, divertidas y siempre diferentes. Te pones en forma con una sonrisa en la cara y te sorprendes con cada clase.',
+  dancehallBenefit4Title: 'Te Diviertes, Conoces Personas Nuevas y Socializas',
+  dancehallBenefit4Desc:
+    'Las clases de dancehall son el lugar perfecto para conocer gente nueva, reírte y crear conexiones reales mientras te diviertes.',
+  dancehallBenefit5Title: 'Conoces Pasos Nuevos y Evitas la Monotonía en el Baile',
+  dancehallBenefit5Desc:
+    'Bailar dancehall te permitirá descubrir movimientos y sensaciones nuevas, reconectar con tu cuerpo y volver a disfrutar bailando.',
+  dancehallBenefit6Title: 'Viajas a Jamaica Sin Moverte de Barcelona',
+  dancehallBenefit6Desc:
+    'Te conectarás con la esencia y las raíces de Jamaica sin que tengas que salir de Barcelona. Te contagiará por su estilo, alegría y autenticidad.',
+  dancehallBenefit7Title: 'Descubres Nuevos Ritmos y Entrenas Tu Oído',
+  dancehallBenefit7Desc:
+    'Vas a conocer nuevas músicas y ritmos, ejercitar tu coordinación y memoria, y mejorar tu capacidad de improvisación e interpretación musical.',
+
+  // Mid-page CTA
+  dancehallMidCTATitle: '¿Listo Para Transformar Tu Vida?',
+  dancehallMidCTADesc:
+    'Habla con nosotros por WhatsApp y reserva tu clase gratis ahora mismo. ¡Te respondemos en minutos!',
+  whatsappCTA: 'Escríbenos por WhatsApp',
+
+  // How It Works Section
+  dancehallHowItWorksTitle: '¿Cómo Funcionan Nuestras Clases de Dancehall en Barcelona?',
+  dancehallClassStructureTitle: 'Estructura de Cada Clase (60 min)',
+  dancehallClassStructureDesc:
+    'En nuestras clases de Dancehall en Barcelona generalmente se enseña una secuencia coreografiada, pero en la práctica el Dancehall es una danza improvisada. Cada sesión está diseñada para que aprendas, te diviertas y te expreses.',
+  warmupTitle: 'Calentamiento',
+  warmupDesc:
+    'Prepara tu cuerpo con ejercicios específicos para evitar lesiones y mejorar tu técnica.',
+  choreographyTitle: 'Coreografía',
+  choreographyDesc:
+    'Aprende secuencias dinámicas que combinan pasos tradicionales y modernos del Dancehall.',
+  improvisationTitle: 'Improvisación',
+  improvisationDesc:
+    'Trabajamos la improvisación para estimular tus capacidades creativas y llevar tu baile a un nivel informal, sensual y atrevido.',
+
+  dancehallLevelsTitle: 'Niveles Para Todos',
+  beginnerLevel: 'Principiantes',
+  basicLevel: 'Básico',
+  intermediateLevel: 'Intermedio',
+  advancedLevel: 'Avanzado',
+  beginnerLevelDesc:
+    'Ideal para estudiantes que quieren empezar desde cero, aprender paso a paso con buen rollo.',
+  intermediateLevelDesc:
+    'Para estudiantes que quieren mejorar técnica, coordinación y expresión con pasos más complejos.',
+  advancedLevelDesc:
+    'Pensado para quienes quieren llevar su nivel al máximo y su estilo al siguiente nivel.',
+
+  // Days of week
+  monday: 'Lunes',
+  wednesday: 'Miércoles',
+  thursday: 'Jueves',
+  friday: 'Viernes',
+
+  // Teachers Section
+  dancehallTeachersTitle: 'Conoce Nuestras Profesoras de Dancehall',
+  dancehallTeachersSubtitle: 'Increíbles Profesionales, Mejores Personas',
+  dancehallTeacher1Specialty: 'Profesora de Dancehall | +5 años de Experiencia',
+  dancehallTeacher1Bio:
+    "Isabel López es una apasionada del dancehall con más de 5 años de experiencia como profesora especializada en baile urbano y reggaeton. Entrenada con maestros jamaicanos, su energía contagiosa y técnica profesional la convierten en una de las instructoras más queridas de Farray's Center. Sus clases mezclan old school moves (Willie Bounce, Nuh Linga) con los últimos hits.",
+  dancehallTeacher2Specialty: 'Profesora de Dancehall y Twerk | +6 años de Experiencia',
+  dancehallTeacher2Bio:
+    'Sandra Gómez es una bailarina profesional con más de 6 años de experiencia en dancehall y twerk. Su estilo único fusiona movimientos del Twerk/Bootydance con la esencia jamaicana. Su técnica impecable y metodología de enseñanza la convierten en una de las profesoras más solicitadas. Energía, sensualidad y feminidad pura.',
+
+  // Schedule Section
+  dancehallScheduleTitle: 'Horarios de Nuestras Clases de Dancehall en Barcelona',
+  dancehallScheduleSubtitle: 'Clases disponibles prácticamente todos los días de la semana',
+
+  // FAQ Section
+  dancehallFaqTitle: 'Preguntas Frecuentes Sobre Nuestra Escuela de Dancehall en Barcelona',
+  dancehallFaqQ5: '¿Dónde puedo encontrar clases de Dancehall cerca de Plaza España en Barcelona?',
+  dancehallFaqA5:
+    "Farray's Center está ubicado en Calle Entença 100, Barcelona, a solo 5 minutos de Plaza España y Estación de Sants. Contamos con profesoras con amplia experiencia y un ambiente familiar para todos los niveles.",
+  dancehallFaqQ6: '¿Organizáis eventos o talleres especiales de Dancehall?',
+  dancehallFaqA6:
+    'Sí, organizamos workshops, masterclasses y eventos sociales durante el año. Síguenos en redes o consulta nuestra web para estar al día. También participamos en los mejores festivales de danza de todo el mundo.',
+  dancehallFaqQ7: '¿Las clases son solo para mujeres o también para hombres?',
+  dancehallFaqA7:
+    'Nuestras clases están abiertas a todas las personas, sin importar género o experiencia previa. ¡El Dancehall es para todos! La diversidad enriquece la experiencia para todos.',
+
+  // Final CTA Section
+  dancehallFinalCTATitle: '¿Por Qué Hoy Es el Mejor Momento Para Empezar?',
+  dancehallFinalCTADesc:
+    "Porque cada día que no te mueves, tu cuerpo te pide un poco más. Porque estás solo a una clase de cambiar tu rutina. En Farray's no vendemos clases. Creamos experiencias. Te esperamos con música cañera, profesoras con duende y una energía que no encontrarás en ningún otro lugar de Barcelona.",
+
+  // Schema Markup
+  dancehallCourseSchemaName: 'Clases de Dancehall Jamaicano en Barcelona - Todos los Niveles',
+  dancehallCourseSchemaDesc:
+    "Aprende Dancehall auténtico en Barcelona con el método exclusivo de Farray's International Dance Center. Clases para principiantes, intermedios y avanzados con profesoras expertas formadas en Jamaica.",
+
+  // Testimonials
+  basedOn: 'basado en',
+  reviews: 'reseñas',
+  testimonialsNotRequested: 'Testimonios No Solicitados de Nuestros Estudiantes',
+  thankYouForLove: 'Gracias por Tanto Amor',
+  excellent: 'EXCELENTE',
+  basedOnReviews: 'A base de {count} reseñas',
+
+  // Community Section
+  dancehallCommunityTitle: 'Únete a la Comunidad de Dancehall Más Activa de Barcelona',
+  dancehallCommunitySubtitle: 'Da el Paso',
+  dancehallCommunityDesc:
+    'Reserva tu plaza ahora y no dejes que te lo cuenten… ni que te lo bailen.',
+  dancehallCommunityFunny:
+    '¡Las plazas vuelan más rápido que un «Dutty Wine» en viernes por la noche! Tienes que dejarte seducir por la energía y el feeling del Dancehall.',
+  trialClassCTA: 'Prueba una Clase Gratuita',
+
+  // Additional FAQs
+  dancehallFaqQ8: '¿Qué pasa si no tengo buena coordinación?',
+  dancehallFaqA8:
+    'No te preocupes, la coordinación se desarrolla con la práctica. Nuestras profesoras te guiarán paso a paso y el ambiente es muy acogedor. ¡Lo importante es que seas constante y disfrutes del proceso!',
+  dancehallFaqQ9: '¿Qué estilos de Dancehall enseñamos en nuestra escuela de Barcelona?',
+  dancehallFaqA9:
+    'Diferentes estilos para diferentes gustos: DANCEHALL FEMALE - El estilo tradicional jamaicano con movimientos auténticos. Sensualidad, actitud y flow. DANCEHALL TWERK - Se utilizan muchos movimientos del Twerk/Bootydance. Energía, sensualidad y feminidad pura.',
+  dancehallFaqQ10: '¿Qué niveles de Dancehall tenemos en nuestra escuela de Barcelona?',
+  dancehallFaqA10:
+    'DIFERENTES NIVELES PARA QUE NADIE SE QUEDE SIN BAILAR: Dancehall Principiantes - Ideal para estudiantes que quieren empezar desde cero, para aprender paso a paso y con buen rollo. Dancehall Básico - Ideal para estudiantes que ya tienen un poco de experiencia en Dancehall u otras danzas urbanas. Dancehall Intermedio - Para estudiantes que quieren mejorar técnica, coordinación y expresión con pasos más complejos y musicalidad. Dancehall Avanzado - Pensado para quienes quieren llevar su nivel al máximo y llevar su estilo al siguiente nivel.',
+  dancehallFaqQ11: '¿Puedo unirme en cualquier momento del año?',
+  dancehallFaqA11:
+    '¡Sí! Puedes empezar cuando quieras. Consulta nuestro calendario para ver las próximas clases disponibles. Si tienes dudas sobre el nivel o el grupo, escríbenos y te orientamos.',
+  dancehallFaqQ12: '¿Tenéis algún descuento especial?',
+  dancehallFaqA12:
+    'Sí, ofrecemos descuentos si te apuntas a más de un curso. Consulta nuestra web o pregúntanos directamente para más detalles.',
+  dancehallFaqQ13: '¿Y si falto a una clase por trabajo o compromisos?',
+  dancehallFaqA13:
+    'Si tienes una membresía y cancelas una clase tienes 30 días para recuperarla, contando desde la fecha de la clase cancelada. Si tienes un abono de horas, eres tú quien gestiona tus clases de manera flexible y solamente debes cancelar tu clase y reservarla para otro día cuando así lo desees, antes que termine el periodo de caducidad. Todas las gestiones se hacen exclusivamente desde la aplicación digital de la academia.',
+  dancehallFaqQ14:
+    '¿Si falto a una clase debo recuperarla haciendo el mismo estilo, o puedo hacer otro diferente?',
+  dancehallFaqA14:
+    'Puedes recuperar tu clase cancelada haciendo otro estilo diferente, siempre y cuando respectes el nivel de la clase y gestiones la recuperación desde la aplicación de la escuela.',
+  dancehallFaqQ15: '¿Qué diferencia el Dancehall de otros estilos de baile urbano?',
+  dancehallFaqA15:
+    'El Dancehall es un estilo originario de Jamaica, con mucha energía, pasos característicos y una cultura propia. Combina movimientos enérgicos y sensuales con ritmos de reggae y hip-hop, lo que lo hace único. Se diferencia por su musicalidad y movimientos. Es un estilo que permite la improvisación y la creatividad, ideal para quienes buscan algo más que pasos coreografiados.',
+
+  // Gallery Section
+  dancehallGalleryTitle: 'Mira el Ambiente',
+
+  // Video Section
+  dancehallVideoTitle: 'Vive la Experiencia Dancehall',
+  dancehallVideoDesc: 'Descubre cómo son nuestras clases de Dancehall en Barcelona',
+
+  // How It Works Section
+  howItWorksTitle: '¿Cómo Funcionan Nuestras Clases de Dancehall en Barcelona?',
+  howItWorksIntro:
+    'En nuestras clases de Dancehall en Barcelona generalmente se enseña una secuencia coreografiada, pero en la práctica el Dancehall es una danza improvisada.',
+  howItWorksPillar1Title: 'Niveles para TODOS',
+  howItWorksPillar1Desc:
+    'Desde iniciación hasta avanzado. Cada alumno encuentra su espacio para crecer a su ritmo, con clases adaptadas a cada nivel de experiencia.',
+  howItWorksPillar2Title: 'Metodología CLARA',
+  howItWorksPillar2Desc:
+    'Contenido estructurado para facilitar el aprendizaje. Seguimos un sistema progresivo que te permite avanzar con confianza y solidez.',
+  howItWorksPillar3Title: 'Estilo AUTÉNTICO',
+  howItWorksPillar3Desc:
+    'Respetamos las raíces y traemos la esencia jamaicana a cada clase. Conocerás el verdadero espíritu del Dancehall.',
+  sessionStructureTitle: 'CADA SESIÓN DURA 1 HORA E INCLUYE:',
+  sessionItem1Title: 'Calentamiento',
+  sessionItem1Desc:
+    'Prepara tu cuerpo con ejercicios específicos para evitar lesiones y mejorar tu técnica.',
+  sessionItem2Title: 'Coreografía',
+  sessionItem2Desc:
+    'Aprende secuencias dinámicas que combinan pasos tradicionales y modernos del Dancehall.',
+  sessionItem3Title: 'Improvisación',
+  sessionItem3Desc:
+    'Trabajamos la improvisación para estimular tus capacidades creativas para que puedas llevar tu baile a un nivel informal, sensual y atrevido.',
+};

@@ -39,23 +39,21 @@ const VideoWithSchema: React.FC<VideoWithSchemaProps> = ({
   children,
 }) => {
   const videoSchema = {
-    "@context": "https://schema.org",
-    "@type": "VideoObject",
-    "name": name,
-    "description": description,
-    "thumbnailUrl": thumbnailUrl,
-    "uploadDate": uploadDate,
-    "duration": duration,
-    ...(contentUrl && { "contentUrl": contentUrl }),
-    ...(embedUrl && { "embedUrl": embedUrl }),
+    '@context': 'https://schema.org',
+    '@type': 'VideoObject',
+    name: name,
+    description: description,
+    thumbnailUrl: thumbnailUrl,
+    uploadDate: uploadDate,
+    duration: duration,
+    ...(contentUrl && { contentUrl: contentUrl }),
+    ...(embedUrl && { embedUrl: embedUrl }),
   };
 
   return (
     <>
       <Helmet>
-        <script type="application/ld+json">
-          {JSON.stringify(videoSchema)}
-        </script>
+        <script type="application/ld+json">{JSON.stringify(videoSchema)}</script>
       </Helmet>
 
       <video
