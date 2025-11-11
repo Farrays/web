@@ -580,7 +580,7 @@ const DancehallPageV2: React.FC = () => {
           <div className="absolute inset-0 opacity-30">
             <img
               src="/images/classes/dancehall/raw/Jamaica.webp"
-              alt=""
+              alt="Bandera de Jamaica, cuna del dancehall"
               className="w-full h-full object-cover"
             />
           </div>
