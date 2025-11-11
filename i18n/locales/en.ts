@@ -1,8 +1,11 @@
 export const en = {
   // General
   pageTitle: "Farray's International Dance Center | Dance School in Barcelona",
+  metaDescription:
+    "Discover Barcelona's premier dance school. Learn Salsa, Bachata, Dancehall, Afrobeats, and more with world-class instructors. CID-UNESCO certified. Free trial class available!",
   ratingAriaLabel: '{rating} out of 5 stars',
   closeButton: 'Close',
+  skipToMainContent: 'Skip to main content',
   // Header
   navHome: 'Home',
   navClasses: 'Dance Classes',

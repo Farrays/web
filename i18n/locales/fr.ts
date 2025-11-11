@@ -1,8 +1,11 @@
 export const fr = {
   // General
   pageTitle: "Farray's International Dance Center | École de Danse à Barcelone",
+  metaDescription:
+    "Découvrez la meilleure école de danse à Barcelone. Apprenez la Salsa, la Bachata, le Dancehall, les Afrobeats et plus avec des instructeurs de classe mondiale. Certifié CID-UNESCO. Cours d'essai gratuit!",
   ratingAriaLabel: '{rating} sur 5 étoiles',
   closeButton: 'Fermer',
+  skipToMainContent: 'Passer au contenu principal',
   // Header
   navHome: 'Accueil',
   navClasses: 'Cours de Danse',

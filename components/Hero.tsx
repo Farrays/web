@@ -10,45 +10,47 @@ const Hero: React.FC = () => {
       className="relative h-screen w-full flex items-center justify-center overflow-hidden"
     >
       {/* 3D Canvas Placeholder */}
-      <div className="absolute inset-0 bg-black">
-        {/* This would be the React Three Fiber Canvas */}
-        <div className="absolute inset-0 bg-gradient-to-br from-primary-dark/30 via-black to-black"></div>
-        {/* Particle System Placeholder */}
-        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-900/50 via-black to-black">
+        {/* Enhanced gradient overlay for better text visibility */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/30 to-black/80"></div>
+        {/* Animated gradient accent */}
+        <div className="absolute inset-0 bg-gradient-to-tr from-primary-accent/20 via-transparent to-purple-600/10 animate-pulse-slow"></div>
       </div>
 
-      <div className="relative z-10 text-center text-neutral px-4">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter leading-tight mb-4 min-h-[120px] md:min-h-[180px] lg:min-h-[200px] flex flex-col items-center justify-center">
-          {t('heroTitle1')}
+      <div className="relative z-10 text-center text-white px-4">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter leading-tight mb-4 min-h-[120px] md:min-h-[180px] lg:min-h-[200px] flex flex-col items-center justify-center drop-shadow-2xl">
+          <span className="bg-gradient-to-r from-white via-purple-100 to-white bg-clip-text text-transparent">
+            {t('heroTitle1')}
+          </span>
           <br />
-          <span className="text-3xl md:text-5xl lg:text-6xl opacity-90 font-bold tracking-normal">
+          <span className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-normal mt-2 bg-gradient-to-r from-primary-accent via-purple-400 to-primary-accent bg-clip-text text-transparent animate-glow">
             {t('heroTitle2')}
           </span>
         </h1>
-        <p className="text-xl md:text-2xl my-6 holographic-text font-medium animate-glow min-h-[40px]">
+        <p className="text-xl md:text-2xl my-6 text-purple-200 font-medium drop-shadow-lg min-h-[40px]">
           {t('heroTagline')}
         </p>
-        <p className="max-w-3xl mx-auto text-lg md:text-xl text-neutral/80 mb-10 min-h-[60px]">
+        <p className="max-w-3xl mx-auto text-lg md:text-xl text-gray-300 mb-10 min-h-[60px] drop-shadow-md">
           {t('heroValue')}
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="#trial"
-            className="w-full sm:w-auto bg-primary-accent text-white font-bold text-lg py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-accent-glow animate-pulse-strong"
+            className="w-full sm:w-auto bg-gradient-to-r from-primary-accent to-purple-600 text-white font-bold text-lg py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-accent-glow animate-pulse-strong hover:from-purple-600 hover:to-primary-accent"
           >
             {t('heroCTA1')}
           </a>
           <a
             href="#classes"
-            className="w-full sm:w-auto border-2 border-neutral text-neutral font-bold text-lg py-4 px-10 rounded-full transition-all duration-300 hover:bg-neutral hover:text-dark-text"
+            className="w-full sm:w-auto border-2 border-purple-400 text-white font-bold text-lg py-4 px-10 rounded-full transition-all duration-300 hover:bg-purple-400 hover:text-black hover:border-white shadow-lg"
           >
             {t('heroCTA2')}
           </a>
         </div>
       </div>
 
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center space-y-2 text-neutral/70 animate-subtle-bob">
-        <span>{t('heroScroll')}</span>
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center space-y-2 text-purple-300 animate-subtle-bob drop-shadow-lg">
+        <span className="font-medium">{t('heroScroll')}</span>
         <svg
           className="w-6 h-6"
           fill="none"
