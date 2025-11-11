@@ -332,7 +332,7 @@ const AfrobeatsPage: React.FC = () => {
                 <div className="flex-shrink-0 w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-primary-accent/50 group-hover:border-primary-accent transition-colors duration-300">
                   <img
                     src="/images/teachers/david-adeleke.jpg"
-                    alt={t('afrobeatsInstructorName')}
+                    alt={`${t('afrobeatsInstructorName')}, ${t('afrobeatsInstructorTitle')}`}
                     loading="lazy"
                     className="w-full h-full object-cover"
                   />
@@ -383,7 +383,7 @@ const AfrobeatsPage: React.FC = () => {
                     <div className="flex items-center space-x-4 mt-auto">
                       <img
                         src={testimonial.image}
-                        alt={testimonial.name}
+                        alt={`Foto de perfil de ${testimonial.name}`}
                         loading="lazy"
                         className="w-14 h-14 rounded-full border-2 border-primary-accent object-cover"
                       />

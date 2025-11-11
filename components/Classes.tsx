@@ -77,7 +77,7 @@ const Classes: React.FC = () => {
               <div className="group relative rounded-xl overflow-hidden shadow-lg h-80 bg-black text-white transition-all duration-500 ease-in-out [transform-style:preserve-3d] group-hover:shadow-accent-glow group-hover:[transform:translateY(-0.5rem)_scale(1.05)_rotateY(5deg)]">
                 <img
                   src={cls.image}
-                  alt={t(cls.titleKey)}
+                  alt={`Clase de ${t(cls.titleKey)} en Barcelona`}
                   className="absolute inset-0 w-full h-full object-cover transition-all duration-500 ease-in-out group-hover:scale-110 opacity-40 group-hover:opacity-60"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>

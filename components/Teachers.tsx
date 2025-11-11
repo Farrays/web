@@ -59,7 +59,7 @@ const Teachers: React.FC = () => {
                   {teacher.image ? (
                     <img
                       src={teacher.image}
-                      alt={teacher.name}
+                      alt={`${teacher.name}, ${t(teacher.specialtyKey)}`}
                       loading="lazy"
                       className="w-full h-full object-cover"
                     />

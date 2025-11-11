@@ -142,7 +142,7 @@ const Testimonials: React.FC = () => {
                 <div className="flex items-center space-x-4 mt-auto">
                   <img
                     src={testimonial.image}
-                    alt={testimonial.name}
+                    alt={`Foto de perfil de ${testimonial.name}`}
                     loading="lazy"
                     className="w-14 h-14 rounded-full border-2 border-primary-accent object-cover"
                   />

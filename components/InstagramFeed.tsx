@@ -93,7 +93,7 @@ const InstagramFeed: React.FC = () => {
                 >
                   <img
                     src={post.img}
-                    alt={`Instagram post ${post.id}`}
+                    alt={`Bailarines en Instagram - Farray's Dance Center`}
                     className="w-full h-full object-cover transition-all duration-500 ease-in-out group-hover:scale-110 group-hover:opacity-60"
                   />
                   <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
