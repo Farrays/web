@@ -5,24 +5,57 @@ import { imageUrls } from '../utils/imageConfig';
 import AnimateOnScroll from './AnimateOnScroll';
 
 const classData: ClassInfo[] = [
-  { id: 'contemporary', titleKey: 'classCatContemporaryTitle', descriptionKey: 'classCatContemporaryDesc', image: imageUrls.classes.contemporaryJazz },
-  { id: 'urban', titleKey: 'classCatUrbanTitle', descriptionKey: 'classCatUrbanDesc', image: imageUrls.classes.urban },
-  { id: 'latin', titleKey: 'classCatLatinTitle', descriptionKey: 'classCatLatinDesc', image: imageUrls.classes.latin },
-  { id: 'fitness', titleKey: 'classCatFitnessTitle', descriptionKey: 'classCatFitnessDesc', image: imageUrls.classes.fitness },
-  { id: 'morning', titleKey: 'classCatMorningTitle', descriptionKey: 'classCatMorningDesc', image: imageUrls.classes.morning },
-  { id: 'world', titleKey: 'classCatWorldTitle', descriptionKey: 'classCatWorldDesc', image: imageUrls.classes.world },
+  {
+    id: 'contemporary',
+    titleKey: 'classCatContemporaryTitle',
+    descriptionKey: 'classCatContemporaryDesc',
+    image: imageUrls.classes.contemporaryJazz,
+  },
+  {
+    id: 'urban',
+    titleKey: 'classCatUrbanTitle',
+    descriptionKey: 'classCatUrbanDesc',
+    image: imageUrls.classes.urban,
+  },
+  {
+    id: 'latin',
+    titleKey: 'classCatLatinTitle',
+    descriptionKey: 'classCatLatinDesc',
+    image: imageUrls.classes.latin,
+  },
+  {
+    id: 'fitness',
+    titleKey: 'classCatFitnessTitle',
+    descriptionKey: 'classCatFitnessDesc',
+    image: imageUrls.classes.fitness,
+  },
+  {
+    id: 'morning',
+    titleKey: 'classCatMorningTitle',
+    descriptionKey: 'classCatMorningDesc',
+    image: imageUrls.classes.morning,
+  },
+  {
+    id: 'world',
+    titleKey: 'classCatWorldTitle',
+    descriptionKey: 'classCatWorldDesc',
+    image: imageUrls.classes.world,
+  },
 ];
 
 const CIDLogo: React.FC = () => (
-    <div className="w-24 h-24 bg-neutral/10 border-2 border-primary-accent/50 rounded-full flex items-center justify-center p-2 backdrop-blur-sm">
-        <svg viewBox="0 0 100 100" className="w-full h-full text-primary-accent">
-            <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" strokeWidth="3"/>
-            <text x="50" y="55" textAnchor="middle" fontSize="24" fill="currentColor" fontWeight="bold">CID</text>
-            <text x="50" y="75" textAnchor="middle" fontSize="12" fill="currentColor">UNESCO</text>
-        </svg>
-    </div>
+  <div className="w-24 h-24 bg-neutral/10 border-2 border-primary-accent/50 rounded-full flex items-center justify-center p-2 backdrop-blur-sm">
+    <svg viewBox="0 0 100 100" className="w-full h-full text-primary-accent">
+      <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" strokeWidth="3" />
+      <text x="50" y="55" textAnchor="middle" fontSize="24" fill="currentColor" fontWeight="bold">
+        CID
+      </text>
+      <text x="50" y="75" textAnchor="middle" fontSize="12" fill="currentColor">
+        UNESCO
+      </text>
+    </svg>
+  </div>
 );
-
 
 const Classes: React.FC = () => {
   const { t } = useI18n();
@@ -36,9 +69,7 @@ const Classes: React.FC = () => {
           </h2>
         </AnimateOnScroll>
         <AnimateOnScroll delay={200}>
-          <p className="max-w-3xl mx-auto text-lg text-neutral/80 mb-12">
-            {t('classesIntro')}
-          </p>
+          <p className="max-w-3xl mx-auto text-lg text-neutral/80 mb-12">{t('classesIntro')}</p>
         </AnimateOnScroll>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {classData.map((cls, index) => (
@@ -53,10 +84,12 @@ const Classes: React.FC = () => {
                 <div className="absolute inset-0 border-2 border-transparent group-hover:border-primary-accent rounded-xl transition-all duration-300 pointer-events-none"></div>
 
                 <div className="relative flex flex-col justify-end h-full p-6 text-left">
-                   <h3 className="text-3xl font-bold mt-2">{t(cls.titleKey)}</h3>
-                   <div className="h-0 group-hover:h-20 overflow-hidden transition-all duration-300 ease-in-out">
-                     <p className="text-neutral/80 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150">{t(cls.descriptionKey)}</p>
-                   </div>
+                  <h3 className="text-3xl font-bold mt-2">{t(cls.titleKey)}</h3>
+                  <div className="h-0 group-hover:h-20 overflow-hidden transition-all duration-300 ease-in-out">
+                    <p className="text-neutral/80 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150">
+                      {t(cls.descriptionKey)}
+                    </p>
+                  </div>
                 </div>
               </div>
             </AnimateOnScroll>
@@ -64,10 +97,13 @@ const Classes: React.FC = () => {
         </div>
         <AnimateOnScroll>
           <div className="flex flex-col items-center gap-6 mt-16">
-              <CIDLogo/>
-              <a href="#schedule" className="bg-primary-accent text-white font-bold py-4 px-10 rounded-full transition-all duration-300 hover:bg-white hover:text-primary-accent shadow-lg hover:shadow-accent-glow">
+            <CIDLogo />
+            <a
+              href="#schedule"
+              className="bg-primary-accent text-white font-bold py-4 px-10 rounded-full transition-all duration-300 hover:bg-white hover:text-primary-accent shadow-lg hover:shadow-accent-glow"
+            >
               {t('classesCTA')}
-              </a>
+            </a>
           </div>
         </AnimateOnScroll>
       </div>

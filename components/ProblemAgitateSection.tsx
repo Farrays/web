@@ -50,9 +50,7 @@ const ProblemAgitateSection: React.FC<ProblemAgitateSectionProps> = ({
             <h3 className="text-3xl md:text-4xl font-black text-neutral mb-6 holographic-text">
               {t(solutionTitleKey)}
             </h3>
-            <p className="text-lg text-neutral/90 leading-relaxed">
-              {t(solutionDescKey)}
-            </p>
+            <p className="text-lg text-neutral/90 leading-relaxed">{t(solutionDescKey)}</p>
           </div>
         </AnimateOnScroll>
       </div>

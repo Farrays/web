@@ -29,20 +29,28 @@ const BenefitsGridSection: React.FC<BenefitsGridSectionProps> = ({
             <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-6">
               {t(titleKey)}
             </h2>
-            <p className="text-xl text-primary-accent font-semibold">{t(subtitleKey)}</p>
+            <p className="text-xl holographic-text font-semibold">{t(subtitleKey)}</p>
           </div>
         </AnimateOnScroll>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="flex flex-wrap justify-center gap-8 max-w-5xl mx-auto">
           {benefits.map((benefit, index) => (
-            <AnimateOnScroll key={benefit.id} delay={index * 100}>
-              <div className="group p-8 bg-gradient-to-br from-black/70 to-primary-dark/20 border border-primary-dark/50 hover:border-primary-accent rounded-2xl shadow-lg transition-all duration-300 hover:shadow-accent-glow hover:-translate-y-1">
+            <AnimateOnScroll
+              key={benefit.id}
+              delay={index * 100}
+              className={
+                index === 6
+                  ? 'w-full md:w-[calc(50%-1rem)] md:max-w-[500px]'
+                  : 'w-full md:w-[calc(50%-1rem)]'
+              }
+            >
+              <div className="group p-8 bg-gradient-to-br from-black/70 to-primary-dark/20 border border-primary-dark/50 hover:border-primary-accent rounded-2xl shadow-lg transition-all duration-300 hover:shadow-accent-glow hover:-translate-y-1 h-full">
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary-accent/20 flex items-center justify-center border-2 border-primary-accent group-hover:scale-110 transition-transform duration-300">
-                    <span className="text-2xl font-black text-primary-accent">{benefit.number}</span>
+                    <span className="text-2xl font-black holographic-text">{benefit.number}</span>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-neutral mb-3 group-hover:text-primary-accent transition-colors duration-300">
+                    <h3 className="text-2xl font-bold text-neutral mb-3 group-hover:holographic-text transition-colors duration-300">
                       {t(benefit.titleKey)}
                     </h3>
                     <p className="text-neutral/80 leading-relaxed">{t(benefit.descKey)}</p>

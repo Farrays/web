@@ -52,7 +52,7 @@ const ScheduleSection: React.FC<ScheduleSectionProps> = ({
                     </div>
                   </div>
                   <div className="flex flex-col md:items-end gap-1">
-                    <span className="text-2xl font-bold text-primary-accent">{schedule.time}</span>
+                    <span className="text-2xl font-bold holographic-text">{schedule.time}</span>
                     <span className="text-sm text-neutral/80">{schedule.teacher}</span>
                   </div>
                 </div>

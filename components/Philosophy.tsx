@@ -16,25 +16,19 @@ const Philosophy: React.FC = () => {
         </AnimateOnScroll>
         <AnimateOnScroll delay={200}>
           <div className="space-y-6 text-lg md:text-xl text-neutral/80 leading-relaxed">
-            <p>
-              {t('philosophyBody1')}
-            </p>
-            <p>
-              {t('philosophyBody2')}
-            </p>
+            <p>{t('philosophyBody1')}</p>
+            <p>{t('philosophyBody2')}</p>
           </div>
         </AnimateOnScroll>
         <AnimateOnScroll delay={400}>
-            <figure className="mt-16 max-w-2xl mx-auto">
-                <blockquote className="border-l-4 border-primary-accent pl-6">
-                    <p className="text-xl md:text-2xl italic text-neutral/90">
-                        “{t('philosophyQuote')}”
-                    </p>
-                </blockquote>
-                <figcaption className="mt-4 text-right text-lg text-neutral/60">
-                    — {t('philosophyQuoteAuthor')}
-                </figcaption>
-            </figure>
+          <figure className="mt-16 max-w-2xl mx-auto">
+            <blockquote className="border-l-4 border-primary-accent pl-6">
+              <p className="text-xl md:text-2xl italic text-neutral/90">“{t('philosophyQuote')}”</p>
+            </blockquote>
+            <figcaption className="mt-4 text-right text-lg text-neutral/60">
+              — {t('philosophyQuoteAuthor')}
+            </figcaption>
+          </figure>
         </AnimateOnScroll>
       </div>
     </section>

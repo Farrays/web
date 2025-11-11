@@ -80,7 +80,11 @@ const SEO: React.FC = () => {
       <link rel="alternate" hrefLang="ca" href={`${baseUrl}/ca${pagePath ? `/${pagePath}` : ''}`} />
       <link rel="alternate" hrefLang="en" href={`${baseUrl}/en${pagePath ? `/${pagePath}` : ''}`} />
       <link rel="alternate" hrefLang="fr" href={`${baseUrl}/fr${pagePath ? `/${pagePath}` : ''}`} />
-      <link rel="alternate" hrefLang="x-default" href={`${baseUrl}/es${pagePath ? `/${pagePath}` : ''}`} />
+      <link
+        rel="alternate"
+        hrefLang="x-default"
+        href={`${baseUrl}/es${pagePath ? `/${pagePath}` : ''}`}
+      />
 
       {/* Open Graph */}
       <meta property="og:type" content="website" />

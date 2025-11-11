@@ -1,4 +1,11 @@
-import React, { createContext, useState, useContext, ReactNode, useCallback, useEffect } from 'react';
+import React, {
+  createContext,
+  useState,
+  useContext,
+  ReactNode,
+  useCallback,
+  useEffect,
+} from 'react';
 import type { Locale } from '../types';
 import { loadTranslations, type TranslationKeys } from '../i18n/locales';
 
@@ -112,24 +119,26 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     document.documentElement.lang = locale;
   }, [locale]);
 
-  const t = useCallback((key: string): string => {
-    // Return key if still loading
-    if (isLoading) {
-      return key;
-    }
-
-    const translation = currentTranslations[key];
-
-    if (translation === undefined) {
-      // Report missing key in development
-      if (import.meta.env.DEV) {
-        console.warn(`Missing translation key: ${key} for locale: ${locale}`);
+  const t = useCallback(
+    (key: string): string => {
+      // Return key if still loading
+      if (isLoading) {
+        return key;
       }
-      return key;
-    }
+      const translation = currentTranslations[key];
 
-    return translation;
-  }, [currentTranslations, isLoading, locale]);
+      if (translation === undefined) {
+        // Report missing key in development
+        if ((import.meta.env as any).DEV) {
+          console.warn(`Missing translation key: ${key} for locale: ${locale}`);
+        }
+        return key;
+      }
+
+      return translation;
+    },
+    [currentTranslations, isLoading, locale]
+  );
 
   return (
     <I18nContext.Provider value={{ locale, setLocale, t, isLoading }}>

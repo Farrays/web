@@ -8,14 +8,20 @@ interface AnimateOnScrollProps {
   style?: React.CSSProperties;
 }
 
-const AnimateOnScroll: React.FC<AnimateOnScrollProps> = ({ children, className = '', delay = 0, style }) => {
+const AnimateOnScroll: React.FC<AnimateOnScrollProps> = ({
+  children,
+  className = '',
+  delay = 0,
+  style,
+}) => {
   const ref = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
+      entries => {
+        const entry = entries[0];
+        if (entry && entry.isIntersecting) {
           setIsVisible(true);
           observer.unobserve(entry.target);
         }

@@ -14,13 +14,20 @@ interface FAQSectionProps {
   pageUrl: string;
 }
 
-const ChevronDownIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-  <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+const ChevronDownIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={2}
+    stroke="currentColor"
+  >
     <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
   </svg>
 );
 
-const FAQSection: React.FC<FAQSectionProps> = ({ title, faqs, pageUrl }) => {
+const FAQSection: React.FC<FAQSectionProps> = ({ title, faqs }) => {
   const [openItems, setOpenItems] = useState<Set<string>>(new Set());
 
   const toggleItem = (id: string) => {
@@ -35,24 +42,22 @@ const FAQSection: React.FC<FAQSectionProps> = ({ title, faqs, pageUrl }) => {
 
   // Generate FAQ Schema for Google SGE
   const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqs.map(faq => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer
-      }
-    }))
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map(faq => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
   };
 
   return (
     <>
       <Helmet>
-        <script type="application/ld+json">
-          {JSON.stringify(faqSchema)}
-        </script>
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
 
       <section id="faq" className="py-20 md:py-32 bg-black">
@@ -94,9 +99,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({ title, faqs, pageUrl }) => {
                         isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
                       }`}
                     >
-                      <div className="px-6 pb-5 text-neutral/80 leading-relaxed">
-                        {faq.answer}
-                      </div>
+                      <div className="px-6 pb-5 text-neutral/80 leading-relaxed">{faq.answer}</div>
                     </div>
                   </div>
                 </AnimateOnScroll>

@@ -10,8 +10,15 @@ interface CulturalHistorySectionProps {
   t: (key: string) => string;
 }
 
-const ChevronDownIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-  <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+const ChevronDownIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={2}
+    stroke="currentColor"
+  >
     <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
   </svg>
 );
@@ -25,6 +32,39 @@ const CulturalHistorySection: React.FC<CulturalHistorySectionProps> = ({
   t,
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+
+  // Parse markdown-style content: split by ### (h3), ** (bold)
+  const parseContent = (text: string) => {
+    const sections = text.split(/###\s+/).filter(Boolean);
+
+    return sections.map((section, sectionIndex) => {
+      const lines = section.split('\n').filter(line => line.trim());
+      if (lines.length === 0) return null;
+
+      const heading = lines[0];
+      const content = lines.slice(1);
+
+      return (
+        <div key={sectionIndex} className="mb-8">
+          <h3 className="text-2xl font-bold holographic-text mb-4">{heading}</h3>
+          <div className="space-y-3">
+            {content.map((para, idx) => {
+              const trimmed = para.trim();
+              if (!trimmed) return null;
+
+              // Replace **text** with <strong> tags
+              const parts = trimmed.split(/\*\*([^*]+)\*\*/);
+              return (
+                <p key={idx} className="text-neutral/80 leading-relaxed">
+                  {parts.map((part, i) => (i % 2 === 1 ? <strong key={i}>{part}</strong> : part))}
+                </p>
+              );
+            })}
+          </div>
+        </div>
+      );
+    });
+  };
 
   return (
     <section id="cultural-history" className="py-20 md:py-32 bg-black">
@@ -47,7 +87,8 @@ const CulturalHistorySection: React.FC<CulturalHistorySectionProps> = ({
               }`}
             >
               <div className="space-y-6 text-neutral/80 leading-relaxed">
-                <div dangerouslySetInnerHTML={{ __html: t(fullHistoryKey) }} />
+                {/* Parse markdown-style content and render safely */}
+                {parseContent(t(fullHistoryKey))}
               </div>
             </div>
 
@@ -55,7 +96,7 @@ const CulturalHistorySection: React.FC<CulturalHistorySectionProps> = ({
             <div className="flex justify-center mt-8">
               <button
                 onClick={() => setIsExpanded(!isExpanded)}
-                className="group flex items-center gap-2 px-6 py-3 bg-primary-dark/30 hover:bg-primary-accent/20 border border-primary-accent/50 hover:border-primary-accent rounded-full transition-all duration-300 text-primary-accent font-semibold"
+                className="group flex items-center gap-2 px-6 py-3 bg-primary-dark/30 hover:bg-primary-accent/20 border border-primary-accent/50 hover:border-primary-accent rounded-full transition-all duration-300 holographic-text font-semibold"
                 aria-expanded={isExpanded}
               >
                 {isExpanded ? readLessText : readMoreText}

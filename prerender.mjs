@@ -9,23 +9,23 @@ const routes = [
   { path: '', lang: 'es', page: 'home' },
   { path: 'es', lang: 'es', page: 'home' },
   { path: 'es/clases', lang: 'es', page: 'classes' },
-  { path: 'es/dancehall', lang: 'es', page: 'dancehall' },
-  { path: 'es/afrobeats', lang: 'es', page: 'afrobeats' },
+  { path: 'es/clases/dancehall-barcelona', lang: 'es', page: 'dancehall' },
+  { path: 'es/clases/afrobeats-barcelona', lang: 'es', page: 'afrobeats' },
 
   { path: 'ca', lang: 'ca', page: 'home' },
   { path: 'ca/clases', lang: 'ca', page: 'classes' },
-  { path: 'ca/dancehall', lang: 'ca', page: 'dancehall' },
-  { path: 'ca/afrobeats', lang: 'ca', page: 'afrobeats' },
+  { path: 'ca/clases/dancehall-barcelona', lang: 'ca', page: 'dancehall' },
+  { path: 'ca/clases/afrobeats-barcelona', lang: 'ca', page: 'afrobeats' },
 
   { path: 'en', lang: 'en', page: 'home' },
   { path: 'en/clases', lang: 'en', page: 'classes' },
-  { path: 'en/dancehall', lang: 'en', page: 'dancehall' },
-  { path: 'en/afrobeats', lang: 'en', page: 'afrobeats' },
+  { path: 'en/clases/dancehall-barcelona', lang: 'en', page: 'dancehall' },
+  { path: 'en/clases/afrobeats-barcelona', lang: 'en', page: 'afrobeats' },
 
   { path: 'fr', lang: 'fr', page: 'home' },
   { path: 'fr/clases', lang: 'fr', page: 'classes' },
-  { path: 'fr/dancehall', lang: 'fr', page: 'dancehall' },
-  { path: 'fr/afrobeats', lang: 'fr', page: 'afrobeats' },
+  { path: 'fr/clases/dancehall-barcelona', lang: 'fr', page: 'dancehall' },
+  { path: 'fr/clases/afrobeats-barcelona', lang: 'fr', page: 'afrobeats' },
 ];
 
 // Metadata for each page in each language
@@ -114,8 +114,8 @@ const initialContent = {
           <nav class="hidden md:flex space-x-8 text-neutral/90 font-medium text-lg">
             <a href="/es" class="hover:text-primary-accent transition-colors">Inicio</a>
             <a href="/es/clases" class="hover:text-primary-accent transition-colors">Clases</a>
-            <a href="/es/dancehall" class="hover:text-primary-accent transition-colors">Dancehall</a>
-            <a href="/es/afrobeats" class="hover:text-primary-accent transition-colors">Afrobeats</a>
+            <a href="/es/clases/dancehall-barcelona" class="hover:text-primary-accent transition-colors">Dancehall</a>
+            <a href="/es/clases/afrobeats-barcelona" class="hover:text-primary-accent transition-colors">Afrobeats</a>
           </nav>
         </div>
       </header>
@@ -208,7 +208,17 @@ routes.forEach(route => {
   const content = initialContent[lang][page];
 
   // Generate hreflang alternates
-  const pagePath = page === 'home' ? '' : (page === 'classes' ? 'clases' : page);
+  let pagePath = '';
+  if (page === 'home') {
+    pagePath = '';
+  } else if (page === 'classes') {
+    pagePath = 'clases';
+  } else if (page === 'dancehall') {
+    pagePath = 'clases/dancehall-barcelona';
+  } else if (page === 'afrobeats') {
+    pagePath = 'clases/afrobeats-barcelona';
+  }
+
   const hreflangLinks = [
     `<link rel="alternate" hreflang="es" href="https://www.farrayscenter.com/es${pagePath ? `/${pagePath}` : ''}" />`,
     `<link rel="alternate" hreflang="ca" href="https://www.farrayscenter.com/ca${pagePath ? `/${pagePath}` : ''}" />`,

@@ -11,9 +11,7 @@ const LoadingSpinner: React.FC = () => {
         </div>
 
         {/* Texto de carga */}
-        <p className="text-neutral/60 text-sm font-medium animate-pulse">
-          Cargando...
-        </p>
+        <p className="text-neutral/60 text-sm font-medium animate-pulse">Cargando...</p>
       </div>
     </div>
   );
