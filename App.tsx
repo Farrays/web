@@ -1,5 +1,13 @@
 import React, { useEffect, lazy, Suspense } from 'react';
-import { BrowserRouter, Routes, Route, useLocation, useParams, Navigate, useNavigate } from 'react-router-dom';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useLocation,
+  useParams,
+  Navigate,
+  useNavigate,
+} from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { I18nProvider, useI18n } from './hooks/useI18n';
 import type { Locale } from './types';

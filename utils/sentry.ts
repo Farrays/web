@@ -4,15 +4,15 @@ import * as Sentry from '@sentry/react';
  * Initialize Sentry error tracking
  * Only enabled in production with a valid DSN
  */
-export const initSentry = () => {
+export const initSentry = (): void => {
   // Get DSN from environment variable
-  const dsn = (import.meta.env as any).VITE_SENTRY_DSN;
+  const dsn = import.meta.env.VITE_SENTRY_DSN;
 
   // Only initialize in production and if DSN is configured
-  if ((import.meta.env as any).PROD && dsn) {
+  if (import.meta.env.PROD && dsn) {
     Sentry.init({
       dsn,
-      environment: (import.meta.env as any).MODE,
+      environment: import.meta.env.MODE,
       integrations: [
         Sentry.browserTracingIntegration(),
         Sentry.replayIntegration({
@@ -28,7 +28,7 @@ export const initSentry = () => {
       // Filter out non-critical errors
       beforeSend(event, hint) {
         // Don't send development errors
-        if ((import.meta.env as any).DEV) return null;
+        if (import.meta.env.DEV) return null;
 
         // Filter out known non-critical errors
         const error = hint.originalException;
@@ -46,8 +46,8 @@ export const initSentry = () => {
 /**
  * Capture exception manually
  */
-export const captureException = (error: Error, context?: Record<string, any>) => {
-  if ((import.meta.env as any).PROD) {
+export const captureException = (error: Error, context?: Record<string, unknown>): void => {
+  if (import.meta.env.PROD) {
     Sentry.captureException(error, { extra: context });
   } else {
     console.error('Error captured:', error, context);
@@ -57,14 +57,14 @@ export const captureException = (error: Error, context?: Record<string, any>) =>
 /**
  * Set user context for error tracking
  */
-export const setUser = (user: { id?: string; email?: string; username?: string }) => {
+export const setUser = (user: { id?: string; email?: string; username?: string }): void => {
   Sentry.setUser(user);
 };
 
 /**
  * Add breadcrumb for debugging
  */
-export const addBreadcrumb = (message: string, data?: Record<string, any>) => {
+export const addBreadcrumb = (message: string, data?: Record<string, unknown>): void => {
   Sentry.addBreadcrumb({
     message,
     data,

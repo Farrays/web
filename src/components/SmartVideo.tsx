@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useRef, useState } from 'react';
 
 type Props = {
@@ -9,7 +10,14 @@ type Props = {
   captionsVtt?: string; // opcional
 };
 
-export default function SmartVideo({ poster, mp4, webm, embed, className, captionsVtt }: Props) {
+export default function SmartVideo({
+  poster,
+  mp4,
+  webm,
+  embed,
+  className,
+  captionsVtt,
+}: Props): React.ReactElement {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
 

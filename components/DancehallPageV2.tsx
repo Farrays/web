@@ -698,7 +698,9 @@ const DancehallPageV2: React.FC = () => {
                       ))}
                     </div>
                     <blockquote className="flex-grow text-neutral/90 mb-4">
-                      <p className="text-sm leading-relaxed">"{testimonial.quote[locale]}"</p>
+                      <p className="text-sm leading-relaxed">
+                        &ldquo;{testimonial.quote[locale]}&rdquo;
+                      </p>
                     </blockquote>
                     <div className="flex items-center gap-3 mt-auto pt-4 border-t border-primary-dark/30">
                       <div>

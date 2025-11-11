@@ -7,7 +7,7 @@ interface CulturalHistorySectionProps {
   fullHistoryKey: string;
   readMoreText: string;
   readLessText: string;
-  t: (key: string) => string;
+  t: (_key: string) => string;
 }
 
 const ChevronDownIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (

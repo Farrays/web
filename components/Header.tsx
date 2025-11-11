@@ -113,7 +113,7 @@ const Header: React.FC = () => {
     fr: 'Français',
   };
 
-  const handleEnrollClick = (_e: React.MouseEvent) => {
+  const handleEnrollClick = () => {
     if (location.pathname !== `/${locale}`) {
       setIsMenuOpen(false);
       // Let the Link navigate to home, then scroll will happen via the anchor
@@ -288,8 +288,8 @@ const Header: React.FC = () => {
           </div>
           <Link
             to={`/${locale}#enroll`}
-            onClick={e => {
-              handleEnrollClick(e);
+            onClick={() => {
+              handleEnrollClick();
               setIsMenuOpen(false);
             }}
             className="bg-primary-accent text-white text-xl font-bold py-4 px-10 rounded-full transition-all duration-300 hover:bg-white hover:text-primary-accent shadow-md hover:shadow-accent-glow animate-pulse-strong"

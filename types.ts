@@ -19,8 +19,8 @@ export interface DetailedClassInfo extends ClassInfo {
 export interface Testimonial {
   id: number;
   name: string;
-  city: { [key in Locale]: string };
-  quote: { [key in Locale]: string };
+  city: Record<Locale, string>;
+  quote: Record<Locale, string>;
   image: string;
   rating: number;
 }

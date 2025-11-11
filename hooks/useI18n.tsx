@@ -11,8 +11,8 @@ import { loadTranslations, type TranslationKeys } from '../i18n/locales';
 
 interface I18nContextType {
   locale: Locale;
-  setLocale: (locale: Locale) => void;
-  t: (key: string) => string;
+  setLocale: (_locale: Locale) => void;
+  t: (_key: string) => string;
   isLoading: boolean;
 }
 
@@ -76,7 +76,10 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       try {
         // Check cache first
         if (translationsCache[locale]) {
-          setCurrentTranslations(translationsCache[locale]!);
+          const cachedTranslations = translationsCache[locale];
+          if (cachedTranslations) {
+            setCurrentTranslations(cachedTranslations);
+          }
           setIsLoading(false);
           return;
         }
@@ -129,7 +132,7 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
       if (translation === undefined) {
         // Report missing key in development
-        if ((import.meta.env as any).DEV) {
+        if (import.meta.env.DEV) {
           console.warn(`Missing translation key: ${key} for locale: ${locale}`);
         }
         return key;

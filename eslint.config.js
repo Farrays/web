@@ -26,11 +26,11 @@ const browserGlobals = {
   React: 'readonly',
 };
 
-// Node globals (for scripts)
+// Node globals (for scripts and tests)
 const nodeGlobals = {
   process: 'readonly',
   console: 'readonly',
-  global: 'readonly',
+  global: 'writable',
 };
 
 export default [
@@ -58,9 +58,10 @@ export default [
       // TypeScript rules
       '@typescript-eslint/no-explicit-any': 'error',
       '@typescript-eslint/explicit-module-boundary-types': 'error',
+      'no-unused-vars': 'off',
       '@typescript-eslint/no-unused-vars': [
         'error',
-        { argsIgnorePattern: '^_' },
+        { argsIgnorePattern: '^_', varsIgnorePattern: '^_' },
       ],
       '@typescript-eslint/no-non-null-assertion': 'warn',
 
@@ -80,7 +81,7 @@ export default [
     },
   },
   {
-    files: ['**/*.js', '**/*.mjs', '**/*.cjs'],
+    files: ['**/*.js', '**/*.mjs', '**/*.cjs', 'test/**/*.ts'],
     languageOptions: {
       sourceType: 'module',
       globals: nodeGlobals,

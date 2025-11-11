@@ -12,7 +12,7 @@ interface BenefitsGridSectionProps {
   titleKey: string;
   subtitleKey: string;
   benefits: Benefit[];
-  t: (key: string) => string;
+  t: (_key: string) => string;
 }
 
 const BenefitsGridSection: React.FC<BenefitsGridSectionProps> = ({
