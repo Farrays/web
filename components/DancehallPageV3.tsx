@@ -607,7 +607,7 @@ const DancehallPageV3: React.FC = () => {
           <div className="container mx-auto px-6">
             <AnimateOnScroll>
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-black text-neutral mb-8 holographic-text">
+                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 holographic-text">
                   {t('dhV3LogosTitle')}
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 max-w-5xl mx-auto items-center mb-8">
@@ -652,7 +652,7 @@ const DancehallPageV3: React.FC = () => {
                     <div className="text-neutral/80 font-bold text-sm text-center">TV 5</div>
                   </div>
                 </div>
-                <p className="text-xl font-bold holographic-text">
+                <p className="text-4xl md:text-5xl font-black tracking-tighter holographic-text">
                   y en los mejores festivales de danza de todo el mundo
                 </p>
               </div>
