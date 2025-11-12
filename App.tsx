@@ -24,6 +24,7 @@ import NotFoundPage from './components/NotFoundPage';
 const DanceClassesPage = lazy(() => import('./components/DanceClassesPage'));
 const DancehallPage = lazy(() => import('./components/DancehallPage'));
 const DancehallPageV2 = lazy(() => import('./components/DancehallPageV2'));
+const DancehallPageV3 = lazy(() => import('./components/DancehallPageV3'));
 const AfrobeatsPage = lazy(() => import('./components/AfrobeatsPage'));
 
 // Valid locales
@@ -119,6 +120,15 @@ const AppContent: React.FC = () => {
               }
             />
             <Route
+              path="/:locale/clases/dancehall-v3"
+              element={
+                <>
+                  <LocaleSync />
+                  <DancehallPageV3 />
+                </>
+              }
+            />
+            <Route
               path="/:locale/clases/afrobeats-barcelona"
               element={
                 <>
@@ -162,6 +172,14 @@ const AppContent: React.FC = () => {
             <Route
               path="/clases/dancehall-barcelona"
               element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
+            />
+            <Route
+              path="/clases/dancehall-v2"
+              element={<Navigate to={`/${locale}/clases/dancehall-v2`} replace />}
+            />
+            <Route
+              path="/clases/dancehall-v3"
+              element={<Navigate to={`/${locale}/clases/dancehall-v3`} replace />}
             />
             <Route
               path="/clases/afrobeats-barcelona"
