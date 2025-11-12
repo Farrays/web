@@ -531,6 +531,14 @@ const DancehallPageV3: React.FC = () => {
         {/* Why Choose Farray's Section */}
         <section className="py-20 md:py-32 bg-black">
           <div className="container mx-auto px-6">
+            <AnimateOnScroll>
+              <div className="text-center mb-12">
+                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4 holographic-text">
+                  ¿Por qué elegir Farray's Center como tu academia de Dancehall en Barcelona?
+                </h2>
+              </div>
+            </AnimateOnScroll>
+
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-16">
               {[1, 2, 3, 4, 5, 6].map((num, index) => (
                 <AnimateOnScroll key={num} delay={index * 100} className="[perspective:1000px]">
@@ -609,10 +617,9 @@ const DancehallPageV3: React.FC = () => {
           <div className="container mx-auto px-6">
             <AnimateOnScroll>
               <div className="text-center mb-12">
-                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4 holographic-text">
-                  ¿Por qué elegir Farray's Center como tu academia de Dancehall en Barcelona?
+                <h2 className="text-3xl md:text-4xl font-black text-neutral mb-8 holographic-text">
+                  {t('dhV3LogosTitle')}
                 </h2>
-                <p className="text-xl text-neutral/70 max-w-3xl mx-auto mb-12">{t('dhV3LogosTitle')}</p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 max-w-5xl mx-auto items-center mb-8">
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
                     <img
