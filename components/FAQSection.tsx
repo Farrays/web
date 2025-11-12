@@ -99,7 +99,10 @@ const FAQSection: React.FC<FAQSectionProps> = ({ title, faqs }) => {
                         isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
                       }`}
                     >
-                      <div className="px-6 pb-5 text-neutral/80 leading-relaxed">{faq.answer}</div>
+                      <div
+                        className="px-6 pb-5 text-neutral/80 leading-relaxed"
+                        dangerouslySetInnerHTML={{ __html: faq.answer }}
+                      />
                     </div>
                   </div>
                 </AnimateOnScroll>
