@@ -299,88 +299,84 @@ const DancehallPageV3: React.FC = () => {
                   <p className="text-xs text-neutral/70 mt-2 text-center">Oferta válida por tiempo limitado</p>
                 </div>
               </div>
+
+              {/* Key Stats - Lo que obtienes en cada clase */}
+              <div className="mt-16">
+                <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12 max-w-4xl mx-auto">
+                  {/* 60 Minutos */}
+                  <AnimateOnScroll delay={0}>
+                    <div className="text-center">
+                      <div className="mb-2 flex justify-center">
+                        <svg
+                          className="w-10 h-10 text-primary-accent"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <circle cx="12" cy="12" r="10" strokeWidth="2" />
+                          <path strokeLinecap="round" strokeWidth="2" d="M12 6v6l4 2" />
+                        </svg>
+                      </div>
+                      <AnimatedCounter
+                        target={60}
+                        className="text-4xl md:text-5xl font-black mb-1 holographic-text"
+                      />
+                      <div className="text-sm md:text-base text-neutral/90 font-semibold">
+                        {t('classMinutes')}
+                      </div>
+                    </div>
+                  </AnimateOnScroll>
+
+                  {/* ~500 Calorías */}
+                  <AnimateOnScroll delay={100}>
+                    <div className="text-center">
+                      <div className="mb-2 flex justify-center">
+                        <svg
+                          className="w-10 h-10 text-primary-accent"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M12 2c1.5 2.5 3 5.5 3 8.5 0 3.5-2.5 6.5-6 6.5s-6-3-6-6.5c0-3 1.5-6 3-8.5 0 3 1.5 5 3 5s3-2 3-5zm0 15c2.21 0 4-1.79 4-4 0-1.5-1-3.5-2-5-.5 1.5-1.5 2.5-2 2.5s-1.5-1-2-2.5c-1 1.5-2 3.5-2 5 0 2.21 1.79 4 4 4z" />
+                        </svg>
+                      </div>
+                      <div className="flex items-center justify-center gap-1">
+                        <span className="text-3xl md:text-4xl font-black holographic-text">~</span>
+                        <AnimatedCounter
+                          target={500}
+                          className="text-4xl md:text-5xl font-black holographic-text"
+                        />
+                      </div>
+                      <div className="text-sm md:text-base text-neutral/90 font-semibold mt-1">
+                        {t('caloriesBurned')}
+                      </div>
+                    </div>
+                  </AnimateOnScroll>
+
+                  {/* 100% Diversión */}
+                  <AnimateOnScroll delay={200}>
+                    <div className="text-center">
+                      <div className="mb-2 flex justify-center">
+                        <svg
+                          className="w-10 h-10 text-primary-accent"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M12 2l2.4 7.4h7.6l-6 4.6 2.3 7-6.3-4.7-6.3 4.7 2.3-7-6-4.6h7.6z" />
+                        </svg>
+                      </div>
+                      <AnimatedCounter
+                        target={100}
+                        suffix="%"
+                        className="text-4xl md:text-5xl font-black mb-1 holographic-text"
+                      />
+                      <div className="text-sm md:text-base text-neutral/90 font-semibold">
+                        {t('funGuaranteed')}
+                      </div>
+                    </div>
+                  </AnimateOnScroll>
+                </div>
+              </div>
             </AnimateOnScroll>
-          </div>
-        </section>
-
-        {/* Key Stats - Lo que obtienes en cada clase */}
-        <section className="py-8 md:py-12 bg-black relative overflow-hidden">
-          {/* Extended starfield background from hero */}
-          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20"></div>
-          <div className="container mx-auto px-6 relative z-10">
-            <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12 max-w-4xl mx-auto">
-              {/* 60 Minutos */}
-              <AnimateOnScroll delay={0}>
-                <div className="text-center">
-                  <div className="mb-2 flex justify-center">
-                    <svg
-                      className="w-10 h-10 text-primary-accent"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <circle cx="12" cy="12" r="10" strokeWidth="2" />
-                      <path strokeLinecap="round" strokeWidth="2" d="M12 6v6l4 2" />
-                    </svg>
-                  </div>
-                  <AnimatedCounter
-                    target={60}
-                    className="text-4xl md:text-5xl font-black mb-1 holographic-text"
-                  />
-                  <div className="text-sm md:text-base text-neutral/90 font-semibold">
-                    {t('classMinutes')}
-                  </div>
-                </div>
-              </AnimateOnScroll>
-
-              {/* ~500 Calorías */}
-              <AnimateOnScroll delay={100}>
-                <div className="text-center">
-                  <div className="mb-2 flex justify-center">
-                    <svg
-                      className="w-10 h-10 text-primary-accent"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 2c1.5 2.5 3 5.5 3 8.5 0 3.5-2.5 6.5-6 6.5s-6-3-6-6.5c0-3 1.5-6 3-8.5 0 3 1.5 5 3 5s3-2 3-5zm0 15c2.21 0 4-1.79 4-4 0-1.5-1-3.5-2-5-.5 1.5-1.5 2.5-2 2.5s-1.5-1-2-2.5c-1 1.5-2 3.5-2 5 0 2.21 1.79 4 4 4z" />
-                    </svg>
-                  </div>
-                  <div className="flex items-center justify-center gap-1">
-                    <span className="text-3xl md:text-4xl font-black holographic-text">~</span>
-                    <AnimatedCounter
-                      target={500}
-                      className="text-4xl md:text-5xl font-black holographic-text"
-                    />
-                  </div>
-                  <div className="text-sm md:text-base text-neutral/90 font-semibold mt-1">
-                    {t('caloriesBurned')}
-                  </div>
-                </div>
-              </AnimateOnScroll>
-
-              {/* 100% Diversión */}
-              <AnimateOnScroll delay={200}>
-                <div className="text-center">
-                  <div className="mb-2 flex justify-center">
-                    <svg
-                      className="w-10 h-10 text-primary-accent"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 2l2.4 7.4h7.6l-6 4.6 2.3 7-6.3-4.7-6.3 4.7 2.3-7-6-4.6h7.6z" />
-                    </svg>
-                  </div>
-                  <AnimatedCounter
-                    target={100}
-                    suffix="%"
-                    className="text-4xl md:text-5xl font-black mb-1 holographic-text"
-                  />
-                  <div className="text-sm md:text-base text-neutral/90 font-semibold">
-                    {t('funGuaranteed')}
-                  </div>
-                </div>
-              </AnimateOnScroll>
-            </div>
           </div>
         </section>
 
