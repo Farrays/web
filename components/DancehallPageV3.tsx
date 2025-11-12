@@ -748,12 +748,9 @@ const DancehallPageV3: React.FC = () => {
           <div className="container mx-auto px-6">
             <AnimateOnScroll>
               <div className="text-center mb-12">
-                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4 holographic-text">
-                  Testimonios no solicitados
+                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 holographic-text">
+                  Testimonios no solicitados de nuestros estudiantes
                 </h2>
-                <p className="text-2xl font-bold mb-6 holographic-text">
-                  GRACIAS POR TANTO AMOR
-                </p>
                 <div className="inline-block">
                   <div className="mb-4 text-3xl font-black text-neutral">{t('excellent')}</div>
                   <div className="flex items-center justify-center gap-1 mb-2">
