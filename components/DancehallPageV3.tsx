@@ -847,6 +847,9 @@ const DancehallPageV3: React.FC = () => {
           </div>
         </section>
 
+        {/* FAQ */}
+        <FAQSection title={t('dhV3FaqTitle')} faqs={dancehallV3Faqs} pageUrl={pageUrl} />
+
         {/* Why Today Section */}
         <section className="py-20 md:py-32 bg-black">
           <div className="container mx-auto px-6">
@@ -864,9 +867,6 @@ const DancehallPageV3: React.FC = () => {
             </AnimateOnScroll>
           </div>
         </section>
-
-        {/* FAQ */}
-        <FAQSection title={t('dhV3FaqTitle')} faqs={dancehallV3Faqs} pageUrl={pageUrl} />
 
         {/* Final CTA Section */}
         <section
