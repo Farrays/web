@@ -585,7 +585,7 @@ const DancehallPageV3: React.FC = () => {
                 </div>
                 <div className="text-center">
                   <AnimatedCounter
-                    target={100}
+                    target={1500}
                     suffix="+"
                     className="text-6xl md:text-7xl font-black mb-2 holographic-text"
                   />
@@ -595,7 +595,7 @@ const DancehallPageV3: React.FC = () => {
                 </div>
                 <div className="text-center">
                   <AnimatedCounter
-                    target={1000}
+                    target={15000}
                     suffix="+"
                     className="text-6xl md:text-7xl font-black mb-2 holographic-text"
                   />
