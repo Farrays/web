@@ -174,6 +174,14 @@ const AppContent: React.FC = () => {
               element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
             />
             <Route
+              path="/clases/dancehall-v2"
+              element={<Navigate to={`/${locale}/clases/dancehall-v2`} replace />}
+            />
+            <Route
+              path="/clases/dancehall-v3"
+              element={<Navigate to={`/${locale}/clases/dancehall-v3`} replace />}
+            />
+            <Route
               path="/clases/afrobeats-barcelona"
               element={<Navigate to={`/${locale}/clases/afrobeats-barcelona`} replace />}
             />
