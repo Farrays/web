@@ -781,7 +781,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   dhV3FaqQ10: '¿Y si falto a una clase por trabajo o compromisos?',
   dhV3FaqA10: 'Si tienes una membresía y cancelas una clase, dispones de 30 días para recuperarla desde la fecha de la clase cancelada. Si tienes un abono de horas, gestionas tus clases de forma flexible: cancela y reserva otro día dentro del periodo de caducidad. Todas las gestiones se realizan exclusivamente desde la aplicación digital de la academia.',
   dhV3FaqQ11: 'Si falto a una clase, ¿debo recuperarla haciendo el mismo estilo o puedo hacer otro diferente?',
-  dhV3FaqA11: 'Puedes recuperarla haciendo otro estilo, siempre que respetes el nivel de la clase y gestiones la recuperación desde la aplicación de la escuela.',
+  dhV3FaqA11: 'Puedes recuperarla haciendo la misma clase otro día o seleccionar otro estilo, siempre que respetes el nivel de la clase y gestiones la recuperación desde la aplicación de la escuela.',
   dhV3FaqQ12: '¿Organizáis eventos o talleres especiales?',
   dhV3FaqA12: 'Sí. Organizamos talleres, masterclasses y eventos sociales durante el año. Síguenos en redes o consulta la web para estar al día.',
   dhV3FaqQ13: '¿Las clases son solo para mujeres o también para hombres?',
@@ -791,7 +791,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   dhV3FaqQ15: '¿Dónde puedo encontrar clases de Dancehall cerca de Plaza España en Barcelona?',
   dhV3FaqA15: 'Farray\'s Center está ubicado en Calle Entença 100, 08015 Barcelona, a solo 5 minutos de Plaza España y Estación de Sants. Contamos con profesores con amplia experiencia y un ambiente familiar para todos los niveles.',
   dhV3FaqQ16: '¿Qué hago si tengo dudas o necesito más información?',
-  dhV3FaqA16: 'Teléfono: +34 622 247 085 | Email: info@farrayscenter.com | Web: www.farrayscenter.com/contacto | Dirección: Calle Entença 100, 08015 Barcelona',
+  dhV3FaqA16: 'Teléfono: <a href="tel:+34622247085" class="text-primary-accent hover:underline">+34 622 247 085</a> | Email: <a href="mailto:info@farrayscenter.com" class="text-primary-accent hover:underline">info@farrayscenter.com</a> | Web: <a href="https://www.farrayscenter.com/contacto" class="text-primary-accent hover:underline" target="_blank" rel="noopener noreferrer">www.farrayscenter.com/contacto</a> | Dirección: <a href="https://maps.google.com/?q=Calle+Entença+100,+08015+Barcelona" class="text-primary-accent hover:underline" target="_blank" rel="noopener noreferrer">Calle Entença 100, 08015 Barcelona</a>',
 
   dhV3FinalCTATitle: 'Únete a la comunidad de Dancehall más activa de Barcelona',
   dhV3FinalCTASubtitle: 'Da el paso.',
