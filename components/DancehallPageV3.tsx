@@ -619,7 +619,7 @@ const DancehallPageV3: React.FC = () => {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 max-w-5xl mx-auto items-center mb-8">
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
                     <img
-                      src="/images/logo/img/logo-fidc_256.webp"
+                      src="/images/logo/img/cid-unesco-logo.webp"
                       alt="CID UNESCO"
                       className="w-20 h-20 object-contain"
                     />
@@ -628,7 +628,7 @@ const DancehallPageV3: React.FC = () => {
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
-                        src="/images/classes/dancehall/raw/dancehall-dancing-barcelona-03.jpg"
+                        src="/images/logo/img/street-dance-2.webp"
                         alt="Street Dance 2"
                         className="w-full h-full object-cover"
                       />
@@ -638,7 +638,7 @@ const DancehallPageV3: React.FC = () => {
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
-                        src="/images/classes/dancehall/raw/dancehall-dance-students-02.jpg"
+                        src="/images/logo/img/the-dancer-espectaculo-baile-cuadrada.webp"
                         alt="The Dancer"
                         className="w-full h-full object-cover"
                       />
@@ -648,7 +648,7 @@ const DancehallPageV3: React.FC = () => {
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
-                        src="/images/classes/dancehall/raw/dancehall-classes-barcelona-01.jpg"
+                        src="/images/logo/img/telecinco-logo.webp"
                         alt="TV 5"
                         className="w-full h-full object-cover"
                       />
