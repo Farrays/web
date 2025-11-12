@@ -385,7 +385,7 @@ const DancehallPageV3: React.FC = () => {
           <div className="container mx-auto px-6">
             <AnimateOnScroll>
               <div className="max-w-4xl mx-auto">
-                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 text-center">
+                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 text-center holographic-text">
                   {t('dhV3WhatIsTitle')}
                 </h2>
                 <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -853,7 +853,7 @@ const DancehallPageV3: React.FC = () => {
             <AnimateOnScroll>
               <div className="max-w-3xl mx-auto text-center space-y-6">
                 <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 holographic-text">
-                  ¿POR QUÉ HOY ES EL MEJOR MOMENTO PARA EMPEZAR A BAILAR DANCEHALL CON NOSOTROS?
+                  ¿Por qué hoy es el mejor momento para empezar a bailar Dancehall con nosotros?
                 </h2>
                 <p className="text-xl text-neutral/90">{t('dhV3WhyToday1')}</p>
                 <p className="text-xl text-neutral/90">{t('dhV3WhyToday2')}</p>
