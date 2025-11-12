@@ -46,7 +46,7 @@ const CulturalHistorySection: React.FC<CulturalHistorySectionProps> = ({
 
       return (
         <div key={sectionIndex} className="mb-8">
-          <h3 className="text-2xl font-bold mb-4 pb-2 border-b-2 border-primary-accent/30 rounded holographic-text">{heading}</h3>
+          <h3 className="text-2xl font-bold mb-4 p-4 border-2 border-primary-accent/40 rounded-xl holographic-text">{heading}</h3>
           <div className="space-y-3">
             {content.map((para, idx) => {
               const trimmed = para.trim();
@@ -71,9 +71,11 @@ const CulturalHistorySection: React.FC<CulturalHistorySectionProps> = ({
       <div className="container mx-auto px-6">
         <AnimateOnScroll>
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 text-center holographic-text">
-              {t(titleKey)}
-            </h2>
+            {titleKey && (
+              <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 text-center holographic-text">
+                {t(titleKey)}
+              </h2>
+            )}
 
             {/* Short description - always visible */}
             <div className="text-lg text-neutral/80 leading-relaxed mb-6">
