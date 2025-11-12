@@ -1,4 +1,5 @@
 import React from 'react';
+import { UserCircle } from 'lucide-react';
 import { useI18n } from '../hooks/useI18n';
 import type { Teacher } from '../types';
 import AnimateOnScroll from './AnimateOnScroll';
@@ -26,12 +27,6 @@ const teacherData: Teacher[] = [
     bioKey: 'teacher3Bio',
   },
 ];
-
-const UserPlaceholderIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-  </svg>
-);
 
 const Teachers: React.FC = () => {
   const { t } = useI18n();
@@ -65,7 +60,7 @@ const Teachers: React.FC = () => {
                     />
                   ) : (
                     <div className="w-full h-full bg-primary-dark/50 flex items-center justify-center">
-                      <UserPlaceholderIcon className="w-24 h-24 text-neutral/40" />
+                      <UserCircle className="w-24 h-24 text-neutral/40" />
                     </div>
                   )}
                 </div>

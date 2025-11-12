@@ -1,4 +1,5 @@
 import React from 'react';
+import { Star } from 'lucide-react';
 import { useI18n } from '../hooks/useI18n';
 import type { Testimonial } from '../types';
 import AnimateOnScroll from './AnimateOnScroll';
@@ -86,22 +87,6 @@ const testimonialData: Testimonial[] = [
   },
 ];
 
-const StarIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
-    fill="currentColor"
-    aria-hidden="true"
-  >
-    <path
-      fillRule="evenodd"
-      d="M10 16.535l-5.223 2.745.998-5.816L.99 8.28l5.838-.848L10 2l2.174 5.432 5.838.848-4.785 4.184.998 5.816L10 16.535z"
-      clipRule="evenodd"
-    />
-  </svg>
-);
-
 const Testimonials: React.FC = () => {
   const { t, locale } = useI18n();
 
@@ -133,7 +118,7 @@ const Testimonials: React.FC = () => {
                   )}
                 >
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <StarIcon key={i} className="w-5 h-5 text-primary-accent" />
+                    <Star key={i} className="w-5 h-5 text-primary-accent fill-current" />
                   ))}
                 </div>
                 <blockquote className="flex-grow text-neutral/90 italic mb-6">

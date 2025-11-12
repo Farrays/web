@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import { Star, Flame, Zap, Globe } from 'lucide-react';
 import { useI18n } from '../hooks/useI18n';
 import AnimateOnScroll from './AnimateOnScroll';
 import FinalCTA from './FinalCTA';
@@ -7,90 +8,24 @@ import FAQSection from './FAQSection';
 import type { Testimonial, ValuePillar } from '../types';
 import { imageUrls } from '../utils/imageConfig';
 
-const StarIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
-    fill="currentColor"
-    aria-hidden="true"
-  >
-    <path
-      fillRule="evenodd"
-      d="M10 16.535l-5.223 2.745.998-5.816L.99 8.28l5.838-.848L10 2l2.174 5.432 5.838.848-4.785 4.184.998 5.816L10 16.535z"
-      clipRule="evenodd"
-    />
-  </svg>
-);
-
-// --- Icon Set for Pillars ---
-const FireIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    strokeWidth={1.5}
-    stroke="currentColor"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.362-3.797A8.33 8.33 0 0112 2.25c1.153 0 2.243.3 3.224.834 1.141.623 2.11 1.534 2.897 2.631a8.225 8.225 0 00-2.76 1.487 8.333 8.333 0 00-2.933-2.133A8.31 8.31 0 0012 5.25a8.25 8.25 0 00-6.038 2.798 8.287 8.287 0 002.047 1.442A8.983 8.983 0 0112 9.6a8.983 8.983 0 01-3.362 1.203 8.25 8.25 0 0012.396-6.588 8.33 8.33 0 00-3.224-1.487z"
-    />
-  </svg>
-);
-const BoltIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    strokeWidth={1.5}
-    stroke="currentColor"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
-    />
-  </svg>
-);
-const GlobeAltIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    strokeWidth={1.5}
-    stroke="currentColor"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.111 1.157-4.418"
-    />
-  </svg>
-);
-
 const dancehallPillars: ValuePillar[] = [
   {
     id: 'riddims',
     titleKey: 'dancehallPillar1Title',
     contentKey: 'dancehallPillar1Desc',
-    Icon: GlobeAltIcon,
+    Icon: Globe,
   },
   {
     id: 'workout',
     titleKey: 'dancehallPillar2Title',
     contentKey: 'dancehallPillar2Desc',
-    Icon: BoltIcon,
+    Icon: Zap,
   },
   {
     id: 'confidence',
     titleKey: 'dancehallPillar3Title',
     contentKey: 'dancehallPillar3Desc',
-    Icon: FireIcon,
+    Icon: Flame,
   },
 ];
 
@@ -375,7 +310,7 @@ const DancehallPage: React.FC = () => {
                       )}
                     >
                       {[...Array(5)].map((_, i) => (
-                        <StarIcon key={i} className="w-5 h-5 text-primary-accent" />
+                        <Star key={i} className="w-5 h-5 text-primary-accent fill-current" />
                       ))}
                     </div>
                     <blockquote className="flex-grow text-neutral/90 italic mb-6">

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { ChevronDown } from 'lucide-react';
 import AnimateOnScroll from './AnimateOnScroll';
 
 interface FAQ {
@@ -13,19 +14,6 @@ interface FAQSectionProps {
   faqs: FAQ[];
   pageUrl: string;
 }
-
-const ChevronDownIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    strokeWidth={2}
-    stroke="currentColor"
-  >
-    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-  </svg>
-);
 
 const FAQSection: React.FC<FAQSectionProps> = ({ title, faqs }) => {
   const [openItems, setOpenItems] = useState<Set<string>>(new Set());
@@ -86,7 +74,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({ title, faqs }) => {
                       <h3 className="text-lg md:text-xl font-bold text-neutral pr-8">
                         {faq.question}
                       </h3>
-                      <ChevronDownIcon
+                      <ChevronDown
                         className={`w-6 h-6 text-primary-accent flex-shrink-0 transition-transform duration-300 ${
                           isOpen ? 'rotate-180' : ''
                         }`}

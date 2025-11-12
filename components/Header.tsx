@@ -1,61 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Menu, X, ChevronDown, Globe } from 'lucide-react';
 import { useI18n } from '../hooks/useI18n';
 import type { Locale } from '../types';
 import FIDCLogo from './FIDCLogo';
-
-const MenuIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-  >
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
-  </svg>
-);
-
-const CloseIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-  >
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-  </svg>
-);
-
-const ChevronDownIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-  >
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-  </svg>
-);
-
-const GlobeIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-    />
-  </svg>
-);
 
 const Header: React.FC = () => {
   const { t, locale } = useI18n();
@@ -180,9 +128,9 @@ const Header: React.FC = () => {
                 aria-label="Select language"
                 aria-expanded={isLangDropdownOpen}
               >
-                <GlobeIcon className="w-4 h-4 text-primary-accent" />
+                <Globe className="w-4 h-4 text-primary-accent" />
                 <span className="text-sm font-medium text-white">{locale.toUpperCase()}</span>
-                <ChevronDownIcon
+                <ChevronDown
                   className={`w-4 h-4 text-white/70 transition-transform duration-300 ${isLangDropdownOpen ? 'rotate-180' : ''}`}
                 />
               </button>
@@ -225,7 +173,7 @@ const Header: React.FC = () => {
               aria-expanded={isMenuOpen}
               aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
             >
-              {isMenuOpen ? <CloseIcon className="w-8 h-8" /> : <MenuIcon className="w-8 h-8" />}
+              {isMenuOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
             </button>
           </div>
         </div>
@@ -261,7 +209,7 @@ const Header: React.FC = () => {
           <div className="w-full max-w-xs">
             <div className="bg-black/30 backdrop-blur-sm border border-white/20 rounded-2xl overflow-hidden">
               <div className="flex items-center justify-center space-x-2 px-4 py-3 bg-primary-accent/20 border-b border-white/10">
-                <GlobeIcon className="w-5 h-5 text-primary-accent" />
+                <Globe className="w-5 h-5 text-primary-accent" />
                 <span className="text-sm font-bold text-white">Select Language</span>
               </div>
               <div className="p-2 space-y-1">
