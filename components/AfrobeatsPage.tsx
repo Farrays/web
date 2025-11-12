@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import { Star, Music, Users, Sun } from 'lucide-react';
 import { useI18n } from '../hooks/useI18n';
 import AnimateOnScroll from './AnimateOnScroll';
 import FinalCTA from './FinalCTA';
@@ -7,90 +8,24 @@ import FAQSection from './FAQSection';
 import type { Testimonial, ValuePillar } from '../types';
 import { imageUrls } from '../utils/imageConfig';
 
-const StarIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
-    fill="currentColor"
-    aria-hidden="true"
-  >
-    <path
-      fillRule="evenodd"
-      d="M10 16.535l-5.223 2.745.998-5.816L.99 8.28l5.838-.848L10 2l2.174 5.432 5.838.848-4.785 4.184.998 5.816L10 16.535z"
-      clipRule="evenodd"
-    />
-  </svg>
-);
-
-// --- Icon Set for Pillars ---
-const MusicalNoteIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    strokeWidth={1.5}
-    stroke="currentColor"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V7.5A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v1.5M9 9l-3 3m0 0l3 3m-3-3h12"
-    />
-  </svg>
-);
-const UsersIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    strokeWidth={1.5}
-    stroke="currentColor"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m-7.5-2.962c.51.056 1.02.082 1.5.082a2.25 2.25 0 012.25 2.25m-9.75 0h9.75m-9.75 0a2.25 2.25 0 01-2.25-2.25M13.5 18.75m-7.5-2.962a3.375 3.375 0 00-5.624-2.496A3.375 3.375 0 006.75 15.75m-7.5-2.962V7.5A2.25 2.25 0 014.5 5.25h5.25A2.25 2.25 0 0112 7.5v3.038m-7.5-2.962a3.375 3.375 0 00-5.624-2.496A3.375 3.375 0 006.75 15.75m-7.5-2.962V7.5a2.25 2.25 0 012.25-2.25h5.25a2.25 2.25 0 012.25 2.25v3.038m0 0a2.25 2.25 0 003.75 0V7.5a2.25 2.25 0 00-2.25-2.25h-5.25a2.25 2.25 0 00-2.25 2.25v3.038"
-    />
-  </svg>
-);
-const SunIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    strokeWidth={1.5}
-    stroke="currentColor"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
-    />
-  </svg>
-);
-
 const afrobeatsPillars: ValuePillar[] = [
   {
     id: 'groove',
     titleKey: 'afrobeatsPillar1Title',
     contentKey: 'afrobeatsPillar1Desc',
-    Icon: MusicalNoteIcon,
+    Icon: Music,
   },
   {
     id: 'fusion',
     titleKey: 'afrobeatsPillar2Title',
     contentKey: 'afrobeatsPillar2Desc',
-    Icon: UsersIcon,
+    Icon: Users,
   },
   {
     id: 'joy',
     titleKey: 'afrobeatsPillar3Title',
     contentKey: 'afrobeatsPillar3Desc',
-    Icon: SunIcon,
+    Icon: Sun,
   },
 ];
 
@@ -374,7 +309,7 @@ const AfrobeatsPage: React.FC = () => {
                       )}
                     >
                       {[...Array(5)].map((_, i) => (
-                        <StarIcon key={i} className="w-5 h-5 text-primary-accent" />
+                        <Star key={i} className="w-5 h-5 text-primary-accent fill-current" />
                       ))}
                     </div>
                     <blockquote className="flex-grow text-neutral/90 italic mb-6">
