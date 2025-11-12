@@ -577,9 +577,9 @@ const DancehallPageV3: React.FC = () => {
                   <AnimatedCounter
                     target={8}
                     suffix="+"
-                    className="text-6xl md:text-7xl font-black mb-2 holographic-text"
+                    className="text-4xl md:text-5xl font-black mb-2 holographic-text"
                   />
-                  <p className="text-base md:text-lg text-neutral/90 font-bold uppercase tracking-wide">
+                  <p className="text-4xl md:text-5xl text-neutral/90 font-bold uppercase tracking-wide">
                     {t('yearsExperience')}
                   </p>
                 </div>
@@ -587,9 +587,9 @@ const DancehallPageV3: React.FC = () => {
                   <AnimatedCounter
                     target={1500}
                     suffix="+"
-                    className="text-6xl md:text-7xl font-black mb-2 holographic-text"
+                    className="text-4xl md:text-5xl font-black mb-2 holographic-text"
                   />
-                  <p className="text-base md:text-lg text-neutral/90 font-bold uppercase tracking-wide">
+                  <p className="text-4xl md:text-5xl text-neutral/90 font-bold uppercase tracking-wide">
                     {t('activeStudents')}
                   </p>
                 </div>
@@ -597,9 +597,9 @@ const DancehallPageV3: React.FC = () => {
                   <AnimatedCounter
                     target={15000}
                     suffix="+"
-                    className="text-6xl md:text-7xl font-black mb-2 holographic-text"
+                    className="text-4xl md:text-5xl font-black mb-2 holographic-text"
                   />
-                  <p className="text-base md:text-lg text-neutral/90 font-bold uppercase tracking-wide">
+                  <p className="text-4xl md:text-5xl text-neutral/90 font-bold uppercase tracking-wide">
                     {t('satisfiedStudents')}
                   </p>
                 </div>
