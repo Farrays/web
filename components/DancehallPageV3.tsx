@@ -515,12 +515,6 @@ const DancehallPageV3: React.FC = () => {
                 </div>
               </AnimateOnScroll>
             </div>
-
-            <AnimateOnScroll>
-              <div className="max-w-3xl mx-auto text-center">
-                <p className="text-2xl font-bold holographic-text mt-8">{t('dhV3TransformCTA')}</p>
-              </div>
-            </AnimateOnScroll>
           </div>
         </section>
 
