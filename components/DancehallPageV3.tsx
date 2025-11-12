@@ -461,14 +461,6 @@ const DancehallPageV3: React.FC = () => {
                 </div>
               </AnimateOnScroll>
             </div>
-
-            <AnimateOnScroll>
-              <div className="max-w-3xl mx-auto text-center space-y-6">
-                <p className="text-2xl font-bold text-neutral">{t('dhV3IdentifyAgitate2')}</p>
-                <p className="text-lg text-neutral/80">{t('dhV3IdentifySolution')}</p>
-                <p className="text-xl text-neutral/90 italic">{t('dhV3IdentifyClosing')}</p>
-              </div>
-            </AnimateOnScroll>
           </div>
         </section>
 
@@ -486,15 +478,16 @@ const DancehallPageV3: React.FC = () => {
             <AnimateOnScroll>
               <div className="max-w-3xl mx-auto text-center space-y-6">
                 <p className="text-xl font-semibold holographic-text">{t('dhV3IdentifyAgitate1')}</p>
-                <p className="text-xl text-neutral/90 leading-relaxed">{t('dhV3TransformClosing1')}</p>
-                <p className="text-lg text-neutral/80 italic">{t('dhV3TransformClosing2')}</p>
+                <p className="text-2xl font-bold text-neutral">{t('dhV3IdentifyAgitate2')}</p>
+                <p className="text-lg text-neutral/80">{t('dhV3IdentifySolution')}</p>
+                <p className="text-xl text-neutral/90 italic">{t('dhV3IdentifyClosing')}</p>
               </div>
             </AnimateOnScroll>
           </div>
         </section>
 
         {/* Transformation Section - Imagina tu antes y después */}
-        <section className="py-20 md:py-32 bg-primary-dark/10">
+        <section className="py-12 md:py-16 bg-primary-dark/10">
           <div className="container mx-auto px-6">
             <AnimateOnScroll>
               <div className="text-center mb-16">
