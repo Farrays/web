@@ -736,7 +736,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   dhV3LogosTitle: 'Nos has podido ver en…',
   dhV3LogosIntlFestivals: 'Festivales Internacionales de Danza',
 
-  dhV3TeachersTitle: 'Conoce a nuestras profesoras',
+  dhV3TeachersTitle: 'Conoce a nuestras profesoras de dancehall',
   dhV3TeachersSubtitle: 'Expertas en Dancehall con años de experiencia',
   dhV3Teacher1Specialty: '+5 años enseñando Dancehall Female',
   dhV3Teacher1Bio: 'Técnica impecable, energía contagiosa y estilo elegante y potente.',

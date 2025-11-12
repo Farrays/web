@@ -618,11 +618,13 @@ const DancehallPageV3: React.FC = () => {
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 max-w-5xl mx-auto items-center mb-8">
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
-                    <img
-                      src="/images/cid-unesco-logo.webp"
-                      alt="CID UNESCO"
-                      className="w-20 h-20 object-contain"
-                    />
+                    <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
+                      <img
+                        src="/images/cid-unesco-logo.webp"
+                        alt="CID UNESCO"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
                     <div className="text-neutral/80 font-bold text-sm text-center">CID UNESCO</div>
                   </div>
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
@@ -685,12 +687,12 @@ const DancehallPageV3: React.FC = () => {
           className="py-20 md:py-32 bg-black relative overflow-hidden"
         >
           {/* Jamaica Flag Background */}
-          <div className="absolute inset-0 opacity-20">
+          <div className="absolute inset-0 opacity-30">
             <img
               src="/images/classes/dancehall/raw/Jamaica.webp"
               alt="Jamaica Flag"
               className="w-full h-full object-cover"
-              style={{ filter: 'brightness(0.7)' }}
+              style={{ filter: 'brightness(0.9)' }}
             />
           </div>
 
