@@ -414,6 +414,16 @@ const DancehallPageV3: React.FC = () => {
           </div>
         </section>
 
+        {/* Cultural History - Expandable (without title) */}
+        <CulturalHistorySection
+          titleKey=""
+          shortDescKey="dhV3CulturalShort"
+          fullHistoryKey="dhV3CulturalFull"
+          readMoreText={t('readMore')}
+          readLessText={t('readLess')}
+          t={t}
+        />
+
         {/* Identification Section - ¿Te identificas? */}
         <section className="py-20 md:py-32 bg-black">
           <div className="container mx-auto px-6">
