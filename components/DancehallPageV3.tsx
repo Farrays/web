@@ -253,17 +253,16 @@ const DancehallPageV3: React.FC = () => {
       />
 
       <div className="pt-20 md:pt-24">
-        {/* HERO Section - Full image background */}
+        {/* HERO Section - Without background image (like home) */}
         <section
           id="dancehall-hero"
-          className="relative text-center py-32 md:py-40 overflow-hidden bg-black flex items-center justify-center min-h-[600px]"
+          className="relative text-center py-32 md:py-40 overflow-hidden flex items-center justify-center min-h-[600px]"
         >
-          <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-black/60 z-10"></div>
-          <img
-            src="/images/classes/dancehall/raw/dancehall-classes-barcelona-01.jpg"
-            alt="Clases de Dancehall en Barcelona"
-            className="absolute z-0 top-0 left-0 w-full h-full object-cover"
-          />
+          {/* Background like Hero.tsx */}
+          <div className="absolute inset-0 bg-black">
+            <div className="absolute inset-0 bg-gradient-to-br from-primary-dark/30 via-black to-black"></div>
+            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20"></div>
+          </div>
           <div className="relative z-20 container mx-auto px-6">
             <AnimateOnScroll>
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-tight mb-6 holographic-text">
@@ -415,16 +414,6 @@ const DancehallPageV3: React.FC = () => {
           </div>
         </section>
 
-        {/* Cultural History - Expandable */}
-        <CulturalHistorySection
-          titleKey="dhV3CulturalTitle"
-          shortDescKey="dhV3CulturalShort"
-          fullHistoryKey="dhV3CulturalFull"
-          readMoreText={t('readMore')}
-          readLessText={t('readLess')}
-          t={t}
-        />
-
         {/* Identification Section - ¿Te identificas? */}
         <section className="py-20 md:py-32 bg-black">
           <div className="container mx-auto px-6">
@@ -434,12 +423,6 @@ const DancehallPageV3: React.FC = () => {
                   {t('dhV3IdentifyTitle')}
                 </h2>
               </div>
-            </AnimateOnScroll>
-
-            <AnimateOnScroll>
-              <h3 className="text-2xl md:text-3xl font-bold mb-8 text-center holographic-text">
-                Necesitas apuntarte a clases de Dancehall en una academia de baile
-              </h3>
             </AnimateOnScroll>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-12">
@@ -543,15 +526,6 @@ const DancehallPageV3: React.FC = () => {
         {/* Why Choose Farray's Section */}
         <section className="py-20 md:py-32 bg-black">
           <div className="container mx-auto px-6">
-            <AnimateOnScroll>
-              <div className="text-center mb-12">
-                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4 holographic-text">
-                  ¿Por qué elegir Farray's Center como tu academia de Dancehall en Barcelona?
-                </h2>
-                <p className="text-xl text-neutral/70 max-w-3xl mx-auto">{t('dhV3WhyChooseSubtitle')}</p>
-              </div>
-            </AnimateOnScroll>
-
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-16">
               {[1, 2, 3, 4, 5, 6].map((num, index) => (
                 <AnimateOnScroll key={num} delay={index * 100} className="[perspective:1000px]">
