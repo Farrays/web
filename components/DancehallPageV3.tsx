@@ -455,14 +455,46 @@ const DancehallPageV3: React.FC = () => {
                   </div>
                 </AnimateOnScroll>
               ))}
+              <AnimateOnScroll delay={500} className="[perspective:1000px]">
+                <div className="group relative h-full flex items-start gap-4 p-6 bg-primary-dark/20 rounded-xl border border-primary-dark/50 hover:border-primary-accent transition-all duration-500 [transform-style:preserve-3d] hover:[transform:translateY(-0.5rem)_scale(1.05)_rotateY(5deg)] hover:shadow-accent-glow">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary-accent/20 flex items-center justify-center group-hover:bg-primary-accent/40 transition-colors duration-300">
+                    <svg className="w-5 h-5 text-primary-accent" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <p className="text-neutral/90 leading-relaxed">
+                    Te encanta bailar y disfrutar del movimiento, pero sientes que necesitas algo diferente, con más flow y personalidad.
+                  </p>
+                </div>
+              </AnimateOnScroll>
             </div>
 
             <AnimateOnScroll>
               <div className="max-w-3xl mx-auto text-center space-y-6">
-                <p className="text-xl font-semibold holographic-text">{t('dhV3IdentifyAgitate1')}</p>
                 <p className="text-2xl font-bold text-neutral">{t('dhV3IdentifyAgitate2')}</p>
                 <p className="text-lg text-neutral/80">{t('dhV3IdentifySolution')}</p>
                 <p className="text-xl text-neutral/90 italic">{t('dhV3IdentifyClosing')}</p>
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </section>
+
+        {/* Nueva Sección - Necesitas apuntarte */}
+        <section className="py-20 md:py-32 bg-primary-dark/10">
+          <div className="container mx-auto px-6">
+            <AnimateOnScroll>
+              <div className="text-center mb-12">
+                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 holographic-text">
+                  Necesitas apuntarte a clases de Dancehall en una academia de baile
+                </h2>
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll>
+              <div className="max-w-3xl mx-auto text-center space-y-6">
+                <p className="text-xl font-semibold holographic-text">{t('dhV3IdentifyAgitate1')}</p>
+                <p className="text-xl text-neutral/90 leading-relaxed">{t('dhV3TransformClosing1')}</p>
+                <p className="text-lg text-neutral/80 italic">{t('dhV3TransformClosing2')}</p>
               </div>
             </AnimateOnScroll>
           </div>
@@ -502,9 +534,7 @@ const DancehallPageV3: React.FC = () => {
 
             <AnimateOnScroll>
               <div className="max-w-3xl mx-auto text-center">
-                <p className="text-xl text-neutral/90 leading-relaxed mb-4">{t('dhV3TransformClosing1')}</p>
-                <p className="text-lg text-neutral/80 italic">{t('dhV3TransformClosing2')}</p>
-                <p className="text-2xl font-bold text-primary-accent mt-8">{t('dhV3TransformCTA')}</p>
+                <p className="text-2xl font-bold holographic-text mt-8">{t('dhV3TransformCTA')}</p>
               </div>
             </AnimateOnScroll>
           </div>
@@ -515,12 +545,15 @@ const DancehallPageV3: React.FC = () => {
           <div className="container mx-auto px-6">
             <AnimateOnScroll>
               <div className="text-center mb-12">
+                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4 holographic-text">
+                  ¿Por qué elegir Farray's Center como tu academia de Dancehall en Barcelona?
+                </h2>
                 <p className="text-xl text-neutral/70 max-w-3xl mx-auto">{t('dhV3WhyChooseSubtitle')}</p>
               </div>
             </AnimateOnScroll>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-16">
-              {[1, 2, 3, 4, 5].map((num, index) => (
+              {[1, 2, 3, 4, 5, 6].map((num, index) => (
                 <AnimateOnScroll key={num} delay={index * 100} className="[perspective:1000px]">
                   <div className="group h-full p-6 bg-primary-dark/20 rounded-xl border border-primary-dark/50 hover:border-primary-accent transition-all duration-500 [transform-style:preserve-3d] hover:[transform:translateY(-0.5rem)_scale(1.05)_rotateY(5deg)] hover:shadow-accent-glow">
                     <div className="flex items-start gap-4">
@@ -612,7 +645,7 @@ const DancehallPageV3: React.FC = () => {
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
-                        src="/images/classes/dancehall/img/dancehall-dancing-barcelona-03_640.webp"
+                        src="/images/classes/dancehall/raw/dancehall-dancing-barcelona-03.jpg"
                         alt="Street Dance 2"
                         className="w-full h-full object-cover"
                       />
@@ -622,7 +655,7 @@ const DancehallPageV3: React.FC = () => {
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
-                        src="/images/classes/dancehall/img/dancehall-dance-students-02_640.webp"
+                        src="/images/classes/dancehall/raw/dancehall-dance-students-02.jpg"
                         alt="The Dancer"
                         className="w-full h-full object-cover"
                       />
@@ -632,7 +665,7 @@ const DancehallPageV3: React.FC = () => {
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
-                        src="/images/classes/dancehall/img/dancehall-classes-barcelona-01_640.webp"
+                        src="/images/classes/dancehall/raw/dancehall-classes-barcelona-01.jpg"
                         alt="TV 5"
                         className="w-full h-full object-cover"
                       />
@@ -654,7 +687,7 @@ const DancehallPageV3: React.FC = () => {
             <AnimateOnScroll>
               <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/images/classes/dancehall/img/dancehall-dance-students-02_1440.webp"
+                  src="/images/classes/dancehall/img/dancehall-dancing-barcelona-03_1440.webp"
                   alt="Clases de Dancehall en Barcelona - Ambiente de clase"
                   className="w-full h-auto object-cover"
                 />
@@ -855,7 +888,7 @@ const DancehallPageV3: React.FC = () => {
                 <p className="text-xl text-neutral/90">{t('dhV3WhyToday1')}</p>
                 <p className="text-xl text-neutral/90">{t('dhV3WhyToday2')}</p>
                 <p className="text-xl text-neutral/90">{t('dhV3WhyToday3')}</p>
-                <p className="text-2xl font-bold text-primary-accent mt-8">{t('dhV3WhyTodayClosing1')}</p>
+                <p className="text-2xl font-bold holographic-text mt-8">{t('dhV3WhyTodayClosing1')}</p>
                 <p className="text-lg text-neutral/80 italic">{t('dhV3WhyTodayClosing2')}</p>
               </div>
             </AnimateOnScroll>
@@ -872,7 +905,7 @@ const DancehallPageV3: React.FC = () => {
         >
           <div className="absolute inset-0">
             <img
-              src="/images/classes/dancehall/img/dancehall-dance-students-02_1440.webp"
+              src="/images/classes/dancehall/img/dancehall-classes-barcelona-01_1440.webp"
               alt="Background"
               className="w-full h-full object-cover opacity-20"
             />
@@ -914,9 +947,6 @@ const DancehallPageV3: React.FC = () => {
                     <p className="text-xs text-neutral/70 mt-2 text-center">Oferta válida por tiempo limitado</p>
                   </div>
                 </div>
-                <p className="text-lg md:text-xl text-neutral/80 italic">
-                  {t('dhV3HeroLocation')}
-                </p>
               </div>
             </AnimateOnScroll>
           </div>
