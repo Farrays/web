@@ -666,21 +666,6 @@ const DancehallPageV3: React.FC = () => {
           </div>
         </section>
 
-        {/* Featured Image Section */}
-        <section className="py-12 md:py-16 bg-black">
-          <div className="container mx-auto px-6">
-            <AnimateOnScroll>
-              <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
-                <img
-                  src="/images/classes/dancehall/img/dancehall-dancing-barcelona-03_1440.webp"
-                  alt="Clases de Dancehall en Barcelona - Ambiente de clase"
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-            </AnimateOnScroll>
-          </div>
-        </section>
-
         {/* Teachers Section - REAL */}
         <section
           id="teachers"
@@ -890,7 +875,7 @@ const DancehallPageV3: React.FC = () => {
         >
           <div className="absolute inset-0">
             <img
-              src="/images/classes/dancehall/img/dancehall-classes-barcelona-01_1440.webp"
+              src="/images/classes/dancehall/img/dancehall-dancing-barcelona-03_1440.webp"
               alt="Background"
               className="w-full h-full object-cover opacity-20"
             />
