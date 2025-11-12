@@ -58,7 +58,7 @@ const CIDLogo: React.FC = () => (
 );
 
 const Classes: React.FC = () => {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
 
   return (
     <section id="classes" className="py-20 md:py-32 bg-primary-dark/10">
@@ -98,12 +98,23 @@ const Classes: React.FC = () => {
         <AnimateOnScroll>
           <div className="flex flex-col items-center gap-6 mt-16">
             <CIDLogo />
-            <a
-              href="#schedule"
-              className="bg-primary-accent text-white font-bold py-4 px-10 rounded-full transition-all duration-300 hover:bg-white hover:text-primary-accent shadow-lg hover:shadow-accent-glow"
-            >
-              {t('classesCTA')}
-            </a>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a
+                href="#schedule"
+                className="bg-primary-accent text-white font-bold py-4 px-10 rounded-full transition-all duration-300 hover:bg-white hover:text-primary-accent shadow-lg hover:shadow-accent-glow"
+              >
+                {t('classesCTA')}
+              </a>
+              <a
+                href={`/${locale}/clases/dancehall-v3`}
+                className="relative bg-transparent border-2 border-primary-accent text-primary-accent font-bold py-4 px-10 rounded-full transition-all duration-300 hover:bg-primary-accent hover:text-white shadow-lg hover:shadow-accent-glow overflow-hidden group"
+              >
+                <span className="absolute top-0 right-0 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-bl-lg">
+                  NUEVO
+                </span>
+                🔥 Dancehall V3
+              </a>
+            </div>
           </div>
         </AnimateOnScroll>
       </div>
