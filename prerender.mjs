@@ -10,21 +10,25 @@ const routes = [
   { path: 'es', lang: 'es', page: 'home' },
   { path: 'es/clases', lang: 'es', page: 'classes' },
   { path: 'es/clases/dancehall-barcelona', lang: 'es', page: 'dancehall' },
+  { path: 'es/clases/dancehall-v3', lang: 'es', page: 'dancehall-v3' },
   { path: 'es/clases/afrobeats-barcelona', lang: 'es', page: 'afrobeats' },
 
   { path: 'ca', lang: 'ca', page: 'home' },
   { path: 'ca/clases', lang: 'ca', page: 'classes' },
   { path: 'ca/clases/dancehall-barcelona', lang: 'ca', page: 'dancehall' },
+  { path: 'ca/clases/dancehall-v3', lang: 'ca', page: 'dancehall-v3' },
   { path: 'ca/clases/afrobeats-barcelona', lang: 'ca', page: 'afrobeats' },
 
   { path: 'en', lang: 'en', page: 'home' },
   { path: 'en/clases', lang: 'en', page: 'classes' },
   { path: 'en/clases/dancehall-barcelona', lang: 'en', page: 'dancehall' },
+  { path: 'en/clases/dancehall-v3', lang: 'en', page: 'dancehall-v3' },
   { path: 'en/clases/afrobeats-barcelona', lang: 'en', page: 'afrobeats' },
 
   { path: 'fr', lang: 'fr', page: 'home' },
   { path: 'fr/clases', lang: 'fr', page: 'classes' },
   { path: 'fr/clases/dancehall-barcelona', lang: 'fr', page: 'dancehall' },
+  { path: 'fr/clases/dancehall-v3', lang: 'fr', page: 'dancehall-v3' },
   { path: 'fr/clases/afrobeats-barcelona', lang: 'fr', page: 'afrobeats' },
 ];
 
@@ -42,6 +46,10 @@ const metadata = {
     dancehall: {
       title: 'Clases de Dancehall - FarRays Center Barcelona',
       description: 'Aprende Dancehall auténtico con los mejores profesores de Barcelona. Clases para principiantes y avanzados.',
+    },
+    'dancehall-v3': {
+      title: 'Clases de Dancehall en Barcelona - Academia de Baile Urbano | FarRays Center',
+      description: 'Aprende Dancehall auténtico en Barcelona con profesores expertos. Clases para todos los niveles. Descubre el ritmo de Jamaica.',
     },
     afrobeats: {
       title: 'Clases de Afrobeats - FarRays Center Barcelona',
@@ -61,6 +69,10 @@ const metadata = {
       title: 'Classes de Dancehall - FarRays Center Barcelona',
       description: 'Aprèn Dancehall autèntic amb els millors professors de Barcelona. Classes per a principiants i avançats.',
     },
+    'dancehall-v3': {
+      title: 'Classes de Dancehall a Barcelona - Acadèmia de Ball Urbà | FarRays Center',
+      description: 'Aprèn Dancehall autèntic a Barcelona amb professors experts. Classes per a tots els nivells. Descobreix el ritme de Jamaica.',
+    },
     afrobeats: {
       title: 'Classes d\'Afrobeats - FarRays Center Barcelona',
       description: 'Domina l\'Afrobeats amb classes professionals a Barcelona. Energia, ritme i comunitat.',
@@ -79,6 +91,10 @@ const metadata = {
       title: 'Dancehall Classes - FarRays Center Barcelona',
       description: 'Learn authentic Dancehall with the best teachers in Barcelona. Classes for beginners and advanced.',
     },
+    'dancehall-v3': {
+      title: 'Dancehall Classes in Barcelona - Urban Dance Academy | FarRays Center',
+      description: 'Learn authentic Dancehall in Barcelona with expert teachers. Classes for all levels. Discover the rhythm of Jamaica.',
+    },
     afrobeats: {
       title: 'Afrobeats Classes - FarRays Center Barcelona',
       description: 'Master Afrobeats with professional classes in Barcelona. Energy, rhythm and community.',
@@ -96,6 +112,10 @@ const metadata = {
     dancehall: {
       title: 'Cours de Dancehall - FarRays Center Barcelone',
       description: 'Apprenez le Dancehall authentique avec les meilleurs professeurs de Barcelone. Cours pour débutants et avancés.',
+    },
+    'dancehall-v3': {
+      title: 'Cours de Dancehall à Barcelone - Académie de Danse Urbaine | FarRays Center',
+      description: 'Apprenez le Dancehall authentique à Barcelone avec des professeurs experts. Cours pour tous les niveaux. Découvrez le rythme de la Jamaïque.',
     },
     afrobeats: {
       title: 'Cours d\'Afrobeats - FarRays Center Barcelone',
@@ -153,6 +173,16 @@ const initialContent = {
         </p>
       </main>
     `,
+    'dancehall-v3': `
+      <main id="main-content" class="relative z-0 pt-20 pb-32 px-6 sm:px-12">
+        <h1 class="text-4xl sm:text-5xl font-bold text-neutral mb-8 text-center holographic-text">
+          Clases de Dancehall en Barcelona
+        </h1>
+        <p class="text-lg text-neutral/80 max-w-3xl mx-auto mb-12 text-center">
+          Descubre el auténtico Dancehall de Jamaica en Barcelona. Energía, cultura y ritmo en cada clase.
+        </p>
+      </main>
+    `,
     afrobeats: `
       <main id="main-content" class="relative z-0 pt-20 pb-32 px-6 sm:px-12">
         <h1 class="text-4xl sm:text-5xl font-bold text-neutral mb-8 text-center holographic-text">
@@ -169,18 +199,21 @@ const initialContent = {
     home: `<main id="main-content"><h1 class="holographic-text text-5xl font-extrabold">FarRays Center</h1><p class="text-xl">Escola de ball urbà a Barcelona. Aprèn Dancehall, Afrobeats i més.</p></main>`,
     classes: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Les nostres Classes</h1><p>Classes de Dancehall, Afrobeats i ball urbà per a tots els nivells.</p></main>`,
     dancehall: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Classes de Dancehall</h1><p>Aprèn Dancehall autèntic de Jamaica.</p></main>`,
+    'dancehall-v3': `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Classes de Dancehall a Barcelona</h1><p>Descobreix l'autèntic Dancehall de Jamaica a Barcelona. Energia, cultura i ritme a cada classe.</p></main>`,
     afrobeats: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Classes d'Afrobeats</h1><p>Domina l'Afrobeats amb classes professionals.</p></main>`,
   },
   en: {
     home: `<main id="main-content"><h1 class="holographic-text text-5xl font-extrabold">FarRays Center</h1><p class="text-xl">Urban dance school in Barcelona. Learn Dancehall, Afrobeats and more.</p></main>`,
     classes: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Our Classes</h1><p>Dancehall, Afrobeats and urban dance classes for all levels.</p></main>`,
     dancehall: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Dancehall Classes</h1><p>Learn authentic Dancehall from Jamaica.</p></main>`,
+    'dancehall-v3': `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Dancehall Classes in Barcelona</h1><p>Discover authentic Dancehall from Jamaica in Barcelona. Energy, culture and rhythm in every class.</p></main>`,
     afrobeats: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Afrobeats Classes</h1><p>Master Afrobeats with professional classes.</p></main>`,
   },
   fr: {
     home: `<main id="main-content"><h1 class="holographic-text text-5xl font-extrabold">FarRays Center</h1><p class="text-xl">École de danse urbaine à Barcelone. Apprenez le Dancehall, l'Afrobeats et plus.</p></main>`,
     classes: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Nos Cours</h1><p>Cours de Dancehall, Afrobeats et danse urbaine pour tous les niveaux.</p></main>`,
     dancehall: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Cours de Dancehall</h1><p>Apprenez le Dancehall authentique de Jamaïque.</p></main>`,
+    'dancehall-v3': `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Cours de Dancehall à Barcelone</h1><p>Découvrez le véritable Dancehall de Jamaïque à Barcelone. Énergie, culture et rythme à chaque cours.</p></main>`,
     afrobeats: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Cours d'Afrobeats</h1><p>Maîtrisez l'Afrobeats avec des cours professionnels.</p></main>`,
   },
 };
@@ -215,6 +248,8 @@ routes.forEach(route => {
     pagePath = 'clases';
   } else if (page === 'dancehall') {
     pagePath = 'clases/dancehall-barcelona';
+  } else if (page === 'dancehall-v3') {
+    pagePath = 'clases/dancehall-v3';
   } else if (page === 'afrobeats') {
     pagePath = 'clases/afrobeats-barcelona';
   }
