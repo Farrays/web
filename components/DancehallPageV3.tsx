@@ -305,7 +305,9 @@ const DancehallPageV3: React.FC = () => {
 
         {/* Key Stats - Lo que obtienes en cada clase */}
         <section className="py-8 md:py-12 bg-black relative overflow-hidden">
-          <div className="container mx-auto px-6">
+          {/* Extended starfield background from hero */}
+          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20"></div>
+          <div className="container mx-auto px-6 relative z-10">
             <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12 max-w-4xl mx-auto">
               {/* 60 Minutos */}
               <AnimateOnScroll delay={0}>
@@ -425,7 +427,7 @@ const DancehallPageV3: React.FC = () => {
         />
 
         {/* Identification Section - ¿Te identificas? */}
-        <section className="py-20 md:py-32 bg-black">
+        <section className="py-16 md:py-24 bg-black">
           <div className="container mx-auto px-6">
             <AnimateOnScroll>
               <div className="text-center mb-16">
@@ -607,9 +609,10 @@ const DancehallPageV3: React.FC = () => {
           <div className="container mx-auto px-6">
             <AnimateOnScroll>
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-black text-neutral mb-8 holographic-text">
-                  {t('dhV3LogosTitle')}
+                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4 holographic-text">
+                  ¿Por qué elegir Farray's Center como tu academia de Dancehall en Barcelona?
                 </h2>
+                <p className="text-xl text-neutral/70 max-w-3xl mx-auto mb-12">{t('dhV3LogosTitle')}</p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 max-w-5xl mx-auto items-center mb-8">
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
                     <img
