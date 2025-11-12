@@ -880,7 +880,7 @@ const DancehallPageV3: React.FC = () => {
           <div className="container mx-auto px-6 relative z-10">
             <AnimateOnScroll>
               <div className="max-w-4xl mx-auto text-center">
-                <h2 className="text-4xl md:text-6xl font-black text-neutral mb-4 holographic-text">
+                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4 holographic-text">
                   {t('dhV3FinalCTATitle')}
                 </h2>
                 <p className="text-2xl font-bold mb-6 holographic-text">
