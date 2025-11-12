@@ -750,7 +750,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   dhV3TestimonialsTitle: 'Testimonios de nuestros estudiantes',
 
   dhV3VideoTitle: 'Ven a descubrir nuestras clases de Dancehall',
-  dhV3VideoDesc: 'Conoce de primera mano cómo es vivir la experiencia Farray\'s. Aprenderás los movimientos auténticos del Dancehall jamaicano con nuestras profesoras expertos.',
+  dhV3VideoDesc: 'Conoce de primera mano cómo es vivir la experiencia Farray\'s. Aprenderás los movimientos auténticos del Dancehall jamaicano con nuestras profesoras expertas.',
 
   dhV3WhyTodayTitle: '¿Por qué hoy es el mejor momento para empezar?',
   dhV3WhyToday1: 'Porque cada día que no te mueves, tu cuerpo te lo pide un poco más.',
