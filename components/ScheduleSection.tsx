@@ -28,7 +28,7 @@ const ScheduleSection: React.FC<ScheduleSectionProps> = ({
       <div className="container mx-auto px-6">
         <AnimateOnScroll>
           <div className="text-center mb-16 max-w-3xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4">
+            <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4 holographic-text">
               {t(titleKey)}
             </h2>
             <p className="text-lg text-neutral/80">{t(subtitleKey)}</p>

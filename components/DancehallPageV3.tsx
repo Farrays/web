@@ -385,7 +385,7 @@ const DancehallPageV3: React.FC = () => {
           <div className="container mx-auto px-6">
             <AnimateOnScroll>
               <div className="max-w-4xl mx-auto">
-                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 text-center">
+                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 text-center holographic-text">
                   {t('dhV3WhatIsTitle')}
                 </h2>
                 <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -618,17 +618,19 @@ const DancehallPageV3: React.FC = () => {
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 max-w-5xl mx-auto items-center mb-8">
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
-                    <img
-                      src="/images/logo/img/cid-unesco-logo.webp"
-                      alt="CID UNESCO"
-                      className="w-20 h-20 object-contain"
-                    />
+                    <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
+                      <img
+                        src="/images/cid-unesco-logo.webp"
+                        alt="CID UNESCO"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
                     <div className="text-neutral/80 font-bold text-sm text-center">CID UNESCO</div>
                   </div>
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
-                        src="/images/logo/img/street-dance-2.webp"
+                        src="/images/Street-Dance-2.webp"
                         alt="Street Dance 2"
                         className="w-full h-full object-cover"
                       />
@@ -638,7 +640,7 @@ const DancehallPageV3: React.FC = () => {
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
-                        src="/images/logo/img/the-dancer-espectaculo-baile-cuadrada.webp"
+                        src="/images/the-dancer-espectaculo-baile-cuadrada.webp"
                         alt="The Dancer"
                         className="w-full h-full object-cover"
                       />
@@ -648,7 +650,7 @@ const DancehallPageV3: React.FC = () => {
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
-                        src="/images/logo/img/telecinco-logo.webp"
+                        src="/images/telecinco-logo.webp"
                         alt="TV 5"
                         className="w-full h-full object-cover"
                       />
@@ -664,33 +666,18 @@ const DancehallPageV3: React.FC = () => {
           </div>
         </section>
 
-        {/* Featured Image Section */}
-        <section className="py-12 md:py-16 bg-black">
-          <div className="container mx-auto px-6">
-            <AnimateOnScroll>
-              <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
-                <img
-                  src="/images/classes/dancehall/img/dancehall-dancing-barcelona-03_1440.webp"
-                  alt="Clases de Dancehall en Barcelona - Ambiente de clase"
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-            </AnimateOnScroll>
-          </div>
-        </section>
-
         {/* Teachers Section - REAL */}
         <section
           id="teachers"
           className="py-20 md:py-32 bg-black relative overflow-hidden"
         >
           {/* Jamaica Flag Background */}
-          <div className="absolute inset-0 opacity-20">
+          <div className="absolute inset-0 opacity-30">
             <img
               src="/images/classes/dancehall/raw/Jamaica.webp"
               alt="Jamaica Flag"
               className="w-full h-full object-cover"
-              style={{ filter: 'brightness(0.7)' }}
+              style={{ filter: 'brightness(0.9)' }}
             />
           </div>
 
@@ -866,7 +853,7 @@ const DancehallPageV3: React.FC = () => {
             <AnimateOnScroll>
               <div className="max-w-3xl mx-auto text-center space-y-6">
                 <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 holographic-text">
-                  ¿POR QUÉ HOY ES EL MEJOR MOMENTO PARA EMPEZAR A BAILAR DANCEHALL CON NOSOTROS?
+                  ¿Por qué hoy es el mejor momento para empezar a bailar Dancehall con nosotros?
                 </h2>
                 <p className="text-xl text-neutral/90">{t('dhV3WhyToday1')}</p>
                 <p className="text-xl text-neutral/90">{t('dhV3WhyToday2')}</p>
@@ -878,9 +865,6 @@ const DancehallPageV3: React.FC = () => {
           </div>
         </section>
 
-        {/* FAQ */}
-        <FAQSection title={t('dhV3FaqTitle')} faqs={dancehallV3Faqs} pageUrl={pageUrl} />
-
         {/* Final CTA Section */}
         <section
           id="final-cta"
@@ -888,7 +872,7 @@ const DancehallPageV3: React.FC = () => {
         >
           <div className="absolute inset-0">
             <img
-              src="/images/classes/dancehall/img/dancehall-classes-barcelona-01_1440.webp"
+              src="/images/classes/dancehall/img/dancehall-dancing-barcelona-03_1440.webp"
               alt="Background"
               className="w-full h-full object-cover opacity-20"
             />
@@ -934,6 +918,9 @@ const DancehallPageV3: React.FC = () => {
             </AnimateOnScroll>
           </div>
         </section>
+
+        {/* FAQ */}
+        <FAQSection title={t('dhV3FaqTitle')} faqs={dancehallV3Faqs} pageUrl={pageUrl} />
       </div>
     </>
   );
