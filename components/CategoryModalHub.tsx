@@ -170,7 +170,7 @@ const CategoryModalHub: React.FC<CategoryModalHubProps> = ({ isOpen, category, o
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-primary-accent/20">
             <Link
               to={`/${locale}${category.pillarUrl}`}
-              className="inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-bold bg-primary-accent text-white hover:bg-primary-dark transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-accent-glow w-full sm:w-auto"
+              className="inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-bold bg-primary-accent text-white hover:bg-primary-dark transition-all duration-300 w-full sm:w-auto"
             >
               {t('danceClassesHub_cta_view_category')}
             </Link>

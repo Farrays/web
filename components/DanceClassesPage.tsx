@@ -209,7 +209,7 @@ const DanceClassesPage: React.FC = () => {
                           <div className="flex flex-col gap-2">
                             <Link
                               to={`/${locale}${category.pillarUrl}`}
-                              className="inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-bold bg-primary-accent text-white hover:bg-primary-dark transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-accent-glow"
+                              className="inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-bold bg-primary-accent text-white hover:bg-primary-dark transition-all duration-300"
                             >
                               {t('danceClassesHub_cta_view_category')}
                             </Link>
