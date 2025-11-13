@@ -37,9 +37,9 @@ const SEO: React.FC = () => {
       image: `${baseUrl}/images/og-home.jpg`,
     },
     classes: {
-      titleKey: 'danceClassesPageTitle',
-      descKey: 'danceClassesMetaDesc',
-      image: `${baseUrl}/images/og-classes.jpg`,
+      titleKey: 'danceClassesHub_title',
+      descKey: 'danceClassesHub_description',
+      image: `${baseUrl}/images/og-classes-hub.jpg`,
     },
     dancehall: {
       titleKey: 'dancehallPageTitle',

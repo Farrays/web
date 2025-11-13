@@ -518,4 +518,104 @@ export const fr = {
   home_categories_otras_image_alt: 'Danses exotiques et du monde',
   home_categories_otras_intro:
     'Voyagez à travers le monde par la danse avec Flamenco, Pole Dance, Tissus Aériens et plus de styles uniques.',
+
+  // ===== DANCE CLASSES HUB PAGE (/clases/baile-barcelona) =====
+  // SEO Meta
+  danceClassesHub_title: 'Cours de danse à Barcelone | Hub de catégories et styles | Farray\'s',
+  danceClassesHub_description:
+    'Explorez tous les cours de danse à Barcelone : Danses Urbaines, Salsa et Bachata, Danse (Ballet/Contemporain/Jazz) et Fitness pour danseurs. Entrez dans chaque catégorie ou allez directement à votre style préféré. Essayez un cours.',
+
+  // Breadcrumb
+  danceClassesHub_breadcrumb_home: 'Accueil',
+  danceClassesHub_breadcrumb_current: 'Cours de danse à Barcelone',
+
+  // Header
+  danceClassesHub_h1: 'Cours de danse à Barcelone',
+  danceClassesHub_intro:
+    'Guide pour choisir votre cours idéal. Découvrez nos catégories principales, entrez dans chaque page pour voir les horaires et niveaux, ou allez directement à votre style préféré. Vous pouvez essayer un cours et commencer de zéro.',
+
+  // Category Bullets - Contemporary
+  danceClassesHub_contemporary_bullet1: 'École Cubaine et styles contemporains',
+  danceClassesHub_contemporary_bullet2: 'Groupes par niveaux',
+  danceClassesHub_contemporary_bullet3: 'Essayez un cours',
+
+  // Category Bullets - Urban
+  danceClassesHub_urban_bullet1: 'Niveaux dès l\'initiation',
+  danceClassesHub_urban_bullet2: 'Chorégraphies et musicalité',
+  danceClassesHub_urban_bullet3: 'Ambiance motivante',
+
+  // Category Bullets - Latin
+  danceClassesHub_latin_bullet1: 'Connexion et guidage',
+  danceClassesHub_latin_bullet2: 'Pratiques sociales',
+  danceClassesHub_latin_bullet3: 'Groupes par niveaux',
+
+  // Category Bullets - Fitness
+  danceClassesHub_fitness_bullet1: 'Programmes orientés danse',
+  danceClassesHub_fitness_bullet2: 'Progression sécurisée',
+  danceClassesHub_fitness_bullet3: 'Essayez un cours',
+
+  // Category Bullets - Morning
+  danceClassesHub_morning_bullet1: 'Horaires matinaux',
+  danceClassesHub_morning_bullet2: 'Petits groupes',
+  danceClassesHub_morning_bullet3: 'Rythme constant',
+
+  // Category Bullets - World
+  danceClassesHub_world_bullet1: 'Styles très demandés',
+  danceClassesHub_world_bullet2: 'Ateliers et cours spéciaux',
+  danceClassesHub_world_bullet3: 'Liste d\'attente disponible',
+
+  // Style Names (for badges and links)
+  danceClassesHub_style_afro_contemporaneo: 'Afro Contemporain (Technique Cubaine)',
+  danceClassesHub_style_afro_jazz: 'Afro Jazz',
+  danceClassesHub_style_ballet_clasico: 'Ballet Classique',
+  danceClassesHub_style_danza_contemporanea: 'Danse Contemporaine',
+  danceClassesHub_style_modern_jazz: 'Modern Jazz',
+  danceClassesHub_style_stretching: 'Stretching',
+  danceClassesHub_style_bum_bum_gluteos: 'Bum Bum Fessiers Merveilleux',
+  danceClassesHub_style_afrobeat: 'Afrobeat',
+  danceClassesHub_style_dancehall: 'Dancehall',
+  danceClassesHub_style_femmology_heels: 'Femmology Heels',
+  danceClassesHub_style_hip_hop: 'Hip Hop',
+  danceClassesHub_style_hip_hop_reggaeton: 'Hip Hop Reggaeton',
+  danceClassesHub_style_reggaeton_cubano: 'Reggaeton Cubain (Reparto)',
+  danceClassesHub_style_sexy_reggaeton: 'Sexy Reggaeton',
+  danceClassesHub_style_sexy_style: 'Sexy Style',
+  danceClassesHub_style_twerk: 'Twerk',
+  danceClassesHub_style_commercial_dance: 'Commercial Dance',
+  danceClassesHub_style_k_pop: 'K-Pop',
+  danceClassesHub_style_salsa_cubana: 'Salsa Cubaine',
+  danceClassesHub_style_bachata: 'Bachata',
+  danceClassesHub_style_timba_cubana: 'Timba Cubaine',
+  danceClassesHub_style_folklore_cubano: 'Folklore Cubain',
+  danceClassesHub_style_salsa_lady_style: 'Salsa Lady Style',
+  danceClassesHub_style_salsa_lady_timba: 'Salsa Lady Timba',
+  danceClassesHub_style_son_cubano: 'Son Cubain',
+  danceClassesHub_style_men_style_salsa: 'Men Style Salsa',
+  danceClassesHub_style_bum_bum_fit: 'Bum Bum Corps Fit',
+  danceClassesHub_style_body_conditioning: 'Body Conditioning & Stretching',
+  danceClassesHub_style_dance_barre: 'Dance Barre',
+  danceClassesHub_style_pilates: 'Pilates',
+  danceClassesHub_style_otras_danzas: 'Danses du Monde et Exotiques',
+  danceClassesHub_style_kizomba: 'Kizomba',
+  danceClassesHub_style_semba: 'Semba',
+  danceClassesHub_style_kompa: 'Kompa',
+  danceClassesHub_style_flamenco: 'Flamenco',
+  danceClassesHub_style_sevillanas: 'Sevillanas',
+  danceClassesHub_style_telas_aereas: 'Tissus Aériens et Cerceau',
+  danceClassesHub_style_acro_yoga: 'Acro Yoga',
+
+  // Featured Styles Section
+  danceClassesHub_featured_title: 'Styles en vedette',
+  danceClassesHub_featured_description:
+    'Accès direct à certains des styles les plus recherchés. Vous pouvez essayer un cours.',
+
+  // CTAs and Modal
+  danceClassesHub_cta_view_category: 'Voir la page de la catégorie',
+  danceClassesHub_cta_view_all_styles: 'Voir tous les styles',
+  danceClassesHub_modal_close: 'Fermer',
+  danceClassesHub_categories_title: 'Catégories principales',
+  danceClassesHub_categories_description:
+    'Explorez par familles de styles. Chaque catégorie comprend des liens vers leurs pages et les styles les plus recherchés.',
+  danceClassesHub_featured_styles_label: 'Styles en vedette',
+  danceClassesHub_all_styles_label: 'Styles disponibles',
 };
