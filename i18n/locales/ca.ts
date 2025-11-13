@@ -402,7 +402,7 @@ export const ca = {
 
   dhV3CTA1: 'Inscriu-te Ara',
   dhV3CTA1Subtext: 'Queden poques places aquest mes',
-  dhV3CTA2: 'Prova 1 Classe Gratis',
+  dhV3CTA2: 'Reserva la teva Classe de Prova',
   dhV3CTA2Subtext: 'Vàlid per temps limitat — només fins divendres',
 
   dhV3WhatIsTitle: 'Què és el Dancehall i per què està triomfant a Barcelona?',

@@ -403,7 +403,7 @@ export const en = {
 
   dhV3CTA1: 'Enroll Now',
   dhV3CTA1Subtext: 'Limited spots this month',
-  dhV3CTA2: 'Try 1 Free Class',
+  dhV3CTA2: 'Book Your Trial Class',
   dhV3CTA2Subtext: 'Valid for a limited time — only until Friday',
 
   dhV3WhatIsTitle: 'What is Dancehall and why is it taking Barcelona by storm?',
