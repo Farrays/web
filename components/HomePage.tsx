@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import { useI18n } from '../hooks/useI18n';
 import Hero from './Hero';
 import Philosophy from './Philosophy';
@@ -32,32 +31,7 @@ const HomePage: React.FC = () => {
 
   return (
     <>
-      <Helmet>
-        <title>{t('pageTitle')}</title>
-        <meta name="description" content={t('metaDescription')} />
-        <link rel="canonical" href={`${baseUrl}/${locale}`} />
-
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={`${baseUrl}/${locale}`} />
-        <meta property="og:title" content={t('pageTitle')} />
-        <meta property="og:description" content={t('metaDescription')} />
-        <meta property="og:image" content={`${baseUrl}/images/og-image.jpg`} />
-
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content={`${baseUrl}/${locale}`} />
-        <meta name="twitter:title" content={t('pageTitle')} />
-        <meta name="twitter:description" content={t('metaDescription')} />
-        <meta name="twitter:image" content={`${baseUrl}/images/twitter-image.jpg`} />
-
-        {/* Hreflang tags */}
-        <link rel="alternate" hrefLang="es" href={`${baseUrl}/es`} />
-        <link rel="alternate" hrefLang="ca" href={`${baseUrl}/ca`} />
-        <link rel="alternate" hrefLang="en" href={`${baseUrl}/en`} />
-        <link rel="alternate" hrefLang="fr" href={`${baseUrl}/fr`} />
-        <link rel="alternate" hrefLang="x-default" href={`${baseUrl}/es`} />
-      </Helmet>
+      {/* SEO metadata is handled by the global SEO.tsx component in App.tsx */}
 
       <Hero />
       <Philosophy />
