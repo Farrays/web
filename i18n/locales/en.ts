@@ -616,7 +616,6 @@ export const en = {
     'Explore by style families. Each category includes links to their pages and the most popular styles.',
   danceClassesHub_featured_styles_label: 'Featured styles',
   danceClassesHub_all_styles_label: 'Available styles',
-};
   classesFaqQ6: "Where is Farray's Center located and how do I get there?",
   classesFaqA6:
     "We are located at Calle Entença 100, Barcelona 08015, in the Sants neighborhood. We are easily accessible by metro (L3/L5 - Sants Estació, L1 - Hostafrancs), bus (lines 27, 43, 78, 109, H10), or Renfe Cercanías (Sants Station). The studio is just a 5-7 minute walk from Sants station. There is also public parking nearby if you come by car.",
@@ -626,3 +625,4 @@ export const en = {
   classesFaqQ8: 'Do I need previous experience to start?',
   classesFaqA8:
     "No, you absolutely don't need previous experience. All our dance styles have classes for absolute beginners. Our teachers specialize in teaching from scratch and creating a welcoming environment for new students. The first class is free so you can try without commitment. Many of our most advanced students started with no dance experience whatsoever.",
+};
