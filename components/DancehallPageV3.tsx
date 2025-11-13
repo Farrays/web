@@ -402,7 +402,8 @@ const DancehallPageV3: React.FC = () => {
                   <div className="rounded-2xl overflow-hidden shadow-lg">
                     <img
                       src="/images/classes/dancehall/img/dancehall-classes-barcelona-01_960.webp"
-                      alt="Clases de Dancehall en Barcelona"
+                      alt="Clases de Dancehall en Barcelona - Estudiantes bailando en la academia"
+                      loading="lazy"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -615,7 +616,8 @@ const DancehallPageV3: React.FC = () => {
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
                         src="/images/cid-unesco-logo.webp"
-                        alt="CID UNESCO"
+                        alt="CID UNESCO - Consejo Internacional de la Danza"
+                        loading="lazy"
                         className="w-full h-full object-contain"
                       />
                     </div>
@@ -625,7 +627,8 @@ const DancehallPageV3: React.FC = () => {
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
                         src="/images/Street-Dance-2.webp"
-                        alt="Street Dance 2"
+                        alt="Street Dance 2 - Película de danza urbana"
+                        loading="lazy"
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -635,7 +638,8 @@ const DancehallPageV3: React.FC = () => {
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
                         src="/images/the-dancer-espectaculo-baile-cuadrada.webp"
-                        alt="The Dancer"
+                        alt="The Dancer - Espectáculo de baile"
+                        loading="lazy"
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -645,7 +649,8 @@ const DancehallPageV3: React.FC = () => {
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
                         src="/images/telecinco-logo.webp"
-                        alt="TV 5"
+                        alt="Telecinco - Cadena de televisión española"
+                        loading="lazy"
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -669,7 +674,8 @@ const DancehallPageV3: React.FC = () => {
           <div className="absolute inset-0 opacity-30">
             <img
               src="/images/classes/dancehall/raw/Jamaica.webp"
-              alt="Jamaica Flag"
+              alt="Bandera de Jamaica - Origen del Dancehall"
+              loading="lazy"
               className="w-full h-full object-cover"
               style={{ filter: 'brightness(0.9)' }}
             />
@@ -829,8 +835,10 @@ const DancehallPageV3: React.FC = () => {
                     src="https://www.youtube.com/embed/TteV2if6Qso"
                     title="Clases de Dancehall en Barcelona - Farray's Center"
                     frameBorder="0"
+                    loading="lazy"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
+                    referrerPolicy="no-referrer-when-downgrade"
                   ></iframe>
                 </div>
               </AnimateOnScroll>
@@ -886,7 +894,8 @@ const DancehallPageV3: React.FC = () => {
           <div className="absolute inset-0">
             <img
               src="/images/classes/dancehall/img/dancehall-dancing-barcelona-03_1440.webp"
-              alt="Background"
+              alt="Estudiantes bailando Dancehall en Farray's Center Barcelona"
+              loading="lazy"
               className="w-full h-full object-cover opacity-20"
             />
           </div>
