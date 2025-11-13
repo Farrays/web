@@ -485,10 +485,36 @@ export const fr = {
   home_categories_urbano_title: 'Danses Urbaines / Hip Hop',
   home_categories_urbano_image_alt: 'Cours de Hip Hop en studio de danse',
   home_categories_urbano_bullets: '11 styles urbains différents, Du débutant au professionnel, Premier cours gratuit',
-  home_categories_urbano_intro: 'Découvrez le rythme urbain à Barcelone...',
+  home_categories_urbano_intro:
+    'Ressentez l\'énergie de la rue avec les styles Hip Hop, Reggaeton, Dancehall et Commercial.',
+
+  // Category: Salsa et Bachata
   home_categories_salsa_bachata_title: 'Salsa et Bachata',
-  home_categories_danza_title: 'Danse (Ballet/Contemporain/Jazz)',
-  home_categories_fitness_title: 'Fitness pour Danseurs',
-  home_categories_mananas_title: 'Cours le Matin',
-  home_categories_otras_title: 'Autres Danses',
+  home_categories_salsa_bachata_image_alt: 'Couple dansant la salsa cubaine',
+  home_categories_salsa_bachata_intro:
+    'Apprenez à danser la salsa et la bachata très près de la Plaza España et de la gare de Sants.',
+
+  // Category: Danse (Ballet/Contemporain/Jazz)
+  home_categories_danza_title: 'Ballet, Contemporain et Jazz',
+  home_categories_danza_image_alt: 'Danseuse de ballet en studio',
+  home_categories_danza_intro:
+    'Explorez la technique et l\'expression à travers l\'élégance du Ballet, Contemporain et Jazz.',
+
+  // Category: Fitness pour Danseurs
+  home_categories_fitness_title: 'Préparation Physique',
+  home_categories_fitness_image_alt: 'Cours de fitness avec musique',
+  home_categories_fitness_intro:
+    'Améliorez votre force, flexibilité et endurance avec des cours conçus pour les danseurs.',
+
+  // Category: Cours le Matin
+  home_categories_mananas_title: 'Cours de Danse le Matin',
+  home_categories_mananas_image_alt: 'Cours de danse matinal avec lumière naturelle',
+  home_categories_mananas_intro:
+    'Commencez votre journée avec énergie. Consultez notre horaire de cours de danse et fitness le matin.',
+
+  // Category: Autres Danses
+  home_categories_otras_title: 'Danses du Monde et Exotiques',
+  home_categories_otras_image_alt: 'Danses exotiques et du monde',
+  home_categories_otras_intro:
+    'Voyagez à travers le monde par la danse avec Flamenco, Pole Dance, Tissus Aériens et plus de styles uniques.',
 };
