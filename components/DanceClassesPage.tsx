@@ -1,71 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 import { useI18n } from '../hooks/useI18n';
-import type { DetailedClassInfo } from '../types';
-import { imageUrls } from '../utils/imageConfig';
+import { HUB_CATEGORIES, FEATURED_STYLES, type HubCategory } from '../constants/danceClassesHub';
 import AnimateOnScroll from './AnimateOnScroll';
-import FinalCTA from './FinalCTA';
 import FAQSection from './FAQSection';
-
-const detailedClassData: DetailedClassInfo[] = [
-  {
-    id: 'contemporary',
-    titleKey: 'classCatContemporaryTitle',
-    descriptionKey: 'classCatContemporaryDesc',
-    detailedDescriptionKey: 'classDetailContemporaryDesc',
-    substylesKey: 'classDetailContemporarySubstyles',
-    levelKey: 'classDetailContemporaryLevel',
-    image: imageUrls.classes.contemporaryJazz,
-  },
-  {
-    id: 'urban',
-    titleKey: 'classCatUrbanTitle',
-    descriptionKey: 'classCatUrbanDesc',
-    detailedDescriptionKey: 'classDetailUrbanDesc',
-    substylesKey: 'classDetailUrbanSubstyles',
-    levelKey: 'classDetailUrbanLevel',
-    image: imageUrls.classes.urban,
-  },
-  {
-    id: 'latin',
-    titleKey: 'classCatLatinTitle',
-    descriptionKey: 'classCatLatinDesc',
-    detailedDescriptionKey: 'classDetailLatinDesc',
-    substylesKey: 'classDetailLatinSubstyles',
-    levelKey: 'classDetailLatinLevel',
-    image: imageUrls.classes.latin,
-  },
-  {
-    id: 'fitness',
-    titleKey: 'classCatFitnessTitle',
-    descriptionKey: 'classCatFitnessDesc',
-    detailedDescriptionKey: 'classDetailFitnessDesc',
-    substylesKey: 'classDetailFitnessSubstyles',
-    levelKey: 'classDetailFitnessLevel',
-    image: imageUrls.classes.fitness,
-  },
-  {
-    id: 'morning',
-    titleKey: 'classCatMorningTitle',
-    descriptionKey: 'classCatMorningDesc',
-    detailedDescriptionKey: 'classDetailMorningDesc',
-    substylesKey: 'classDetailMorningSubstyles',
-    levelKey: 'classDetailMorningLevel',
-    image: imageUrls.classes.morning,
-  },
-  {
-    id: 'world',
-    titleKey: 'classCatWorldTitle',
-    descriptionKey: 'classCatWorldDesc',
-    detailedDescriptionKey: 'classDetailWorldDesc',
-    substylesKey: 'classDetailWorldSubstyles',
-    levelKey: 'classDetailWorldLevel',
-    image: imageUrls.classes.world,
-  },
-];
+import CategoryModalHub from './CategoryModalHub';
 
 const DanceClassesPage: React.FC = () => {
   const { t, locale } = useI18n();
   const baseUrl = 'https://www.farrayscenter.com';
+
+  // State for modals
+  const [openCategory, setOpenCategory] = useState<HubCategory | null>(null);
+
+  // FAQ data (MANTENER EXISTENTE)
   const classesFaqs = [
     { id: 'cl-1', question: t('classesFaqQ1'), answer: t('classesFaqA1') },
     { id: 'cl-2', question: t('classesFaqQ2'), answer: t('classesFaqA2') },
@@ -74,96 +23,229 @@ const DanceClassesPage: React.FC = () => {
     { id: 'cl-5', question: t('classesFaqQ5'), answer: t('classesFaqA5') },
   ];
 
+  // Schema Markup - BreadcrumbList
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: t('danceClassesHub_breadcrumb_home'),
+        item: `${baseUrl}/${locale}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: t('danceClassesHub_breadcrumb_current'),
+        item: `${baseUrl}/${locale}/clases/baile-barcelona`,
+      },
+    ],
+  };
+
+  // Schema Markup - ItemList (Categories)
+  const itemListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Categorías de clases de baile en Barcelona',
+    itemListElement: HUB_CATEGORIES.map((cat, idx) => ({
+      '@type': 'ListItem',
+      position: idx + 1,
+      name: t(cat.titleKey),
+      url: `${baseUrl}/${locale}${cat.pillarUrl}`,
+    })),
+  };
+
   return (
     <>
-      {/* SEO metadata is handled by the global SEO.tsx component in App.tsx */}
+      {/* SEO metadata (title, description, og, hreflang) is handled by the global SEO.tsx component */}
+      {/* Page-specific Schema Markup */}
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(itemListSchema)}</script>
+      </Helmet>
 
       <div className="pt-20 md:pt-24">
+        {/* Hero Section - Like DancehallPage */}
         <section
-          id="classes-hero"
-          className="relative text-center py-20 md:py-28 overflow-hidden bg-black"
+          id="classes-hub-hero"
+          className="relative text-center py-32 md:py-40 overflow-hidden flex items-center justify-center min-h-[600px]"
         >
-          <div className="absolute inset-0 bg-gradient-to-br from-primary-dark/40 via-black to-black opacity-70"></div>
-          <video
-            className="absolute z-0 top-0 left-0 w-full h-full object-cover opacity-20"
-            src="/videos/final-cta-epic.mp4"
-            poster="/images/video-posters/final-cta-poster.jpg"
-            autoPlay
-            loop
-            muted
-            playsInline
-            title="Dynamic dance class montage"
-          ></video>
-          <div className="relative z-10 container mx-auto px-6">
+          {/* Background like DancehallPage Hero */}
+          <div className="absolute inset-0 bg-black">
+            <div className="absolute inset-0 bg-gradient-to-br from-primary-dark/30 via-black to-black"></div>
+            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20"></div>
+          </div>
+          <div className="relative z-20 container mx-auto px-6">
+            {/* Breadcrumb */}
+            <nav aria-label="Breadcrumb" className="mb-8">
+              <ol className="flex items-center justify-center gap-2 text-sm text-neutral/70">
+                <li>
+                  <Link to={`/${locale}`} className="hover:text-primary-accent transition-colors">
+                    {t('danceClassesHub_breadcrumb_home')}
+                  </Link>
+                </li>
+                <li aria-hidden="true">/</li>
+                <li className="text-neutral/90" aria-current="page">
+                  {t('danceClassesHub_breadcrumb_current')}
+                </li>
+              </ol>
+            </nav>
+
+            {/* H1 + Intro */}
             <AnimateOnScroll>
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter leading-tight mb-4 holographic-text">
-                {t('danceClassesPageTitle')}
+              <h1 className="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-tight mb-6 holographic-text">
+                {t('danceClassesHub_h1')}
               </h1>
-              <p className="max-w-3xl mx-auto text-lg md:text-xl text-neutral/80 mt-6">
-                {t('danceClassesPageSubtitle')}
+              <p className="max-w-4xl mx-auto text-xl md:text-2xl text-neutral/90 mt-8 leading-relaxed">
+                {t('danceClassesHub_intro')}
               </p>
             </AnimateOnScroll>
           </div>
         </section>
 
-        <section id="class-details" className="py-20 md:py-32 bg-primary-dark/10">
-          <div className="container mx-auto px-6">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-              {detailedClassData.map((cls, index) => (
-                <AnimateOnScroll key={cls.id} delay={index * 100}>
-                  <div className="group bg-black/50 backdrop-blur-md border border-primary-dark/50 rounded-2xl shadow-lg h-full flex flex-col overflow-hidden transition-all duration-300 hover:border-primary-accent hover:shadow-accent-glow hover:-translate-y-2">
-                    <div className="relative h-64 overflow-hidden">
-                      <img
-                        src={cls.image}
-                        alt={`Clase de ${t(cls.titleKey)} en Barcelona`}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-                    </div>
-                    <div className="p-8 flex-grow flex flex-col">
-                      <h2 className="text-3xl font-bold mb-3 text-neutral">{t(cls.titleKey)}</h2>
-                      <p className="text-neutral/80 mb-6 flex-grow">
-                        {t(cls.detailedDescriptionKey)}
-                      </p>
-                      <div className="mt-auto border-t border-primary-dark/50 pt-6 space-y-4 text-sm">
+        {/* Categories Grid Section */}
+        <section aria-labelledby="categories-title" className="py-20 md:py-32 bg-primary-dark/10">
+          <div className="container mx-auto px-6 text-center">
+            <AnimateOnScroll>
+              <h2 id="categories-title" className="text-4xl md:text-5xl font-black tracking-tighter mb-4 text-neutral">
+                {t('danceClassesHub_categories_title')}
+              </h2>
+            </AnimateOnScroll>
+            <AnimateOnScroll delay={200}>
+              <p className="max-w-3xl mx-auto text-lg text-neutral/80 mb-12">{t('danceClassesHub_categories_description')}</p>
+            </AnimateOnScroll>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              {HUB_CATEGORIES.map((category, index) => (
+                <AnimateOnScroll key={category.key} delay={index * 100}>
+                  <article
+                    className="[perspective:1000px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-accent focus-visible:ring-offset-2 rounded-xl"
+                    aria-labelledby={`card-${category.key}-title`}
+                  >
+                    <div className="group relative rounded-xl overflow-hidden shadow-lg min-h-[400px] bg-black text-white transition-all duration-500 ease-in-out [transform-style:preserve-3d] hover:shadow-accent-glow hover:[transform:translateY(-0.5rem)_scale(1.05)]">
+                      {/* Gradient Background (similar visual to image overlay) */}
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary-dark/40 via-black/90 to-black"></div>
+
+                      {/* Hover Border Effect */}
+                      <div className="absolute inset-0 border-2 border-transparent group-hover:border-primary-accent rounded-xl transition-all duration-300 pointer-events-none"></div>
+
+                      {/* Content */}
+                      <div className="relative flex flex-col justify-between h-full p-6 text-left">
+                        {/* Title - USAR classCat*Title existente */}
                         <div>
-                          <h4 className="font-bold text-neutral/60 uppercase tracking-wider mb-1">
-                            {t('danceClassesSubstylesTitle')}
-                          </h4>
-                          <p className="text-primary-accent font-medium">{t(cls.substylesKey)}</p>
+                          <h3
+                            id={`card-${category.key}-title`}
+                            className="text-3xl font-bold mb-3"
+                          >
+                            {t(category.titleKey)}
+                          </h3>
+
+                          {/* Description - USAR classCat*Desc existente */}
+                          <p className="text-neutral/80 text-sm mb-4 leading-relaxed">{t(category.descriptionKey)}</p>
+
+                          {/* 3 Bullets */}
+                          <ul className="text-sm text-neutral/70 space-y-2 mb-4">
+                            <li className="flex items-start">
+                              <span className="text-primary-accent mr-2">•</span>
+                              <span>{t(`danceClassesHub_${category.key}_bullet1`)}</span>
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary-accent mr-2">•</span>
+                              <span>{t(`danceClassesHub_${category.key}_bullet2`)}</span>
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary-accent mr-2">•</span>
+                              <span>{t(`danceClassesHub_${category.key}_bullet3`)}</span>
+                            </li>
+                          </ul>
                         </div>
-                        <div>
-                          <h4 className="font-bold text-neutral/60 uppercase tracking-wider mb-1">
-                            {t('danceClassesLevelTitle')}
-                          </h4>
-                          <p className="text-neutral">{t(cls.levelKey)}</p>
+
+                        {/* Featured Styles Badges */}
+                        <div className="mb-4">
+                          <p className="text-xs text-neutral/60 mb-2 uppercase tracking-wider font-semibold">
+                            {t('danceClassesHub_featured_styles_label')}
+                          </p>
+                          <div className="flex flex-wrap gap-2">
+                            {category.featuredStyles.map((style) => (
+                              <Link
+                                key={style.key}
+                                to={`/${locale}${style.url}`}
+                                className="inline-flex items-center rounded-lg px-3 py-1 text-xs font-medium bg-primary-accent/20 border border-primary-accent/30 text-neutral hover:bg-primary-accent hover:text-white transition-all duration-300"
+                                onClick={(e) => e.stopPropagation()}
+                              >
+                                {t(`danceClassesHub_style_${style.key}`)}
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+
+                        {/* CTAs */}
+                        <div className="flex flex-col gap-3 mt-auto">
+                          <Link
+                            to={`/${locale}${category.pillarUrl}`}
+                            className="inline-flex items-center justify-center rounded-lg px-4 py-3 text-sm font-bold bg-primary-accent text-white hover:bg-primary-dark transition-all duration-300 transform hover:scale-105"
+                          >
+                            {t('danceClassesHub_cta_view_category')}
+                          </Link>
+                          <button
+                            onClick={() => setOpenCategory(category)}
+                            className="text-sm text-neutral/80 hover:text-primary-accent transition-colors font-medium text-center"
+                            aria-haspopup="dialog"
+                          >
+                            {t('danceClassesHub_cta_view_all_styles')} →
+                          </button>
                         </div>
                       </div>
-                      <div className="mt-8">
-                        <a
-                          href="#schedule"
-                          className="font-bold text-lg text-white hover:text-primary-accent transition-colors duration-300 bg-primary-dark/50 hover:bg-primary-dark/20 rounded-full py-3 px-6 inline-flex items-center"
-                        >
-                          <span>{t('danceClassesViewSchedule')}</span>
-                          <span className="inline-block transition-transform duration-300 group-hover:translate-x-2 ml-2">
-                            →
-                          </span>
-                        </a>
-                      </div>
                     </div>
-                  </div>
+                  </article>
                 </AnimateOnScroll>
               ))}
             </div>
           </div>
         </section>
+
+        {/* Featured Styles Section */}
+        <section aria-labelledby="featured-title" className="py-20 md:py-32 bg-black text-white">
+          <div className="container mx-auto px-6 text-center">
+            <AnimateOnScroll>
+              <h2 id="featured-title" className="text-4xl md:text-5xl font-black tracking-tighter mb-4 holographic-text">
+                {t('danceClassesHub_featured_title')}
+              </h2>
+            </AnimateOnScroll>
+            <AnimateOnScroll delay={200}>
+              <p className="max-w-3xl mx-auto text-lg text-neutral/80 mb-12">{t('danceClassesHub_featured_description')}</p>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={300}>
+              <div className="flex flex-wrap justify-center gap-3">
+                {FEATURED_STYLES.map((style) => (
+                  <Link
+                    key={style.key}
+                    to={`/${locale}${style.url}`}
+                    className="inline-flex items-center rounded-lg px-5 py-3 text-sm font-bold bg-primary-dark/50 border border-primary-accent/30 text-white hover:bg-primary-accent hover:border-primary-accent transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-accent-glow"
+                  >
+                    {t(`danceClassesHub_style_${style.key}`)}
+                  </Link>
+                ))}
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </section>
+
+        {/* FAQ Section - MANTENER EXISTENTE */}
         <FAQSection
           title={t('faqTitle')}
           faqs={classesFaqs}
-          pageUrl={`${baseUrl}/${locale}/clases`}
+          pageUrl={`${baseUrl}/${locale}/clases/baile-barcelona`}
         />
 
-        <FinalCTA />
+        {/* Modal */}
+        <CategoryModalHub
+          isOpen={openCategory !== null}
+          category={openCategory}
+          onClose={() => setOpenCategory(null)}
+        />
       </div>
     </>
   );
