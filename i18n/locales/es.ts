@@ -334,6 +334,15 @@ export const es = {
   classesFaqQ5: '¿Ofrecen clases privadas o solo grupales?',
   classesFaqA5:
     'Ofrecemos ambas opciones. Las clases grupales son excelentes para aprender en comunidad, hacer amigos y beneficiarte de la energía del grupo. Las clases privadas son ideales si buscas atención personalizada, tienes objetivos específicos (como prepararte para una presentación o boda), o prefieres un horario más flexible. Muchos estudiantes combinan ambas: clases grupales regulares complementadas con sesiones privadas ocasionales para trabajar aspectos específicos.',
+  classesFaqQ6: '¿Dónde está ubicado Farray\'s Center y cómo llego?',
+  classesFaqA6:
+    'Estamos ubicados en Calle Entença 100, Barcelona 08015, en el barrio de Sants. Llegamos fácilmente en metro (L3/L5 - Sants Estació, L1 - Hostafrancs), autobús (líneas 27, 43, 78, 109, H10) o Renfe Cercanías (Estación de Sants). El estudio está a solo 5-7 minutos caminando desde la estación de Sants. También hay estacionamiento público cercano si vienes en coche.',
+  classesFaqQ7: '¿Cuáles son los horarios de las clases?',
+  classesFaqA7:
+    'Tenemos clases de lunes a viernes en horarios de mañana (10:00-14:00), tarde (18:00-20:00) y noche (20:00-23:00). También ofrecemos clases los sábados. Los horarios varían según el estilo y nivel. Te recomendamos visitar la página específica de cada estilo para ver los horarios detallados, o contactarnos directamente para encontrar las clases que mejor se adapten a tu disponibilidad.',
+  classesFaqQ8: '¿Necesito experiencia previa para empezar?',
+  classesFaqA8:
+    'No, absolutamente no necesitas experiencia previa. Todos nuestros estilos de baile tienen clases para principiantes absolutos. Nuestros profesores están especializados en enseñar desde cero y crear un ambiente acogedor para nuevos estudiantes. La primera clase es gratuita para que puedas probar sin compromiso. Muchos de nuestros estudiantes más avanzados comenzaron sin ninguna experiencia en baile.',
 
   // ===== DANCE CLASSES HUB PAGE (/clases/baile-barcelona) =====
   // SEO Meta

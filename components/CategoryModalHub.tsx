@@ -109,29 +109,29 @@ const CategoryModalHub: React.FC<CategoryModalHubProps> = ({ isOpen, category, o
       onClick={handleBackdropClick}
     >
       {/* Backdrop */}
-      <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" aria-hidden="true" />
+      <div className="absolute inset-0 bg-black/80 backdrop-blur-sm" aria-hidden="true" />
 
       {/* Modal Content */}
       <div
         ref={modalRef}
-        className="relative w-full max-w-3xl bg-white rounded-2xl shadow-xl my-auto"
+        className="relative w-full max-w-3xl bg-black border-2 border-primary-accent/30 rounded-2xl shadow-accent-glow my-auto"
       >
         <div className="p-6 md:p-8">
           {/* Header */}
           <div className="flex items-start justify-between gap-4 mb-4">
             <h2
               id={`modal-title-${category.key}`}
-              className="text-2xl md:text-3xl font-semibold text-neutral"
+              className="text-2xl md:text-3xl font-bold text-white"
             >
               {t(category.titleKey)}
             </h2>
             <button
               onClick={onClose}
-              className="shrink-0 rounded-lg p-2 ring-1 ring-gray-300 hover:ring-primary-accent hover:bg-gray-50 transition-colors"
+              className="shrink-0 rounded-lg p-2 bg-primary-dark/50 border border-primary-accent/30 hover:bg-primary-accent transition-colors"
               aria-label={t('danceClassesHub_modal_close')}
             >
               <svg
-                className="w-5 h-5 text-gray-600"
+                className="w-5 h-5 text-white"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -147,7 +147,7 @@ const CategoryModalHub: React.FC<CategoryModalHubProps> = ({ isOpen, category, o
           </div>
 
           {/* Detailed Description */}
-          <p className="text-gray-600 mb-6">{t(category.detailedDescriptionKey)}</p>
+          <p className="text-neutral/80 mb-6">{t(category.detailedDescriptionKey)}</p>
 
           {/* All Styles Grid */}
           <div
@@ -159,7 +159,7 @@ const CategoryModalHub: React.FC<CategoryModalHubProps> = ({ isOpen, category, o
                 key={style.key}
                 to={`/${locale}${style.url}`}
                 onClick={() => handleStyleClick(style.key)}
-                className="block rounded-xl ring-1 ring-gray-200 p-4 hover:ring-primary-accent hover:bg-gray-50 transition-colors text-neutral hover:text-primary-accent font-medium"
+                className="block rounded-lg bg-primary-dark/40 border border-primary-accent/20 p-4 hover:bg-primary-accent hover:border-primary-accent transition-all duration-300 text-white font-medium transform hover:scale-105"
               >
                 {t(`danceClassesHub_style_${style.key}`)}
               </Link>
@@ -167,16 +167,16 @@ const CategoryModalHub: React.FC<CategoryModalHubProps> = ({ isOpen, category, o
           </div>
 
           {/* Footer */}
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-gray-200">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-primary-accent/20">
             <Link
               to={`/${locale}${category.pillarUrl}`}
-              className="inline-flex items-center justify-center rounded-xl px-6 py-3 text-sm font-medium ring-1 ring-gray-300 hover:ring-primary-accent hover:bg-gray-50 transition-colors w-full sm:w-auto"
+              className="inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-bold bg-primary-accent text-white hover:bg-primary-dark transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-accent-glow w-full sm:w-auto"
             >
               {t('danceClassesHub_cta_view_category')}
             </Link>
             <button
               onClick={onClose}
-              className="text-sm text-gray-600 hover:text-primary-accent transition-colors"
+              className="text-sm text-neutral/80 hover:text-primary-accent transition-colors"
             >
               {t('danceClassesHub_modal_close')}
             </button>
