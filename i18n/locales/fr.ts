@@ -536,6 +536,7 @@ export const fr = {
   home_categories_section_title: 'Trouvez votre style de danse',
   home_categories_section_description: 'Explorez nos catégories et découvrez le cours parfait pour vous',
   home_categories_cta_learn_more: 'En savoir plus',
+  home_categories_cta_view_styles: 'Voir les styles',
   home_categories_cta_view_category: 'Voir tous les styles',
   home_categories_cta_close: 'Fermer',
   home_categories_urbano_title: 'Danses Urbaines / Hip Hop',

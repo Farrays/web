@@ -534,6 +534,7 @@ export const en = {
   home_categories_section_title: 'Find Your Dance Style',
   home_categories_section_description: 'Explore our categories and discover the perfect class for you',
   home_categories_cta_learn_more: 'Learn More',
+  home_categories_cta_view_styles: 'View Styles',
   home_categories_cta_view_category: 'View All Styles',
   home_categories_cta_close: 'Close',
   home_categories_urbano_title: 'Urban Dance / Hip Hop',

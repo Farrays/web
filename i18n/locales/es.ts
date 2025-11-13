@@ -812,6 +812,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   // CTAs
   home_categories_cta_learn_more: 'Saber más',
+  home_categories_cta_view_styles: 'Ver estilos',
   home_categories_cta_view_category: 'Ver todos los estilos',
   home_categories_cta_close: 'Cerrar',
 
