@@ -167,12 +167,16 @@ export const HUB_CATEGORIES: HubCategory[] = [
 
 // Featured styles for the "Estilos destacados" section
 export const FEATURED_STYLES: StyleLink[] = [
+  { key: 'afro_contemporaneo', url: '/clases/afro-contemporaneo-barcelona/' },
+  { key: 'afro_jazz', url: '/clases/afro-jazz-barcelona/' },
+  { key: 'femmology_heels', url: '/clases/femmology-heels-barcelona/' },
+  { key: 'danza_contemporanea', url: '/clases/danza-contemporanea-barcelona/' },
+  { key: 'sexy_reggaeton', url: '/clases/sexy-reggaeton-barcelona/' },
+  { key: 'dancehall', url: '/clases/dancehall-barcelona/' },
+  { key: 'hip_hop', url: '/clases/hip-hop-barcelona/' },
   { key: 'salsa_cubana', url: '/clases/salsa-cubana-barcelona/' },
   { key: 'bachata', url: '/clases/bachata-barcelona/' },
-  { key: 'dancehall', url: '/clases/dancehall-barcelona/' },
-  { key: 'k_pop', url: '/clases/k-pop-barcelona/' },
-  { key: 'hip_hop', url: '/clases/hip-hop-barcelona/' },
-  { key: 'danza_contemporanea', url: '/clases/danza-contemporanea-barcelona/' },
   { key: 'ballet_clasico', url: '/clases/ballet-clasico-barcelona/' },
-  { key: 'timba_cubana', url: '/clases/timba-cubana-barcelona/' },
+  { key: 'afrobeat', url: '/clases/afrobeat-barcelona/' },
+  { key: 'sexy_style', url: '/clases/sexy-style-barcelona/' },
 ];

@@ -619,3 +619,12 @@ export const fr = {
   danceClassesHub_featured_styles_label: 'Styles en vedette',
   danceClassesHub_all_styles_label: 'Styles disponibles',
 };
+  classesFaqQ6: "Où est situé Farray's Center et comment y accéder?",
+  classesFaqA6:
+    "Nous sommes situés Calle Entença 100, Barcelona 08015, dans le quartier de Sants. Nous sommes facilement accessibles en métro (L3/L5 - Sants Estació, L1 - Hostafrancs), en bus (lignes 27, 43, 78, 109, H10) ou en Renfe Cercanías (Gare de Sants). Le studio se trouve à seulement 5-7 minutes à pied de la gare de Sants. Il y a également un parking public à proximité si vous venez en voiture.",
+  classesFaqQ7: 'Quels sont les horaires des cours?',
+  classesFaqA7:
+    'Nous avons des cours du lundi au vendredi aux horaires du matin (10h00-14h00), de l\'après-midi (18h00-20h00) et du soir (20h00-23h00). Nous proposons également des cours le samedi. Les horaires varient selon le style et le niveau. Nous vous recommandons de visiter la page spécifique de chaque style pour voir les horaires détaillés, ou de nous contacter directement pour trouver les cours qui correspondent le mieux à votre disponibilité.',
+  classesFaqQ8: "Ai-je besoin d'expérience préalable pour commencer?",
+  classesFaqA8:
+    "Non, vous n'avez absolument pas besoin d'expérience préalable. Tous nos styles de danse proposent des cours pour débutants absoluts. Nos professeurs sont spécialisés dans l'enseignement à partir de zéro et dans la création d'un environnement accueillant pour les nouveaux étudiants. Le premier cours est gratuit pour que vous puissiez essayer sans engagement. Beaucoup de nos étudiants les plus avancés ont commencé sans aucune expérience en danse.",

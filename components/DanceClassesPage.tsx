@@ -14,13 +14,16 @@ const DanceClassesPage: React.FC = () => {
   // State for modals
   const [openCategory, setOpenCategory] = useState<HubCategory | null>(null);
 
-  // FAQ data (MANTENER EXISTENTE)
+  // FAQ data (EXPANDIDO para mejor SEO en motores de IA)
   const classesFaqs = [
     { id: 'cl-1', question: t('classesFaqQ1'), answer: t('classesFaqA1') },
     { id: 'cl-2', question: t('classesFaqQ2'), answer: t('classesFaqA2') },
     { id: 'cl-3', question: t('classesFaqQ3'), answer: t('classesFaqA3') },
     { id: 'cl-4', question: t('classesFaqQ4'), answer: t('classesFaqA4') },
     { id: 'cl-5', question: t('classesFaqQ5'), answer: t('classesFaqA5') },
+    { id: 'cl-6', question: t('classesFaqQ6'), answer: t('classesFaqA6') },
+    { id: 'cl-7', question: t('classesFaqQ7'), answer: t('classesFaqA7') },
+    { id: 'cl-8', question: t('classesFaqQ8'), answer: t('classesFaqA8') },
   ];
 
   // Schema Markup - BreadcrumbList
@@ -56,6 +59,20 @@ const DanceClassesPage: React.FC = () => {
     })),
   };
 
+  // Schema Markup - FAQPage
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: classesFaqs.map(faq => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  };
+
   return (
     <>
       {/* SEO metadata (title, description, og, hreflang) is handled by the global SEO.tsx component */}
@@ -63,6 +80,7 @@ const DanceClassesPage: React.FC = () => {
       <Helmet>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(itemListSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
 
       <div className="pt-20 md:pt-24">
@@ -191,7 +209,7 @@ const DanceClassesPage: React.FC = () => {
                           <div className="flex flex-col gap-2">
                             <Link
                               to={`/${locale}${category.pillarUrl}`}
-                              className="inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-bold bg-primary-accent text-white hover:bg-primary-dark transition-all duration-300 transform hover:scale-105"
+                              className="inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-bold bg-primary-accent text-white hover:bg-primary-dark transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-accent-glow"
                             >
                               {t('danceClassesHub_cta_view_category')}
                             </Link>
