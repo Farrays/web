@@ -45,7 +45,7 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ category, onOpenModal }) =>
             </p>
             <button
               onClick={() => onOpenModal(category.key)}
-              className="mt-3 inline-block text-white font-bold text-sm underline hover:text-primary-accent transition-colors opacity-0 group-hover:opacity-100 delay-150"
+              className="mt-3 inline-block text-primary-accent font-bold text-sm underline hover:text-white transition-colors opacity-0 group-hover:opacity-100 delay-150"
               aria-label={`${viewStylesText} de ${title}`}
             >
               {viewStylesText} →
