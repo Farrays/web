@@ -533,6 +533,7 @@ export const ca = {
   home_categories_section_title: 'Troba el teu estil de ball',
   home_categories_section_description: 'Explora les nostres categories i descobreix la classe perfecta per a tu',
   home_categories_cta_learn_more: 'Saber més',
+  home_categories_cta_view_styles: 'Veure estils',
   home_categories_cta_view_category: 'Veure tots els estils',
   home_categories_cta_close: 'Tancar',
   home_categories_urbano_title: 'Danses Urbanes / Hip Hop',
