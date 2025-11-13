@@ -2,7 +2,9 @@
 
 ## 📋 Resumen
 
-Sección de cards de categorías con modales accesibles para la home, completamente adaptada al stack **Vite + React + React Router**.
+Sección de cards de categorías con **enlaces directos a páginas pilares** (sin modales), completamente adaptada al stack **Vite + React + React Router**.
+
+**NOTA:** Esta sección fue refactorizada el 2025-11-13 para eliminar el sistema de modales y usar navegación directa. La documentación histórica sobre modales se mantiene pero ya no aplica.
 
 ---
 
@@ -55,9 +57,8 @@ lib/
 └── icons.tsx                            # Iconos SVG inline (Heroicons no instalado)
 
 components/home/
-├── CategoryCard.tsx                     # Card de categoría con imagen y CTA
-├── CategoryModal.tsx                    # Modal accesible con focus-trap
-├── CategoriesSection.tsx                # Wrapper principal (estado + grid)
+├── CategoryCard.tsx                     # Card de categoría con imagen y Link directo
+├── CategoriesSection.tsx                # Wrapper principal (grid de cards)
 └── CategoriesSchemaMarkup.tsx           # JSON-LD Schema (react-helmet-async)
 
 i18n/locales/
