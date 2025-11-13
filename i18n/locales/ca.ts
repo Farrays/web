@@ -616,7 +616,6 @@ export const ca = {
     'Explora per famílies d\'estils. Cada categoria inclou enllaços a les seves pàgines i als estils més buscats.',
   danceClassesHub_featured_styles_label: 'Estils destacats',
   danceClassesHub_all_styles_label: 'Estils disponibles',
-};
   classesFaqQ6: "On està ubicat Farray's Center i com hi arribo?",
   classesFaqA6:
     'Estem ubicats al Carrer Entença 100, Barcelona 08015, al barri de Sants. Arribem fàcilment en metro (L3/L5 - Sants Estació, L1 - Hostafrancs), autobús (línies 27, 43, 78, 109, H10) o Renfe Rodalies (Estació de Sants). L\'estudi està a només 5-7 minuts caminant des de l\'estació de Sants. També hi ha aparcament públic proper si vens amb cotxe.',
@@ -626,3 +625,4 @@ export const ca = {
   classesFaqQ8: 'Necessito experiència prèvia per començar?',
   classesFaqA8:
     'No, absolutament no necessites experiència prèvia. Tots els nostres estils de ball tenen classes per a principiants absoluts. Els nostres professors estan especialitzats en ensenyar des de zero i crear un ambient acollidor per a nous estudiants. La primera classe és gratuïta perquè puguis provar sense compromís. Molts dels nostres estudiants més avançats van començar sense cap experiència en ball.',
+};
