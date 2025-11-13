@@ -39,13 +39,13 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ category, onOpenModal }) =>
           <h3 className="text-3xl font-bold mt-2">{title}</h3>
 
           {/* Expandable Description + Clickable Text */}
-          <div className="h-0 group-hover:h-20 overflow-hidden transition-all duration-300 ease-in-out">
-            <p className="text-neutral/80 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150">
+          <div className="h-0 group-hover:h-28 overflow-hidden transition-all duration-300 ease-in-out">
+            <p className="text-neutral/80 text-sm mt-2 leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150">
               {intro}
             </p>
             <button
               onClick={() => onOpenModal(category.key)}
-              className="mt-2 text-white font-bold text-sm underline hover:text-primary-accent transition-colors opacity-0 group-hover:opacity-100 delay-150"
+              className="mt-3 inline-block text-white font-bold text-sm underline hover:text-primary-accent transition-colors opacity-0 group-hover:opacity-100 delay-150"
               aria-label={`${viewStylesText} de ${title}`}
             >
               {viewStylesText} →
