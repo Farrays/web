@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useI18n } from '../../hooks/useI18n';
 import type { CategoryCardProps } from '../../types/categories';
 
@@ -8,13 +9,14 @@ import type { CategoryCardProps } from '../../types/categories';
 // Primary color: #c82260 (primary-accent from tailwind.config)
 
 const CategoryCard: React.FC<CategoryCardProps> = ({ category, onOpenModal }) => {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
 
   // Get translations with fallback
   const title = t(`home_categories_${category.key}_title`) || category.key;
   const imageAlt = t(`home_categories_${category.key}_image_alt`) || `${title} class`;
   const intro = t(`home_categories_${category.key}_intro`) || '';
-  const ctaText = t('home_categories_cta_view_styles') || 'Ver estilos';
+  const ctaText = t('home_categories_cta_learn_more') || 'Saber más';
+  const viewStylesText = t('home_categories_cta_view_styles') || 'Ver estilos';
 
   return (
     <article className="[perspective:1000px]">
@@ -38,18 +40,26 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ category, onOpenModal }) =>
         <div className="relative flex flex-col justify-end h-full p-6 text-left">
           <h3 className="text-3xl font-bold mt-2">{title}</h3>
 
-          {/* Expandable Description + CTA Button */}
+          {/* Expandable Description + Buttons */}
           <div className="h-0 group-hover:h-32 overflow-hidden transition-all duration-300 ease-in-out">
-            <p className="text-neutral/80 text-sm mt-2 mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150">
+            <p className="text-neutral/80 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150 line-clamp-2">
               {intro}
             </p>
-            <button
-              onClick={() => onOpenModal(category.key)}
-              className="bg-primary-accent text-white font-bold py-2 px-6 rounded-full transition-all duration-300 hover:bg-white hover:text-primary-accent shadow-lg hover:shadow-accent-glow opacity-0 group-hover:opacity-100 delay-150"
-              aria-label={`${ctaText} de ${title}`}
-            >
-              {ctaText}
-            </button>
+            <div className="flex gap-3 mt-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150">
+              <Link
+                to={`/${locale}${category.pillarSlug}`}
+                className="bg-primary-accent text-white font-bold py-2 px-6 rounded-full transition-all duration-300 hover:bg-white hover:text-primary-accent shadow-lg hover:shadow-accent-glow text-sm"
+              >
+                {ctaText}
+              </Link>
+              <button
+                onClick={() => onOpenModal(category.key)}
+                className="bg-transparent border-2 border-white text-white font-bold py-2 px-6 rounded-full transition-all duration-300 hover:bg-white hover:text-primary-accent shadow-lg text-sm"
+                aria-label={`${viewStylesText} de ${title}`}
+              >
+                {viewStylesText}
+              </button>
+            </div>
           </div>
         </div>
       </div>

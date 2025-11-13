@@ -8,6 +8,7 @@ import { XMarkIcon, ChevronRightIcon } from '../../lib/icons';
 // Verified: Vite + React + React Router + useI18n
 // SEO-optimized: Always in DOM (hidden when closed), links crawlable by Google
 // Accessibility: WCAG AA compliant with focus-trap, ARIA, keyboard navigation
+// Design: Matches theme colors with primary-accent, primary-dark, and neutral tones
 
 const CategoryModal: React.FC<CategoryModalProps> = ({ isOpen, category, onClose }) => {
   const { t } = useI18n();
@@ -15,12 +16,6 @@ const CategoryModal: React.FC<CategoryModalProps> = ({ isOpen, category, onClose
   const modalRef = useRef<HTMLDivElement>(null);
   const openButtonRef = useRef<HTMLElement | null>(null);
   const firstFocusableRef = useRef<HTMLButtonElement>(null);
-
-  // Colors verified in tailwind.config.js (section 0.1)
-  const primaryColor = 'bg-primary-accent hover:bg-primary-dark';
-  const primaryBorder = 'border-primary-accent';
-  const primaryBg = 'bg-pink-50';
-  const primaryText = 'text-primary-accent';
 
   // Save reference to button that opened modal
   useEffect(() => {
@@ -145,7 +140,7 @@ const CategoryModal: React.FC<CategoryModalProps> = ({ isOpen, category, onClose
     <div className={isOpen ? 'fixed inset-0 z-50' : 'hidden'} aria-hidden={!isOpen}>
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-black/60 backdrop-blur-sm transition-opacity duration-300"
+        className="fixed inset-0 bg-black/80 backdrop-blur-md transition-opacity duration-300"
         onClick={handleBackdropClick}
         aria-hidden="true"
       />
@@ -158,7 +153,7 @@ const CategoryModal: React.FC<CategoryModalProps> = ({ isOpen, category, onClose
           aria-modal={isOpen ? 'true' : undefined}
           aria-labelledby="modal-title"
           aria-describedby="modal-description"
-          className="bg-white rounded-2xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto animate-fade-in-up"
+          className="bg-white rounded-2xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto animate-fade-in-up border-2 border-primary-accent/20"
         >
           {/* Close Button */}
           <button
@@ -166,12 +161,12 @@ const CategoryModal: React.FC<CategoryModalProps> = ({ isOpen, category, onClose
             type="button"
             onClick={onClose}
             aria-label={closeText}
-            className="absolute top-4 right-4 p-2 rounded-full bg-white/90 hover:bg-gray-100 transition-colors z-10 shadow-md"
+            className="absolute top-4 right-4 p-2 rounded-full bg-primary-accent text-white hover:bg-primary-dark transition-all z-10 shadow-lg hover:shadow-accent-glow"
           >
-            <XMarkIcon className="w-6 h-6 text-gray-700" />
+            <XMarkIcon className="w-6 h-6" />
           </button>
 
-          {/* Header Image */}
+          {/* Header Image with Gradient Overlay */}
           <div className="relative h-48 md:h-64 overflow-hidden rounded-t-2xl">
             <img
               src={category.imageUrl}
@@ -180,26 +175,25 @@ const CategoryModal: React.FC<CategoryModalProps> = ({ isOpen, category, onClose
               loading="lazy"
               decoding="async"
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+            <h2 id="modal-title" className="absolute bottom-6 left-6 text-4xl md:text-5xl font-black text-white tracking-tight drop-shadow-lg">
+              {title}
+            </h2>
           </div>
 
           {/* Content */}
-          <div className="p-6 md:p-8">
-            {/* Title */}
-            <h2 id="modal-title" className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              {title}
-            </h2>
-
+          <div className="p-6 md:p-8 bg-primary-dark/5">
             {/* Intro Text (SEO) */}
             {intro && (
-              <p id="modal-description" className="text-lg text-gray-600 mb-8">
+              <p id="modal-description" className="text-lg text-neutral/80 mb-8 leading-relaxed">
                 {intro}
               </p>
             )}
 
             {/* Styles Grid */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Estilos disponibles:</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+              <h3 className="text-2xl font-bold text-neutral mb-6">Estilos disponibles:</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {category.styles.map(style => {
                   const styleName =
                     t(`home_categories_${category.key}_styles_${style.key}`) || style.key;
@@ -208,13 +202,13 @@ const CategoryModal: React.FC<CategoryModalProps> = ({ isOpen, category, onClose
                       key={style.key}
                       to={style.slug}
                       onClick={() => handleStyleClick(style.key, style.slug)}
-                      className={`flex items-center justify-between gap-2 p-4 rounded-lg border-2 border-gray-200 hover:${primaryBorder} hover:${primaryBg} transition-all duration-200 group`}
+                      className="flex items-center justify-between gap-2 p-4 rounded-lg border-2 border-primary-accent/20 hover:border-primary-accent hover:bg-primary-accent/5 transition-all duration-200 group shadow-sm hover:shadow-md"
                     >
-                      <span className={`font-medium text-gray-900 group-hover:${primaryText}`}>
+                      <span className="font-semibold text-neutral group-hover:text-primary-accent transition-colors">
                         {styleName}
                       </span>
                       <ChevronRightIcon
-                        className={`w-5 h-5 text-gray-400 group-hover:${primaryText} group-hover:translate-x-1 transition-transform`}
+                        className="w-5 h-5 text-primary-accent/50 group-hover:text-primary-accent group-hover:translate-x-1 transition-all"
                       />
                     </Link>
                   );
@@ -227,7 +221,7 @@ const CategoryModal: React.FC<CategoryModalProps> = ({ isOpen, category, onClose
               <Link
                 to={category.pillarSlug}
                 onClick={handleCategoryClick}
-                className={`inline-block px-8 py-4 ${primaryColor} text-white text-lg font-semibold rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl`}
+                className="inline-block px-10 py-4 bg-primary-accent hover:bg-primary-dark text-white text-lg font-bold rounded-full transition-all duration-300 shadow-lg hover:shadow-accent-glow transform hover:scale-105"
               >
                 {viewCategoryText}
               </Link>
