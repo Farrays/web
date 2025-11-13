@@ -65,20 +65,28 @@ const DanceClassesPage: React.FC = () => {
         <script type="application/ld+json">{JSON.stringify(itemListSchema)}</script>
       </Helmet>
 
-      <div className="pt-20 md:pt-24 bg-primary-dark/10">
-        {/* Header Section */}
-        <section className="py-10 md:py-16">
-          <div className="container max-w-6xl mx-auto px-6">
+      <div className="pt-20 md:pt-24">
+        {/* Hero Section - Like DancehallPage */}
+        <section
+          id="classes-hub-hero"
+          className="relative text-center py-32 md:py-40 overflow-hidden flex items-center justify-center min-h-[600px]"
+        >
+          {/* Background like DancehallPage Hero */}
+          <div className="absolute inset-0 bg-black">
+            <div className="absolute inset-0 bg-gradient-to-br from-primary-dark/30 via-black to-black"></div>
+            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20"></div>
+          </div>
+          <div className="relative z-20 container mx-auto px-6">
             {/* Breadcrumb */}
-            <nav aria-label="Breadcrumb" className="mb-6">
-              <ol className="flex items-center gap-2 text-sm text-gray-500">
+            <nav aria-label="Breadcrumb" className="mb-8">
+              <ol className="flex items-center justify-center gap-2 text-sm text-neutral/70">
                 <li>
                   <Link to={`/${locale}`} className="hover:text-primary-accent transition-colors">
                     {t('danceClassesHub_breadcrumb_home')}
                   </Link>
                 </li>
                 <li aria-hidden="true">/</li>
-                <li className="text-gray-700" aria-current="page">
+                <li className="text-neutral/90" aria-current="page">
                   {t('danceClassesHub_breadcrumb_current')}
                 </li>
               </ol>
@@ -86,10 +94,10 @@ const DanceClassesPage: React.FC = () => {
 
             {/* H1 + Intro */}
             <AnimateOnScroll>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral mb-4">
+              <h1 className="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-tight mb-6 holographic-text">
                 {t('danceClassesHub_h1')}
               </h1>
-              <p className="text-base md:text-lg text-gray-600 max-w-4xl">
+              <p className="max-w-4xl mx-auto text-xl md:text-2xl text-neutral/90 mt-8 leading-relaxed">
                 {t('danceClassesHub_intro')}
               </p>
             </AnimateOnScroll>
@@ -97,71 +105,98 @@ const DanceClassesPage: React.FC = () => {
         </section>
 
         {/* Categories Grid Section */}
-        <section aria-labelledby="categories-title" className="py-12 md:py-16">
-          <div className="container max-w-6xl mx-auto px-6">
+        <section aria-labelledby="categories-title" className="py-20 md:py-32 bg-primary-dark/10">
+          <div className="container mx-auto px-6 text-center">
             <AnimateOnScroll>
-              <h2 id="categories-title" className="text-2xl md:text-3xl font-semibold text-neutral mb-3">
+              <h2 id="categories-title" className="text-4xl md:text-5xl font-black tracking-tighter mb-4 text-neutral">
                 {t('danceClassesHub_categories_title')}
               </h2>
-              <p className="text-gray-600 mb-8">{t('danceClassesHub_categories_description')}</p>
+            </AnimateOnScroll>
+            <AnimateOnScroll delay={200}>
+              <p className="max-w-3xl mx-auto text-lg text-neutral/80 mb-12">{t('danceClassesHub_categories_description')}</p>
             </AnimateOnScroll>
 
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {HUB_CATEGORIES.map((category, index) => (
                 <AnimateOnScroll key={category.key} delay={index * 100}>
                   <article
-                    className="rounded-2xl shadow-sm ring-1 ring-gray-200 bg-white p-6 flex flex-col h-full hover:shadow-md transition-shadow"
+                    className="[perspective:1000px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-accent focus-visible:ring-offset-2 rounded-xl"
                     aria-labelledby={`card-${category.key}-title`}
                   >
-                    {/* Title - USAR classCat*Title existente */}
-                    <h3
-                      id={`card-${category.key}-title`}
-                      className="text-xl font-semibold text-neutral mb-2"
-                    >
-                      {t(category.titleKey)}
-                    </h3>
+                    <div className="group relative rounded-xl overflow-hidden shadow-lg min-h-[400px] bg-black text-white transition-all duration-500 ease-in-out [transform-style:preserve-3d] hover:shadow-accent-glow hover:[transform:translateY(-0.5rem)_scale(1.05)]">
+                      {/* Gradient Background (similar visual to image overlay) */}
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary-dark/40 via-black/90 to-black"></div>
 
-                    {/* Description - USAR classCat*Desc existente */}
-                    <p className="text-gray-600 mb-3 text-sm">{t(category.descriptionKey)}</p>
+                      {/* Hover Border Effect */}
+                      <div className="absolute inset-0 border-2 border-transparent group-hover:border-primary-accent rounded-xl transition-all duration-300 pointer-events-none"></div>
 
-                    {/* 3 Bullets */}
-                    <ul className="text-sm text-gray-600 list-disc list-inside space-y-1 mb-4">
-                      <li>{t(`danceClassesHub_${category.key}_bullet1`)}</li>
-                      <li>{t(`danceClassesHub_${category.key}_bullet2`)}</li>
-                      <li>{t(`danceClassesHub_${category.key}_bullet3`)}</li>
-                    </ul>
+                      {/* Content */}
+                      <div className="relative flex flex-col justify-between h-full p-6 text-left">
+                        {/* Title - USAR classCat*Title existente */}
+                        <div>
+                          <h3
+                            id={`card-${category.key}-title`}
+                            className="text-3xl font-bold mb-3"
+                          >
+                            {t(category.titleKey)}
+                          </h3>
 
-                    {/* Featured Styles Badges */}
-                    <div
-                      className="flex flex-wrap gap-2 mb-5"
-                      aria-label={t('danceClassesHub_featured_styles_label')}
-                    >
-                      {category.featuredStyles.map((style) => (
-                        <Link
-                          key={style.key}
-                          to={`/${locale}${style.url}`}
-                          className="inline-flex items-center rounded-xl px-3 py-1 text-xs font-medium ring-1 ring-gray-200 hover:ring-primary-accent hover:text-primary-accent transition-colors"
-                        >
-                          {t(`danceClassesHub_style_${style.key}`)}
-                        </Link>
-                      ))}
-                    </div>
+                          {/* Description - USAR classCat*Desc existente */}
+                          <p className="text-neutral/80 text-sm mb-4 leading-relaxed">{t(category.descriptionKey)}</p>
 
-                    {/* CTAs */}
-                    <div className="mt-auto flex flex-col sm:flex-row items-start sm:items-center gap-3">
-                      <Link
-                        to={`/${locale}${category.pillarUrl}`}
-                        className="inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-medium ring-1 ring-gray-300 hover:ring-primary-accent hover:bg-gray-50 transition-colors"
-                      >
-                        {t('danceClassesHub_cta_view_category')}
-                      </Link>
-                      <button
-                        onClick={() => setOpenCategory(category)}
-                        className="text-sm text-gray-600 hover:text-primary-accent transition-colors font-medium"
-                        aria-haspopup="dialog"
-                      >
-                        {t('danceClassesHub_cta_view_all_styles')}
-                      </button>
+                          {/* 3 Bullets */}
+                          <ul className="text-sm text-neutral/70 space-y-2 mb-4">
+                            <li className="flex items-start">
+                              <span className="text-primary-accent mr-2">•</span>
+                              <span>{t(`danceClassesHub_${category.key}_bullet1`)}</span>
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary-accent mr-2">•</span>
+                              <span>{t(`danceClassesHub_${category.key}_bullet2`)}</span>
+                            </li>
+                            <li className="flex items-start">
+                              <span className="text-primary-accent mr-2">•</span>
+                              <span>{t(`danceClassesHub_${category.key}_bullet3`)}</span>
+                            </li>
+                          </ul>
+                        </div>
+
+                        {/* Featured Styles Badges */}
+                        <div className="mb-4">
+                          <p className="text-xs text-neutral/60 mb-2 uppercase tracking-wider font-semibold">
+                            {t('danceClassesHub_featured_styles_label')}
+                          </p>
+                          <div className="flex flex-wrap gap-2">
+                            {category.featuredStyles.map((style) => (
+                              <Link
+                                key={style.key}
+                                to={`/${locale}${style.url}`}
+                                className="inline-flex items-center rounded-lg px-3 py-1 text-xs font-medium bg-primary-accent/20 border border-primary-accent/30 text-neutral hover:bg-primary-accent hover:text-white transition-all duration-300"
+                                onClick={(e) => e.stopPropagation()}
+                              >
+                                {t(`danceClassesHub_style_${style.key}`)}
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+
+                        {/* CTAs */}
+                        <div className="flex flex-col gap-3 mt-auto">
+                          <Link
+                            to={`/${locale}${category.pillarUrl}`}
+                            className="inline-flex items-center justify-center rounded-lg px-4 py-3 text-sm font-bold bg-primary-accent text-white hover:bg-primary-dark transition-all duration-300 transform hover:scale-105"
+                          >
+                            {t('danceClassesHub_cta_view_category')}
+                          </Link>
+                          <button
+                            onClick={() => setOpenCategory(category)}
+                            className="text-sm text-neutral/80 hover:text-primary-accent transition-colors font-medium text-center"
+                            aria-haspopup="dialog"
+                          >
+                            {t('danceClassesHub_cta_view_all_styles')} →
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </article>
                 </AnimateOnScroll>
@@ -171,20 +206,24 @@ const DanceClassesPage: React.FC = () => {
         </section>
 
         {/* Featured Styles Section */}
-        <section aria-labelledby="featured-title" className="py-12 md:py-16">
-          <div className="container max-w-6xl mx-auto px-6">
+        <section aria-labelledby="featured-title" className="py-20 md:py-32 bg-black text-white">
+          <div className="container mx-auto px-6 text-center">
             <AnimateOnScroll>
-              <h2 id="featured-title" className="text-2xl md:text-3xl font-semibold text-neutral mb-3">
+              <h2 id="featured-title" className="text-4xl md:text-5xl font-black tracking-tighter mb-4 holographic-text">
                 {t('danceClassesHub_featured_title')}
               </h2>
-              <p className="text-gray-600 mb-6">{t('danceClassesHub_featured_description')}</p>
+            </AnimateOnScroll>
+            <AnimateOnScroll delay={200}>
+              <p className="max-w-3xl mx-auto text-lg text-neutral/80 mb-12">{t('danceClassesHub_featured_description')}</p>
+            </AnimateOnScroll>
 
-              <div className="flex flex-wrap gap-2">
+            <AnimateOnScroll delay={300}>
+              <div className="flex flex-wrap justify-center gap-3">
                 {FEATURED_STYLES.map((style) => (
                   <Link
                     key={style.key}
                     to={`/${locale}${style.url}`}
-                    className="inline-flex items-center rounded-xl px-4 py-2 text-sm font-medium ring-1 ring-gray-200 hover:ring-primary-accent hover:bg-gray-50 hover:text-primary-accent transition-colors"
+                    className="inline-flex items-center rounded-lg px-5 py-3 text-sm font-bold bg-primary-dark/50 border border-primary-accent/30 text-white hover:bg-primary-accent hover:border-primary-accent transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-accent-glow"
                   >
                     {t(`danceClassesHub_style_${style.key}`)}
                   </Link>
