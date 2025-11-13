@@ -147,7 +147,6 @@ const Footer: React.FC = () => {
                 <FooterLink to={`/${locale}`} textKey="sitemapSchool" />
                 <FooterLink to={`/${locale}/clases`} textKey="navClasses" />
                 <FooterLink to={`/${locale}/clases/dancehall-barcelona`} textKey="navDancehall" />
-                <FooterLink to={`/${locale}/clases/afrobeats-barcelona`} textKey="navAfrobeats" />
                 <FooterLink textKey="sitemapSocial" />
               </ul>
               <ul className="space-y-2 text-sm">
