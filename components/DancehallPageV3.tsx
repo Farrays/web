@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useI18n } from '../hooks/useI18n';
 import AnimateOnScroll from './AnimateOnScroll';
@@ -175,6 +175,49 @@ const DancehallPageV3: React.FC = () => {
     embedUrl: `${baseUrl}/videos/dancehall-class-experience.mp4`,
   };
 
+  // YouTube Embed Component with Thumbnail Placeholder
+  const YouTubeEmbed: React.FC<{ videoId: string; title: string }> = ({ videoId, title }) => {
+    const [isLoaded, setIsLoaded] = useState(false);
+    const thumbnailUrl = `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`;
+
+    if (!isLoaded) {
+      return (
+        <div
+          className="relative aspect-video rounded-2xl overflow-hidden border-2 border-primary-accent/50 shadow-accent-glow cursor-pointer group"
+          onClick={() => setIsLoaded(true)}
+        >
+          <img
+            src={thumbnailUrl}
+            alt={title}
+            loading="lazy"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
+            <div className="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg className="w-10 h-10 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    return (
+      <div className="aspect-video rounded-2xl overflow-hidden border-2 border-primary-accent/50 shadow-accent-glow">
+        <iframe
+          className="w-full h-full"
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
+          title={title}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </div>
+    );
+  };
+
   return (
     <>
       {/* SEO Meta Tags */}
@@ -182,6 +225,10 @@ const DancehallPageV3: React.FC = () => {
         <title>{t('dhV3PageTitle')}</title>
         <meta name="description" content={t('dhV3MetaDescription')} />
         <link rel="canonical" href={pageUrl} />
+
+        {/* Preconnect for Performance */}
+        <link rel="preconnect" href="https://www.youtube.com" />
+        <link rel="preconnect" href="https://i.ytimg.com" />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
@@ -829,18 +876,10 @@ const DancehallPageV3: React.FC = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
               <AnimateOnScroll delay={100}>
-                <div className="aspect-video rounded-2xl overflow-hidden border-2 border-primary-accent/50 shadow-accent-glow">
-                  <iframe
-                    className="w-full h-full"
-                    src="https://www.youtube.com/embed/TteV2if6Qso"
-                    title="Clases de Dancehall en Barcelona - Farray's Center"
-                    frameBorder="0"
-                    loading="lazy"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                    referrerPolicy="no-referrer-when-downgrade"
-                  ></iframe>
-                </div>
+                <YouTubeEmbed
+                  videoId="TteV2if6Qso"
+                  title="Clases de Dancehall en Barcelona - Farray's Center"
+                />
               </AnimateOnScroll>
 
               <AnimateOnScroll delay={200}>
