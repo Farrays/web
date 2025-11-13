@@ -401,9 +401,9 @@ export const en = {
   dhV3HeroDesc: 'Much more than dance, a way of life.',
   dhV3HeroLocation: 'Travel to Jamaica without leaving Barcelona | Classes from beginner to advanced, between Plaza España and Sants',
 
-  dhV3CTA1: 'Sign Up Now',
+  dhV3CTA1: 'Enroll Now',
   dhV3CTA1Subtext: 'Limited spots this month',
-  dhV3CTA2: 'Try 1 Free Class',
+  dhV3CTA2: 'Book Your Trial Class',
   dhV3CTA2Subtext: 'Valid for a limited time — only until Friday',
 
   dhV3WhatIsTitle: 'What is Dancehall and why is it taking Barcelona by storm?',
