@@ -7,7 +7,6 @@ export const en = {
   navHome: 'Home',
   navClasses: 'Dance Classes',
   navDancehall: 'Dancehall',
-  navAfrobeats: 'Afrobeats',
   enrollNow: 'Enroll Now',
   // Hero
   heroTitle1: 'Dance School in Barcelona',
@@ -270,51 +269,7 @@ export const en = {
     "I was nervous to start, but the community is so welcoming. It's an incredible workout and I feel so much more confident. Best Dancehall classes I've ever taken.",
   dancehallTestimonial2Name: 'Chloe B.',
   dancehallTestimonial2City: 'Manchester, UK',
-  // Afrobeats Page
-  afrobeatsPageTitle: "Afrobeats Classes in Barcelona | Farray's International Dance Center",
-  afrobeatsHeroTitle: 'Feel the Pulse: Afrobeats in Barcelona',
-  afrobeatsHeroSubtitle:
-    "Connect with the vibrant rhythms of Africa. More than a dance, it's a celebration of life.",
-  afrobeatsAboutTitle: 'What is Afrobeats?',
-  afrobeatsAboutDesc1:
-    "Afrobeats is a dynamic and infectious dance style originating from Sub-Saharan Africa. It's a diverse umbrella term for urban street dance styles from countries like Nigeria, Ghana, and Senegal. Characterized by its fluid torso movements, intricate footwork, and expressive gestures, Afrobeats is all about feeling the music and celebrating community.",
-  afrobeatsAboutDesc2:
-    "Our classes dive deep into the foundations of various Afrobeats styles, from Azonto to Shaku Shaku. We focus on musicality, individual expression, and the cultural stories behind the movements. Get ready for a high-energy class that's as much a party as it is a workout, connecting you to a powerful and joyful global movement.",
-  afrobeatsPillar1Title: 'Groove & Flow',
-  afrobeatsPillar1Desc:
-    'Master the fluid, polyrhythmic movements that connect you directly to the heartbeat of the music.',
-  afrobeatsPillar2Title: 'Cultural Fusion',
-  afrobeatsPillar2Desc:
-    'Explore a rich tapestry of dance styles from across the African continent, celebrating tradition and innovation.',
-  afrobeatsPillar3Title: 'Joyful Expression',
-  afrobeatsPillar3Desc:
-    "Let go and find your freedom in a dance style that's all about pure, infectious joy and positive energy.",
-  afrobeatsClassesTitle: 'Our Afrobeats Programs',
-  afrobeatsClassesSubtitle:
-    "Whether you're taking your first step or you're a seasoned groover, we have a class for you.",
-  afrobeatsLevelBeginnerTitle: 'Afrobeats Foundations (Lvl 1)',
-  afrobeatsLevelBeginnerDesc:
-    'Perfect for newcomers. Learn the basic steps, body isolations, and rhythms of Afrobeats in a welcoming and energetic setting.',
-  afrobeatsLevelInterTitle: 'Afrobeats Flow (Lvl 2)',
-  afrobeatsLevelInterDesc:
-    'Build on your foundations with more complex choreography, faster rhythms, and a focus on developing your personal freestyle.',
-  afrobeatsLevelAdvancedTitle: 'Afrobeats Pro (Lvl 3)',
-  afrobeatsLevelAdvancedDesc:
-    'For experienced dancers. This class challenges with advanced techniques, performance quality, and deep dives into specific regional styles.',
-  afrobeatsInstructorTitle: 'Meet Your Afrobeats Guide',
-  afrobeatsInstructorName: "David 'Dee' Adeleke",
-  afrobeatsInstructorSpecialty: 'Afrobeats & West African Dance Expert',
-  afrobeatsInstructorBio:
-    'Hailing from Lagos, David lives and breathes Afrobeats. He has toured with major artists and is celebrated for his authentic style and his gift for sharing the joy and culture of the dance with students of all levels.',
-  afrobeatsTestimonialsTitle: 'What Our Dancers Say',
-  afrobeatsTestimonial1Quote:
-    "David's class is pure fire! The music, the energy, the community... it's the best part of my week. I've never felt so free and happy while dancing. FIDC is the home of Afrobeats in BCN.",
-  afrobeatsTestimonial1Name: 'Fatou D.',
-  afrobeatsTestimonial1City: 'Dakar, Senegal',
-  afrobeatsTestimonial2Quote:
-    "I came in with two left feet and now I can't stop dancing. It's an amazing workout, and the vibe is always positive. Highly recommend for anyone looking to have fun and learn something new.",
-  afrobeatsTestimonial2Name: 'Liam S.',
-  afrobeatsTestimonial2City: 'Dublin, Ireland',
+
   // FAQ Section
   faqTitle: 'Frequently Asked Questions',
   // Home FAQ
@@ -355,19 +310,7 @@ export const en = {
   dancehallFaqQ4: 'What should I wear to dancehall class?',
   dancehallFaqA4:
     "Comfortable, sporty clothing that allows you to move freely. Many students wear athletic pants or leggings and a t-shirt. For footwear, clean athletic shoes with good soles are ideal. Bring a water bottle because you're going to sweat! Optional: a small towel and your best attitude.",
-  // Afrobeats FAQ
-  afrobeatsFaqQ1: "What's the difference between afrobeats and afrobeat?",
-  afrobeatsFaqA1:
-    "Excellent question. 'Afrobeat' (without 's') is a musical genre created by Fela Kuti in the 70s, fusing jazz, funk, and traditional African music. 'Afrobeats' (with 's') is a more modern term describing contemporary pop music from West Africa (Nigeria, Ghana, etc.) and its associated dance styles. In our classes, we focus on Afrobeats, the modern energy-filled style that's conquering the world.",
-  afrobeatsFaqA2:
-    "Afrobeats classes are incredibly fun and energetic. We start with a warm-up to the rhythm of the music, then work on fundamentals like torso movement, footwork, and body isolations. Then we learn choreographies and steps from specific styles (Azonto, Shaku Shaku, Zanku, etc.). We end with a freestyle session where everyone can express themselves freely. It's a perfect combination of workout, cultural learning, and celebration.",
-  afrobeatsFaqQ2: "What's a typical afrobeats class like?",
-  afrobeatsFaqQ3: 'Is afrobeats only for people of African origin?',
-  afrobeatsFaqA3:
-    "Absolutely not! Afrobeats is for everyone. Although it has roots in African culture, it's a global movement that celebrates inclusion and universal joy. Our classes welcome people of all backgrounds, ages, and levels. What matters is your desire to learn, have fun, and connect with the music and community. Diversity enriches the experience for everyone.",
-  afrobeatsFaqQ4: 'Is afrobeats good physical exercise?',
-  afrobeatsFaqA4:
-    "Yes, definitely! Afrobeats is a complete cardiovascular workout that involves the whole body. Torso movements work your core, footwork improves your coordination and endurance, and grooves develop your flexibility. A one-hour class can burn between 300-500 calories, but it's so fun you don't even notice the effort. Many of our students say it's the best workout they've ever done.",
+
   // Classes FAQ
   classesFaqQ1: "How many dance styles do you teach at Farray's Center?",
   classesFaqA1:
@@ -392,7 +335,7 @@ export const en = {
   dancehallImage3Alt:
     "Group of students dancing Dancehall in Barcelona - Farray's urban dance academy",
 
-  // ===== DancehallPageV3 =====
+  // ===== DancehallPage (Dancehall Classes Barcelona) =====
   dhV3PageTitle: 'Dancehall Classes in Barcelona | Farray\'s Center Academy',
   dhV3MetaDescription: 'Learn authentic Jamaican Dancehall in Barcelona. Classes from beginner to advanced. Expert teachers. Between Plaza España and Sants. Try for free!',
 

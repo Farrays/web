@@ -10,9 +10,8 @@ const SEO: React.FC = () => {
   // Detect current page from route
   const getPageFromPath = (path: string): string => {
     if (path === '/' || path === '') return 'home';
-    if (path.includes('/clases')) return 'classes';
     if (path.includes('/dancehall')) return 'dancehall';
-    if (path.includes('/afrobeats')) return 'afrobeats';
+    if (path.includes('/clases')) return 'classes';
     return 'home';
   };
 
@@ -24,8 +23,7 @@ const SEO: React.FC = () => {
   const pageToPath = {
     home: '',
     classes: 'clases',
-    dancehall: 'dancehall',
-    afrobeats: 'afrobeats',
+    dancehall: 'clases/dancehall-barcelona',
   };
 
   const pagePath = pageToPath[page as keyof typeof pageToPath] || '';
@@ -47,11 +45,6 @@ const SEO: React.FC = () => {
       titleKey: 'dancehallPageTitle',
       descKey: 'dancehallMetaDesc',
       image: `${baseUrl}/images/og-dancehall.jpg`,
-    },
-    afrobeats: {
-      titleKey: 'afrobeatsPageTitle',
-      descKey: 'afrobeatsMetaDesc',
-      image: `${baseUrl}/images/og-afrobeats.jpg`,
     },
   };
 

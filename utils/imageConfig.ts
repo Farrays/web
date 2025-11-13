@@ -47,8 +47,6 @@ export const imageUrls = {
       'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=1920&h=1080&fit=crop&q=80&auto=format',
     dancehall:
       'https://images.unsplash.com/photo-1547153760-18fc9c88c1c8?w=1920&h=1080&fit=crop&q=80&auto=format',
-    afrobeats:
-      'https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=1920&h=1080&fit=crop&q=80&auto=format',
   },
 };
 
