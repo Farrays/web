@@ -806,9 +806,9 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   // ====================
 
   // Section Header
-  home_categories_section_title: 'Encuentra tu estilo de baile',
+  home_categories_section_title: 'Clases de Baile para Adultos',
   home_categories_section_description:
-    'Explora nuestras categorías y descubre la clase perfecta para ti',
+    'Descubre nuestras clases de baile para adultos y encuentra el estilo perfecto para ti. Calidad, profesionalidad y comunidad en el corazón de Barcelona, en una academia acreditada por CID-UNESCO.',
 
   // CTAs
   home_categories_cta_learn_more: 'Saber más',
@@ -817,12 +817,12 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   home_categories_cta_close: 'Cerrar',
 
   // Category: Danzas Urbanas / Hip Hop
-  home_categories_urbano_title: 'Danzas Urbanas / Hip Hop',
+  home_categories_urbano_title: 'Clases de Danza Urbana y Hip Hop',
   home_categories_urbano_image_alt: 'Clase de Hip Hop en estudio de baile',
   home_categories_urbano_bullets:
     '11 estilos urbanos diferentes, Desde principiante a profesional, Primera clase gratis',
   home_categories_urbano_intro:
-    'Descubre el ritmo urbano en Barcelona. Desde Hip Hop clásico hasta Dancehall, Reggaeton, Afrobeat y K-Pop. Clases para todos los niveles con profes especializados. Técnica, flow y mucha energía. Tu primera clase es gratis.',
+    'Siente la energía de la calle con los estilos de Hip Hop, Reggaeton, Dancehall y Commercial.',
   home_categories_urbano_styles_afrobeat: 'Afrobeat',
   home_categories_urbano_styles_dancehall: 'Dancehall',
   home_categories_urbano_styles_femmology_heels: 'Femmology Heels',
@@ -836,12 +836,12 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   home_categories_urbano_styles_kpop: 'K-Pop',
 
   // Category: Salsa y Bachata
-  home_categories_salsa_bachata_title: 'Salsa y Bachata',
+  home_categories_salsa_bachata_title: 'Clases de Salsa y Bachata',
   home_categories_salsa_bachata_image_alt: 'Pareja bailando salsa cubana',
   home_categories_salsa_bachata_bullets:
     'Salsa, Bachata, Timba y más, Baila solo o en pareja, Grupos de todos los niveles',
   home_categories_salsa_bachata_intro:
-    'Aprende a bailar Salsa Cubana, Bachata, Timba y ritmos latinos auténticos. Clases de pareja y lady/men style. Técnica profesional con profesores cubanos. Desde nivel iniciación hasta avanzado. Ambiente social y divertido.',
+    'Aprende a bailar salsa y bachata muy cerca de Plaza España y la estación de Sants.',
   home_categories_salsa_bachata_styles_bachata: 'Bachata',
   home_categories_salsa_bachata_styles_folklore_cubano: 'Folklore Cubano',
   home_categories_salsa_bachata_styles_salsa_cubana: 'Salsa Cubana',
@@ -852,12 +852,12 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   home_categories_salsa_bachata_styles_men_style_salsa: 'Men Style Salsa',
 
   // Category: Danza (Ballet/Contemporáneo/Jazz)
-  home_categories_danza_title: 'Danza (Ballet/Contemporáneo/Jazz)',
+  home_categories_danza_title: 'Ballet, Contemporáneo y Jazz',
   home_categories_danza_image_alt: 'Bailarina de ballet en estudio',
   home_categories_danza_bullets:
     'Técnica clásica y contemporánea, Ballet, Jazz, Afro Contemporáneo, Desde cero hasta avanzado',
   home_categories_danza_intro:
-    'Danza clásica, contemporánea y jazz con técnica profesional. Ballet Clásico (Escuela Cubana), Contemporáneo Lírico, Modern Jazz, Afro Jazz. Clases para adultos desde iniciación. Mejora tu técnica, flexibilidad y expresión artística.',
+    'Explora la técnica y la expresión a través de la elegancia del Ballet, Contemporáneo y Jazz.',
   home_categories_danza_styles_afro_contemporaneo: 'Afro Contemporáneo (Técnica Cubana)',
   home_categories_danza_styles_afro_jazz: 'Afro Jazz (Técnica Cubana)',
   home_categories_danza_styles_ballet_clasico: 'Ballet Clásico (Escuela Cubana)',
@@ -867,12 +867,12 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   home_categories_danza_styles_bum_bum_gluteos: 'Bum Bum Glúteos Maravillosos',
 
   // Category: Fitness para Bailarines
-  home_categories_fitness_title: 'Fitness para Bailarines',
+  home_categories_fitness_title: 'Preparación Física',
   home_categories_fitness_image_alt: 'Clase de fitness con música',
   home_categories_fitness_bullets:
     'Tonifica bailando, Bum Bum, Pilates, Dance Barre, Clases divertidas y efectivas',
   home_categories_fitness_intro:
-    'Fitness con ritmo. Clases de Bum Bum Glúteos, Pilates, Dance Barre y Body Conditioning diseñadas para bailarines. Tonifica, estira y fortalece tu cuerpo mientras te diviertes. Resultados visibles, ambiente motivador.',
+    'Mejora tu fuerza, flexibilidad y resistencia con clases diseñadas para bailarines.',
   home_categories_fitness_styles_bum_bum_gluteos: 'Bum Bum Glúteos Maravillosos',
   home_categories_fitness_styles_bum_bum_fit: 'Bum Bum Cuerpo Fit',
   home_categories_fitness_styles_body_conditioning: 'Body Conditioning & Stretching',
@@ -881,11 +881,11 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   home_categories_fitness_styles_pilates: 'Pilates',
 
   // Category: Clases por las Mañanas
-  home_categories_mananas_title: 'Clases por las Mañanas',
+  home_categories_mananas_title: 'Clases de Baile por la Mañana',
   home_categories_mananas_image_alt: 'Clase de baile matinal con luz natural',
   home_categories_mananas_bullets: 'Empieza el día bailando, Horario flexible matinal, Grupos reducidos',
   home_categories_mananas_intro:
-    'Clases de baile por la mañana en Barcelona. Horarios flexibles de lunes a viernes. Estilos variados: Afro Jazz, Contemporáneo, Sexy Style, Reggaeton. Ideal para freelancers, turnos nocturnos o amantes del morning vibe. Grupos pequeños.',
+    'Empieza tu día con energía. Consulta nuestro horario de clases de baile y fitness por la mañana.',
   home_categories_mananas_styles_afro_jazz: 'Afro Jazz (Técnica Cubana)',
   home_categories_mananas_styles_contemporaneo: 'Contemporáneo Lírico & Suelo y Flow',
   home_categories_mananas_styles_sexy_reggaeton: 'Sexy Reggaeton',
@@ -893,12 +893,12 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   home_categories_mananas_styles_otras_danzas: 'Danzas del Mundo y Exóticas',
 
   // Category: Otras Danzas
-  home_categories_otras_title: 'Otras Danzas',
+  home_categories_otras_title: 'Danzas del Mundo y Exóticas',
   home_categories_otras_image_alt: 'Danzas exóticas y del mundo',
   home_categories_otras_bullets:
     'Kizomba, Flamenco, Telas Aéreas..., Próximamente nuevos grupos, Apúntate a la lista de espera',
   home_categories_otras_intro:
-    'Explora otros estilos: Kizomba, Kompa, Flamenco, Sevillanas, Telas Aéreas, Acro Yoga. Actualmente sin grupos regulares abiertos. Apúntate a la lista de espera y te avisamos cuando lancemos nuevas clases. ¡Tu estilo favorito podría ser el próximo!',
+    'Viaja por el mundo a través del baile con Flamenco, Pole Dance, Telas Aéreas y más estilos únicos.',
   home_categories_otras_styles_kizomba: 'Kizomba',
   home_categories_otras_styles_semba: 'Semba',
   home_categories_otras_styles_kompa: 'Kompa',
