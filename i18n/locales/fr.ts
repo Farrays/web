@@ -346,9 +346,9 @@ export const fr = {
   dhV3HeroDesc: 'Bien plus qu\'une danse, un mode de vie.',
   dhV3HeroLocation: 'Voyagez à la Jamaïque sans quitter Barcelone | Cours du débutant à l\'avancé, entre Plaça España et Sants',
 
-  dhV3CTA1: 'Inscrivez-vous Maintenant',
+  dhV3CTA1: 'Inscris-toi Maintenant',
   dhV3CTA1Subtext: 'Places limitées ce mois-ci',
-  dhV3CTA2: 'Essayez 1 Cours Gratuit',
+  dhV3CTA2: 'Réservez Votre Cours d\'Essai',
   dhV3CTA2Subtext: 'Valable pour une durée limitée — seulement jusqu\'à vendredi',
 
   dhV3WhatIsTitle: 'Qu\'est-ce que le Dancehall et pourquoi cartonne-t-il à Barcelone ?',

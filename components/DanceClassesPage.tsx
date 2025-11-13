@@ -58,37 +58,9 @@ const DanceClassesPage: React.FC = () => {
 
   return (
     <>
+      {/* SEO metadata (title, description, og, hreflang) is handled by the global SEO.tsx component */}
+      {/* Page-specific Schema Markup */}
       <Helmet>
-        <title>{t('danceClassesHub_title')}</title>
-        <meta name="description" content={t('danceClassesHub_description')} />
-        <link rel="canonical" href={`${baseUrl}/${locale}/clases/baile-barcelona`} />
-
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={`${baseUrl}/${locale}/clases/baile-barcelona`} />
-        <meta property="og:title" content={t('danceClassesHub_title')} />
-        <meta property="og:description" content={t('danceClassesHub_description')} />
-        <meta property="og:image" content={`${baseUrl}/images/og-image-classes-hub.jpg`} />
-
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content={`${baseUrl}/${locale}/clases/baile-barcelona`} />
-        <meta name="twitter:title" content={t('danceClassesHub_title')} />
-        <meta name="twitter:description" content={t('danceClassesHub_description')} />
-        <meta name="twitter:image" content={`${baseUrl}/images/twitter-image-classes-hub.jpg`} />
-
-        {/* Hreflang tags */}
-        <link rel="alternate" hrefLang="es" href={`${baseUrl}/es/clases/baile-barcelona`} />
-        <link rel="alternate" hrefLang="ca" href={`${baseUrl}/ca/clases/baile-barcelona`} />
-        <link rel="alternate" hrefLang="en" href={`${baseUrl}/en/clases/baile-barcelona`} />
-        <link rel="alternate" hrefLang="fr" href={`${baseUrl}/fr/clases/baile-barcelona`} />
-        <link
-          rel="alternate"
-          hrefLang="x-default"
-          href={`${baseUrl}/es/clases/baile-barcelona`}
-        />
-
-        {/* Schema Markup */}
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(itemListSchema)}</script>
       </Helmet>

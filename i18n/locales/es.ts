@@ -716,9 +716,9 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   dhV3HeroDesc: 'Mucho más que baile, una forma de vivir.',
   dhV3HeroLocation: 'Viaja a Jamaica sin salir de Barcelona | Clases desde iniciación hasta avanzado, entre Plaza España y Sants',
 
-  dhV3CTA1: 'Date de Alta Ahora',
+  dhV3CTA1: 'Inscríbete Ahora',
   dhV3CTA1Subtext: 'Quedan pocas plazas este mes',
-  dhV3CTA2: 'Prueba 1 Clase Gratis',
+  dhV3CTA2: 'Reserva tu Clase de Prueba',
   dhV3CTA2Subtext: 'Válido por tiempo limitado — solo hasta el viernes',
 
   dhV3WhatIsTitle: '¿Qué es el Dancehall y por qué está arrasando en Barcelona?',

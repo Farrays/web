@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
 import { useI18n } from '../hooks/useI18n';
 import AnimateOnScroll from './AnimateOnScroll';
 import CulturalHistorySection from './CulturalHistorySection';
@@ -220,39 +219,13 @@ const DancehallPage: React.FC = () => {
 
   return (
     <>
-      {/* SEO Meta Tags */}
-      <Helmet>
-        <title>{t('dhV3PageTitle')}</title>
-        <meta name="description" content={t('dhV3MetaDescription')} />
-        <link rel="canonical" href={pageUrl} />
+      {/* SEO metadata is handled by the global SEO.tsx component in App.tsx */}
 
-        {/* Preconnect for Performance */}
-        <link rel="preconnect" href="https://www.youtube.com" />
-        <link rel="preconnect" href="https://i.ytimg.com" />
-
-        {/* Open Graph */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={pageUrl} />
-        <meta property="og:title" content={t('dhV3PageTitle')} />
-        <meta property="og:description" content={t('dhV3MetaDescription')} />
-        <meta
-          property="og:image"
-          content={`${baseUrl}/images/classes/dancehall/dancehall-hero-og.jpg`}
-        />
-
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content={pageUrl} />
-        <meta name="twitter:title" content={t('dhV3PageTitle')} />
-        <meta name="twitter:description" content={t('dhV3MetaDescription')} />
-        <meta
-          name="twitter:image"
-          content={`${baseUrl}/images/classes/dancehall/dancehall-hero-twitter.jpg`}
-        />
-
-        {/* VideoObject Schema */}
-        <script type="application/ld+json">{JSON.stringify(videoSchema)}</script>
-      </Helmet>
+      {/* VideoObject Schema - Keep this for video SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchema) }}
+      />
 
       {/* Schema Markup */}
       <LocalBusinessSchema
