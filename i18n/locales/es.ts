@@ -800,4 +800,109 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   dhV3CourseSchemaName: 'Clases de Dancehall Jamaicano en Barcelona',
   dhV3CourseSchemaDesc: 'Aprende Dancehall auténtico de Jamaica con profesoras expertas. Clases para todos los niveles desde principiantes hasta avanzados.',
+
+  // ====================
+  // HOME CATEGORIES SECTION
+  // ====================
+
+  // Section Header
+  home_categories_section_title: 'Encuentra tu estilo de baile',
+  home_categories_section_description:
+    'Explora nuestras categorías y descubre la clase perfecta para ti',
+
+  // CTAs
+  home_categories_cta_learn_more: 'Saber más',
+  home_categories_cta_view_category: 'Ver todos los estilos',
+  home_categories_cta_close: 'Cerrar',
+
+  // Category: Danzas Urbanas / Hip Hop
+  home_categories_urbano_title: 'Danzas Urbanas / Hip Hop',
+  home_categories_urbano_image_alt: 'Clase de Hip Hop en estudio de baile',
+  home_categories_urbano_bullets:
+    '11 estilos urbanos diferentes, Desde principiante a profesional, Primera clase gratis',
+  home_categories_urbano_intro:
+    'Descubre el ritmo urbano en Barcelona. Desde Hip Hop clásico hasta Dancehall, Reggaeton, Afrobeat y K-Pop. Clases para todos los niveles con profes especializados. Técnica, flow y mucha energía. Tu primera clase es gratis.',
+  home_categories_urbano_styles_afrobeat: 'Afrobeat',
+  home_categories_urbano_styles_dancehall: 'Dancehall',
+  home_categories_urbano_styles_femmology_heels: 'Femmology Heels',
+  home_categories_urbano_styles_hip_hop: 'Hip Hop',
+  home_categories_urbano_styles_hip_hop_reggaeton: 'Hip Hop Reggaeton',
+  home_categories_urbano_styles_reggaeton_cubano: 'Reggaeton Cubano (Reparto)',
+  home_categories_urbano_styles_sexy_reggaeton: 'Sexy Reggaeton',
+  home_categories_urbano_styles_sexy_style: 'Sexy Style',
+  home_categories_urbano_styles_twerk: 'Twerk',
+  home_categories_urbano_styles_commercial_dance: 'Commercial Dance',
+  home_categories_urbano_styles_kpop: 'K-Pop',
+
+  // Category: Salsa y Bachata
+  home_categories_salsa_bachata_title: 'Salsa y Bachata',
+  home_categories_salsa_bachata_image_alt: 'Pareja bailando salsa cubana',
+  home_categories_salsa_bachata_bullets:
+    'Salsa, Bachata, Timba y más, Baila solo o en pareja, Grupos de todos los niveles',
+  home_categories_salsa_bachata_intro:
+    'Aprende a bailar Salsa Cubana, Bachata, Timba y ritmos latinos auténticos. Clases de pareja y lady/men style. Técnica profesional con profesores cubanos. Desde nivel iniciación hasta avanzado. Ambiente social y divertido.',
+  home_categories_salsa_bachata_styles_bachata: 'Bachata',
+  home_categories_salsa_bachata_styles_folklore_cubano: 'Folklore Cubano',
+  home_categories_salsa_bachata_styles_salsa_cubana: 'Salsa Cubana',
+  home_categories_salsa_bachata_styles_salsa_lady_style: 'Salsa Lady Style',
+  home_categories_salsa_bachata_styles_salsa_lady_timba: 'Salsa Lady Timba',
+  home_categories_salsa_bachata_styles_timba_cubana: 'Timba Cubana',
+  home_categories_salsa_bachata_styles_son_cubano: 'Son Cubano',
+  home_categories_salsa_bachata_styles_men_style_salsa: 'Men Style Salsa',
+
+  // Category: Danza (Ballet/Contemporáneo/Jazz)
+  home_categories_danza_title: 'Danza (Ballet/Contemporáneo/Jazz)',
+  home_categories_danza_image_alt: 'Bailarina de ballet en estudio',
+  home_categories_danza_bullets:
+    'Técnica clásica y contemporánea, Ballet, Jazz, Afro Contemporáneo, Desde cero hasta avanzado',
+  home_categories_danza_intro:
+    'Danza clásica, contemporánea y jazz con técnica profesional. Ballet Clásico (Escuela Cubana), Contemporáneo Lírico, Modern Jazz, Afro Jazz. Clases para adultos desde iniciación. Mejora tu técnica, flexibilidad y expresión artística.',
+  home_categories_danza_styles_afro_contemporaneo: 'Afro Contemporáneo (Técnica Cubana)',
+  home_categories_danza_styles_afro_jazz: 'Afro Jazz (Técnica Cubana)',
+  home_categories_danza_styles_ballet_clasico: 'Ballet Clásico (Escuela Cubana)',
+  home_categories_danza_styles_contemporaneo: 'Contemporáneo (Lírico y Suelo & Flow)',
+  home_categories_danza_styles_modern_jazz: 'Modern Jazz',
+  home_categories_danza_styles_stretching: 'Stretching',
+  home_categories_danza_styles_bum_bum_gluteos: 'Bum Bum Glúteos Maravillosos',
+
+  // Category: Fitness para Bailarines
+  home_categories_fitness_title: 'Fitness para Bailarines',
+  home_categories_fitness_image_alt: 'Clase de fitness con música',
+  home_categories_fitness_bullets:
+    'Tonifica bailando, Bum Bum, Pilates, Dance Barre, Clases divertidas y efectivas',
+  home_categories_fitness_intro:
+    'Fitness con ritmo. Clases de Bum Bum Glúteos, Pilates, Dance Barre y Body Conditioning diseñadas para bailarines. Tonifica, estira y fortalece tu cuerpo mientras te diviertes. Resultados visibles, ambiente motivador.',
+  home_categories_fitness_styles_bum_bum_gluteos: 'Bum Bum Glúteos Maravillosos',
+  home_categories_fitness_styles_bum_bum_fit: 'Bum Bum Cuerpo Fit',
+  home_categories_fitness_styles_body_conditioning: 'Body Conditioning & Stretching',
+  home_categories_fitness_styles_stretching: 'Stretching',
+  home_categories_fitness_styles_dance_barre: 'Dance Barre',
+  home_categories_fitness_styles_pilates: 'Pilates',
+
+  // Category: Clases por las Mañanas
+  home_categories_mananas_title: 'Clases por las Mañanas',
+  home_categories_mananas_image_alt: 'Clase de baile matinal con luz natural',
+  home_categories_mananas_bullets: 'Empieza el día bailando, Horario flexible matinal, Grupos reducidos',
+  home_categories_mananas_intro:
+    'Clases de baile por la mañana en Barcelona. Horarios flexibles de lunes a viernes. Estilos variados: Afro Jazz, Contemporáneo, Sexy Style, Reggaeton. Ideal para freelancers, turnos nocturnos o amantes del morning vibe. Grupos pequeños.',
+  home_categories_mananas_styles_afro_jazz: 'Afro Jazz (Técnica Cubana)',
+  home_categories_mananas_styles_contemporaneo: 'Contemporáneo Lírico & Suelo y Flow',
+  home_categories_mananas_styles_sexy_reggaeton: 'Sexy Reggaeton',
+  home_categories_mananas_styles_sexy_style: 'Sexy Style',
+  home_categories_mananas_styles_otras_danzas: 'Danzas del Mundo y Exóticas',
+
+  // Category: Otras Danzas
+  home_categories_otras_title: 'Otras Danzas',
+  home_categories_otras_image_alt: 'Danzas exóticas y del mundo',
+  home_categories_otras_bullets:
+    'Kizomba, Flamenco, Telas Aéreas..., Próximamente nuevos grupos, Apúntate a la lista de espera',
+  home_categories_otras_intro:
+    'Explora otros estilos: Kizomba, Kompa, Flamenco, Sevillanas, Telas Aéreas, Acro Yoga. Actualmente sin grupos regulares abiertos. Apúntate a la lista de espera y te avisamos cuando lancemos nuevas clases. ¡Tu estilo favorito podría ser el próximo!',
+  home_categories_otras_styles_kizomba: 'Kizomba',
+  home_categories_otras_styles_semba: 'Semba',
+  home_categories_otras_styles_kompa: 'Kompa',
+  home_categories_otras_styles_flamenco: 'Flamenco',
+  home_categories_otras_styles_sevillanas: 'Sevillanas',
+  home_categories_otras_styles_telas_aereas: 'Telas Aéreas y Aro',
+  home_categories_otras_styles_acro_yoga: 'Acro Yoga',
 };
