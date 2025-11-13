@@ -145,7 +145,7 @@ const Footer: React.FC = () => {
             <div className="grid grid-cols-2 gap-x-4 gap-y-2">
               <ul className="space-y-2 text-sm">
                 <FooterLink to={`/${locale}`} textKey="sitemapSchool" />
-                <FooterLink to={`/${locale}/clases`} textKey="navClasses" />
+                <FooterLink to={`/${locale}/clases/baile-barcelona`} textKey="navClasses" />
                 <FooterLink to={`/${locale}/clases/dancehall-barcelona`} textKey="navDancehall" />
                 <FooterLink textKey="sitemapSocial" />
               </ul>

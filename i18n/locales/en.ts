@@ -480,6 +480,7 @@ export const en = {
   home_categories_cta_view_styles: 'View Styles',
   home_categories_cta_view_category: 'View All Styles',
   home_categories_cta_close: 'Close',
+  home_categories_cta_view_all_classes: 'View All Dance Classes',
   home_categories_urbano_title: 'Urban Dance / Hip Hop',
   home_categories_urbano_image_alt: 'Hip Hop class in dance studio',
   home_categories_urbano_bullets: '11 different urban styles, From beginner to professional, First class free',

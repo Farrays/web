@@ -11,7 +11,7 @@ const SEO: React.FC = () => {
   const getPageFromPath = (path: string): string => {
     if (path === '/' || path === '') return 'home';
     if (path.includes('/dancehall')) return 'dancehall';
-    if (path.includes('/clases')) return 'classes';
+    if (path.includes('/clases/baile-barcelona')) return 'classes';
     return 'home';
   };
 
@@ -22,7 +22,7 @@ const SEO: React.FC = () => {
   // Map internal page names to URL paths
   const pageToPath = {
     home: '',
-    classes: 'clases',
+    classes: 'clases/baile-barcelona',
     dancehall: 'clases/dancehall-barcelona',
   };
 

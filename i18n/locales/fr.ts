@@ -482,6 +482,7 @@ export const fr = {
   home_categories_cta_view_styles: 'Voir les styles',
   home_categories_cta_view_category: 'Voir tous les styles',
   home_categories_cta_close: 'Fermer',
+  home_categories_cta_view_all_classes: 'Voir Tous Les Cours De Danse',
   home_categories_urbano_title: 'Danses Urbaines / Hip Hop',
   home_categories_urbano_image_alt: 'Cours de Hip Hop en studio de danse',
   home_categories_urbano_bullets: '11 styles urbains différents, Du débutant au professionnel, Premier cours gratuit',
