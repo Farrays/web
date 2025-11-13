@@ -5,6 +5,7 @@ import Hero from './Hero';
 import Philosophy from './Philosophy';
 import About from './About';
 import Classes from './Classes';
+import CategoriesSection from './home/CategoriesSection';
 import WhyFIDC from './WhyFIDC';
 import Services from './Services';
 import Teachers from './Teachers';
@@ -62,6 +63,7 @@ const HomePage: React.FC = () => {
       <Philosophy />
       <About />
       <Classes />
+      <CategoriesSection />
       <WhyFIDC />
       <Services />
       <Teachers />
