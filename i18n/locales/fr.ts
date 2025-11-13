@@ -531,4 +531,20 @@ export const fr = {
 
   dhV3CourseSchemaName: 'Cours de Dancehall Jamaïcain à Barcelone',
   dhV3CourseSchemaDesc: 'Apprenez le Dancehall authentique de la Jamaïque avec des professeurs experts. Cours pour tous les niveaux, des débutants aux avancés.',
+
+  // HOME CATEGORIES - TODO: Complete translations
+  home_categories_section_title: 'Trouvez votre style de danse',
+  home_categories_section_description: 'Explorez nos catégories et découvrez le cours parfait pour vous',
+  home_categories_cta_learn_more: 'En savoir plus',
+  home_categories_cta_view_category: 'Voir tous les styles',
+  home_categories_cta_close: 'Fermer',
+  home_categories_urbano_title: 'Danses Urbaines / Hip Hop',
+  home_categories_urbano_image_alt: 'Cours de Hip Hop en studio de danse',
+  home_categories_urbano_bullets: '11 styles urbains différents, Du débutant au professionnel, Premier cours gratuit',
+  home_categories_urbano_intro: 'Découvrez le rythme urbain à Barcelone...',
+  home_categories_salsa_bachata_title: 'Salsa et Bachata',
+  home_categories_danza_title: 'Danse (Ballet/Contemporain/Jazz)',
+  home_categories_fitness_title: 'Fitness pour Danseurs',
+  home_categories_mananas_title: 'Cours le Matin',
+  home_categories_otras_title: 'Autres Danses',
 };

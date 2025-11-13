@@ -528,4 +528,20 @@ export const ca = {
 
   dhV3CourseSchemaName: 'Classes de Dancehall Jamaicà a Barcelona',
   dhV3CourseSchemaDesc: 'Aprèn Dancehall autèntic de Jamaica amb professores expertes. Classes per a tots els nivells des de principiants fins avançats.',
+
+  // HOME CATEGORIES - TODO: Complete translations
+  home_categories_section_title: 'Troba el teu estil de ball',
+  home_categories_section_description: 'Explora les nostres categories i descobreix la classe perfecta per a tu',
+  home_categories_cta_learn_more: 'Saber més',
+  home_categories_cta_view_category: 'Veure tots els estils',
+  home_categories_cta_close: 'Tancar',
+  home_categories_urbano_title: 'Danses Urbanes / Hip Hop',
+  home_categories_urbano_image_alt: 'Classe de Hip Hop a estudi de ball',
+  home_categories_urbano_bullets: '11 estils urbans diferents, Des de principiant a professional, Primera classe gratis',
+  home_categories_urbano_intro: 'Descobreix el ritme urbà a Barcelona...',
+  home_categories_salsa_bachata_title: 'Salsa i Bachata',
+  home_categories_danza_title: 'Dansa (Ballet/Contemporani/Jazz)',
+  home_categories_fitness_title: 'Fitness per a Ballarins',
+  home_categories_mananas_title: 'Classes pels Matins',
+  home_categories_otras_title: 'Altres Danses',
 };
