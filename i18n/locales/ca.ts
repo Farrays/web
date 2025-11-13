@@ -7,7 +7,6 @@ export const ca = {
   navHome: 'Inici',
   navClasses: 'Classes de Ball',
   navDancehall: 'Dancehall',
-  navAfrobeats: 'Afrobeats',
   enrollNow: 'Inscriu-te Ara',
   // Hero
   heroTitle1: 'Escola de Ball a Barcelona',
@@ -272,51 +271,7 @@ export const ca = {
     'Estava nerviosa al començar, però la comunitat és molt acollidora. És un entrenament increïble i em sento molt més segura. Les millors classes de Dancehall que he fet mai.',
   dancehallTestimonial2Name: 'Chloe B.',
   dancehallTestimonial2City: 'Manchester, Regne Unit',
-  // Afrobeats Page
-  afrobeatsPageTitle: "Classes d'Afrobeats a Barcelona | Farray's International Dance Center",
-  afrobeatsHeroTitle: 'Sent el Pols: Afrobeats a Barcelona',
-  afrobeatsHeroSubtitle:
-    "Connecta amb els vibrants ritmes d'Àfrica. Més que un ball, és una celebració de la vida.",
-  afrobeatsAboutTitle: "Què és l'Afrobeats?",
-  afrobeatsAboutDesc1:
-    "L'Afrobeats és un estil de ball dinàmic i contagiós originari de l'Àfrica subsahariana. És un terme divers que engloba estils de dansa urbana de països com Nigèria, Ghana i el Senegal. Caracteritzat pels seus moviments fluids de tors, el seu intricat treball de peus i els seus gestos expressius, l'Afrobeats consisteix a sentir la música i celebrar la comunitat.",
-  afrobeatsAboutDesc2:
-    "Les nostres classes aprofundeixen en els fonaments de diversos estils d'Afrobeats, des de l'Azonto fins al Shaku Shaku. Ens centrem en la musicalitat, l'expressió individual i les històries culturals darrere dels moviments. Prepara't per a una classe d'alta energia que és tant una festa com un entrenament, connectant-te amb un moviment global poderós i alegre.",
-  afrobeatsPillar1Title: 'Groove i Flow',
-  afrobeatsPillar1Desc:
-    'Domina els moviments fluids i polirítmics que et connecten directament amb el batec de la música.',
-  afrobeatsPillar2Title: 'Fusió Cultural',
-  afrobeatsPillar2Desc:
-    "Explora un ric tapís d'estils de ball de tot el continent africà, celebrant la tradició i la innovació.",
-  afrobeatsPillar3Title: 'Expressió Alegre',
-  afrobeatsPillar3Desc:
-    "Deixa't anar i troba la teva llibertat en un estil de ball que es tracta de pura alegria contagiosa i energia positiva.",
-  afrobeatsClassesTitle: "Els Nostres Programes d'Afrobeats",
-  afrobeatsClassesSubtitle:
-    'Tant si fas el teu primer pas com si ets un ballarí experimentat, tenim una classe per a tu.',
-  afrobeatsLevelBeginnerTitle: 'Afrobeats Fonaments (Nivell 1)',
-  afrobeatsLevelBeginnerDesc:
-    "Perfecte per a principiants. Aprèn els passos bàsics, les dissociacions corporals i els ritmes d'Afrobeats en un ambient acollidor i enèrgic.",
-  afrobeatsLevelInterTitle: 'Afrobeats Flow (Nivell 2)',
-  afrobeatsLevelInterDesc:
-    'Construeix sobre els teus fonaments amb coreografies més complexes, ritmes més ràpids i un enfocament en desenvolupar el teu estil personal.',
-  afrobeatsLevelAdvancedTitle: 'Afrobeats Pro (Nivell 3)',
-  afrobeatsLevelAdvancedDesc:
-    'Per a ballarins experimentats. Aquesta classe desafia amb tècniques avançades, qualitat escènica i immersions profundes en estils regionals específics.',
-  afrobeatsInstructorTitle: "Coneix el Teu Guia d'Afrobeats",
-  afrobeatsInstructorName: "David 'Dee' Adeleke",
-  afrobeatsInstructorSpecialty: "Expert en Afrobeats i Dansa de l'Àfrica Occidental",
-  afrobeatsInstructorBio:
-    "Provinent de Lagos, en David viu i respira Afrobeats. Ha fet gires amb grans artistes i és cèlebre pel seu estil autèntic i el seu do per compartir l'alegria i la cultura del ball amb estudiants de tots els nivells.",
-  afrobeatsTestimonialsTitle: 'Què Diuen els Nostres Ballarins',
-  afrobeatsTestimonial1Quote:
-    "La classe del David és pur foc! La música, l'energia, la comunitat... és la millor part de la meva setmana. Mai m'he sentit tan lliure i feliç ballant. FIDC és la llar de l'Afrobeats a BCN.",
-  afrobeatsTestimonial1Name: 'Fatou D.',
-  afrobeatsTestimonial1City: 'Dakar, Senegal',
-  afrobeatsTestimonial2Quote:
-    "Vaig arribar amb dos peus esquerres i ara no puc parar de ballar. És un entrenament increïble i l'ambient sempre és positiu. Molt recomanable per a qualsevol que vulgui divertir-se i aprendre alguna cosa nova.",
-  afrobeatsTestimonial2Name: 'Liam S.',
-  afrobeatsTestimonial2City: 'Dublín, Irlanda',
+
   // FAQ Section
   faqTitle: 'Preguntes Freqüents',
   // Home FAQ
@@ -356,18 +311,7 @@ export const ca = {
   dancehallFaqQ4: 'Què he de portar a la classe de dancehall?',
   dancehallFaqA4:
     "Roba còmoda i esportiva que et permeti moure't lliurement. Molts estudiants usen pantalons esportius o leggings i una samarreta. Per al calçat, sabatilles esportives netes amb bona sola són ideals. Porta una ampolla d'aigua perquè suaràs! Opcional: una tovallola petita i la teva millor actitud.",
-  afrobeatsFaqQ1: 'Quina és la diferència entre afrobeats i afrobeat?',
-  afrobeatsFaqA1:
-    "Excel·lent pregunta. 'Afrobeat' (sense 's') és un gènere musical creat per Fela Kuti als anys 70, fusionant jazz, funk i música tradicional africana. 'Afrobeats' (amb 's') és un terme més modern que descriu la música pop contemporània d'Àfrica Occidental (Nigèria, Ghana, etc.) i els seus estils de ball associats. A les nostres classes ens enfoquem en Afrobeats, l'estil modern ple d'energia que està conquerint el món.",
-  afrobeatsFaqQ2: "Com és una classe típica d'afrobeats?",
-  afrobeatsFaqA2:
-    "Les classes d'afrobeats són increïblement divertides i enèrgiques. Comencem amb un escalfament al ritme de la música, després treballem en fonaments com el moviment de tors, treball de peus i dissociacions corporals. Després aprenem coreografies i passos d'estils específics (Azonto, Shaku Shaku, Zanku, etc.). Acabem amb una sessió de freestyle on tothom pot expressar-se lliurement. És una combinació perfecta d'entrenament, aprenentatge cultural i celebració.",
-  afrobeatsFaqQ3: "L'afrobeats és només per a persones d'origen africà?",
-  afrobeatsFaqA3:
-    "Absolutament no! L'afrobeats és per a tothom. Tot i que té arrels en la cultura africana, és un moviment global que celebra la inclusió i l'alegria universal. Les nostres classes acollim persones de tots els orígens, edats i nivells. El que importa és el teu desig d'aprendre, divertir-te i connectar amb la música i la comunitat. La diversitat enriqueix l'experiència per a tothom.",
-  afrobeatsFaqQ4: "És l'afrobeats un bon exercici físic?",
-  afrobeatsFaqA4:
-    "Sí, definitivament! L'afrobeats és un entrenament cardiovascular complet que involucra tot el cos. Els moviments de tors treballen el teu core, el treball de peus millora la teva coordinació i resistència, i els grooves desenvolupen la teva flexibilitat. Una classe d'una hora pot cremar entre 300-500 calories, però és tan divertida que ni te n'adones de l'esforç. Molts dels nostres estudiants diuen que és el millor entrenament que han fet mai.",
+
   classesFaqQ1: "Quants estils de ball ensenyeu a Farray's Center?",
   classesFaqA1:
     'Oferim formació en més de 25 estils diferents de ball. El nostre catàleg inclou balls llatins (salsa, bachata, kizomba), dansa urbana (hip hop, dancehall, afrobeats, reggaeton), estils clàssics (ballet, contemporani, jazz), i especialitzacions com preparació física per a ballarins. Aquesta varietat et permet explorar diferents estils i trobar els que més ressonin amb tu, o especialitzar-te en un mentre complementes amb altres.',
@@ -391,7 +335,7 @@ export const ca = {
   dancehallImage3Alt:
     "Grup d'estudiants ballant Dancehall a Barcelona - Acadèmia de dansa urbana Farray's",
 
-  // ===== DancehallPageV3 =====
+  // ===== DancehallPage (Classes de Dancehall Barcelona) =====
   dhV3PageTitle: 'Classes de Dancehall a Barcelona | Acadèmia Farray\'s Center',
   dhV3MetaDescription: 'Aprèn Dancehall jamaicà autèntic a Barcelona. Classes des d\'iniciació fins avançat. Professores expertes. Entre Plaça Espanya i Sants. Prova gratis!',
 

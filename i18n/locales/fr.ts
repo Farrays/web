@@ -7,7 +7,6 @@ export const fr = {
   navHome: 'Accueil',
   navClasses: 'Cours de Danse',
   navDancehall: 'Dancehall',
-  navAfrobeats: 'Afrobeats',
   enrollNow: 'Inscrivez-vous',
   // Hero
   heroTitle1: 'École de Danse à Barcelone',
@@ -272,51 +271,7 @@ export const fr = {
     "J'étais nerveuse au début, mais la communauté est si accueillante. C'est un entraînement incroyable et je me sens beaucoup plus confiante. Les meilleurs cours de Dancehall que j'ai jamais pris.",
   dancehallTestimonial2Name: 'Chloe B.',
   dancehallTestimonial2City: 'Manchester, Royaume-Uni',
-  // Afrobeats Page
-  afrobeatsPageTitle: "Cours d'Afrobeats à Barcelone | Farray's International Dance Center",
-  afrobeatsHeroTitle: 'Sentez le Rythme : Afrobeats à Barcelone',
-  afrobeatsHeroSubtitle:
-    "Connectez-vous aux rythmes vibrants de l'Afrique. Plus qu'une danse, c'est une célébration de la vie.",
-  afrobeatsAboutTitle: "Qu'est-ce que l'Afrobeats ?",
-  afrobeatsAboutDesc1:
-    "L'Afrobeats est un style de danse dynamique et contagieux originaire d'Afrique subsaharienne. C'est un terme générique désignant divers styles de danse de rue urbaine de pays comme le Nigeria, le Ghana et le Sénégal. Caractérisé par ses mouvements fluides du torse, son jeu de jambes complexe et ses gestes expressifs, l'Afrobeats consiste à ressentir la musique et à célébrer la communauté.",
-  afrobeatsAboutDesc2:
-    "Nos cours explorent en profondeur les fondations de divers styles d'Afrobeats, de l'Azonto au Shaku Shaku. Nous nous concentrons sur la musicalité, l'expression individuelle et les histoires culturelles derrière les mouvements. Préparez-vous à un cours de haute énergie qui est autant une fête qu'un entraînement, vous connectant à un mouvement mondial puissant et joyeux.",
-  afrobeatsPillar1Title: 'Groove et Fluidité',
-  afrobeatsPillar1Desc:
-    'Maîtrisez les mouvements fluides et polyrythmiques qui vous connectent directement au battement de la musique.',
-  afrobeatsPillar2Title: 'Fusion Culturelle',
-  afrobeatsPillar2Desc:
-    "Explorez une riche tapisserie de styles de danse de tout le continent africain, célébrant la tradition et l'innovation.",
-  afrobeatsPillar3Title: 'Expression Joyeuse',
-  afrobeatsPillar3Desc:
-    "Lâchez-vous et trouvez votre liberté dans un style de danse qui n'est que pure joie contagieuse et énergie positive.",
-  afrobeatsClassesTitle: "Nos Programmes d'Afrobeats",
-  afrobeatsClassesSubtitle:
-    'Que vous fassiez votre premier pas ou que vous soyez un danseur aguerri, nous avons un cours pour vous.',
-  afrobeatsLevelBeginnerTitle: 'Fondamentaux Afrobeats (Niv 1)',
-  afrobeatsLevelBeginnerDesc:
-    "Parfait pour les débutants. Apprenez les pas de base, les isolations corporelles et les rythmes de l'Afrobeats dans un cadre accueillant et énergique.",
-  afrobeatsLevelInterTitle: 'Afrobeats Flow (Niv 2)',
-  afrobeatsLevelInterDesc:
-    'Développez vos bases avec des chorégraphies plus complexes, des rythmes plus rapides et un accent sur le développement de votre style personnel.',
-  afrobeatsLevelAdvancedTitle: 'Afrobeats Pro (Niv 3)',
-  afrobeatsLevelAdvancedDesc:
-    'Pour les danseurs expérimentés. Ce cours met au défi avec des techniques avancées, une qualité de performance et des explorations approfondies de styles régionaux spécifiques.',
-  afrobeatsInstructorTitle: 'Rencontrez Votre Guide Afrobeats',
-  afrobeatsInstructorName: "David 'Dee' Adeleke",
-  afrobeatsInstructorSpecialty: "Expert en Afrobeats et Danse d'Afrique de l'Ouest",
-  afrobeatsInstructorBio:
-    "Originaire de Lagos, David vit et respire l'Afrobeats. Il a tourné avec de grands artistes et est célèbre pour son style authentique et son don pour partager la joie et la culture de la danse avec des étudiants de tous niveaux.",
-  afrobeatsTestimonialsTitle: 'Ce que Disent Nos Danseurs',
-  afrobeatsTestimonial1Quote:
-    "Le cours de David est du pur feu ! La musique, l'énergie, la communauté... c'est le meilleur moment de ma semaine. Je ne me suis jamais senti aussi libre et heureux en dansant. FIDC est le foyer de l'Afrobeats à BCN.",
-  afrobeatsTestimonial1Name: 'Fatou D.',
-  afrobeatsTestimonial1City: 'Dakar, Sénégal',
-  afrobeatsTestimonial2Quote:
-    "Je suis arrivé avec deux pieds gauches et maintenant je ne peux plus m'arrêter de danser. C'est un entraînement incroyable, et l'ambiance est toujours positive. Je le recommande vivement à tous ceux qui cherchent à s'amuser et à apprendre quelque chose de nouveau.",
-  afrobeatsTestimonial2Name: 'Liam S.',
-  afrobeatsTestimonial2City: 'Dublin, Irlande',
+
   faqTitle: 'Questions Fréquentes',
   // Home FAQ
   homeFaqQ1: "Ai-je besoin d'expérience préalable pour assister aux cours ?",
@@ -357,19 +312,7 @@ export const fr = {
   dancehallFaqQ4: 'Que dois-je porter pour le cours de dancehall ?',
   dancehallFaqA4:
     "Des vêtements confortables et sportifs qui vous permettent de bouger librement. Beaucoup d'étudiants portent des pantalons de sport ou des leggings et un t-shirt. Pour les chaussures, des baskets de sport propres avec une bonne semelle sont idéales. Apportez une bouteille d'eau parce que vous allez transpirer ! Optionnel : une petite serviette et votre meilleure attitude.",
-  // Afrobeats FAQ
-  afrobeatsFaqQ1: 'Quelle est la différence entre afrobeats et afrobeat ?',
-  afrobeatsFaqA1:
-    "Excellente question. 'Afrobeat' (sans 's') est un genre musical créé par Fela Kuti dans les années 70, fusionnant jazz, funk et musique traditionnelle africaine. 'Afrobeats' (avec 's') est un terme plus moderne qui décrit la musique pop contemporaine d'Afrique de l'Ouest (Nigeria, Ghana, etc.) et ses styles de danse associés. Dans nos cours, nous nous concentrons sur les Afrobeats, le style moderne plein d'énergie qui conquiert le monde.",
-  afrobeatsFaqQ2: "Comment se déroule un cours typique d'afrobeats ?",
-  afrobeatsFaqA2:
-    "Les cours d'afrobeats sont incroyablement amusants et énergiques. Nous commençons par un échauffement au rythme de la musique, puis nous travaillons sur les fondamentaux comme le mouvement du torse, le travail des pieds et les dissociations corporelles. Ensuite, nous apprenons des chorégraphies et des pas de styles spécifiques (Azonto, Shaku Shaku, Zanku, etc.). Nous terminons par une session de freestyle où chacun peut s'exprimer librement. C'est une combinaison parfaite d'entraînement, d'apprentissage culturel et de célébration.",
-  afrobeatsFaqQ3: "Les afrobeats sont-ils réservés aux personnes d'origine africaine ?",
-  afrobeatsFaqA3:
-    "Absolument pas ! Les afrobeats sont pour tout le monde. Bien qu'ils aient des racines dans la culture africaine, c'est un mouvement mondial qui célèbre l'inclusion et la joie universelle. Nos cours accueillent des personnes de toutes origines, âges et niveaux. Ce qui compte, c'est votre désir d'apprendre, de vous amuser et de vous connecter avec la musique et la communauté. La diversité enrichit l'expérience pour tous.",
-  afrobeatsFaqQ4: 'Les afrobeats sont-ils un bon exercice physique ?',
-  afrobeatsFaqA4:
-    "Oui, définitivement ! Les afrobeats sont un entraînement cardiovasculaire complet qui implique tout le corps. Les mouvements du torse travaillent votre core, le travail des pieds améliore votre coordination et votre endurance, et les grooves développent votre flexibilité. Un cours d'une heure peut brûler entre 300 et 500 calories, mais c'est tellement amusant que vous ne remarquez même pas l'effort. Beaucoup de nos étudiants disent que c'est le meilleur entraînement qu'ils aient jamais fait.",
+
   // Classes FAQ
   classesFaqQ1: "Combien de styles de danse enseignez-vous chez Farray's Center ?",
   classesFaqA1:
@@ -394,7 +337,7 @@ export const fr = {
   dancehallImage3Alt:
     "Groupe d'étudiants dansant le Dancehall à Barcelone - Académie de danse urbaine Farray's",
 
-  // ===== DancehallPageV3 =====
+  // ===== DancehallPage (Cours de Dancehall Barcelona) =====
   dhV3PageTitle: 'Cours de Dancehall à Barcelone | Académie Farray\'s Center',
   dhV3MetaDescription: 'Apprenez le Dancehall jamaïcain authentique à Barcelone. Cours du débutant à l\'avancé. Professeurs experts. Entre Plaça España et Sants. Essayez gratuitement !',
 

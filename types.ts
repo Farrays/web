@@ -1,7 +1,7 @@
 import type * as React from 'react';
 
 export type Locale = 'en' | 'es' | 'ca' | 'fr';
-export type Page = 'home' | 'classes' | 'dancehall' | 'afrobeats';
+export type Page = 'home' | 'classes' | 'dancehall';
 
 export interface ClassInfo {
   id: string;
