@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import { useI18n } from '../hooks/useI18n';
 import type { DetailedClassInfo } from '../types';
 import { imageUrls } from '../utils/imageConfig';
@@ -77,32 +76,7 @@ const DanceClassesPage: React.FC = () => {
 
   return (
     <>
-      <Helmet>
-        <title>{t('danceClassesPageTitle')}</title>
-        <meta name="description" content={t('danceClassesMetaDescription')} />
-        <link rel="canonical" href={`${baseUrl}/${locale}/clases`} />
-
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={`${baseUrl}/${locale}/clases`} />
-        <meta property="og:title" content={t('danceClassesPageTitle')} />
-        <meta property="og:description" content={t('danceClassesMetaDescription')} />
-        <meta property="og:image" content={`${baseUrl}/images/og-image-classes.jpg`} />
-
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content={`${baseUrl}/${locale}/clases`} />
-        <meta name="twitter:title" content={t('danceClassesPageTitle')} />
-        <meta name="twitter:description" content={t('danceClassesMetaDescription')} />
-        <meta name="twitter:image" content={`${baseUrl}/images/twitter-image-classes.jpg`} />
-
-        {/* Hreflang tags */}
-        <link rel="alternate" hrefLang="es" href={`${baseUrl}/es/clases`} />
-        <link rel="alternate" hrefLang="ca" href={`${baseUrl}/ca/clases`} />
-        <link rel="alternate" hrefLang="en" href={`${baseUrl}/en/clases`} />
-        <link rel="alternate" hrefLang="fr" href={`${baseUrl}/fr/clases`} />
-        <link rel="alternate" hrefLang="x-default" href={`${baseUrl}/es/clases`} />
-      </Helmet>
+      {/* SEO metadata is handled by the global SEO.tsx component in App.tsx */}
 
       <div className="pt-20 md:pt-24">
         <section

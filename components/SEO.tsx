@@ -30,21 +30,22 @@ const SEO: React.FC = () => {
   const currentUrl = `${baseUrl}/${locale}${pagePath ? `/${pagePath}` : ''}`;
 
   // Metadata mapping per page
+  // NOTE: OG images need to be created (see /docs/OG_IMAGES_NEEDED.md)
   const metaData = {
     home: {
       titleKey: 'pageTitle',
       descKey: 'metaDescription',
-      image: `${baseUrl}/images/og-home.jpg`,
+      image: `${baseUrl}/images/og-home.jpg`, // TODO: Create this image (1200x630px)
     },
     classes: {
       titleKey: 'danceClassesPageTitle',
       descKey: 'danceClassesMetaDesc',
-      image: `${baseUrl}/images/og-classes.jpg`,
+      image: `${baseUrl}/images/og-classes.jpg`, // TODO: Create this image (1200x630px)
     },
     dancehall: {
       titleKey: 'dancehallPageTitle',
       descKey: 'dancehallMetaDesc',
-      image: `${baseUrl}/images/og-dancehall.jpg`,
+      image: `${baseUrl}/images/og-dancehall.jpg`, // TODO: Create this image (1200x630px)
     },
   };
 
