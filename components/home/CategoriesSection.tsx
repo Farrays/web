@@ -1,15 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useI18n } from '../../hooks/useI18n';
 import { CATEGORIES } from '../../constants/categories';
 import CategoryCard from './CategoryCard';
-import CategoryModal from './CategoryModal';
 import CategoriesSchemaMarkup from './CategoriesSchemaMarkup';
 import AnimateOnScroll from '../AnimateOnScroll';
 
 // CategoriesSection Component
-// Main wrapper component for categories cards and modals
-// Verified: Vite + React + useI18n hook
-// SEO: All modals rendered in DOM (hidden when closed) for link crawling
+// Main wrapper component for categories cards (direct links to pillar pages)
+// Refactored: No modals - direct navigation to pillar pages
+// Verified: Vite + React + React Router v7 + useI18n hook
 // Design: Matches Classes.tsx style with same background, animations, and 3D effects
 
 const CIDLogo: React.FC = () => (
@@ -28,7 +27,6 @@ const CIDLogo: React.FC = () => (
 
 const CategoriesSection: React.FC = () => {
   const { t } = useI18n();
-  const [openModalKey, setOpenModalKey] = useState<string | null>(null);
 
   const sectionTitle = t('home_categories_section_title') || 'Encuentra tu estilo de baile';
   const sectionDescription =
@@ -52,7 +50,7 @@ const CategoriesSection: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {CATEGORIES.map((category, index) => (
             <AnimateOnScroll key={category.key} delay={index * 100}>
-              <CategoryCard category={category} onOpenModal={setOpenModalKey} />
+              <CategoryCard category={category} />
             </AnimateOnScroll>
           ))}
         </div>
@@ -63,16 +61,6 @@ const CategoriesSection: React.FC = () => {
             <CIDLogo />
           </div>
         </AnimateOnScroll>
-
-        {/* Modals (all in DOM for SEO, hidden when not open) */}
-        {CATEGORIES.map(category => (
-          <CategoryModal
-            key={`modal-${category.key}`}
-            isOpen={openModalKey === category.key}
-            category={category}
-            onClose={() => setOpenModalKey(null)}
-          />
-        ))}
       </div>
 
       {/* Schema Markup */}

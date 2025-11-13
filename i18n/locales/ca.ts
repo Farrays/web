@@ -483,10 +483,36 @@ export const ca = {
   home_categories_urbano_title: 'Danses Urbanes / Hip Hop',
   home_categories_urbano_image_alt: 'Classe de Hip Hop a estudi de ball',
   home_categories_urbano_bullets: '11 estils urbans diferents, Des de principiant a professional, Primera classe gratis',
-  home_categories_urbano_intro: 'Descobreix el ritme urbà a Barcelona...',
+  home_categories_urbano_intro:
+    'Sent l\'energia del carrer amb els estils de Hip Hop, Reggaeton, Dancehall i Commercial.',
+
+  // Category: Salsa i Bachata
   home_categories_salsa_bachata_title: 'Salsa i Bachata',
-  home_categories_danza_title: 'Dansa (Ballet/Contemporani/Jazz)',
-  home_categories_fitness_title: 'Fitness per a Ballarins',
-  home_categories_mananas_title: 'Classes pels Matins',
-  home_categories_otras_title: 'Altres Danses',
+  home_categories_salsa_bachata_image_alt: 'Parella ballant salsa cubana',
+  home_categories_salsa_bachata_intro:
+    'Aprèn a ballar salsa i bachata molt a prop de Plaça Espanya i l\'estació de Sants.',
+
+  // Category: Dansa (Ballet/Contemporani/Jazz)
+  home_categories_danza_title: 'Ballet, Contemporani i Jazz',
+  home_categories_danza_image_alt: 'Ballarina de ballet a estudi',
+  home_categories_danza_intro:
+    'Explora la tècnica i l\'expressió a través de l\'elegància del Ballet, Contemporani i Jazz.',
+
+  // Category: Fitness per a Ballarins
+  home_categories_fitness_title: 'Preparació Física',
+  home_categories_fitness_image_alt: 'Classe de fitness amb música',
+  home_categories_fitness_intro:
+    'Millora la teva força, flexibilitat i resistència amb classes dissenyades per a ballarins.',
+
+  // Category: Classes pels Matins
+  home_categories_mananas_title: 'Classes de Ball pels Matins',
+  home_categories_mananas_image_alt: 'Classe de ball matinal amb llum natural',
+  home_categories_mananas_intro:
+    'Comença el teu dia amb energia. Consulta el nostre horari de classes de ball i fitness pels matins.',
+
+  // Category: Altres Danses
+  home_categories_otras_title: 'Danses del Món i Exòtiques',
+  home_categories_otras_image_alt: 'Danses exòtiques i del món',
+  home_categories_otras_intro:
+    'Viatja pel món a través del ball amb Flamenc, Pole Dance, Teles Aèries i més estils únics.',
 };

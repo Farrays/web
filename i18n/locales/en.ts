@@ -483,10 +483,36 @@ export const en = {
   home_categories_urbano_title: 'Urban Dance / Hip Hop',
   home_categories_urbano_image_alt: 'Hip Hop class in dance studio',
   home_categories_urbano_bullets: '11 different urban styles, From beginner to professional, First class free',
-  home_categories_urbano_intro: 'Discover the urban rhythm in Barcelona...',
+  home_categories_urbano_intro:
+    'Feel the energy of the streets with Hip Hop, Reggaeton, Dancehall, and Commercial styles.',
+
+  // Category: Salsa and Bachata
   home_categories_salsa_bachata_title: 'Salsa and Bachata',
-  home_categories_danza_title: 'Dance (Ballet/Contemporary/Jazz)',
-  home_categories_fitness_title: 'Fitness for Dancers',
-  home_categories_mananas_title: 'Morning Classes',
-  home_categories_otras_title: 'Other Dances',
+  home_categories_salsa_bachata_image_alt: 'Couple dancing Cuban salsa',
+  home_categories_salsa_bachata_intro:
+    'Learn to dance salsa and bachata very close to Plaza España and Sants station.',
+
+  // Category: Dance (Ballet/Contemporary/Jazz)
+  home_categories_danza_title: 'Ballet, Contemporary & Jazz',
+  home_categories_danza_image_alt: 'Ballet dancer in studio',
+  home_categories_danza_intro:
+    'Explore technique and expression through the elegance of Ballet, Contemporary, and Jazz.',
+
+  // Category: Fitness for Dancers
+  home_categories_fitness_title: 'Physical Preparation',
+  home_categories_fitness_image_alt: 'Fitness class with music',
+  home_categories_fitness_intro:
+    'Improve your strength, flexibility, and endurance with classes designed for dancers.',
+
+  // Category: Morning Classes
+  home_categories_mananas_title: 'Morning Dance Classes',
+  home_categories_mananas_image_alt: 'Morning dance class with natural light',
+  home_categories_mananas_intro:
+    'Start your day with energy. Check our schedule for morning dance and fitness classes.',
+
+  // Category: Other Dances
+  home_categories_otras_title: 'World & Exotic Dances',
+  home_categories_otras_image_alt: 'Exotic and world dances',
+  home_categories_otras_intro:
+    'Travel the world through dance with Flamenco, Pole Dance, Aerial Silks, and more unique styles.',
 };
