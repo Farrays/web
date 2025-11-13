@@ -12,6 +12,7 @@ export interface HubCategory {
   descriptionKey: string; // Existing translation key from classCat*
   detailedDescriptionKey: string; // Existing translation key from classDetail*
   pillarUrl: string; // Category pillar page URL
+  imageUrl: string; // Background image URL for card
   featuredStyles: StyleLink[]; // 3 featured styles shown in card
   allStyles: StyleLink[]; // All styles shown in modal
 }
@@ -24,6 +25,7 @@ export const HUB_CATEGORIES: HubCategory[] = [
     descriptionKey: 'classCatContemporaryDesc',
     detailedDescriptionKey: 'classDetailContemporaryDesc',
     pillarUrl: '/clases-danza-barcelona/',
+    imageUrl: 'https://images.unsplash.com/photo-1535525153412-5a42439a210d?w=800&h=600&fit=crop&q=80&auto=format',
     featuredStyles: [
       { key: 'ballet_clasico', url: '/clases/ballet-clasico-barcelona/' },
       { key: 'danza_contemporanea', url: '/clases/danza-contemporanea-barcelona/' },
@@ -47,6 +49,7 @@ export const HUB_CATEGORIES: HubCategory[] = [
     descriptionKey: 'classCatUrbanDesc',
     detailedDescriptionKey: 'classDetailUrbanDesc',
     pillarUrl: '/clases/danzas-urbanas-barcelona/',
+    imageUrl: 'https://images.unsplash.com/photo-1547153760-18fc9c88c1c8?w=800&h=600&fit=crop&q=80&auto=format',
     featuredStyles: [
       { key: 'dancehall', url: '/clases/dancehall-barcelona/' },
       { key: 'k_pop', url: '/clases/k-pop-barcelona/' },
@@ -74,6 +77,7 @@ export const HUB_CATEGORIES: HubCategory[] = [
     descriptionKey: 'classCatLatinDesc',
     detailedDescriptionKey: 'classDetailLatinDesc',
     pillarUrl: '/clases/salsa-bachata-barcelona/',
+    imageUrl: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=800&h=600&fit=crop&q=80&auto=format',
     featuredStyles: [
       { key: 'salsa_cubana', url: '/clases/salsa-cubana-barcelona/' },
       { key: 'bachata', url: '/clases/bachata-barcelona/' },
@@ -98,6 +102,7 @@ export const HUB_CATEGORIES: HubCategory[] = [
     descriptionKey: 'classCatFitnessDesc',
     detailedDescriptionKey: 'classDetailFitnessDesc',
     pillarUrl: '/clases/fitness-bailarines-barcelona/',
+    imageUrl: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&h=600&fit=crop&q=80&auto=format',
     featuredStyles: [
       { key: 'bum_bum_gluteos', url: '/clases/bum-bum-gluteos-barcelona/' },
       { key: 'stretching', url: '/clases/stretching-barcelona/' },
@@ -120,6 +125,7 @@ export const HUB_CATEGORIES: HubCategory[] = [
     descriptionKey: 'classCatMorningDesc',
     detailedDescriptionKey: 'classDetailMorningDesc',
     pillarUrl: '/clases/baile-mananas-barcelona/',
+    imageUrl: 'https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=800&h=600&fit=crop&q=80&auto=format',
     featuredStyles: [
       { key: 'afro_jazz', url: '/clases/afro-jazz-barcelona/' },
       { key: 'danza_contemporanea', url: '/clases/danza-contemporanea-barcelona/' },
@@ -141,6 +147,7 @@ export const HUB_CATEGORIES: HubCategory[] = [
     descriptionKey: 'classCatWorldDesc',
     detailedDescriptionKey: 'classDetailWorldDesc',
     pillarUrl: '/clases/otras-danzas-barcelona/',
+    imageUrl: 'https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=800&h=600&fit=crop&q=80&auto=format',
     featuredStyles: [
       { key: 'kizomba', url: '/clases/kizomba-barcelona/' },
       { key: 'flamenco', url: '/clases/flamenco-barcelona/' },

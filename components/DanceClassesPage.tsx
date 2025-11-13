@@ -123,29 +123,40 @@ const DanceClassesPage: React.FC = () => {
                     className="[perspective:1000px] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-accent focus-visible:ring-offset-2 rounded-xl"
                     aria-labelledby={`card-${category.key}-title`}
                   >
-                    <div className="group relative rounded-xl overflow-hidden shadow-lg min-h-[400px] bg-black text-white transition-all duration-500 ease-in-out [transform-style:preserve-3d] hover:shadow-accent-glow hover:[transform:translateY(-0.5rem)_scale(1.05)]">
-                      {/* Gradient Background (similar visual to image overlay) */}
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary-dark/40 via-black/90 to-black"></div>
+                    <div className="group relative rounded-xl overflow-hidden shadow-lg h-96 bg-black text-white transition-all duration-500 ease-in-out [transform-style:preserve-3d] hover:shadow-accent-glow hover:[transform:translateY(-0.5rem)_scale(1.05)_rotateY(5deg)]">
+                      {/* Background Image */}
+                      <img
+                        src={category.imageUrl}
+                        alt={`${t(category.titleKey)} - Clases en Barcelona`}
+                        className="absolute inset-0 w-full h-full object-cover transition-all duration-500 ease-in-out group-hover:scale-110 opacity-40 group-hover:opacity-60"
+                        loading={index < 3 ? 'eager' : 'lazy'}
+                        decoding="async"
+                      />
+
+                      {/* Gradient Overlay */}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
 
                       {/* Hover Border Effect */}
                       <div className="absolute inset-0 border-2 border-transparent group-hover:border-primary-accent rounded-xl transition-all duration-300 pointer-events-none"></div>
 
                       {/* Content */}
-                      <div className="relative flex flex-col justify-between h-full p-6 text-left">
+                      <div className="relative flex flex-col justify-end h-full p-6 text-left">
                         {/* Title - USAR classCat*Title existente */}
-                        <div>
-                          <h3
-                            id={`card-${category.key}-title`}
-                            className="text-3xl font-bold mb-3"
-                          >
-                            {t(category.titleKey)}
-                          </h3>
+                        <h3
+                          id={`card-${category.key}-title`}
+                          className="text-3xl font-bold mb-2"
+                        >
+                          {t(category.titleKey)}
+                        </h3>
 
-                          {/* Description - USAR classCat*Desc existente */}
-                          <p className="text-neutral/80 text-sm mb-4 leading-relaxed">{t(category.descriptionKey)}</p>
+                        {/* Description - Hidden on default, expandable on hover */}
+                        <div className="h-0 group-hover:h-auto overflow-hidden transition-all duration-300 ease-in-out">
+                          <p className="text-neutral/80 text-sm mb-3 leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150">
+                            {t(category.descriptionKey)}
+                          </p>
 
                           {/* 3 Bullets */}
-                          <ul className="text-sm text-neutral/70 space-y-2 mb-4">
+                          <ul className="text-xs text-neutral/70 space-y-1 mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150">
                             <li className="flex items-start">
                               <span className="text-primary-accent mr-2">•</span>
                               <span>{t(`danceClassesHub_${category.key}_bullet1`)}</span>
@@ -159,42 +170,39 @@ const DanceClassesPage: React.FC = () => {
                               <span>{t(`danceClassesHub_${category.key}_bullet3`)}</span>
                             </li>
                           </ul>
-                        </div>
 
-                        {/* Featured Styles Badges */}
-                        <div className="mb-4">
-                          <p className="text-xs text-neutral/60 mb-2 uppercase tracking-wider font-semibold">
-                            {t('danceClassesHub_featured_styles_label')}
-                          </p>
-                          <div className="flex flex-wrap gap-2">
-                            {category.featuredStyles.map((style) => (
-                              <Link
-                                key={style.key}
-                                to={`/${locale}${style.url}`}
-                                className="inline-flex items-center rounded-lg px-3 py-1 text-xs font-medium bg-primary-accent/20 border border-primary-accent/30 text-neutral hover:bg-primary-accent hover:text-white transition-all duration-300"
-                                onClick={(e) => e.stopPropagation()}
-                              >
-                                {t(`danceClassesHub_style_${style.key}`)}
-                              </Link>
-                            ))}
+                          {/* Featured Styles Badges */}
+                          <div className="mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150">
+                            <div className="flex flex-wrap gap-2">
+                              {category.featuredStyles.map((style) => (
+                                <Link
+                                  key={style.key}
+                                  to={`/${locale}${style.url}`}
+                                  className="inline-flex items-center rounded-lg px-2 py-1 text-xs font-medium bg-primary-accent/20 border border-primary-accent/30 text-neutral hover:bg-primary-accent hover:text-white transition-all duration-300"
+                                  onClick={(e) => e.stopPropagation()}
+                                >
+                                  {t(`danceClassesHub_style_${style.key}`)}
+                                </Link>
+                              ))}
+                            </div>
                           </div>
-                        </div>
 
-                        {/* CTAs */}
-                        <div className="flex flex-col gap-3 mt-auto">
-                          <Link
-                            to={`/${locale}${category.pillarUrl}`}
-                            className="inline-flex items-center justify-center rounded-lg px-4 py-3 text-sm font-bold bg-primary-accent text-white hover:bg-primary-dark transition-all duration-300 transform hover:scale-105"
-                          >
-                            {t('danceClassesHub_cta_view_category')}
-                          </Link>
-                          <button
-                            onClick={() => setOpenCategory(category)}
-                            className="text-sm text-neutral/80 hover:text-primary-accent transition-colors font-medium text-center"
-                            aria-haspopup="dialog"
-                          >
-                            {t('danceClassesHub_cta_view_all_styles')} →
-                          </button>
+                          {/* CTAs */}
+                          <div className="flex flex-col gap-2">
+                            <Link
+                              to={`/${locale}${category.pillarUrl}`}
+                              className="inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-bold bg-primary-accent text-white hover:bg-primary-dark transition-all duration-300 transform hover:scale-105"
+                            >
+                              {t('danceClassesHub_cta_view_category')}
+                            </Link>
+                            <button
+                              onClick={() => setOpenCategory(category)}
+                              className="text-sm text-neutral/80 hover:text-primary-accent transition-colors font-medium text-center"
+                              aria-haspopup="dialog"
+                            >
+                              {t('danceClassesHub_cta_view_all_styles')} →
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
