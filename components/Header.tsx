@@ -124,7 +124,6 @@ const Header: React.FC = () => {
     { path: `/${locale}`, textKey: 'navHome' },
     { path: `/${locale}/clases`, textKey: 'navClasses' },
     { path: `/${locale}/clases/dancehall-barcelona`, textKey: 'navDancehall' },
-    { path: `/${locale}/clases/afrobeats-barcelona`, textKey: 'navAfrobeats' },
   ];
 
   return (

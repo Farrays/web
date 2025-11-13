@@ -9,19 +9,19 @@ const routes = [
   { path: '', lang: 'es', page: 'home' },
   { path: 'es', lang: 'es', page: 'home' },
   { path: 'es/clases', lang: 'es', page: 'classes' },
-  { path: 'es/clases/dancehall-v3', lang: 'es', page: 'dancehall-v3' },
+  { path: 'es/clases/dancehall-barcelona', lang: 'es', page: 'dancehall' },
 
   { path: 'ca', lang: 'ca', page: 'home' },
   { path: 'ca/clases', lang: 'ca', page: 'classes' },
-  { path: 'ca/clases/dancehall-v3', lang: 'ca', page: 'dancehall-v3' },
+  { path: 'ca/clases/dancehall-barcelona', lang: 'ca', page: 'dancehall' },
 
   { path: 'en', lang: 'en', page: 'home' },
   { path: 'en/clases', lang: 'en', page: 'classes' },
-  { path: 'en/clases/dancehall-v3', lang: 'en', page: 'dancehall-v3' },
+  { path: 'en/clases/dancehall-barcelona', lang: 'en', page: 'dancehall' },
 
   { path: 'fr', lang: 'fr', page: 'home' },
   { path: 'fr/clases', lang: 'fr', page: 'classes' },
-  { path: 'fr/clases/dancehall-v3', lang: 'fr', page: 'dancehall-v3' },
+  { path: 'fr/clases/dancehall-barcelona', lang: 'fr', page: 'dancehall' },
 ];
 
 // Metadata for each page in each language
@@ -35,7 +35,7 @@ const metadata = {
       title: 'Clases de Baile - FarRays Center Barcelona',
       description: 'Clases de Dancehall y baile urbano para todos los niveles. Horarios flexibles en Barcelona.',
     },
-    'dancehall-v3': {
+    dancehall: {
       title: 'Clases de Dancehall en Barcelona - Academia de Baile Urbano | FarRays Center',
       description: 'Aprende Dancehall auténtico en Barcelona con profesores expertos. Clases para todos los niveles. Descubre el ritmo de Jamaica.',
     },
@@ -49,7 +49,7 @@ const metadata = {
       title: 'Classes de Ball - FarRays Center Barcelona',
       description: 'Classes de Dancehall i ball urbà per a tots els nivells. Horaris flexibles a Barcelona.',
     },
-    'dancehall-v3': {
+    dancehall: {
       title: 'Classes de Dancehall a Barcelona - Acadèmia de Ball Urbà | FarRays Center',
       description: 'Aprèn Dancehall autèntic a Barcelona amb professors experts. Classes per a tots els nivells. Descobreix el ritme de Jamaica.',
     },
@@ -63,7 +63,7 @@ const metadata = {
       title: 'Dance Classes - FarRays Center Barcelona',
       description: 'Dancehall and urban dance classes for all levels. Flexible schedules in Barcelona.',
     },
-    'dancehall-v3': {
+    dancehall: {
       title: 'Dancehall Classes in Barcelona - Urban Dance Academy | FarRays Center',
       description: 'Learn authentic Dancehall in Barcelona with expert teachers. Classes for all levels. Discover the rhythm of Jamaica.',
     },
@@ -77,7 +77,7 @@ const metadata = {
       title: 'Cours de Danse - FarRays Center Barcelone',
       description: 'Cours de Dancehall et danse urbaine pour tous les niveaux. Horaires flexibles à Barcelone.',
     },
-    'dancehall-v3': {
+    dancehall: {
       title: 'Cours de Dancehall à Barcelone - Académie de Danse Urbaine | FarRays Center',
       description: 'Apprenez le Dancehall authentique à Barcelone avec des professeurs experts. Cours pour tous les niveaux. Découvrez le rythme de la Jamaïque.',
     },
@@ -94,7 +94,7 @@ const initialContent = {
           <nav class="hidden md:flex space-x-8 text-neutral/90 font-medium text-lg">
             <a href="/es" class="hover:text-primary-accent transition-colors">Inicio</a>
             <a href="/es/clases" class="hover:text-primary-accent transition-colors">Clases</a>
-            <a href="/es/clases/dancehall-v3" class="hover:text-primary-accent transition-colors">Dancehall</a>
+            <a href="/es/clases/dancehall-barcelona" class="hover:text-primary-accent transition-colors">Dancehall</a>
           </nav>
         </div>
       </header>
@@ -122,7 +122,7 @@ const initialContent = {
         </p>
       </main>
     `,
-    'dancehall-v3': `
+    dancehall: `
       <main id="main-content" class="relative z-0 pt-20 pb-32 px-6 sm:px-12">
         <h1 class="text-4xl sm:text-5xl font-bold text-neutral mb-8 text-center holographic-text">
           Clases de Dancehall en Barcelona
@@ -137,17 +137,17 @@ const initialContent = {
   ca: {
     home: `<main id="main-content"><h1 class="holographic-text text-5xl font-extrabold">FarRays Center</h1><p class="text-xl">Escola de ball urbà a Barcelona. Aprèn Dancehall i més.</p></main>`,
     classes: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Les nostres Classes</h1><p>Classes de Dancehall i ball urbà per a tots els nivells.</p></main>`,
-    'dancehall-v3': `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Classes de Dancehall a Barcelona</h1><p>Descobreix l'autèntic Dancehall de Jamaica a Barcelona. Energia, cultura i ritme a cada classe.</p></main>`,
+    dancehall: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Classes de Dancehall a Barcelona</h1><p>Descobreix l'autèntic Dancehall de Jamaica a Barcelona. Energia, cultura i ritme a cada classe.</p></main>`,
   },
   en: {
     home: `<main id="main-content"><h1 class="holographic-text text-5xl font-extrabold">FarRays Center</h1><p class="text-xl">Urban dance school in Barcelona. Learn Dancehall and more.</p></main>`,
     classes: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Our Classes</h1><p>Dancehall and urban dance classes for all levels.</p></main>`,
-    'dancehall-v3': `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Dancehall Classes in Barcelona</h1><p>Discover authentic Dancehall from Jamaica in Barcelona. Energy, culture and rhythm in every class.</p></main>`,
+    dancehall: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Dancehall Classes in Barcelona</h1><p>Discover authentic Dancehall from Jamaica in Barcelona. Energy, culture and rhythm in every class.</p></main>`,
   },
   fr: {
     home: `<main id="main-content"><h1 class="holographic-text text-5xl font-extrabold">FarRays Center</h1><p class="text-xl">École de danse urbaine à Barcelone. Apprenez le Dancehall et plus.</p></main>`,
     classes: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Nos Cours</h1><p>Cours de Dancehall et danse urbaine pour tous les niveaux.</p></main>`,
-    'dancehall-v3': `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Cours de Dancehall à Barcelone</h1><p>Découvrez le véritable Dancehall de Jamaïque à Barcelone. Énergie, culture et rythme à chaque cours.</p></main>`,
+    dancehall: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Cours de Dancehall à Barcelone</h1><p>Découvrez le véritable Dancehall de Jamaïque à Barcelone. Énergie, culture et rythme à chaque cours.</p></main>`,
   },
 };
 
@@ -179,8 +179,8 @@ routes.forEach(route => {
     pagePath = '';
   } else if (page === 'classes') {
     pagePath = 'clases';
-  } else if (page === 'dancehall-v3') {
-    pagePath = 'clases/dancehall-v3';
+  } else if (page === 'dancehall') {
+    pagePath = 'clases/dancehall-barcelona';
   }
 
   const hreflangLinks = [
@@ -282,7 +282,7 @@ console.log(`\n🎉 Prerendering complete! Generated ${generatedCount} pages.`);
 console.log('\n📊 Summary:');
 console.log(`   - Total pages: ${generatedCount}`);
 console.log(`   - Languages: es, ca, en, fr (4)`);
-console.log(`   - Pages per language: home, clases, dancehall-v3 (3)`);
+console.log(`   - Pages per language: home, clases, dancehall-barcelona (3)`);
 console.log(`   - SEO: ✅ Metadata, ✅ hreflang, ✅ Canonical, ✅ Open Graph`);
 console.log(`   - Locale: ✅ Pre-set via localStorage + cookie before React hydration`);
 console.log('\n🔍 Verify: Run "npm run preview" and view page source to see prerendered content\n');

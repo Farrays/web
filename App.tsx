@@ -23,9 +23,6 @@ import NotFoundPage from './components/NotFoundPage';
 // Code splitting: Lazy load secondary pages to reduce initial bundle size
 const DanceClassesPage = lazy(() => import('./components/DanceClassesPage'));
 const DancehallPage = lazy(() => import('./components/DancehallPage'));
-const DancehallPageV2 = lazy(() => import('./components/DancehallPageV2'));
-const DancehallPageV3 = lazy(() => import('./components/DancehallPageV3'));
-const AfrobeatsPage = lazy(() => import('./components/AfrobeatsPage'));
 
 // Valid locales
 const VALID_LOCALES: Locale[] = ['es', 'en', 'ca', 'fr'];
@@ -110,33 +107,6 @@ const AppContent: React.FC = () => {
                 </>
               }
             />
-            <Route
-              path="/:locale/clases/dancehall-v2"
-              element={
-                <>
-                  <LocaleSync />
-                  <DancehallPageV2 />
-                </>
-              }
-            />
-            <Route
-              path="/:locale/clases/dancehall-v3"
-              element={
-                <>
-                  <LocaleSync />
-                  <DancehallPageV3 />
-                </>
-              }
-            />
-            <Route
-              path="/:locale/clases/afrobeats-barcelona"
-              element={
-                <>
-                  <LocaleSync />
-                  <AfrobeatsPage />
-                </>
-              }
-            />
 
             {/* 404 pages - localized */}
             <Route
@@ -155,8 +125,12 @@ const AppContent: React.FC = () => {
               element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
             />
             <Route
-              path="/:locale/afrobeats"
-              element={<Navigate to={`/${locale}/clases/afrobeats-barcelona`} replace />}
+              path="/:locale/clases/dancehall-v2"
+              element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
+            />
+            <Route
+              path="/:locale/clases/dancehall-v3"
+              element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
             />
 
             {/* Legacy routes without locale - redirect to current locale */}
@@ -166,24 +140,16 @@ const AppContent: React.FC = () => {
               element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
             />
             <Route
-              path="/afrobeats"
-              element={<Navigate to={`/${locale}/clases/afrobeats-barcelona`} replace />}
-            />
-            <Route
               path="/clases/dancehall-barcelona"
               element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
             />
             <Route
               path="/clases/dancehall-v2"
-              element={<Navigate to={`/${locale}/clases/dancehall-v2`} replace />}
+              element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
             />
             <Route
               path="/clases/dancehall-v3"
-              element={<Navigate to={`/${locale}/clases/dancehall-v3`} replace />}
-            />
-            <Route
-              path="/clases/afrobeats-barcelona"
-              element={<Navigate to={`/${locale}/clases/afrobeats-barcelona`} replace />}
+              element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
             />
 
             {/* Catch-all for 404 - redirect to localized 404 page */}
