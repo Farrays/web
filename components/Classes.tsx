@@ -43,35 +43,13 @@ const classData: ClassInfo[] = [
   },
 ];
 
-const CIDLogo: React.FC = () => (
-  <div className="w-24 h-24 bg-neutral/10 border-2 border-primary-accent/50 rounded-full flex items-center justify-center p-2 backdrop-blur-sm">
-    <svg viewBox="0 0 100 100" className="w-full h-full text-primary-accent">
-      <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" strokeWidth="3" />
-      <text x="50" y="55" textAnchor="middle" fontSize="24" fill="currentColor" fontWeight="bold">
-        CID
-      </text>
-      <text x="50" y="75" textAnchor="middle" fontSize="12" fill="currentColor">
-        UNESCO
-      </text>
-    </svg>
-  </div>
-);
-
 const Classes: React.FC = () => {
-  const { t, locale } = useI18n();
+  const { t } = useI18n();
 
   return (
     <section id="classes" className="py-20 md:py-32 bg-primary-dark/10">
       <div className="container mx-auto px-6 text-center">
-        <AnimateOnScroll>
-          <h2 className="text-4xl md:text-5xl font-black tracking-tighter mb-4 text-neutral">
-            {t('classesTitle')}
-          </h2>
-        </AnimateOnScroll>
-        <AnimateOnScroll delay={200}>
-          <p className="max-w-3xl mx-auto text-lg text-neutral/80 mb-12">{t('classesIntro')}</p>
-        </AnimateOnScroll>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {classData.map((cls, index) => (
             <AnimateOnScroll key={cls.id} delay={index * 100} className="[perspective:1000px]">
               <div className="group relative rounded-xl overflow-hidden shadow-lg h-80 bg-black text-white transition-all duration-500 ease-in-out [transform-style:preserve-3d] group-hover:shadow-accent-glow group-hover:[transform:translateY(-0.5rem)_scale(1.05)_rotateY(5deg)]">
@@ -95,28 +73,6 @@ const Classes: React.FC = () => {
             </AnimateOnScroll>
           ))}
         </div>
-        <AnimateOnScroll>
-          <div className="flex flex-col items-center gap-6 mt-16">
-            <CIDLogo />
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="#schedule"
-                className="bg-primary-accent text-white font-bold py-4 px-10 rounded-full transition-all duration-300 hover:bg-white hover:text-primary-accent shadow-lg hover:shadow-accent-glow"
-              >
-                {t('classesCTA')}
-              </a>
-              <a
-                href={`/${locale}/clases/dancehall-v3`}
-                className="relative bg-transparent border-2 border-primary-accent text-primary-accent font-bold py-4 px-10 rounded-full transition-all duration-300 hover:bg-primary-accent hover:text-white shadow-lg hover:shadow-accent-glow overflow-hidden group"
-              >
-                <span className="absolute top-0 right-0 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-bl-lg">
-                  NUEVO
-                </span>
-                🔥 Dancehall V3
-              </a>
-            </div>
-          </div>
-        </AnimateOnScroll>
       </div>
     </section>
   );
