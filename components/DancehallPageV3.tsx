@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useI18n } from '../hooks/useI18n';
 import AnimateOnScroll from './AnimateOnScroll';
@@ -175,6 +175,49 @@ const DancehallPageV3: React.FC = () => {
     embedUrl: `${baseUrl}/videos/dancehall-class-experience.mp4`,
   };
 
+  // YouTube Embed Component with Thumbnail Placeholder
+  const YouTubeEmbed: React.FC<{ videoId: string; title: string }> = ({ videoId, title }) => {
+    const [isLoaded, setIsLoaded] = useState(false);
+    const thumbnailUrl = `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`;
+
+    if (!isLoaded) {
+      return (
+        <div
+          className="relative aspect-video rounded-2xl overflow-hidden border-2 border-primary-accent/50 shadow-accent-glow cursor-pointer group"
+          onClick={() => setIsLoaded(true)}
+        >
+          <img
+            src={thumbnailUrl}
+            alt={title}
+            loading="lazy"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
+            <div className="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg className="w-10 h-10 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    return (
+      <div className="aspect-video rounded-2xl overflow-hidden border-2 border-primary-accent/50 shadow-accent-glow">
+        <iframe
+          className="w-full h-full"
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
+          title={title}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </div>
+    );
+  };
+
   return (
     <>
       {/* SEO Meta Tags */}
@@ -182,6 +225,10 @@ const DancehallPageV3: React.FC = () => {
         <title>{t('dhV3PageTitle')}</title>
         <meta name="description" content={t('dhV3MetaDescription')} />
         <link rel="canonical" href={pageUrl} />
+
+        {/* Preconnect for Performance */}
+        <link rel="preconnect" href="https://www.youtube.com" />
+        <link rel="preconnect" href="https://i.ytimg.com" />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
@@ -402,7 +449,8 @@ const DancehallPageV3: React.FC = () => {
                   <div className="rounded-2xl overflow-hidden shadow-lg">
                     <img
                       src="/images/classes/dancehall/img/dancehall-classes-barcelona-01_960.webp"
-                      alt="Clases de Dancehall en Barcelona"
+                      alt="Clases de Dancehall en Barcelona - Estudiantes bailando en la academia"
+                      loading="lazy"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -515,12 +563,6 @@ const DancehallPageV3: React.FC = () => {
                 </div>
               </AnimateOnScroll>
             </div>
-
-            <AnimateOnScroll>
-              <div className="max-w-3xl mx-auto text-center">
-                <p className="text-2xl font-bold holographic-text mt-8">{t('dhV3TransformCTA')}</p>
-              </div>
-            </AnimateOnScroll>
           </div>
         </section>
 
@@ -577,9 +619,9 @@ const DancehallPageV3: React.FC = () => {
                   <AnimatedCounter
                     target={8}
                     suffix="+"
-                    className="text-6xl md:text-7xl font-black mb-2 holographic-text"
+                    className="text-4xl md:text-5xl font-black mb-2 holographic-text"
                   />
-                  <p className="text-base md:text-lg text-neutral/90 font-bold uppercase tracking-wide">
+                  <p className="text-4xl md:text-5xl text-neutral/90 font-bold uppercase tracking-wide">
                     {t('yearsExperience')}
                   </p>
                 </div>
@@ -587,9 +629,9 @@ const DancehallPageV3: React.FC = () => {
                   <AnimatedCounter
                     target={1500}
                     suffix="+"
-                    className="text-6xl md:text-7xl font-black mb-2 holographic-text"
+                    className="text-4xl md:text-5xl font-black mb-2 holographic-text"
                   />
-                  <p className="text-base md:text-lg text-neutral/90 font-bold uppercase tracking-wide">
+                  <p className="text-4xl md:text-5xl text-neutral/90 font-bold uppercase tracking-wide">
                     {t('activeStudents')}
                   </p>
                 </div>
@@ -597,9 +639,9 @@ const DancehallPageV3: React.FC = () => {
                   <AnimatedCounter
                     target={15000}
                     suffix="+"
-                    className="text-6xl md:text-7xl font-black mb-2 holographic-text"
+                    className="text-4xl md:text-5xl font-black mb-2 holographic-text"
                   />
-                  <p className="text-base md:text-lg text-neutral/90 font-bold uppercase tracking-wide">
+                  <p className="text-4xl md:text-5xl text-neutral/90 font-bold uppercase tracking-wide">
                     {t('satisfiedStudents')}
                   </p>
                 </div>
@@ -613,7 +655,7 @@ const DancehallPageV3: React.FC = () => {
           <div className="container mx-auto px-6">
             <AnimateOnScroll>
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-black text-neutral mb-8 holographic-text">
+                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 holographic-text">
                   {t('dhV3LogosTitle')}
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 max-w-5xl mx-auto items-center mb-8">
@@ -621,7 +663,8 @@ const DancehallPageV3: React.FC = () => {
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
                         src="/images/cid-unesco-logo.webp"
-                        alt="CID UNESCO"
+                        alt="CID UNESCO - Consejo Internacional de la Danza"
+                        loading="lazy"
                         className="w-full h-full object-contain"
                       />
                     </div>
@@ -631,7 +674,8 @@ const DancehallPageV3: React.FC = () => {
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
                         src="/images/Street-Dance-2.webp"
-                        alt="Street Dance 2"
+                        alt="Street Dance 2 - Película de danza urbana"
+                        loading="lazy"
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -641,7 +685,8 @@ const DancehallPageV3: React.FC = () => {
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
                         src="/images/the-dancer-espectaculo-baile-cuadrada.webp"
-                        alt="The Dancer"
+                        alt="The Dancer - Espectáculo de baile"
+                        loading="lazy"
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -651,14 +696,15 @@ const DancehallPageV3: React.FC = () => {
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
                       <img
                         src="/images/telecinco-logo.webp"
-                        alt="TV 5"
+                        alt="Telecinco - Cadena de televisión española"
+                        loading="lazy"
                         className="w-full h-full object-cover"
                       />
                     </div>
                     <div className="text-neutral/80 font-bold text-sm text-center">TV 5</div>
                   </div>
                 </div>
-                <p className="text-xl font-bold holographic-text">
+                <p className="text-4xl md:text-5xl font-black tracking-tighter holographic-text">
                   y en los mejores festivales de danza de todo el mundo
                 </p>
               </div>
@@ -675,7 +721,8 @@ const DancehallPageV3: React.FC = () => {
           <div className="absolute inset-0 opacity-30">
             <img
               src="/images/classes/dancehall/raw/Jamaica.webp"
-              alt="Jamaica Flag"
+              alt="Bandera de Jamaica - Origen del Dancehall"
+              loading="lazy"
               className="w-full h-full object-cover"
               style={{ filter: 'brightness(0.9)' }}
             />
@@ -754,12 +801,9 @@ const DancehallPageV3: React.FC = () => {
           <div className="container mx-auto px-6">
             <AnimateOnScroll>
               <div className="text-center mb-12">
-                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4 holographic-text">
-                  Testimonios no solicitados
+                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 holographic-text">
+                  Testimonios no solicitados de nuestros estudiantes
                 </h2>
-                <p className="text-2xl font-bold mb-6 holographic-text">
-                  GRACIAS POR TANTO AMOR
-                </p>
                 <div className="inline-block">
                   <div className="mb-4 text-3xl font-black text-neutral">{t('excellent')}</div>
                   <div className="flex items-center justify-center gap-1 mb-2">
@@ -830,20 +874,36 @@ const DancehallPageV3: React.FC = () => {
               </div>
             </AnimateOnScroll>
 
-            <AnimateOnScroll delay={200}>
-              <div className="max-w-4xl mx-auto">
-                <div className="aspect-video rounded-2xl overflow-hidden border-2 border-primary-accent/50 shadow-accent-glow">
-                  <iframe
-                    className="w-full h-full"
-                    src="https://www.youtube.com/embed/TteV2if6Qso"
-                    title="Clases de Dancehall en Barcelona - Farray's Center"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                  ></iframe>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+              <AnimateOnScroll delay={100}>
+                <YouTubeEmbed
+                  videoId="TteV2if6Qso"
+                  title="Clases de Dancehall en Barcelona - Farray's Center"
+                />
+              </AnimateOnScroll>
+
+              <AnimateOnScroll delay={200}>
+                <div className="aspect-video rounded-2xl overflow-hidden border-2 border-primary-accent/50 bg-black/50 backdrop-blur-sm flex items-center justify-center">
+                  <div className="text-center p-6">
+                    <svg className="w-16 h-16 mx-auto mb-4 text-primary-accent/50" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" />
+                    </svg>
+                    <p className="text-neutral/70 font-semibold">Video próximamente</p>
+                  </div>
                 </div>
-              </div>
-            </AnimateOnScroll>
+              </AnimateOnScroll>
+
+              <AnimateOnScroll delay={300}>
+                <div className="aspect-video rounded-2xl overflow-hidden border-2 border-primary-accent/50 bg-black/50 backdrop-blur-sm flex items-center justify-center">
+                  <div className="text-center p-6">
+                    <svg className="w-16 h-16 mx-auto mb-4 text-primary-accent/50" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" />
+                    </svg>
+                    <p className="text-neutral/70 font-semibold">Video próximamente</p>
+                  </div>
+                </div>
+              </AnimateOnScroll>
+            </div>
           </div>
         </section>
 
@@ -873,14 +933,15 @@ const DancehallPageV3: React.FC = () => {
           <div className="absolute inset-0">
             <img
               src="/images/classes/dancehall/img/dancehall-dancing-barcelona-03_1440.webp"
-              alt="Background"
+              alt="Estudiantes bailando Dancehall en Farray's Center Barcelona"
+              loading="lazy"
               className="w-full h-full object-cover opacity-20"
             />
           </div>
           <div className="container mx-auto px-6 relative z-10">
             <AnimateOnScroll>
               <div className="max-w-4xl mx-auto text-center">
-                <h2 className="text-4xl md:text-6xl font-black text-neutral mb-4 holographic-text">
+                <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4 holographic-text">
                   {t('dhV3FinalCTATitle')}
                 </h2>
                 <p className="text-2xl font-bold mb-6 holographic-text">
