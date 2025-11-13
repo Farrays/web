@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useI18n } from '../../hooks/useI18n';
 import { CATEGORIES } from '../../constants/categories';
 import CategoryCard from './CategoryCard';
@@ -26,12 +27,13 @@ const CIDLogo: React.FC = () => (
 );
 
 const CategoriesSection: React.FC = () => {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
 
   const sectionTitle = t('home_categories_section_title') || 'Encuentra tu estilo de baile';
   const sectionDescription =
     t('home_categories_section_description') ||
     'Explora nuestras categorías y descubre la clase perfecta para ti';
+  const viewAllClassesText = t('home_categories_cta_view_all_classes') || 'Ver Todas Las Clases De Baile';
 
   return (
     <section id="categories" className="py-20 md:py-32 bg-primary-dark/10">
@@ -57,8 +59,14 @@ const CategoriesSection: React.FC = () => {
 
         {/* CID-UNESCO Logo */}
         <AnimateOnScroll>
-          <div className="flex justify-center mt-16">
+          <div className="flex flex-col items-center mt-16 gap-8">
             <CIDLogo />
+            <Link
+              to={`/${locale}/clases/baile-barcelona`}
+              className="inline-block px-8 py-4 bg-primary-accent text-white font-bold text-lg rounded-lg shadow-lg hover:bg-primary-dark hover:shadow-accent-glow transition-all duration-300 transform hover:scale-105"
+            >
+              {viewAllClassesText}
+            </Link>
           </div>
         </AnimateOnScroll>
       </div>

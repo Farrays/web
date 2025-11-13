@@ -758,6 +758,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   home_categories_cta_view_styles: 'Ver estilos',
   home_categories_cta_view_category: 'Ver todos los estilos',
   home_categories_cta_close: 'Cerrar',
+  home_categories_cta_view_all_classes: 'Ver Todas Las Clases De Baile',
 
   // Category: Danzas Urbanas / Hip Hop
   home_categories_urbano_title: 'Clases de Danza Urbana y Hip Hop',

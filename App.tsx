@@ -90,7 +90,7 @@ const AppContent: React.FC = () => {
               }
             />
             <Route
-              path="/:locale/clases"
+              path="/:locale/clases/baile-barcelona"
               element={
                 <>
                   <LocaleSync />
@@ -98,6 +98,12 @@ const AppContent: React.FC = () => {
                 </>
               }
             />
+            {/* Redirect old /clases route to new /clases/baile-barcelona */}
+            <Route
+              path="/:locale/clases"
+              element={<Navigate to={`/${locale}/clases/baile-barcelona`} replace />}
+            />
+
             <Route
               path="/:locale/clases/dancehall-barcelona"
               element={
@@ -134,7 +140,7 @@ const AppContent: React.FC = () => {
             />
 
             {/* Legacy routes without locale - redirect to current locale */}
-            <Route path="/clases" element={<Navigate to={`/${locale}/clases`} replace />} />
+            <Route path="/clases" element={<Navigate to={`/${locale}/clases/baile-barcelona`} replace />} />
             <Route
               path="/dancehall"
               element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}

@@ -480,6 +480,7 @@ export const ca = {
   home_categories_cta_view_styles: 'Veure estils',
   home_categories_cta_view_category: 'Veure tots els estils',
   home_categories_cta_close: 'Tancar',
+  home_categories_cta_view_all_classes: 'Veure Totes Les Classes De Ball',
   home_categories_urbano_title: 'Danses Urbanes / Hip Hop',
   home_categories_urbano_image_alt: 'Classe de Hip Hop a estudi de ball',
   home_categories_urbano_bullets: '11 estils urbans diferents, Des de principiant a professional, Primera classe gratis',

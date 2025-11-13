@@ -8,19 +8,19 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const routes = [
   { path: '', lang: 'es', page: 'home' },
   { path: 'es', lang: 'es', page: 'home' },
-  { path: 'es/clases', lang: 'es', page: 'classes' },
+  { path: 'es/clases/baile-barcelona', lang: 'es', page: 'classes' },
   { path: 'es/clases/dancehall-barcelona', lang: 'es', page: 'dancehall' },
 
   { path: 'ca', lang: 'ca', page: 'home' },
-  { path: 'ca/clases', lang: 'ca', page: 'classes' },
+  { path: 'ca/clases/baile-barcelona', lang: 'ca', page: 'classes' },
   { path: 'ca/clases/dancehall-barcelona', lang: 'ca', page: 'dancehall' },
 
   { path: 'en', lang: 'en', page: 'home' },
-  { path: 'en/clases', lang: 'en', page: 'classes' },
+  { path: 'en/clases/baile-barcelona', lang: 'en', page: 'classes' },
   { path: 'en/clases/dancehall-barcelona', lang: 'en', page: 'dancehall' },
 
   { path: 'fr', lang: 'fr', page: 'home' },
-  { path: 'fr/clases', lang: 'fr', page: 'classes' },
+  { path: 'fr/clases/baile-barcelona', lang: 'fr', page: 'classes' },
   { path: 'fr/clases/dancehall-barcelona', lang: 'fr', page: 'dancehall' },
 ];
 
@@ -93,7 +93,7 @@ const initialContent = {
           <div class="text-2xl font-bold text-primary-accent holographic-text">FarRays Center</div>
           <nav class="hidden md:flex space-x-8 text-neutral/90 font-medium text-lg">
             <a href="/es" class="hover:text-primary-accent transition-colors">Inicio</a>
-            <a href="/es/clases" class="hover:text-primary-accent transition-colors">Clases</a>
+            <a href="/es/clases/baile-barcelona" class="hover:text-primary-accent transition-colors">Clases</a>
             <a href="/es/clases/dancehall-barcelona" class="hover:text-primary-accent transition-colors">Dancehall</a>
           </nav>
         </div>
@@ -106,7 +106,7 @@ const initialContent = {
           Escuela de baile urbano en Barcelona. Aprende Dancehall y más con los mejores profesores.
         </p>
         <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <a href="/es/clases" class="bg-primary-accent text-neutral px-10 py-4 rounded-full text-lg font-bold shadow-lg hover:bg-primary-dark transition-all">
+          <a href="/es/clases/baile-barcelona" class="bg-primary-accent text-neutral px-10 py-4 rounded-full text-lg font-bold shadow-lg hover:bg-primary-dark transition-all">
             Ver Clases
           </a>
         </div>
