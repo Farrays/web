@@ -9,8 +9,9 @@ export const es = {
   navDancehall: 'Dancehall',
   enrollNow: 'Inscríbete Ahora',
   // Hero
-  heroTitle1: 'Escuela de Baile en Barcelona',
+  heroTitle1: 'Tu Escuela de Baile en Barcelona',
   heroTitle2: 'Clases de Danza, Salsa, Bachata, Danza Urbana, y Más',
+  heroSubtitle: 'La Pedagogía Que Faltaba',
   heroTagline: 'Bailar es trabajar tu felicidad.',
   heroValue:
     'Si buscas clases de baile en Barcelona donde por fin avances y no te sientas un número, estás en el sitio correcto. Con el Método Farray® aprendes bien, rápido y con estilo… y te diviertes más que en cualquier gimnasio.',
@@ -22,13 +23,13 @@ export const es = {
   philosophyBody1:
     'Ningún esfuerzo te reportará más beneficios que el de aprender y practicar un baile. Las endorfinas que produces bailando generan un aumento inmediato de la serotonina, y con ello, de tu nivel de bienestar. Cuando bailas, sonríes más, te gustas más, eres más sociable, más flexible y más comprensivo. Si hay una cosa capaz de cambiar tu vida desde el primer instante, esa es, sin duda alguna, el baile.',
   philosophyBody2:
-    'Más que una escuela de baile convencional, lo que Yunaisy Farray y su equipo te ofrecen es un centro reflejo de sus ideales artísticos y de su forma de vida. Las actividades de Farray’s International Dance Center se distinguen por seguir un método exclusivo y único creado por Yunaisy Farray, que asegura resultados rápidos, sólidos y contrastados.',
+    'Más que una escuela de baile convencional, lo que Yunaisy Farray y su equipo te ofrecen es un centro reflejo de sus ideales artísticos y de su forma de vida. Las actividades de Farray\'s International Dance Center se distinguen por seguir un método exclusivo y único creado por Yunaisy Farray, que asegura resultados rápidos, sólidos y contrastados.',
   philosophyQuote: 'El arte más noble es el de hacer felices a los demás.',
   philosophyQuoteAuthor: 'Phineas Taylor Barnum',
   // Happiness Story
   happinessStoryLine1: 'Hay quienes buscan una escuela de baile parecida a las que ya conocen, y no hay nada de malo en eso.',
   happinessStoryLine2: 'Y hay quienes buscan la escuela que siempre soñaron.',
-  happinessStoryLine3: 'En Farray's somos de este segundo grupo.',
+  happinessStoryLine3: 'En Farray\'s somos de este segundo grupo.',
   happinessStoryLine4Part1: 'Pero como esta escuela todavía no existía en Barcelona,',
   happinessStoryLine4Part2: 'decidimos crearla y está funcionando.',
   happinessStoryLine5: 'Como no sabíamos que era imposible, lo hicimos.',
