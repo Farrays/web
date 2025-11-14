@@ -120,6 +120,14 @@ export const es = {
   serviceGiftDesc:
     'Sorprende con un regalo único: una experiencia de baile inolvidable para disfrutar o compartir.',
   serviceGiftCTA: 'Regala una Experiencia',
+  serviceEventsTitle: 'Agencia de Eventos',
+  serviceEventsDesc:
+    'Organizamos eventos de baile profesionales y espectaculares. Desde showcases hasta eventos corporativos con nuestros bailarines.',
+  serviceEventsCTA: 'Descubre Nuestros Eventos',
+  serviceMerchandisingTitle: 'Merchandising de la Academia',
+  serviceMerchandisingDesc:
+    'Productos exclusivos de Farray\'s Center. Ropa, accesorios y artículos de baile con el sello de calidad de nuestra academia.',
+  serviceMerchandisingCTA: 'Ver Productos',
   // Teachers
   teachersTitle: 'Conoce a Nuestros Profesores',
   teachersCTA: 'Ver Todo el Claustro',
