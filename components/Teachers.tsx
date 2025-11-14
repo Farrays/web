@@ -54,14 +54,14 @@ const Teachers: React.FC = () => {
               className="w-full max-w-4xl"
               style={{ zIndex: index }}
             >
-              <div className="group bg-black/50 backdrop-blur-md border border-primary-dark/50 rounded-2xl shadow-lg transition-all duration-300 hover:border-primary-accent hover:shadow-accent-glow hover:-translate-y-2 hover:!z-50 p-8 flex flex-col md:flex-row items-center gap-8">
-                <div className="flex-shrink-0 w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-primary-accent/50 group-hover:border-primary-accent transition-colors duration-300">
+              <div className="group bg-black/50 backdrop-blur-md border border-primary-dark/50 rounded-2xl shadow-lg transition-all duration-500 hover:border-primary-accent hover:shadow-accent-glow hover:-translate-y-3 hover:scale-[1.02] hover:!z-50 p-8 flex flex-col md:flex-row items-center gap-8">
+                <div className="flex-shrink-0 w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-primary-accent/50 group-hover:border-primary-accent transition-all duration-500 group-hover:scale-110 group-hover:rotate-3">
                   {teacher.image ? (
                     <img
                       src={teacher.image}
                       alt={`${teacher.name}, ${t(teacher.specialtyKey)}`}
                       loading="lazy"
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                   ) : (
                     <div className="w-full h-full bg-primary-dark/50 flex items-center justify-center">
@@ -70,11 +70,11 @@ const Teachers: React.FC = () => {
                   )}
                 </div>
                 <div className="text-center md:text-left">
-                  <h3 className="text-3xl font-bold text-neutral">{teacher.name}</h3>
-                  <p className="text-primary-accent font-semibold text-lg mb-3">
+                  <h3 className="text-3xl font-bold text-neutral group-hover:text-white transition-colors duration-300">{teacher.name}</h3>
+                  <p className="text-primary-accent font-semibold text-lg mb-3 transition-colors duration-300 group-hover:text-white">
                     {t(teacher.specialtyKey)}
                   </p>
-                  <p className="text-neutral/80 leading-relaxed">{t(teacher.bioKey)}</p>
+                  <p className="text-neutral/80 leading-relaxed group-hover:text-neutral/90 transition-colors duration-300">{t(teacher.bioKey)}</p>
                 </div>
               </div>
             </AnimateOnScroll>
@@ -84,7 +84,8 @@ const Teachers: React.FC = () => {
           <AnimateOnScroll delay={teacherData.length * 150}>
             <a
               href="#all-teachers"
-              className="inline-block bg-primary-accent text-white font-bold py-4 px-10 rounded-full transition-all duration-300 hover:bg-white hover:text-primary-accent shadow-lg hover:shadow-accent-glow"
+              className="inline-block bg-primary-accent text-white font-bold py-4 px-10 rounded-full transition-all duration-300 hover:bg-white hover:text-primary-accent shadow-lg hover:shadow-accent-glow hover:scale-105 focus:outline-none focus:ring-4 focus:ring-primary-accent/50"
+              aria-label={t('teachersCTA')}
             >
               {t('teachersCTA')}
             </a>
