@@ -13,7 +13,7 @@ export const en = {
   heroTitle2: 'Classes for Dance, Salsa, Bachata, Urban Dance, and More',
   heroTagline: 'Dancing is working on your happiness.',
   heroValue:
-    "Experience unparalleled dance training with Yunaisy Farray's exclusive 'Método Farray®' – where discipline, global rhythm, and innovation ignite your potential.",
+    'If you're looking for dance classes in Barcelona where you finally make progress and don't feel like just a number, you're in the right place. With the Farray Method® you learn well, fast and with style… and you have more fun than in any gym.',
   heroCTA1: 'Start Your Free Trial',
   heroCTA2: 'Explore Classes',
   heroScroll: 'Unfold Your Potential',
