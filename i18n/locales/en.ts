@@ -143,9 +143,9 @@ export const en = {
   // Testimonials
   testimonialsTitle: 'Unsolicited Testimonials from Our Students',
   // FinalCTA
-  finalCtaTitle: "Your Stage Awaits: Enroll at Barcelona's Premier Dance Academy",
+  finalCtaTitle: 'We don\'t promise to be the \'best dance school in Barcelona\'. We promise something better: results.',
   finalCtaSubtitle:
-    'Ignite your passion, refine your skill, and join a global community guided by true legends. Discover why FIDC is redefining dance education worldwide.',
+    'Normal people who dance amazingly today started just like you: hesitating. The difference is they took the first step. 👉 Do it too. Enroll today.',
   finalCtaButton1: 'Enroll Now',
   finalCtaButton2: 'Book Your Free Trial',
   // Footer

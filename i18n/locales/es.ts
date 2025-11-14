@@ -143,9 +143,9 @@ export const es = {
   // Testimonials
   testimonialsTitle: 'Testimonios No Solicitados de Nuestros Estudiantes',
   // FinalCTA
-  finalCtaTitle: 'Tu Escenario te Espera: Inscríbete en la Mejor Academia de Barcelona',
+  finalCtaTitle: 'No te prometemos ser la \'mejor escuela de baile de Barcelona\'. Te prometemos algo mejor: resultados.',
   finalCtaSubtitle:
-    'Enciende tu pasión, refina tu técnica y únete a una comunidad global guiada por verdaderas leyendas. Descubre por qué FIDC está redefiniendo la enseñanza de la danza en todo el mundo.',
+    'Personas normales que hoy bailan increíble empezaron igual que tú: dudando. La diferencia es que dieron el primer paso. 👉 Hazlo tú también. Matricúlate hoy.',
   finalCtaButton1: 'Inscríbete Ahora',
   finalCtaButton2: 'Reserva tu Clase de Prueba',
   // Footer
