@@ -484,6 +484,15 @@ const DancehallPage: React.FC = () => {
         {/* Nueva Sección - Necesitas apuntarte */}
         <section className="py-20 md:py-32 bg-primary-dark/10">
           <div className="container mx-auto px-6">
+            {/* Texto de transición pequeño */}
+            <AnimateOnScroll>
+              <div className="text-center mb-8">
+                <p className="text-sm text-neutral/60 italic max-w-2xl mx-auto">
+                  {t('dhV3IdentifyTransition')}
+                </p>
+              </div>
+            </AnimateOnScroll>
+
             <AnimateOnScroll>
               <div className="text-center mb-12">
                 <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 holographic-text">
@@ -495,7 +504,6 @@ const DancehallPage: React.FC = () => {
             <AnimateOnScroll>
               <div className="max-w-3xl mx-auto text-center space-y-6">
                 <p className="text-xl font-semibold holographic-text">{t('dhV3IdentifyAgitate1')}</p>
-                <p className="text-2xl font-bold text-neutral">{t('dhV3IdentifyAgitate2')}</p>
                 <p className="text-lg text-neutral/80">{t('dhV3IdentifySolution')}</p>
                 <p className="text-xl text-neutral/90 italic">{t('dhV3IdentifyClosing')}</p>
               </div>

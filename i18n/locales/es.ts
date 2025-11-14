@@ -749,8 +749,8 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   dhV3Identify4: 'Te hace falta gente real, buen rollo, risas y un lugar donde ser tú sin filtros ni postureos.',
   dhV3Identify5: 'La vibra de Jamaica te mueve por dentro, pero tu vida parece más un lunes eterno que una fiesta en Kingston.',
   dhV3Identify6: 'Te encanta bailar, pero necesitas más flow, más actitud y menos coreografías de robot sin batería.',
+  dhV3IdentifyTransition: 'Si has dicho "sí" a alguno de estos puntos, ya sabes lo que necesitas.',
   dhV3IdentifyAgitate1: 'Sientes que tu cuerpo te pide algo diferente… ¿pero haces algo para sentirte mejor?',
-  dhV3IdentifyAgitate2: 'Si no haces algo, te quedarás atrapado en tu "yo" de hoy. Es hora de tomar acción.',
   dhV3IdentifySolution: 'Si quieres salir de la rutina, sentirte mejor contigo mismo/a, conocer gente nueva y ponerte en forma mientras te diviertes, este estilo caribeño es para ti.',
   dhV3IdentifyClosing: 'Déjate seducir por la energía y el feeling del Dancehall.',
 

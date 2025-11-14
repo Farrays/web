@@ -398,8 +398,8 @@ export const ca = {
   dhV3Identify4: 'Et fa falta gent real, bon rotllo, riures i un lloc on ser tu sense filtres ni posturejos.',
   dhV3Identify5: 'La vibra de Jamaica et mou per dins, però la teva vida sembla més un dilluns etern que una festa a Kingston.',
   dhV3Identify6: 'T\'encanta ballar, però necessites més flow, més actitud i menys coreografies de robot sense bateria.',
+  dhV3IdentifyTransition: 'Si has dit "sí" a algun d\'aquests punts, ja saps el que necessites.',
   dhV3IdentifyAgitate1: 'Sents que el teu cos et demana alguna cosa diferent... però fas alguna cosa per sentir-te millor?',
-  dhV3IdentifyAgitate2: 'Si no fas alguna cosa, quedaràs atrapat en el teu "jo" d\'avui. És hora de prendre acció.',
   dhV3IdentifySolution: 'Si vols sortir de la rutina, sentir-te millor amb tu mateix/a, conèixer gent nova i posar-te en forma mentre et diverteixes, aquest estil caribeny és per a tu.',
   dhV3IdentifyClosing: 'Deixa\'t seduir per l\'energia i el feeling del Dancehall.',
 

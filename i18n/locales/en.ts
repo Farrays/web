@@ -398,8 +398,8 @@ export const en = {
   dhV3Identify4: 'You need real people, good vibes, laughs, and a place to be yourself without filters or posing.',
   dhV3Identify5: 'Jamaica\'s vibe moves you inside, but your life feels more like an eternal Monday than a party in Kingston.',
   dhV3Identify6: 'You love dancing, but you need more flow, more attitude, and less dead-battery-robot choreography.',
+  dhV3IdentifyTransition: 'If you said "yes" to any of these points, you already know what you need.',
   dhV3IdentifyAgitate1: 'Do you feel your body asking for something different… but are you doing anything to feel better?',
-  dhV3IdentifyAgitate2: 'If you don\'t do something, you\'ll stay trapped in your current self. It\'s time to take action.',
   dhV3IdentifySolution: 'If you want to break routine, feel better about yourself, meet new people, and get fit while having fun, this Caribbean style is for you.',
   dhV3IdentifyClosing: 'Let yourself be seduced by Dancehall\'s energy and feeling.',
 

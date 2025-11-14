@@ -400,8 +400,8 @@ export const fr = {
   dhV3Identify4: 'Il vous faut des gens vrais, de bonnes vibes, des rires et un endroit où être vous-même sans filtres ni postures.',
   dhV3Identify5: 'La vibe de la Jamaïque vous bouge de l\'intérieur, mais votre vie ressemble plus à un lundi éternel qu\'à une fête à Kingston.',
   dhV3Identify6: 'Vous aimez danser, mais vous avez besoin de plus de flow, plus d\'attitude et moins de chorégraphies de robot sans batterie.',
+  dhV3IdentifyTransition: 'Si vous avez dit "oui" à l\'un de ces points, vous savez déjà ce dont vous avez besoin.',
   dhV3IdentifyAgitate1: 'Vous sentez que votre corps demande quelque chose de différent... mais faites-vous quelque chose pour vous sentir mieux ?',
-  dhV3IdentifyAgitate2: 'Si vous ne faites rien, vous resterez piégé(e) dans votre "moi" d\'aujourd\'hui. Il est temps de passer à l\'action.',
   dhV3IdentifySolution: 'Si vous voulez sortir de la routine, vous sentir mieux dans votre peau, rencontrer de nouvelles personnes et vous mettre en forme tout en vous amusant, ce style caribéen est fait pour vous.',
   dhV3IdentifyClosing: 'Laissez-vous séduire par l\'énergie et le feeling du Dancehall.',
 
