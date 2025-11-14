@@ -24,7 +24,7 @@ export const HUB_CATEGORIES: HubCategory[] = [
     titleKey: 'classCatContemporaryTitle',
     descriptionKey: 'classCatContemporaryDesc',
     detailedDescriptionKey: 'classDetailContemporaryDesc',
-    pillarUrl: '/clases-danza-barcelona/',
+    pillarUrl: '/clases/danza-barcelona/',
     imageUrl: 'https://images.unsplash.com/photo-1535525153412-5a42439a210d?w=800&h=600&fit=crop&q=80&auto=format',
     featuredStyles: [
       { key: 'ballet_clasico', url: '/clases/ballet-clasico-barcelona/' },

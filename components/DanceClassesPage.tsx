@@ -1,18 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { useI18n } from '../hooks/useI18n';
-import { HUB_CATEGORIES, FEATURED_STYLES, type HubCategory } from '../constants/danceClassesHub';
+import { HUB_CATEGORIES, FEATURED_STYLES } from '../constants/danceClassesHub';
 import AnimateOnScroll from './AnimateOnScroll';
 import FAQSection from './FAQSection';
-import CategoryModalHub from './CategoryModalHub';
 
 const DanceClassesPage: React.FC = () => {
   const { t, locale } = useI18n();
   const baseUrl = 'https://www.farrayscenter.com';
-
-  // State for modals
-  const [openCategory, setOpenCategory] = useState<HubCategory | null>(null);
 
   // FAQ data (EXPANDIDO para mejor SEO en motores de IA)
   const classesFaqs = [
@@ -205,22 +201,13 @@ const DanceClassesPage: React.FC = () => {
                             </div>
                           </div>
 
-                          {/* CTAs */}
-                          <div className="flex flex-col gap-2">
-                            <Link
-                              to={`/${locale}${category.pillarUrl}`}
-                              className="inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-bold bg-primary-accent text-white hover:bg-primary-dark transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-accent-glow"
-                            >
-                              {t('danceClassesHub_cta_view_category')}
-                            </Link>
-                            <button
-                              onClick={() => setOpenCategory(category)}
-                              className="text-sm text-neutral/80 hover:text-primary-accent transition-colors font-medium text-center"
-                              aria-haspopup="dialog"
-                            >
-                              {t('danceClassesHub_cta_view_all_styles')} →
-                            </button>
-                          </div>
+                          {/* CTA */}
+                          <Link
+                            to={`/${locale}${category.pillarUrl}`}
+                            className="inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-bold bg-primary-accent text-white hover:bg-primary-dark transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-accent-glow"
+                          >
+                            Ver estilos
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -264,13 +251,6 @@ const DanceClassesPage: React.FC = () => {
           title={t('faqTitle')}
           faqs={classesFaqs}
           pageUrl={`${baseUrl}/${locale}/clases/baile-barcelona`}
-        />
-
-        {/* Modal */}
-        <CategoryModalHub
-          isOpen={openCategory !== null}
-          category={openCategory}
-          onClose={() => setOpenCategory(null)}
         />
       </div>
     </>
