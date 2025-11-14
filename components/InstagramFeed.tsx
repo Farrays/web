@@ -63,7 +63,7 @@ const InstagramFeed: React.FC = () => {
       <div className="container mx-auto">
         <AnimateOnScroll className="px-6">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral">
+            <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral holographic-text">
               {t('instagramTitle')}
             </h2>
             <a

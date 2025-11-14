@@ -110,7 +110,7 @@ const Testimonials: React.FC = () => {
       <div className="container mx-auto px-6">
         <AnimateOnScroll>
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8">
+            <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 holographic-text">
               {t('testimonialsTitle')}
             </h2>
             {/* Google Reviews Badge */}

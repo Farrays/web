@@ -53,7 +53,7 @@ const FinalCTA: React.FC = () => {
 
       <div className="relative z-10 container mx-auto px-6">
         <AnimateOnScroll>
-          <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-tight mb-6">
+          <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-tight mb-6 holographic-text">
             {t('finalCtaTitle')}
           </h2>
         </AnimateOnScroll>
