@@ -13,7 +13,7 @@ export const ca = {
   heroTitle2: 'Classes de Dansa, Salsa, Bachata, Dansa Urbana, i Més',
   heroTagline: 'Ballar és treballar la teva felicitat.',
   heroValue:
-    "Experimenta una formació de ball inigualable amb l'exclusiu 'Mètode Farray®' de Yunaisy Farray, on la disciplina, el ritme global i la innovació encenen el teu potencial.",
+    'Si busques classes de ball a Barcelona on per fi avancis i no et sentis un número, estàs al lloc correcte. Amb el Mètode Farray® aprens bé, ràpid i amb estil… i et diverteixes més que a qualsevol gimnàs.',
   heroCTA1: 'Prova una Classe Gratis',
   heroCTA2: 'Explora les Classes',
   heroScroll: 'Desplega el Teu Potencial',

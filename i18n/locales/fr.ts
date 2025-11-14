@@ -13,7 +13,7 @@ export const fr = {
   heroTitle2: 'Cours de Danse, Salsa, Bachata, Danse Urbaine, et Plus',
   heroTagline: "Danser, c'est travailler à son bonheur.",
   heroValue:
-    "Découvrez une formation de danse inégalée avec la 'Méthode Farray®' exclusive de Yunaisy Farray – où la discipline, le rythme mondial et l'innovation enflamment votre potentiel.",
+    'Si vous cherchez des cours de danse à Barcelone où vous progressez enfin et ne vous sentez pas comme un simple numéro, vous êtes au bon endroit. Avec la Méthode Farray®, vous apprenez bien, vite et avec style… et vous vous amusez plus que dans n'importe quelle salle de sport.',
   heroCTA1: "Cours d'Essai Gratuit",
   heroCTA2: 'Découvrir les Cours',
   heroScroll: 'Révélez Votre Potentiel',
