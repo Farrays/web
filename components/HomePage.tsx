@@ -1,7 +1,7 @@
 import React from 'react';
 import { useI18n } from '../hooks/useI18n';
 import Hero from './Hero';
-import Philosophy from './Philosophy';
+import HappinessStory from './HappinessStory';
 import About from './About';
 import Classes from './Classes';
 import CategoriesSection from './home/CategoriesSection';
@@ -34,7 +34,7 @@ const HomePage: React.FC = () => {
       {/* SEO metadata is handled by the global SEO.tsx component in App.tsx */}
 
       <Hero />
-      <Philosophy />
+      <HappinessStory />
       <About />
       <Classes />
       <CategoriesSection />
