@@ -65,8 +65,15 @@ const HappinessStory: React.FC = () => {
               <span className="font-bold">{t('happinessStoryPara3Part6')}</span>
               {t('happinessStoryPara3Part7')}
             </p>
+          </div>
+        </AnimateOnScroll>
 
-            <p className="font-bold">{t('happinessStoryPara4')}</p>
+        {/* Final powerful statement with special visual effect */}
+        <AnimateOnScroll delay={800}>
+          <div className="mt-12 pt-8 border-t-2 border-primary-accent/30">
+            <p className="text-2xl md:text-3xl font-bold holographic-text animate-glow leading-relaxed">
+              {t('happinessStoryPara4')}
+            </p>
           </div>
         </AnimateOnScroll>
       </div>
