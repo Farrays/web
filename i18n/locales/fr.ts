@@ -360,7 +360,7 @@ export const fr = {
   dhV3CTA1: 'Inscris-toi Maintenant',
   dhV3CTA1Subtext: 'Places limitées ce mois-ci',
   dhV3CTA2: 'Réservez Votre Cours d\'Essai',
-  dhV3CTA2Subtext: 'Valable pour une durée limitée — seulement jusqu\'à vendredi',
+  dhV3CTA2Subtext: 'Valable pour une durée limitée',
 
   dhV3WhatIsTitle: 'Qu\'est-ce que le Dancehall et pourquoi cartonne-t-il à Barcelone ?',
   dhV3WhatIsP1: 'Le Dancehall est une danse traditionnelle jamaïcaine née dans les années 70 qui reflète une culture aux racines profondes dans le reggae, les références africaines et caribéennes, et l\'énergie du hip-hop et d\'autres danses urbaines.',

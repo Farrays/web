@@ -358,7 +358,7 @@ export const en = {
   dhV3CTA1: 'Enroll Now',
   dhV3CTA1Subtext: 'Limited spots this month',
   dhV3CTA2: 'Book Your Trial Class',
-  dhV3CTA2Subtext: 'Valid for a limited time — only until Friday',
+  dhV3CTA2Subtext: 'Valid for a limited time',
 
   dhV3WhatIsTitle: 'What is Dancehall and why is it taking Barcelona by storm?',
   dhV3WhatIsP1: 'Dancehall is a traditional Jamaican dance born in the 70s that reflects a culture with strong roots in reggae, African and Caribbean references, and the energy of hip-hop and other urban dances.',

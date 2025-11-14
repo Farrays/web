@@ -728,7 +728,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   dhV3CTA1: 'Inscríbete Ahora',
   dhV3CTA1Subtext: 'Quedan pocas plazas este mes',
   dhV3CTA2: 'Reserva tu Clase de Prueba',
-  dhV3CTA2Subtext: 'Válido por tiempo limitado — solo hasta el viernes',
+  dhV3CTA2Subtext: 'Válido por tiempo limitado',
 
   dhV3WhatIsTitle: '¿Qué es el Dancehall y por qué está arrasando en Barcelona?',
   dhV3WhatIsP1: 'El Dancehall es una danza tradicional jamaicana que nació en los años 70 y refleja una cultura con fuertes raíces en el reggae, referencias africanas y caribeñas, y la energía del hip-hop y otras danzas urbanas.',
