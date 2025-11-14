@@ -845,23 +845,28 @@ const DancehallPage: React.FC = () => {
               </div>
             </AnimateOnScroll>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+            {/* Video Vertical (Reel/Instagram) */}
+            <div className="max-w-md mx-auto mb-6">
               <AnimateOnScroll delay={100}>
-                <YouTubeEmbed
-                  videoId="TteV2if6Qso"
-                  title="Clases de Dancehall en Barcelona - Farray's Center"
-                />
-              </AnimateOnScroll>
-
-              <AnimateOnScroll delay={200}>
-                <div className="aspect-video rounded-2xl overflow-hidden border-2 border-primary-accent/50 bg-black/50 backdrop-blur-sm flex items-center justify-center">
+                <div className="aspect-[9/16] rounded-2xl overflow-hidden border-2 border-primary-accent/50 bg-black/50 backdrop-blur-sm flex items-center justify-center">
                   <div className="text-center p-6">
                     <svg className="w-16 h-16 mx-auto mb-4 text-primary-accent/50" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" />
                     </svg>
                     <p className="text-neutral/70 font-semibold">Video próximamente</p>
+                    <p className="text-neutral/50 text-sm mt-2">Formato Reel</p>
                   </div>
                 </div>
+              </AnimateOnScroll>
+            </div>
+
+            {/* Videos Horizontales (YouTube) */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+              <AnimateOnScroll delay={200}>
+                <YouTubeEmbed
+                  videoId="TteV2if6Qso"
+                  title="Clases de Dancehall en Barcelona - Farray's Center"
+                />
               </AnimateOnScroll>
 
               <AnimateOnScroll delay={300}>
