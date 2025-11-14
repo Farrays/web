@@ -297,6 +297,17 @@ export const en = {
   homeFaqQ8: 'Do you offer professional training for those who want to pursue dance?',
   homeFaqA8:
     "Yes, in addition to our regular classes, we offer intensive programs and advanced training for students who wish to professionalize. The 'Farray Method®' provides the technical, artistic, and stage tools necessary to develop a career in dance. Yunaisy and her team have trained dancers who now work professionally around the world.",
+  // Dancehall Key Stats
+  classMinutes: 'Class Minutes',
+  caloriesBurned: 'Calories Burned',
+  funGuaranteed: 'Fun Guaranteed',
+
+  // Trust Indicators
+  yearsExperience: 'Years of Experience',
+  activeStudents: 'Active Students',
+  satisfiedStudents: 'Satisfied Students',
+  googleReviews: 'Google Reviews',
+
   // Dancehall FAQ
   dancehallFaqQ1: 'What exactly is dancehall?',
   dancehallFaqA1:
@@ -360,6 +371,25 @@ export const en = {
   dhV3CulturalTitle: 'Dancehall History and Culture',
   dhV3CulturalShort: 'Dancehall was born in the ghettos of Kingston in the late 70s as a natural evolution of reggae.',
   dhV3CulturalFull: '### The origins: Kingston, Jamaica (1970s–1980s)\n\nDancehall was born in the ghettos of Kingston in the late 70s. It emerged as a natural evolution of reggae when sound systems (mobile sound systems) began taking music to the streets and dancehalls. The name "dancehall" comes from those spaces where the community gathered to dance, socialize, and express themselves. It was where social tensions were released through music and movement.\n\n### The legends: Bogle, Passa Passa, and the pioneers\n\nGerald "Bogle" Levy (1964–2005) is considered the father of modern Dancehall. He created iconic moves like Bogle, Row Di Boat, Log On, and Willie Bounce, the foundation of the Dancehall vocabulary. Passa Passa, the legendary street dancehall sessions in Tivoli Gardens (Kingston), was the epicenter where new steps were born and dancers were consecrated. Other pioneers like Ding Dong, Keiva, John Hype, and crews like Ravers Clavers took Dancehall international in the 2000s.\n\n### Global expansion (2000s–present)\n\nIn the 2000s, Dancehall exploded globally thanks to artists like Sean Paul, Shaggy, Elephant Man, and Beenie Man. Social media and YouTube popularized steps like Dutty Wine, Daggering, and Nuh Linga. Today, Dancehall is a worldwide phenomenon with active communities in Europe, Africa, Asia, and America; Barcelona is one of its European epicenters.\n\n### The music: Riddims and Sound System culture\n\nDancehall is danced to riddims (instrumental bases) that producers create and multiple artists voice over. Legendary riddims like Diwali, Coolie Dance, or Dump Truck defined entire eras. Sound system culture—with its selectors, MCs, and the famous rewind when a song is so good it gets replayed from the start—is essential to understanding Dancehall.\n\n### More than dance: identity and resistance\n\nDancehall has always been a form of cultural resistance and identity expression for Jamaica\'s marginalized communities. It\'s the voice of the ghettos, a celebration of joy despite difficulties. Each step has meaning: Log On (connect), Willie Bounce (tribute to Willie Haggart), Nuh Linga (don\'t delay). Every movement tells a story.',
+  readMore: 'Read More About History and Culture',
+  readLess: 'Read Less',
+
+  // Days of week
+  monday: 'Monday',
+  wednesday: 'Wednesday',
+  thursday: 'Thursday',
+  friday: 'Friday',
+
+  // Levels
+  beginnerLevel: 'Beginner',
+  basicLevel: 'Basic',
+  intermediateLevel: 'Intermediate',
+  advancedLevel: 'Advanced',
+
+  // Testimonials
+  testimonialsNotRequested: 'Unsolicited Testimonials from Our Students',
+  excellent: 'EXCELLENT',
+  basedOnReviews: 'Based on {count} reviews',
 
   dhV3IdentifyTitle: 'Do you identify with any of these situations?',
   dhV3Identify1: 'You\'re tired of routine and need something to give you energy back.',

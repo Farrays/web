@@ -299,6 +299,17 @@ export const ca = {
   homeFaqQ8: 'Oferiu formació professional per a qui vol dedicar-se a la dansa?',
   homeFaqA8:
     "Sí, a més de les nostres classes regulars, oferim programes intensius i formació avançada per a estudiants que desitgen professionalitzar-se. El 'Mètode Farray®' proporciona les eines tècniques, artístiques i escèniques necessàries per desenvolupar una carrera en la dansa. Yunaisy i el seu equip han format ballarins que ara treballen professionalment arreu del món.",
+  // Dancehall Key Stats
+  classMinutes: 'Minuts de Classe',
+  caloriesBurned: 'Calories Cremades',
+  funGuaranteed: 'Diversió Garantida',
+
+  // Trust Indicators
+  yearsExperience: 'Anys d\'Experiència',
+  activeStudents: 'Estudiants Actius',
+  satisfiedStudents: 'Alumnes Satisfets',
+  googleReviews: 'Ressenyes de Google',
+
   dancehallFaqQ1: 'Què és exactament el dancehall?',
   dancehallFaqA1:
     "El dancehall és un estil de música i ball que es va originar a Jamaica als anys 70. Es caracteritza per moviments enèrgics, ritmes potents ('riddims') i una actitud audaç i segura. És molt més que només passos: és una expressió cultural completa amb la seva pròpia història, música i comunitat. A les nostres classes, no només aprens els moviments sinó també la cultura i el context que hi ha darrere.",
@@ -360,6 +371,25 @@ export const ca = {
   dhV3CulturalTitle: 'Història i cultura del Dancehall',
   dhV3CulturalShort: 'El Dancehall va néixer als guetos de Kingston a finals dels anys 70 com una evolució natural del reggae.',
   dhV3CulturalFull: '### Els orígens: Kingston, Jamaica (1970s–1980s)\n\nEl Dancehall va néixer als guetos de Kingston a finals dels anys 70. Va sorgir com una evolució natural del reggae, quan els sound systems (sistemes de so mòbils) van començar a portar la música als carrers i als dancehalls (sales de ball). El nom "dancehall" prové d\'aquests espais on la comunitat es reunia per ballar, socialitzar i expressar-se. Era el lloc on les tensions socials es lliberaven a través de la música i el moviment.\n\n### Les llegendes: Bogle, Passa Passa i els pioners\n\nGerald "Bogle" Levy (1964–2005) és considerat el pare del Dancehall modern. Va crear moviments icònics com Bogle, Row Di Boat, Log On i Willie Bounce, base del vocabulari Dancehall. Passa Passa, les sessions llegendàries de street dancehall a Tivoli Gardens (Kingston), va ser l\'epicentre on naixien nous passos i es consagraven els ballarins. Altres pioners com Ding Dong, Keiva, John Hype i crews com Ravers Clavers van portar el Dancehall a nivell internacional als 2000.\n\n### L\'expansió global (2000s–present)\n\nAls anys 2000, el Dancehall va explotar globalment gràcies a artistes com Sean Paul, Shaggy, Elephant Man i Beenie Man. Les xarxes socials i YouTube van popularitzar passos com Dutty Wine, Daggering i Nuh Linga. Avui, el Dancehall és un fenomen mundial amb comunitats actives a Europa, Àfrica, Àsia i Amèrica; Barcelona és un dels seus epicentres europeus.\n\n### La música: Riddims i cultura Sound System\n\nEl Dancehall es balla sobre riddims (bases instrumentals) que els productors creen i múltiples artistes vocalitzen. Riddims llegendaris com Diwali, Coolie Dance o Dump Truck van definir èpoques senceres. La cultura del sound system —amb els seus selectors, MCs i el famós rewind quan una cançó és tan bona que es torna a posar des del principi— és essencial per entendre el Dancehall.\n\n### Més que ball: identitat i resistència\n\nEl Dancehall ha estat sempre una forma de resistència cultural i expressió d\'identitat per a les comunitats marginades de Jamaica. És la veu dels guetos, una celebració de l\'alegria malgrat les dificultats. Cada pas té un significat: Log On (connectar-se), Willie Bounce (homenatge a Willie Haggart), Nuh Linga (no et demoris). Cada moviment conta una història.',
+  readMore: 'Llegir Més Sobre la Història i Cultura',
+  readLess: 'Llegir Menys',
+
+  // Days of week
+  monday: 'Dilluns',
+  wednesday: 'Dimecres',
+  thursday: 'Dijous',
+  friday: 'Divendres',
+
+  // Levels
+  beginnerLevel: 'Principiants',
+  basicLevel: 'Bàsic',
+  intermediateLevel: 'Intermedi',
+  advancedLevel: 'Avançat',
+
+  // Testimonials
+  testimonialsNotRequested: 'Testimonis No Sol·licitats dels Nostres Estudiants',
+  excellent: 'EXCEL·LENT',
+  basedOnReviews: 'Basat en {count} ressenyes',
 
   dhV3IdentifyTitle: 'T\'identifiques amb alguna d\'aquestes situacions?',
   dhV3Identify1: 'Estàs cansat/da de la rutina i necessites alguna cosa que et torni l\'energia.',

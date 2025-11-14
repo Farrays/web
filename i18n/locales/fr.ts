@@ -299,6 +299,17 @@ export const fr = {
     'Proposez-vous une formation professionnelle pour ceux qui veulent se consacrer à la danse ?',
   homeFaqA8:
     "Oui, en plus de nos cours réguliers, nous proposons des programmes intensifs et une formation avancée pour les étudiants qui souhaitent se professionnaliser. La 'Méthode Farray®' fournit les outils techniques, artistiques et scéniques nécessaires pour développer une carrière dans la danse. Yunaisy et son équipe ont formé des danseurs qui travaillent maintenant professionnellement partout dans le monde.",
+  // Dancehall Key Stats
+  classMinutes: 'Minutes de Cours',
+  caloriesBurned: 'Calories Brûlées',
+  funGuaranteed: 'Plaisir Garanti',
+
+  // Trust Indicators
+  yearsExperience: 'Années d\'Expérience',
+  activeStudents: 'Étudiants Actifs',
+  satisfiedStudents: 'Élèves Satisfaits',
+  googleReviews: 'Avis Google',
+
   // Dancehall FAQ
   dancehallFaqQ1: "Qu'est-ce que le dancehall exactement ?",
   dancehallFaqA1:
@@ -362,6 +373,25 @@ export const fr = {
   dhV3CulturalTitle: 'Histoire et culture du Dancehall',
   dhV3CulturalShort: 'Le Dancehall est né dans les ghettos de Kingston à la fin des années 70 comme une évolution naturelle du reggae.',
   dhV3CulturalFull: '### Les origines : Kingston, Jamaïque (1970s–1980s)\n\nLe Dancehall est né dans les ghettos de Kingston à la fin des années 70. Il est apparu comme une évolution naturelle du reggae lorsque les sound systems (systèmes sonores mobiles) ont commencé à amener la musique dans les rues et les dancehalls (salles de danse). Le nom "dancehall" provient de ces espaces où la communauté se réunissait pour danser, socialiser et s\'exprimer. C\'était le lieu où les tensions sociales se libéraient par la musique et le mouvement.\n\n### Les légendes : Bogle, Passa Passa et les pionniers\n\nGerald "Bogle" Levy (1964–2005) est considéré comme le père du Dancehall moderne. Il a créé des mouvements iconiques comme Bogle, Row Di Boat, Log On et Willie Bounce, base du vocabulaire Dancehall. Passa Passa, les sessions légendaires de street dancehall à Tivoli Gardens (Kingston), était l\'épicentre où naissaient de nouveaux pas et où les danseurs étaient consacrés. D\'autres pionniers comme Ding Dong, Keiva, John Hype et des crews comme Ravers Clavers ont porté le Dancehall au niveau international dans les années 2000.\n\n### L\'expansion mondiale (2000s–présent)\n\nDans les années 2000, le Dancehall a explosé mondialement grâce à des artistes comme Sean Paul, Shaggy, Elephant Man et Beenie Man. Les réseaux sociaux et YouTube ont popularisé des pas comme Dutty Wine, Daggering et Nuh Linga. Aujourd\'hui, le Dancehall est un phénomène mondial avec des communautés actives en Europe, Afrique, Asie et Amérique ; Barcelone est l\'un de ses épicentres européens.\n\n### La musique : Riddims et culture Sound System\n\nLe Dancehall se danse sur des riddims (bases instrumentales) que les producteurs créent et que plusieurs artistes vocalisent. Des riddims légendaires comme Diwali, Coolie Dance ou Dump Truck ont défini des époques entières. La culture du sound system —avec ses sélecteurs, MCs et le fameux rewind quand une chanson est si bonne qu\'elle est rejouée depuis le début— est essentielle pour comprendre le Dancehall.\n\n### Plus qu\'une danse : identité et résistance\n\nLe Dancehall a toujours été une forme de résistance culturelle et d\'expression d\'identité pour les communautés marginalisées de la Jamaïque. C\'est la voix des ghettos, une célébration de la joie malgré les difficultés. Chaque pas a une signification : Log On (se connecter), Willie Bounce (hommage à Willie Haggart), Nuh Linga (ne tardez pas). Chaque mouvement raconte une histoire.',
+  readMore: 'En Savoir Plus Sur l\'Histoire et la Culture',
+  readLess: 'Lire Moins',
+
+  // Days of week
+  monday: 'Lundi',
+  wednesday: 'Mercredi',
+  thursday: 'Jeudi',
+  friday: 'Vendredi',
+
+  // Levels
+  beginnerLevel: 'Débutants',
+  basicLevel: 'Basique',
+  intermediateLevel: 'Intermédiaire',
+  advancedLevel: 'Avancé',
+
+  // Testimonials
+  testimonialsNotRequested: 'Témoignages Non Sollicités de Nos Étudiants',
+  excellent: 'EXCELLENT',
+  basedOnReviews: 'Basé sur {count} avis',
 
   dhV3IdentifyTitle: 'Vous vous identifiez à l\'une de ces situations ?',
   dhV3Identify1: 'Vous êtes fatigué(e) de la routine et avez besoin de quelque chose qui vous redonne de l\'énergie.',
