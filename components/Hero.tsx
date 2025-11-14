@@ -33,12 +33,6 @@ const Hero: React.FC = () => {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="#trial"
-            className="w-full sm:w-auto bg-primary-accent text-white font-bold text-lg py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-accent-glow animate-pulse-strong"
-          >
-            {t('heroCTA1')}
-          </a>
-          <a
             href="#classes"
             className="w-full sm:w-auto border-2 border-neutral text-neutral font-bold text-lg py-4 px-10 rounded-full transition-all duration-300 hover:bg-neutral hover:text-dark-text"
           >

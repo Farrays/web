@@ -120,6 +120,14 @@ export const ca = {
   serviceGiftDesc:
     'Sorprèn amb un regal únic: una experiència de ball inoblidable per gaudir o compartir.',
   serviceGiftCTA: 'Regala una Experiència',
+  serviceEventsTitle: 'Agència d\'Esdeveniments',
+  serviceEventsDesc:
+    'Organitzem esdeveniments de ball professionals i espectaculars. Des de showcases fins a esdeveniments corporatius amb els nostres ballarins.',
+  serviceEventsCTA: 'Descobreix els Nostres Esdeveniments',
+  serviceMerchandisingTitle: 'Merchandising de l\'Acadèmia',
+  serviceMerchandisingDesc:
+    'Productes exclusius de Farray\'s Center. Roba, accessoris i articles de ball amb el segell de qualitat de la nostra acadèmia.',
+  serviceMerchandisingCTA: 'Veure Productes',
   // Teachers
   teachersTitle: 'Coneix els Nostres Professors',
   teachersCTA: 'Veure Tot el Claustre',

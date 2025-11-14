@@ -120,6 +120,14 @@ export const fr = {
   serviceGiftDesc:
     'Surprenez avec un cadeau unique : une expérience de danse inoubliable à vivre ou à partager.',
   serviceGiftCTA: 'Offrir une Expérience',
+  serviceEventsTitle: 'Agence d\'Événements',
+  serviceEventsDesc:
+    'Nous organisons des événements de danse professionnels et spectaculaires. Des showcases aux événements d\'entreprise avec nos danseurs.',
+  serviceEventsCTA: 'Découvrez Nos Événements',
+  serviceMerchandisingTitle: 'Merchandising de l\'Académie',
+  serviceMerchandisingDesc:
+    'Produits exclusifs de Farray\'s Center. Vêtements, accessoires et articles de danse avec le sceau de qualité de notre académie.',
+  serviceMerchandisingCTA: 'Voir les Produits',
   // Teachers
   teachersTitle: 'Rencontrez Nos Professeurs',
   teachersCTA: 'Voir Tous les Professeurs',
