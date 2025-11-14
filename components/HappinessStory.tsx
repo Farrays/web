@@ -6,7 +6,7 @@ const HappinessStory: React.FC = () => {
   const { t } = useI18n();
 
   return (
-    <section className="relative py-20 md:py-28 bg-black text-neutral">
+    <section className="relative py-12 md:py-16 bg-black text-neutral">
       <div className="absolute inset-0 bg-gradient-to-b from-black via-primary-dark/10 to-black opacity-50"></div>
       <div className="container mx-auto px-6 relative z-10 text-center max-w-4xl">
 
@@ -70,7 +70,7 @@ const HappinessStory: React.FC = () => {
 
         {/* Final powerful statement with special visual effect */}
         <AnimateOnScroll delay={800}>
-          <div className="mt-12 pt-8 border-t-2 border-primary-accent/30">
+          <div className="mt-8 pt-6 border-t-2 border-primary-accent/30">
             <p className="text-2xl md:text-3xl font-bold holographic-text animate-glow leading-relaxed">
               {t('happinessStoryPara4')}
             </p>
