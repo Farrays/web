@@ -301,31 +301,30 @@ export const fr = {
 
   faqTitle: 'Questions Fréquentes',
   // Home FAQ
-  homeFaqQ1: "Ai-je besoin d'expérience préalable pour assister aux cours ?",
+  homeFaqQ1: 'Où se trouve l\'académie et comment y accéder ?',
   homeFaqA1:
-    "Non, absolument pas. Nous proposons des cours pour tous les niveaux, des débutants complets aux danseurs avancés. Notre 'Méthode Farray®' est conçue pour s'adapter à votre niveau et vous aider à progresser rapidement quel que soit votre point de départ. Beaucoup de nos étudiants les plus performants ont commencé sans aucune expérience.",
-  homeFaqQ2: "Combien coûtent les cours de danse chez Farray's Center ?",
+    'Farray\'s International Dance Center est situé Calle Entença 100, Barcelone (08015), à seulement 5 minutes à pied de la Plaça España et de la gare de Sants. C\'est super accessible en métro (lignes L1, L3, L8), bus et train. Le quartier a d\'excellentes connexions dans toute Barcelone. Vous trouverez notre centre dans une zone animée avec cafés et commerces tout autour.',
+  homeFaqQ2: 'Qu\'est-ce qui distingue Farray\'s des autres académies de danse à Barcelone ?',
   homeFaqA2:
-    "Nous proposons différentes options d'inscription pour répondre à vos besoins : cours à l'unité, forfaits mensuels et packs trimestriels. Les prix varient selon le type de cours et la fréquence. Nous vous recommandons de nous contacter directement ou de visiter l'école pour connaître nos offres actuelles et promotions. De plus, votre premier cours est gratuit pour que vous puissiez essayer sans engagement.",
-  homeFaqQ3: "Qu'est-ce qui rend la 'Méthode Farray®' spéciale ?",
+    'Farray\'s n\'est pas qu\'une école de plus : elle est née d\'une histoire d\'amour pour la danse. Nous avons rénové un local abandonné pendant 10 ans de nos propres mains car l\'école dont nous rêvions n\'existait pas. Nous sommes accrédités par le CID-UNESCO, nous utilisons la Méthode Farray® exclusive créée par Yunaisy (danseuse dans Street Dance 2 et Got Talent), et surtout, chaque élève compte ici. Vous n\'êtes pas un numéro : vous faites partie de la famille.',
+  homeFaqQ3: 'Quelle est l\'ambiance à l\'académie ?',
   homeFaqA3:
-    "La 'Méthode Farray®' est une méthodologie exclusive créée par Yunaisy Farray qui combine la discipline rigoureuse de la formation classique russe avec la saveur et le rythme des danses afro-descendantes, plus l'innovation des styles contemporains mondiaux. Cette approche unique garantit des résultats rapides, solides et éprouvés, vous préparant techniquement et artistiquement pour n'importe quelle scène.",
-  homeFaqQ4: 'Dois-je venir avec un partenaire pour les cours de salsa ou bachata ?',
+    'Quand nous disons que l\'esprit de famille règne ici, ce n\'est pas un slogan—c\'est la vérité. Dès le premier jour, vous vous sentez accueilli. Nos élèves viennent de tous niveaux et âges, et l\'ambiance est inclusive, motivante et pleine d\'énergie positive. Beaucoup viennent pour la danse et restent pour la communauté. Nous organisons des événements, des spectacles et même des sorties ensemble. C\'est votre tribu de danse.',
+  homeFaqQ4: 'Quels styles de danse peut-on apprendre chez Farray\'s ?',
   homeFaqA4:
-    "Non, vous n'avez pas besoin d'amener un partenaire. Dans nos cours, nous faisons tourner les partenaires régulièrement pour que chacun apprenne à danser avec différentes personnes et styles. C'est excellent pour votre développement en tant que danseur et vous aide à vous sentir à l'aise dans n'importe quelle situation de danse sociale. De plus, nous favorisons une ambiance inclusive où tout le monde se sent le bienvenu.",
-  homeFaqQ5: 'Quelle est la meilleure façon de commencer ?',
+    'Nous sommes vraiment multidisciplinaires : Salsa, Bachata, Kizomba, Dancehall, Hip Hop, Reggaeton, Commercial Dance, Ballet, Jazz, Contemporain, Heels et plus. Des rythmes latins à la danse urbaine et classique. La Méthode Farray® fusionne tout cela avec une pédagogie unique qui combine discipline russe, saveur afro-descendante et innovation globale. Ici vous trouvez votre style... ou vous en découvrez plusieurs.',
+  homeFaqQ5: 'Ai-je besoin d\'expérience préalable pour commencer ?',
   homeFaqA5:
-    "La meilleure façon de commencer est de réserver votre premier cours gratuit. Venez confortablement, avec des vêtements de sport et des baskets propres. Nos instructeurs vous guideront dès le premier instant et vous aideront à choisir le niveau et le style les plus adaptés pour vous. Vous n'avez besoin d'aucune préparation préalable, juste l'envie d'apprendre et de vous amuser.",
-  homeFaqQ6: 'Quels sont les horaires des cours ?',
+    'Pas du tout. Nous avons des cours du niveau débutant absolu au niveau avancé/professionnel. La Méthode Farray® est conçue pour que vous progressiez rapidement quel que soit votre point de départ. Beaucoup de nos meilleurs élèves ont commencé sans jamais avoir dansé. Ce qui compte, c\'est vouloir apprendre et s\'amuser. Votre premier cours est gratuit pour que vous puissiez essayer sans engagement.',
+  homeFaqQ6: 'Proposez-vous des spectacles, événements ou shows ?',
   homeFaqA6:
-    "Nous proposons des cours du lundi au vendredi aux horaires matinaux, d'après-midi et du soir pour s'adapter à différents modes de vie. Les horaires exacts varient selon le type de cours et le niveau. Nous vous recommandons de consulter notre planning mis à jour sur le site web ou de nous contacter directement pour trouver l'horaire parfait pour vous.",
-  homeFaqQ7: "L'école est-elle accréditée ?",
+    'Oui ! Nous organisons des showcases dans des théâtres professionnels, participons aux événements culturels de Barcelone, aux compétitions, aux workshops avec des professeurs internationaux et aux fêtes thématiques. Si vous voulez monter sur scène, c\'est votre chance. Et si vous préférez juste profiter de la danse, c\'est parfait aussi. Vous décidez de votre niveau d\'implication.',
+  homeFaqQ7: 'Qu\'est-ce que le CID-UNESCO et pourquoi est-ce important ?',
   homeFaqA7:
-    "Oui, Farray's International Dance Center est accrédité par le CID-UNESCO (Conseil International de la Danse de l'UNESCO). Cette accréditation garantit que nous respectons les plus hauts standards de qualité dans l'enseignement de la danse au niveau international. De plus, Yunaisy Farray est membre active de cette prestigieuse organisation.",
-  homeFaqQ8:
-    'Proposez-vous une formation professionnelle pour ceux qui veulent se consacrer à la danse ?',
+    'Le CID-UNESCO (Conseil International de la Danse) est l\'organisation officielle de l\'UNESCO pour la danse dans le monde. Que Farray\'s soit accrédité par eux signifie que nous respectons les plus hauts standards d\'enseignement internationaux. Yunaisy Farray est membre active. Cela garantit la qualité pédagogique, la reconnaissance internationale et le professionnalisme sérieux.',
+  homeFaqQ8: 'Puis-je essayer un cours avant de m\'inscrire ?',
   homeFaqA8:
-    "Oui, en plus de nos cours réguliers, nous proposons des programmes intensifs et une formation avancée pour les étudiants qui souhaitent se professionnaliser. La 'Méthode Farray®' fournit les outils techniques, artistiques et scéniques nécessaires pour développer une carrière dans la danse. Yunaisy et son équipe ont formé des danseurs qui travaillent maintenant professionnellement partout dans le monde.",
+    'Absolument ! Votre premier cours est 100% gratuit et sans engagement. Venez avec des vêtements confortables et des baskets propres. Nos professeurs vous guideront dès la première minute, vous aideront à trouver votre niveau et vous expliqueront comment nous fonctionnons. Contactez-nous via WhatsApp, Instagram ou téléphone pour réserver votre cours d\'essai. Nous vous attendons.',
   // Dancehall Key Stats
   classMinutes: 'Minutes de Cours',
   caloriesBurned: 'Calories Brûlées',
