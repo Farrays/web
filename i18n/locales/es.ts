@@ -748,11 +748,13 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   dhV3Identify3: 'Quieres mantenerte en forma sin rutinas aburridas de gimnasio.',
   dhV3Identify4: 'Necesitas reírte, conocer gente y divertirte cada semana.',
   dhV3Identify5: 'Te fascina la cultura jamaicana y quieres vivirla de verdad.',
-  dhV3Identify6: 'Necesitas apuntarte a clases de Dancehall en una academia de baile.',
+  dhV3Identify6: 'Te encanta bailar y disfrutar del movimiento, pero sientes que necesitas algo diferente, con más flow y personalidad.',
   dhV3IdentifyAgitate1: 'Sientes que tu cuerpo te pide algo diferente… ¿pero haces algo para sentirte mejor?',
   dhV3IdentifyAgitate2: 'Si no haces algo, te quedarás atrapado en tu "yo" de hoy. Es hora de tomar acción.',
   dhV3IdentifySolution: 'Si quieres salir de la rutina, sentirte mejor contigo mismo/a, conocer gente nueva y ponerte en forma mientras te diviertes, este estilo caribeño es para ti.',
   dhV3IdentifyClosing: 'Déjate seducir por la energía y el feeling del Dancehall.',
+
+  dhV3NeedEnrollTitle: 'Necesitas apuntarte a clases de Dancehall en una academia de baile',
 
   dhV3TransformTitle: 'Imagina tu antes y después',
   dhV3Transform1Title: 'Recuperas Energía y Motivación',
@@ -765,6 +767,8 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   dhV3Transform4Desc: 'Conoces gente real, te ríes y formas parte de algo grande.',
   dhV3Transform5Title: 'Conectas con la Esencia Jamaicana',
   dhV3Transform5Desc: 'Vives su cultura, su música y su espíritu sin salir de Barcelona.',
+  dhV3Transform6Title: 'Aprendes Pasos Nuevos',
+  dhV3Transform6Desc: 'Conoces pasos nuevos y evitas la monotonía en el baile, ampliando tu vocabulario de movimiento constantemente.',
   dhV3TransformClosing1: 'Decenas de personas ya lo viven cada semana en nuestras clases de Dancehall en Farray\'s Center, a solo 5 minutos de Plaza España y Estación de Sants. Y cuando salen… ya no son los mismos.',
   dhV3TransformClosing2: 'Si todavía no bailas Dancehall, estás perdiendo una oportunidad de mejorar tu vida. ¡Nosotros te ayudamos!',
   dhV3TransformCTA: '¿Por qué elegir Farray\'s Center como tu academia de Dancehall en Barcelona?',
@@ -788,6 +792,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   dhV3LogosTitle: 'Nos has podido ver en…',
   dhV3LogosIntlFestivals: 'Festivales Internacionales de Danza',
+  dhV3LogosIntlFestivalsText: 'y en los mejores festivales de danza de todo el mundo',
 
   dhV3TeachersTitle: 'Conoce a nuestras profesoras de dancehall',
   dhV3TeachersSubtitle: 'Expertas en Dancehall con años de experiencia',
@@ -806,6 +811,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   dhV3VideoDesc: 'Conoce de primera mano cómo es vivir la experiencia Farray\'s. Aprenderás los movimientos auténticos del Dancehall jamaicano con nuestras profesoras expertas.',
 
   dhV3WhyTodayTitle: '¿Por qué hoy es el mejor momento para empezar?',
+  dhV3WhyTodayFullTitle: '¿Por qué hoy es el mejor momento para empezar a bailar Dancehall con nosotros?',
   dhV3WhyToday1: 'Porque cada día que no te mueves, tu cuerpo te lo pide un poco más.',
   dhV3WhyToday2: 'Porque estás a una clase de cambiar tu rutina.',
   dhV3WhyToday3: 'Porque esto no va de bailar bien, sino de sentirte bien bailando.',

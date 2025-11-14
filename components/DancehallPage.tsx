@@ -307,7 +307,7 @@ const DancehallPage: React.FC = () => {
                   >
                     {t('dhV3CTA1')}
                   </a>
-                  <p className="text-xs text-neutral/70 mt-2 text-center">Quedan pocas plazas</p>
+                  <p className="text-xs text-neutral/70 mt-2 text-center">{t('dhV3CTA1Subtext')}</p>
                 </div>
                 <div className="w-full sm:w-auto">
                   <a
@@ -316,7 +316,7 @@ const DancehallPage: React.FC = () => {
                   >
                     {t('dhV3CTA2')}
                   </a>
-                  <p className="text-xs text-neutral/70 mt-2 text-center">Oferta válida por tiempo limitado</p>
+                  <p className="text-xs text-neutral/70 mt-2 text-center">{t('dhV3CTA2Subtext')}</p>
                 </div>
               </div>
 
@@ -474,9 +474,7 @@ const DancehallPage: React.FC = () => {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <p className="text-neutral/90 leading-relaxed">
-                    Te encanta bailar y disfrutar del movimiento, pero sientes que necesitas algo diferente, con más flow y personalidad.
-                  </p>
+                  <p className="text-neutral/90 leading-relaxed">{t('dhV3Identify6')}</p>
                 </div>
               </AnimateOnScroll>
             </div>
@@ -489,7 +487,7 @@ const DancehallPage: React.FC = () => {
             <AnimateOnScroll>
               <div className="text-center mb-12">
                 <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 holographic-text">
-                  Necesitas apuntarte a clases de Dancehall en una academia de baile
+                  {t('dhV3NeedEnrollTitle')}
                 </h2>
               </div>
             </AnimateOnScroll>
@@ -529,9 +527,9 @@ const DancehallPage: React.FC = () => {
               <AnimateOnScroll delay={500} className="[perspective:1000px]">
                 <div className="group h-full p-8 bg-black/50 backdrop-blur-md border border-primary-dark/50 hover:border-primary-accent rounded-2xl transition-all duration-500 [transform-style:preserve-3d] hover:[transform:translateY(-0.5rem)_scale(1.05)_rotateY(5deg)] hover:shadow-accent-glow">
                   <div className="text-6xl font-black text-primary-accent mb-4 holographic-text">6</div>
-                  <h3 className="text-xl font-bold text-neutral mb-3">Aprendes Pasos Nuevos</h3>
+                  <h3 className="text-xl font-bold text-neutral mb-3">{t('dhV3Transform6Title')}</h3>
                   <p className="text-neutral/80 leading-relaxed">
-                    Conoces pasos nuevos y evitas la monotonía en el baile, ampliando tu vocabulario de movimiento constantemente.
+                    {t('dhV3Transform6Desc')}
                   </p>
                 </div>
               </AnimateOnScroll>
@@ -545,7 +543,7 @@ const DancehallPage: React.FC = () => {
             <AnimateOnScroll>
               <div className="text-center mb-12">
                 <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4 holographic-text">
-                  ¿Por qué elegir Farray's Center como tu academia de Dancehall en Barcelona?
+                  {t('dhV3TransformCTA')}
                 </h2>
               </div>
             </AnimateOnScroll>
@@ -678,7 +676,7 @@ const DancehallPage: React.FC = () => {
                   </div>
                 </div>
                 <p className="text-4xl md:text-5xl font-black tracking-tighter holographic-text">
-                  y en los mejores festivales de danza de todo el mundo
+                  {t('dhV3LogosIntlFestivalsText')}
                 </p>
               </div>
             </AnimateOnScroll>
@@ -775,7 +773,7 @@ const DancehallPage: React.FC = () => {
             <AnimateOnScroll>
               <div className="text-center mb-12">
                 <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 holographic-text">
-                  Testimonios no solicitados de nuestros estudiantes
+                  {t('testimonialsNotRequested')}
                 </h2>
                 <div className="inline-block">
                   <div className="mb-4 text-3xl font-black text-neutral">{t('excellent')}</div>
@@ -886,7 +884,7 @@ const DancehallPage: React.FC = () => {
             <AnimateOnScroll>
               <div className="max-w-3xl mx-auto text-center space-y-6">
                 <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-8 holographic-text">
-                  ¿Por qué hoy es el mejor momento para empezar a bailar Dancehall con nosotros?
+                  {t('dhV3WhyTodayFullTitle')}
                 </h2>
                 <p className="text-xl text-neutral/90">{t('dhV3WhyToday1')}</p>
                 <p className="text-xl text-neutral/90">{t('dhV3WhyToday2')}</p>
@@ -918,7 +916,7 @@ const DancehallPage: React.FC = () => {
                   {t('dhV3FinalCTATitle')}
                 </h2>
                 <p className="text-2xl font-bold mb-6 holographic-text">
-                  Da el paso.
+                  {t('dhV3FinalCTASubtitle')}
                 </p>
                 <p className="text-xl text-neutral/90 mb-8 leading-relaxed">
                   {t('dhV3FinalCTADesc')}
@@ -936,7 +934,7 @@ const DancehallPage: React.FC = () => {
                     >
                       {t('dhV3CTA1')}
                     </a>
-                    <p className="text-xs text-neutral/70 mt-2 text-center">Quedan pocas plazas</p>
+                    <p className="text-xs text-neutral/70 mt-2 text-center">{t('dhV3CTA1Subtext')}</p>
                   </div>
                   <div className="w-full sm:w-auto">
                     <a
@@ -945,7 +943,7 @@ const DancehallPage: React.FC = () => {
                     >
                       {t('dhV3CTA2')}
                     </a>
-                    <p className="text-xs text-neutral/70 mt-2 text-center">Oferta válida por tiempo limitado</p>
+                    <p className="text-xs text-neutral/70 mt-2 text-center">{t('dhV3CTA2Subtext')}</p>
                   </div>
                 </div>
               </div>
