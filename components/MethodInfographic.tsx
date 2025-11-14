@@ -52,13 +52,13 @@ const MethodInfographic: React.FC = () => {
         <button
           key={pillar.id}
           onClick={() => handlePillarClick(pillar)}
-          className={`absolute w-14 h-14 md:w-20 md:h-20 rounded-full border-2 ${pillar.className} bg-black/50 backdrop-blur-sm flex items-center justify-center text-center transition-all duration-300 hover:scale-110 hover:shadow-[0_0_15px]`}
+          className={`absolute w-18 h-18 md:w-20 md:h-20 rounded-full border-2 ${pillar.className} bg-black/50 backdrop-blur-sm flex items-center justify-center text-center transition-all duration-300 hover:scale-110 hover:shadow-[0_0_15px]`}
           style={{
             transform: `rotate(${index * 120}deg) translate(85px) rotate(-${index * 120}deg)`,
           }}
           aria-label={`Learn more about ${t(pillar.titleKey)}`}
         >
-          <span className="text-xs md:text-sm font-bold text-white p-1">{t(pillar.titleKey)}</span>
+          <span className="text-xs md:text-sm font-bold text-white p-1.5">{t(pillar.titleKey)}</span>
         </button>
       ))}
 
