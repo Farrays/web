@@ -162,9 +162,9 @@ export const ca = {
   // Testimonials
   testimonialsTitle: 'Testimonis No Sol·licitats dels Nostres Estudiants',
   // FinalCTA
-  finalCtaTitle: "El Teu Escenari t'Espera: Inscriu-te a la Millor Acadèmia de Barcelona",
+  finalCtaTitle: 'No et prometem ser la \'millor escola de ball de Barcelona\'. Et prometem alguna cosa millor: resultats.',
   finalCtaSubtitle:
-    "Encén la teva passió, refina la teva tècnica i uneix-te a una comunitat global guiada per veritables llegendes. Descobreix per què FIDC està redefinint l'ensenyament de la dansa a tot el món.",
+    'Persones normals que avui ballen increïble van començar igual que tu: dubtant. La diferència és que van fer el primer pas. 👉 Fes-ho tu també. Matricula\'t avui.',
   finalCtaButton1: 'Inscriu-te Ara',
   finalCtaButton2: 'Reserva la teva Classe de Prova',
   // Footer
