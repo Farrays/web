@@ -399,8 +399,8 @@ export const es = {
 
   // Style Names (for badges and links)
   danceClassesHub_style_afro_contemporaneo: 'Afro Contemporáneo (Técnica Cubana)',
-  danceClassesHub_style_afro_jazz: 'Afro Jazz',
-  danceClassesHub_style_ballet_clasico: 'Ballet Clásico',
+  danceClassesHub_style_afro_jazz: 'Afro Jazz (Técnica Cubana)',
+  danceClassesHub_style_ballet_clasico: 'Ballet Clásico (Escuela Cubana)',
   danceClassesHub_style_danza_contemporanea: 'Danza Contemporánea',
   danceClassesHub_style_modern_jazz: 'Modern Jazz',
   danceClassesHub_style_stretching: 'Stretching',
