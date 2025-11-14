@@ -135,21 +135,9 @@ const Header: React.FC = () => {
             : 'bg-transparent'
         }`}
       >
-        <div className="container mx-auto px-6 py-2 flex justify-between items-center">
-          <Link to={`/${locale}`} aria-label="FIDC Home" className="absolute left-1/2 -translate-x-1/2 py-2">
-            <picture>
-              <source type="image/webp" srcSet="/images/logo/img/logo-fidc_128.webp" />
-              <img
-                src="/images/logo/img/logo-fidc_128.png"
-                alt="Farray's International Dance Center"
-                width="128"
-                height="128"
-                className="w-24 h-24 md:w-32 md:h-32"
-              />
-            </picture>
-          </Link>
-
-          <nav className="hidden md:block absolute left-8">
+        <div className="container mx-auto px-6 py-2 flex items-center relative">
+          {/* Left Navigation */}
+          <nav className="hidden md:block flex-1">
             <ul className="flex items-center space-x-8 text-sm font-medium">
               {navLinks.map(link => (
                 <li key={link.path}>
@@ -169,7 +157,22 @@ const Header: React.FC = () => {
             </ul>
           </nav>
 
-          <div className="hidden md:flex items-center space-x-6 ml-auto">
+          {/* Centered Logo */}
+          <Link to={`/${locale}`} aria-label="FIDC Home" className="absolute left-1/2 -translate-x-1/2 py-2 z-10">
+            <picture>
+              <source type="image/webp" srcSet="/images/logo/img/logo-fidc_128.webp" />
+              <img
+                src="/images/logo/img/logo-fidc_128.png"
+                alt="Farray's International Dance Center"
+                width="128"
+                height="128"
+                className="w-24 h-24 md:w-32 md:h-32"
+              />
+            </picture>
+          </Link>
+
+          {/* Right Actions */}
+          <div className="hidden md:flex items-center space-x-6 flex-1 justify-end">
             {/* Language Dropdown */}
             <div className="relative language-dropdown">
               <button
@@ -215,7 +218,9 @@ const Header: React.FC = () => {
               {t('enrollNow')}
             </Link>
           </div>
-          <div className="md:hidden">
+
+          {/* Mobile Menu Button */}
+          <div className="md:hidden ml-auto">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="z-50 relative"
