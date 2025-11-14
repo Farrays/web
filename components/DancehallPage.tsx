@@ -285,7 +285,7 @@ const DancehallPage: React.FC = () => {
           </div>
           <div className="relative z-20 container mx-auto px-6">
             <AnimateOnScroll>
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-tight mb-6 holographic-text">
+              <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-tight mb-6 holographic-text">
                 {t('dhV3HeroTitle')}
               </h1>
               <p className="text-3xl md:text-4xl font-bold mb-4 holographic-text">
