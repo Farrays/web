@@ -55,7 +55,7 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <AnimateOnScroll>
-              <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-2">
+              <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-2 holographic-text">
                 {t('aboutTitle')}
               </h2>
               <p className="text-2xl md:text-3xl font-medium text-primary-accent holographic-text">

@@ -40,7 +40,7 @@ const CategoriesSection: React.FC = () => {
       <div className="container mx-auto px-6 text-center">
         {/* Section Header */}
         <AnimateOnScroll>
-          <h2 className="text-4xl md:text-5xl font-black tracking-tighter mb-4 text-neutral">
+          <h2 className="text-4xl md:text-5xl font-black tracking-tighter mb-4 text-neutral holographic-text">
             {sectionTitle}
           </h2>
         </AnimateOnScroll>
