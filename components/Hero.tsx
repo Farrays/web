@@ -25,9 +25,6 @@ const Hero: React.FC = () => {
             {t('heroTitle2')}
           </span>
         </h1>
-        <p className="text-xl md:text-2xl my-6 holographic-text font-medium animate-glow min-h-[40px]">
-          {t('heroTagline')}
-        </p>
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-neutral/80 mb-10 min-h-[60px]">
           {t('heroValue')}
         </p>
