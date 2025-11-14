@@ -9,8 +9,9 @@ export const es = {
   navDancehall: 'Dancehall',
   enrollNow: 'Inscríbete Ahora',
   // Hero
-  heroTitle1: 'Escuela de Baile en Barcelona',
+  heroTitle1: 'Tu Escuela de Baile en Barcelona',
   heroTitle2: 'Clases de Danza, Salsa, Bachata, Danza Urbana, y Más',
+  heroSubtitle: 'La Pedagogía Que Faltaba',
   heroTagline: 'Bailar es trabajar tu felicidad.',
   heroValue:
     'Si buscas clases de baile en Barcelona donde por fin avances y no te sientas un número, estás en el sitio correcto. Con el Método Farray® aprendes bien, rápido y con estilo… y te diviertes más que en cualquier gimnasio.',
