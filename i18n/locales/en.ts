@@ -13,7 +13,7 @@ export const en = {
   heroTitle2: 'Classes for Dance, Salsa, Bachata, Urban Dance, and More',
   heroTagline: 'Dancing is working on your happiness.',
   heroValue:
-    'If you're looking for dance classes in Barcelona where you finally make progress and don't feel like just a number, you're in the right place. With the Farray Method® you learn well, fast and with style… and you have more fun than in any gym.',
+    'If you\'re looking for dance classes in Barcelona where you finally make progress and don\'t feel like just a number, you\'re in the right place. With the Farray Method® you learn well, fast and with style… and you have more fun than in any gym.',
   heroCTA1: 'Start Your Free Trial',
   heroCTA2: 'Explore Classes',
   heroScroll: 'Unfold Your Potential',
@@ -22,7 +22,7 @@ export const en = {
   philosophyBody1:
     'No effort will bring you more benefits than learning and practicing a dance. The endorphins you produce while dancing generate an immediate increase in serotonin, and with it, your level of well-being. When you dance, you smile more, you like yourself more, you are more sociable, more flexible, and more understanding. If there is one thing capable of changing your life from the very first moment, it is, without a doubt, dancing.',
   philosophyBody2:
-    'More than a conventional dance school, what Yunaisy Farray and her team offer is a center that reflects their artistic ideals and way of life. The activities at Farray’s International Dance Center are distinguished by following an exclusive and unique method created by Yunaisy Farray, which ensures fast, solid, and proven results.',
+    'More than a conventional dance school, what Yunaisy Farray and her team offer is a center that reflects their artistic ideals and way of life. The activities at Farray\'s International Dance Center are distinguished by following an exclusive and unique method created by Yunaisy Farray, which ensures fast, solid, and proven results.',
   philosophyQuote: 'The noblest art is that of making others happy.',
   philosophyQuoteAuthor: 'Phineas Taylor Barnum',
   // About
