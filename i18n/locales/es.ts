@@ -384,7 +384,7 @@ export const es = {
   // Header
   danceClassesHub_h1: 'Clases de baile en Barcelona',
   danceClassesHub_intro:
-    'Guía para elegir tu clase ideal. Descubre nuestras categorías principales, entra a cada página para ver horarios y niveles, o salta directamente a tu estilo favorito. Puedes probar una clase y empezar desde cero.',
+    'Encuentra tu estilo, tu nivel y tu lugar. Explora nuestras categorías principales, entra en cada página para ver horarios, niveles y profesores, o ve directo al estilo que más te mueve. En Farray\'s puedes empezar desde cero, probar una clase y descubrir qué se siente aprender con el Método Farray®.',
 
   // Category Bullets - Contemporary
   danceClassesHub_contemporary_bullet1: 'Escuela Cubana y estilos contemporáneos',
@@ -418,8 +418,8 @@ export const es = {
 
   // Style Names (for badges and links)
   danceClassesHub_style_afro_contemporaneo: 'Afro Contemporáneo (Técnica Cubana)',
-  danceClassesHub_style_afro_jazz: 'Afro Jazz',
-  danceClassesHub_style_ballet_clasico: 'Ballet Clásico',
+  danceClassesHub_style_afro_jazz: 'Afro Jazz (Técnica Cubana)',
+  danceClassesHub_style_ballet_clasico: 'Ballet Clásico (Escuela Cubana)',
   danceClassesHub_style_danza_contemporanea: 'Danza Contemporánea',
   danceClassesHub_style_modern_jazz: 'Modern Jazz',
   danceClassesHub_style_stretching: 'Stretching',
@@ -457,7 +457,7 @@ export const es = {
   danceClassesHub_style_acro_yoga: 'Acro Yoga',
 
   // Featured Styles Section
-  danceClassesHub_featured_title: 'Estilos destacados',
+  danceClassesHub_featured_title: 'Estilos de Baile Destacados',
   danceClassesHub_featured_description:
     'Acceso directo a algunos de los estilos más buscados. Puedes probar una clase.',
 
@@ -470,6 +470,7 @@ export const es = {
     'Explora por familias de estilos. Cada categoría incluye enlaces a sus páginas y a los estilos más buscados.',
   danceClassesHub_featured_styles_label: 'Estilos destacados',
   danceClassesHub_all_styles_label: 'Estilos disponibles',
+  danceClassesHub_faq_title: 'Preguntas Frecuentes sobre nuestras clases de baile',
 
   // Dancehall Images
   dancehallImage1Alt:

@@ -108,7 +108,7 @@ const DanceClassesPage: React.FC = () => {
 
             {/* H1 + Intro */}
             <AnimateOnScroll>
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-tight mb-6 holographic-text">
+              <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-tight mb-6 holographic-text">
                 {t('danceClassesHub_h1')}
               </h1>
               <p className="max-w-4xl mx-auto text-xl md:text-2xl text-neutral/90 mt-8 leading-relaxed">
@@ -122,7 +122,7 @@ const DanceClassesPage: React.FC = () => {
         <section aria-labelledby="categories-title" className="py-20 md:py-32 bg-primary-dark/10">
           <div className="container mx-auto px-6 text-center">
             <AnimateOnScroll>
-              <h2 id="categories-title" className="text-4xl md:text-5xl font-black tracking-tighter mb-4 text-neutral">
+              <h2 id="categories-title" className="text-4xl md:text-5xl font-black tracking-tighter mb-4 holographic-text">
                 {t('danceClassesHub_categories_title')}
               </h2>
             </AnimateOnScroll>
@@ -202,12 +202,14 @@ const DanceClassesPage: React.FC = () => {
                           </div>
 
                           {/* CTA */}
-                          <Link
-                            to={`/${locale}${category.pillarUrl}`}
-                            className="inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-bold bg-primary-accent text-white hover:bg-primary-dark transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-accent-glow"
-                          >
-                            Ver estilos
-                          </Link>
+                          <div className="flex justify-center">
+                            <Link
+                              to={`/${locale}${category.pillarUrl}`}
+                              className="inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-bold bg-primary-accent text-white hover:bg-primary-dark transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-accent-glow"
+                            >
+                              Ver estilos
+                            </Link>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -248,7 +250,7 @@ const DanceClassesPage: React.FC = () => {
 
         {/* FAQ Section - MANTENER EXISTENTE */}
         <FAQSection
-          title={t('faqTitle')}
+          title={t('danceClassesHub_faq_title')}
           faqs={classesFaqs}
           pageUrl={`${baseUrl}/${locale}/clases/baile-barcelona`}
         />

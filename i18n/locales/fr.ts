@@ -595,7 +595,7 @@ export const fr = {
   // Header
   danceClassesHub_h1: 'Cours de danse à Barcelone',
   danceClassesHub_intro:
-    'Guide pour choisir votre cours idéal. Découvrez nos catégories principales, entrez dans chaque page pour voir les horaires et niveaux, ou allez directement à votre style préféré. Vous pouvez essayer un cours et commencer de zéro.',
+    'Trouvez votre style, votre niveau et votre place. Explorez nos catégories principales, visitez chaque page pour voir les horaires, niveaux et professeurs, ou allez directement au style qui vous émeut le plus. Chez Farray\'s vous pouvez commencer de zéro, essayer un cours et découvrir ce que c\'est d\'apprendre avec la Méthode Farray®.',
 
   // Category Bullets - Contemporary
   danceClassesHub_contemporary_bullet1: 'École Cubaine et styles contemporains',
@@ -629,8 +629,8 @@ export const fr = {
 
   // Style Names (for badges and links)
   danceClassesHub_style_afro_contemporaneo: 'Afro Contemporain (Technique Cubaine)',
-  danceClassesHub_style_afro_jazz: 'Afro Jazz',
-  danceClassesHub_style_ballet_clasico: 'Ballet Classique',
+  danceClassesHub_style_afro_jazz: 'Afro Jazz (Technique Cubaine)',
+  danceClassesHub_style_ballet_clasico: 'Ballet Classique (École Cubaine)',
   danceClassesHub_style_danza_contemporanea: 'Danse Contemporaine',
   danceClassesHub_style_modern_jazz: 'Modern Jazz',
   danceClassesHub_style_stretching: 'Stretching',
@@ -668,7 +668,7 @@ export const fr = {
   danceClassesHub_style_acro_yoga: 'Acro Yoga',
 
   // Featured Styles Section
-  danceClassesHub_featured_title: 'Styles en vedette',
+  danceClassesHub_featured_title: 'Styles de Danse en Vedette',
   danceClassesHub_featured_description:
     'Accès direct à certains des styles les plus recherchés. Vous pouvez essayer un cours.',
 
@@ -681,6 +681,7 @@ export const fr = {
     'Explorez par familles de styles. Chaque catégorie comprend des liens vers leurs pages et les styles les plus recherchés.',
   danceClassesHub_featured_styles_label: 'Styles en vedette',
   danceClassesHub_all_styles_label: 'Styles disponibles',
+  danceClassesHub_faq_title: 'Questions Fréquemment Posées sur nos cours de danse',
   classesFaqQ6: "Où est situé Farray's Center et comment y accéder?",
   classesFaqA6:
     "Nous sommes situés Calle Entença 100, Barcelona 08015, dans le quartier de Sants. Nous sommes facilement accessibles en métro (L3/L5 - Sants Estació, L1 - Hostafrancs), en bus (lignes 27, 43, 78, 109, H10) ou en Renfe Cercanías (Gare de Sants). Le studio se trouve à seulement 5-7 minutes à pied de la gare de Sants. Il y a également un parking public à proximité si vous venez en voiture.",
