@@ -544,7 +544,7 @@ export const en = {
   // Header
   danceClassesHub_h1: 'Dance classes in Barcelona',
   danceClassesHub_intro:
-    'Guide to choosing your ideal class. Discover our main categories, enter each page to see schedules and levels, or jump directly to your favorite style. You can try a class and start from scratch.',
+    'Find your style, your level, and your place. Explore our main categories, visit each page to see schedules, levels, and teachers, or go straight to the style that moves you most. At Farray\'s you can start from scratch, try a class, and discover what it feels like to learn with the Farray Method®.',
 
   // Category Bullets - Contemporary
   danceClassesHub_contemporary_bullet1: 'Cuban School and contemporary styles',
@@ -617,7 +617,7 @@ export const en = {
   danceClassesHub_style_acro_yoga: 'Acro Yoga',
 
   // Featured Styles Section
-  danceClassesHub_featured_title: 'Featured styles',
+  danceClassesHub_featured_title: 'Featured Dance Styles',
   danceClassesHub_featured_description:
     'Direct access to some of the most popular styles. You can try a class.',
 
@@ -630,6 +630,7 @@ export const en = {
     'Explore by style families. Each category includes links to their pages and the most popular styles.',
   danceClassesHub_featured_styles_label: 'Featured styles',
   danceClassesHub_all_styles_label: 'Available styles',
+  danceClassesHub_faq_title: 'Frequently Asked Questions about our dance classes',
   classesFaqQ6: "Where is Farray's Center located and how do I get there?",
   classesFaqA6:
     "We are located at Calle Entença 100, Barcelona 08015, in the Sants neighborhood. We are easily accessible by metro (L3/L5 - Sants Estació, L1 - Hostafrancs), bus (lines 27, 43, 78, 109, H10), or Renfe Cercanías (Sants Station). The studio is just a 5-7 minute walk from Sants station. There is also public parking nearby if you come by car.",

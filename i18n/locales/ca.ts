@@ -544,7 +544,7 @@ export const ca = {
   // Header
   danceClassesHub_h1: 'Classes de ball a Barcelona',
   danceClassesHub_intro:
-    'Guia per escollir la teva classe ideal. Descobreix les nostres categories principals, entra a cada pàgina per veure horaris i nivells, o salta directament al teu estil favorit. Pots provar una classe i començar des de zero.',
+    'Troba el teu estil, el teu nivell i el teu lloc. Explora les nostres categories principals, entra a cada pàgina per veure horaris, nivells i professors, o ves directament a l\'estil que més et mou. A Farray\'s pots començar des de zero, provar una classe i descobrir què se sent aprendre amb el Mètode Farray®.',
 
   // Category Bullets - Contemporary
   danceClassesHub_contemporary_bullet1: 'Escola Cubana i estils contemporanis',
@@ -617,7 +617,7 @@ export const ca = {
   danceClassesHub_style_acro_yoga: 'Acro Yoga',
 
   // Featured Styles Section
-  danceClassesHub_featured_title: 'Estils destacats',
+  danceClassesHub_featured_title: 'Estils de Ball Destacats',
   danceClassesHub_featured_description:
     'Accés directe a alguns dels estils més buscats. Pots provar una classe.',
 
@@ -630,6 +630,7 @@ export const ca = {
     'Explora per famílies d\'estils. Cada categoria inclou enllaços a les seves pàgines i als estils més buscats.',
   danceClassesHub_featured_styles_label: 'Estils destacats',
   danceClassesHub_all_styles_label: 'Estils disponibles',
+  danceClassesHub_faq_title: 'Preguntes Freqüents sobre les nostres classes de ball',
   classesFaqQ6: "On està ubicat Farray's Center i com hi arribo?",
   classesFaqA6:
     'Estem ubicats al Carrer Entença 100, Barcelona 08015, al barri de Sants. Arribem fàcilment en metro (L3/L5 - Sants Estació, L1 - Hostafrancs), autobús (línies 27, 43, 78, 109, H10) o Renfe Rodalies (Estació de Sants). L\'estudi està a només 5-7 minuts caminant des de l\'estació de Sants. També hi ha aparcament públic proper si vens amb cotxe.',
