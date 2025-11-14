@@ -141,7 +141,7 @@ export const es = {
   teacher3Bio:
     'Con la gracia y precisión perfeccionadas en las mejores compañías de Europa, Elena guía a los estudiantes a encontrar su voz expresiva a través de técnicas clásicas y modernas.',
   // Testimonials
-  testimonialsTitle: 'Voces de Transformación: Historias de Nuestra Comunidad',
+  testimonialsTitle: 'Testimonios No Solicitados de Nuestros Estudiantes',
   // FinalCTA
   finalCtaTitle: 'Tu Escenario te Espera: Inscríbete en la Mejor Academia de Barcelona',
   finalCtaSubtitle:

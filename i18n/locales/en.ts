@@ -141,7 +141,7 @@ export const en = {
   teacher3Bio:
     "With grace and precision honed in Europe's top companies, Elena guides students to find their expressive voice through classical and modern techniques.",
   // Testimonials
-  testimonialsTitle: "Voices of Transformation: Our Global Community's Stories",
+  testimonialsTitle: 'Unsolicited Testimonials from Our Students',
   // FinalCTA
   finalCtaTitle: "Your Stage Awaits: Enroll at Barcelona's Premier Dance Academy",
   finalCtaSubtitle:
