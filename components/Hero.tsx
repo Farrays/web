@@ -8,9 +8,10 @@ const Hero: React.FC = () => {
     <section
       id="hero"
       className="relative h-screen w-full flex items-center justify-center overflow-hidden"
+      aria-label="Hero section"
     >
       {/* 3D Canvas Placeholder */}
-      <div className="absolute inset-0 bg-black">
+      <div className="absolute inset-0 bg-black" aria-hidden="true">
         {/* This would be the React Three Fiber Canvas */}
         <div className="absolute inset-0 bg-gradient-to-br from-primary-dark/30 via-black to-black"></div>
         {/* Particle System Placeholder */}
@@ -34,14 +35,19 @@ const Hero: React.FC = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="#classes"
-            className="w-full sm:w-auto border-2 border-neutral text-neutral font-bold text-lg py-4 px-10 rounded-full transition-all duration-300 hover:bg-neutral hover:text-dark-text"
+            className="w-full sm:w-auto bg-primary-accent text-white font-bold text-lg py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 hover:bg-white hover:text-primary-accent shadow-xl hover:shadow-accent-glow focus:outline-none focus:ring-4 focus:ring-primary-accent/50"
+            aria-label={t('heroCTA2')}
           >
             {t('heroCTA2')}
           </a>
         </div>
       </div>
 
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center space-y-2 text-neutral/70 animate-subtle-bob">
+      <a
+        href="#classes"
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center space-y-2 text-neutral/70 animate-subtle-bob hover:text-neutral transition-colors focus:outline-none focus:ring-2 focus:ring-primary-accent/50 rounded-lg p-2"
+        aria-label={t('heroScroll')}
+      >
         <span>{t('heroScroll')}</span>
         <svg
           className="w-6 h-6"
@@ -49,6 +55,7 @@ const Hero: React.FC = () => {
           stroke="currentColor"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
         >
           <path
             strokeLinecap="round"
@@ -57,7 +64,7 @@ const Hero: React.FC = () => {
             d="M19 9l-7 7-7-7"
           ></path>
         </svg>
-      </div>
+      </a>
     </section>
   );
 };

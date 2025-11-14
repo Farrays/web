@@ -257,23 +257,24 @@ const Services: React.FC = () => {
           {servicesData.map((service, index) => (
             <div key={service.id} className="w-full md:w-1/2 lg:w-1/3 p-4">
               <AnimateOnScroll delay={index * 100} className="h-full">
-                <div className="group p-8 bg-black/50 backdrop-blur-md border border-primary-dark/50 rounded-2xl shadow-lg transition-all duration-300 hover:border-primary-accent hover:shadow-accent-glow hover:-translate-y-2 h-full flex flex-col">
+                <div className="group p-8 bg-black/50 backdrop-blur-md border border-primary-dark/50 rounded-2xl shadow-lg transition-all duration-500 hover:border-primary-accent hover:shadow-accent-glow hover:-translate-y-3 hover:scale-[1.02] h-full flex flex-col">
                   <div className="mb-6">
-                    <div className="bg-primary-dark/30 p-4 rounded-xl inline-block shadow-inner">
-                      <service.Icon className="h-10 w-10 text-primary-accent" />
+                    <div className="bg-primary-dark/30 group-hover:bg-primary-accent/20 p-4 rounded-xl inline-block shadow-inner transition-all duration-500 group-hover:scale-110 group-hover:rotate-3">
+                      <service.Icon className="h-10 w-10 text-primary-accent transition-all duration-500 group-hover:scale-110" />
                     </div>
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 text-neutral">{t(service.titleKey)}</h3>
-                  <p className="text-neutral/80 leading-relaxed flex-grow mb-6">
+                  <h3 className="text-2xl font-bold mb-4 text-neutral group-hover:text-white transition-colors duration-300">{t(service.titleKey)}</h3>
+                  <p className="text-neutral/80 leading-relaxed flex-grow mb-6 group-hover:text-neutral/90 transition-colors duration-300">
                     {t(service.descriptionKey)}
                   </p>
                   <div className="mt-auto">
                     <a
                       href={`#${service.id}`}
-                      className="font-bold text-primary-accent hover:text-white transition-colors duration-300"
+                      className="inline-flex items-center gap-2 font-bold text-primary-accent hover:text-white transition-all duration-300 group-hover:gap-4 focus:outline-none focus:ring-2 focus:ring-primary-accent/50 rounded-lg p-2 -m-2"
+                      aria-label={`${t(service.titleKey)} - ${t(service.ctaKey)}`}
                     >
-                      {t(service.ctaKey)}{' '}
-                      <span className="inline-block transition-transform duration-300 group-hover:translate-x-2">
+                      <span>{t(service.ctaKey)}</span>
+                      <span className="inline-block transition-all duration-300 group-hover:translate-x-1 group-hover:scale-125" aria-hidden="true">
                         →
                       </span>
                     </a>

@@ -135,7 +135,7 @@ const Header: React.FC = () => {
             : 'bg-transparent'
         }`}
       >
-        <div className="container mx-auto px-6 py-2 flex items-center relative">
+        <div className="container mx-auto px-4 sm:px-6 py-2 flex items-center relative">
           {/* Left Navigation */}
           <nav className="hidden md:block flex-1">
             <ul className="flex items-center space-x-8 text-sm font-medium">
@@ -158,7 +158,7 @@ const Header: React.FC = () => {
           </nav>
 
           {/* Centered Logo */}
-          <Link to={`/${locale}`} aria-label="FIDC Home" className="absolute left-1/2 -translate-x-1/2 py-2 z-10">
+          <Link to={`/${locale}`} aria-label="FIDC Home" className="absolute left-1/2 -translate-x-1/2 py-2 z-10 pointer-events-auto">
             <picture>
               <source type="image/webp" srcSet="/images/logo/img/logo-fidc_128.webp" />
               <img
@@ -166,7 +166,7 @@ const Header: React.FC = () => {
                 alt="Farray's International Dance Center"
                 width="128"
                 height="128"
-                className="w-24 h-24 md:w-32 md:h-32"
+                className="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 transition-transform duration-300 hover:scale-105"
               />
             </picture>
           </Link>

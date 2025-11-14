@@ -194,14 +194,14 @@ const WhyFIDC: React.FC = () => {
           {valuePillars.map((pillar, index) => (
             <div key={pillar.id} className="w-full sm:w-1/2 lg:w-1/3 p-4">
               <AnimateOnScroll delay={index * 100} className="h-full">
-                <div className="group p-8 bg-black/50 backdrop-blur-md border border-primary-dark/50 rounded-2xl shadow-lg transition-all duration-300 hover:border-primary-accent hover:shadow-accent-glow hover:-translate-y-2 h-full flex flex-col">
+                <div className="group p-8 bg-black/50 backdrop-blur-md border border-primary-dark/50 rounded-2xl shadow-lg transition-all duration-500 hover:border-primary-accent hover:shadow-accent-glow hover:-translate-y-3 hover:scale-[1.02] h-full flex flex-col">
                   <div className="mb-6">
-                    <div className="bg-primary-dark/30 p-4 rounded-xl inline-block shadow-inner">
-                      <pillar.Icon className="h-10 w-10 text-primary-accent" />
+                    <div className="bg-primary-dark/30 group-hover:bg-primary-accent/20 p-4 rounded-xl inline-block shadow-inner transition-all duration-500 group-hover:scale-110 group-hover:rotate-3">
+                      <pillar.Icon className="h-10 w-10 text-primary-accent transition-all duration-500 group-hover:scale-110" />
                     </div>
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 text-neutral">{t(pillar.titleKey)}</h3>
-                  <p className="text-neutral/80 leading-relaxed flex-grow">
+                  <h3 className="text-2xl font-bold mb-4 text-neutral group-hover:text-white transition-colors duration-300">{t(pillar.titleKey)}</h3>
+                  <p className="text-neutral/80 leading-relaxed flex-grow group-hover:text-neutral/90 transition-colors duration-300">
                     {t(pillar.contentKey)}
                   </p>
                 </div>

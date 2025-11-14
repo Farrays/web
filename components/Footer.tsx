@@ -12,7 +12,7 @@ const SocialIcon: React.FC<{ href: string; ariaLabel: string; children: React.Re
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    className="text-neutral/60 hover:text-primary-accent transition-colors duration-300 transform hover:scale-110"
+    className="text-neutral/60 hover:text-primary-accent transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary-accent/50 rounded-lg p-1"
     aria-label={ariaLabel}
   >
     {children}
@@ -28,7 +28,7 @@ const FooterLink: React.FC<{ to?: string; href?: string; textKey: string }> = ({
   if (to) {
     return (
       <li>
-        <Link to={to} className="hover:text-primary-accent transition-colors duration-200">
+        <Link to={to} className="hover:text-primary-accent transition-colors duration-200 focus:outline-none focus:text-primary-accent focus:underline">
           {t(textKey)}
         </Link>
       </li>
@@ -36,7 +36,7 @@ const FooterLink: React.FC<{ to?: string; href?: string; textKey: string }> = ({
   }
   return (
     <li>
-      <a href={href || '#'} className="hover:text-primary-accent transition-colors duration-200">
+      <a href={href || '#'} className="hover:text-primary-accent transition-colors duration-200 focus:outline-none focus:text-primary-accent focus:underline">
         {t(textKey)}
       </a>
     </li>
