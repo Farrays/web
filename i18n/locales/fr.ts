@@ -369,11 +369,13 @@ export const fr = {
   dhV3Identify3: 'Vous voulez rester en forme sans les routines ennuyeuses de la salle de sport.',
   dhV3Identify4: 'Vous avez besoin de rire, de rencontrer des gens et de vous amuser chaque semaine.',
   dhV3Identify5: 'Vous êtes fasciné(e) par la culture jamaïcaine et voulez vraiment la vivre.',
-  dhV3Identify6: 'Vous devez vous inscrire à des cours de Dancehall dans une académie de danse.',
+  dhV3Identify6: 'Vous aimez danser et profiter du mouvement, mais vous sentez que vous avez besoin de quelque chose de différent, avec plus de flow et de personnalité.',
   dhV3IdentifyAgitate1: 'Vous sentez que votre corps demande quelque chose de différent... mais faites-vous quelque chose pour vous sentir mieux ?',
   dhV3IdentifyAgitate2: 'Si vous ne faites rien, vous resterez piégé(e) dans votre "moi" d\'aujourd\'hui. Il est temps de passer à l\'action.',
   dhV3IdentifySolution: 'Si vous voulez sortir de la routine, vous sentir mieux dans votre peau, rencontrer de nouvelles personnes et vous mettre en forme tout en vous amusant, ce style caribéen est fait pour vous.',
   dhV3IdentifyClosing: 'Laissez-vous séduire par l\'énergie et le feeling du Dancehall.',
+
+  dhV3NeedEnrollTitle: 'Vous devez vous inscrire à des cours de Dancehall dans une académie de danse',
 
   dhV3TransformTitle: 'Imaginez votre avant et après',
   dhV3Transform1Title: 'Retrouvez Énergie et Motivation',
@@ -386,6 +388,8 @@ export const fr = {
   dhV3Transform4Desc: 'Rencontrez de vraies personnes, riez et faites partie de quelque chose de grand.',
   dhV3Transform5Title: 'Connectez-vous à l\'Essence Jamaïcaine',
   dhV3Transform5Desc: 'Vivez sa culture, sa musique et son esprit sans quitter Barcelone.',
+  dhV3Transform6Title: 'Apprenez de Nouveaux Pas',
+  dhV3Transform6Desc: 'Découvrez de nouveaux pas et évitez la monotonie de la danse, en élargissant constamment votre vocabulaire de mouvement.',
   dhV3TransformClosing1: 'Des dizaines de personnes le vivent déjà chaque semaine dans nos cours de Dancehall chez Farray\'s Center, à seulement 5 minutes de Plaça España et de la gare de Sants. Et quand ils partent... ils ne sont plus les mêmes.',
   dhV3TransformClosing2: 'Si vous ne dansez pas encore le Dancehall, vous manquez une opportunité d\'améliorer votre vie. Nous vous aidons !',
   dhV3TransformCTA: 'Pourquoi choisir Farray\'s Center comme votre académie de Dancehall à Barcelone ?',
@@ -409,6 +413,7 @@ export const fr = {
 
   dhV3LogosTitle: 'Vous nous avez vus dans…',
   dhV3LogosIntlFestivals: 'Festivals Internationaux de Danse',
+  dhV3LogosIntlFestivalsText: 'et dans les meilleurs festivals de danse du monde',
 
   dhV3TeachersTitle: 'Rencontrez nos professeurs de dancehall',
   dhV3TeachersSubtitle: 'Experts en Dancehall avec des années d\'expérience',
@@ -427,6 +432,7 @@ export const fr = {
   dhV3VideoDesc: 'Découvrez de première main ce qu\'est l\'expérience Farray\'s. Vous apprendrez les mouvements authentiques du Dancehall jamaïcain avec nos professeurs experts.',
 
   dhV3WhyTodayTitle: 'Pourquoi aujourd\'hui est le meilleur moment pour commencer ?',
+  dhV3WhyTodayFullTitle: 'Pourquoi aujourd\'hui est le meilleur moment pour commencer à danser le Dancehall avec nous ?',
   dhV3WhyToday1: 'Parce que chaque jour où vous ne bougez pas, votre corps le demande un peu plus.',
   dhV3WhyToday2: 'Parce que vous êtes à un cours de changer votre routine.',
   dhV3WhyToday3: 'Parce qu\'il ne s\'agit pas de bien danser, mais de se sentir bien en dansant.',

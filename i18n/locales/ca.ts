@@ -367,11 +367,13 @@ export const ca = {
   dhV3Identify3: 'Vols mantenir-te en forma sense rutines avorrides de gimnàs.',
   dhV3Identify4: 'Necessites riure, conèixer gent i divertir-te cada setmana.',
   dhV3Identify5: 'T\'apassiona la cultura jamaicana i vols viure-la de veritat.',
-  dhV3Identify6: 'Necessites apuntar-te a classes de Dancehall en una acadèmia de ball.',
+  dhV3Identify6: 'T\'encanta ballar i gaudir del moviment, però sents que necessites alguna cosa diferent, amb més flow i personalitat.',
   dhV3IdentifyAgitate1: 'Sents que el teu cos et demana alguna cosa diferent... però fas alguna cosa per sentir-te millor?',
   dhV3IdentifyAgitate2: 'Si no fas alguna cosa, quedaràs atrapat en el teu "jo" d\'avui. És hora de prendre acció.',
   dhV3IdentifySolution: 'Si vols sortir de la rutina, sentir-te millor amb tu mateix/a, conèixer gent nova i posar-te en forma mentre et diverteixes, aquest estil caribeny és per a tu.',
   dhV3IdentifyClosing: 'Deixa\'t seduir per l\'energia i el feeling del Dancehall.',
+
+  dhV3NeedEnrollTitle: 'Necessites apuntar-te a classes de Dancehall en una acadèmia de ball',
 
   dhV3TransformTitle: 'Imagina el teu abans i després',
   dhV3Transform1Title: 'Recuperes Energia i Motivació',
@@ -384,6 +386,8 @@ export const ca = {
   dhV3Transform4Desc: 'Coneixes gent real, rius i formes part d\'alguna cosa gran.',
   dhV3Transform5Title: 'Connectes amb l\'Essència Jamaicana',
   dhV3Transform5Desc: 'Vius la seva cultura, la seva música i el seu esperit sense sortir de Barcelona.',
+  dhV3Transform6Title: 'Aprens Passos Nous',
+  dhV3Transform6Desc: 'Coneixes passos nous i evites la monotonia al ball, ampliant constantment el teu vocabulari de moviment.',
   dhV3TransformClosing1: 'Desenes de persones ja ho viuen cada setmana a les nostres classes de Dancehall a Farray\'s Center, a només 5 minuts de Plaça Espanya i Estació de Sants. I quan surten... ja no són els mateixos.',
   dhV3TransformClosing2: 'Si encara no bales Dancehall, estàs perdent una oportunitat de millorar la teva vida. Nosaltres t\'ajudem!',
   dhV3TransformCTA: 'Per què triar Farray\'s Center com la teva acadèmia de Dancehall a Barcelona?',
@@ -407,6 +411,7 @@ export const ca = {
 
   dhV3LogosTitle: 'Ens has pogut veure a…',
   dhV3LogosIntlFestivals: 'Festivals Internacionals de Dansa',
+  dhV3LogosIntlFestivalsText: 'i als millors festivals de dansa de tot el món',
 
   dhV3TeachersTitle: 'Coneix les nostres professores de dancehall',
   dhV3TeachersSubtitle: 'Expertes en Dancehall amb anys d\'experiència',
@@ -425,6 +430,7 @@ export const ca = {
   dhV3VideoDesc: 'Coneix de primera mà com és viure l\'experiència Farray\'s. Aprendràs els moviments autèntics del Dancehall jamaicà amb les nostres professores expertes.',
 
   dhV3WhyTodayTitle: 'Per què avui és el millor moment per començar?',
+  dhV3WhyTodayFullTitle: 'Per què avui és el millor moment per començar a ballar Dancehall amb nosaltres?',
   dhV3WhyToday1: 'Perquè cada dia que no et mous, el teu cos t\'ho demana una mica més.',
   dhV3WhyToday2: 'Perquè estàs a una classe de canviar la teva rutina.',
   dhV3WhyToday3: 'Perquè això no va de ballar bé, sinó de sentir-te bé ballant.',

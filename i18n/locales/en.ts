@@ -367,11 +367,13 @@ export const en = {
   dhV3Identify3: 'You want to stay fit without boring gym routines.',
   dhV3Identify4: 'You need to laugh, meet people, and have fun every week.',
   dhV3Identify5: 'You\'re fascinated by Jamaican culture and want to truly live it.',
-  dhV3Identify6: 'You need to sign up for Dancehall classes at a dance academy.',
+  dhV3Identify6: 'You love dancing and enjoying movement, but you feel you need something different, with more flow and personality.',
   dhV3IdentifyAgitate1: 'Do you feel your body asking for something different… but are you doing anything to feel better?',
   dhV3IdentifyAgitate2: 'If you don\'t do something, you\'ll stay trapped in your current self. It\'s time to take action.',
   dhV3IdentifySolution: 'If you want to break routine, feel better about yourself, meet new people, and get fit while having fun, this Caribbean style is for you.',
   dhV3IdentifyClosing: 'Let yourself be seduced by Dancehall\'s energy and feeling.',
+
+  dhV3NeedEnrollTitle: 'You need to sign up for Dancehall classes at a dance academy',
 
   dhV3TransformTitle: 'Imagine your before and after',
   dhV3Transform1Title: 'Regain Energy and Motivation',
@@ -384,6 +386,8 @@ export const en = {
   dhV3Transform4Desc: 'Meet real people, laugh, and be part of something big.',
   dhV3Transform5Title: 'Connect with Jamaican Essence',
   dhV3Transform5Desc: 'Live its culture, music, and spirit without leaving Barcelona.',
+  dhV3Transform6Title: 'Learn New Steps',
+  dhV3Transform6Desc: 'Discover new steps and avoid dance monotony, constantly expanding your movement vocabulary.',
   dhV3TransformClosing1: 'Dozens of people already experience this every week in our Dancehall classes at Farray\'s Center, just 5 minutes from Plaza España and Sants Station. And when they leave… they\'re no longer the same.',
   dhV3TransformClosing2: 'If you\'re still not dancing Dancehall, you\'re missing an opportunity to improve your life. We\'ll help you!',
   dhV3TransformCTA: 'Why choose Farray\'s Center as your Dancehall academy in Barcelona?',
@@ -407,6 +411,7 @@ export const en = {
 
   dhV3LogosTitle: 'You\'ve seen us in…',
   dhV3LogosIntlFestivals: 'International Dance Festivals',
+  dhV3LogosIntlFestivalsText: 'and at the best dance festivals around the world',
 
   dhV3TeachersTitle: 'Meet our Dancehall teachers',
   dhV3TeachersSubtitle: 'Dancehall experts with years of experience',
@@ -425,6 +430,7 @@ export const en = {
   dhV3VideoDesc: 'Experience firsthand what the Farray\'s experience is like. You\'ll learn authentic Jamaican Dancehall movements with our expert teachers.',
 
   dhV3WhyTodayTitle: 'Why is today the best time to start?',
+  dhV3WhyTodayFullTitle: 'Why is today the best time to start dancing Dancehall with us?',
   dhV3WhyToday1: 'Because every day you don\'t move, your body asks for it a little more.',
   dhV3WhyToday2: 'Because you\'re one class away from changing your routine.',
   dhV3WhyToday3: 'Because it\'s not about dancing well, but feeling good while dancing.',
