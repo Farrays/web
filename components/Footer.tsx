@@ -51,15 +51,15 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 text-center md:text-left">
           <div className="flex flex-col items-center md:items-start space-y-4">
-            <div className="flex items-center gap-3">
+            <div className="flex flex-col items-center md:items-start gap-4">
               <picture>
                 <source type="image/webp" srcSet="/images/logo/img/logo-fidc_128.webp" />
                 <img
                   src="/images/logo/img/logo-fidc_128.png"
                   alt="Farray's International Dance Center"
-                  width="108"
-                  height="108"
-                  className="w-[108px] h-[108px] opacity-70"
+                  width="128"
+                  height="128"
+                  className="w-24 h-24 md:w-32 md:h-32 opacity-70"
                 />
               </picture>
               <FIDCLogo className="opacity-70" />
