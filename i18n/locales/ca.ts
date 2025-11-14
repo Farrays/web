@@ -461,8 +461,8 @@ export const ca = {
 
   dhV3WhyTodayTitle: 'Per què avui és el millor moment per començar?',
   dhV3WhyTodayFullTitle: 'Per què avui és el millor moment per començar a ballar Dancehall amb nosaltres?',
-  dhV3WhyToday1: 'Perquè cada dia que no et mous, el teu cos t\'ho demana una mica més.',
-  dhV3WhyToday2: 'Perquè estàs a una classe de canviar la teva rutina.',
+  dhV3WhyToday1: 'Perquè continues esperant "el moment perfecte" però l\'únic perfecte és començar avui.',
+  dhV3WhyToday2: 'Perquè estàs a tan sols UNA classe de canviar la teva rutina i sentir-te millor que ahir.',
   dhV3WhyToday3: 'Perquè això no va de ballar bé, sinó de sentir-te bé ballant.',
   dhV3WhyTodayClosing1: 'A Farray\'s no venem classes. Creem experiències.',
   dhV3WhyTodayClosing2: 'T\'esperem amb música potent, professors amb carisma i una energia única a Barcelona.',

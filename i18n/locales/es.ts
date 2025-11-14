@@ -812,8 +812,8 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   dhV3WhyTodayTitle: '¿Por qué hoy es el mejor momento para empezar?',
   dhV3WhyTodayFullTitle: '¿Por qué hoy es el mejor momento para empezar a bailar Dancehall con nosotros?',
-  dhV3WhyToday1: 'Porque cada día que no te mueves, tu cuerpo te lo pide un poco más.',
-  dhV3WhyToday2: 'Porque estás a una clase de cambiar tu rutina.',
+  dhV3WhyToday1: 'Porque sigues esperando "el momento perfecto" pero lo único perfecto es empezar hoy.',
+  dhV3WhyToday2: 'Porque estás a tan solo UNA clase de cambiar tu rutina y sentirte mejor que ayer.',
   dhV3WhyToday3: 'Porque esto no va de bailar bien, sino de sentirte bien bailando.',
   dhV3WhyTodayClosing1: 'En Farray\'s no vendemos clases. Creamos experiencias.',
   dhV3WhyTodayClosing2: 'Te esperamos con música cañera, profesores con carisma y una energía única en Barcelona.',

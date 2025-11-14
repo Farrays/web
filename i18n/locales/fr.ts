@@ -463,8 +463,8 @@ export const fr = {
 
   dhV3WhyTodayTitle: 'Pourquoi aujourd\'hui est le meilleur moment pour commencer ?',
   dhV3WhyTodayFullTitle: 'Pourquoi aujourd\'hui est le meilleur moment pour commencer à danser le Dancehall avec nous ?',
-  dhV3WhyToday1: 'Parce que chaque jour où vous ne bougez pas, votre corps le demande un peu plus.',
-  dhV3WhyToday2: 'Parce que vous êtes à un cours de changer votre routine.',
+  dhV3WhyToday1: 'Parce que vous attendez toujours "le moment parfait" mais la seule chose parfaite c\'est de commencer aujourd\'hui.',
+  dhV3WhyToday2: 'Parce que vous êtes à seulement UN cours de changer votre routine et de vous sentir mieux qu\'hier.',
   dhV3WhyToday3: 'Parce qu\'il ne s\'agit pas de bien danser, mais de se sentir bien en dansant.',
   dhV3WhyTodayClosing1: 'Chez Farray\'s, nous ne vendons pas de cours. Nous créons des expériences.',
   dhV3WhyTodayClosing2: 'Nous vous attendons avec de la musique puissante, des professeurs charismatiques et une énergie unique à Barcelone.',
