@@ -307,6 +307,17 @@ export const ca = {
   homeFaqQ8: 'Oferiu formació professional per a qui vol dedicar-se a la dansa?',
   homeFaqA8:
     "Sí, a més de les nostres classes regulars, oferim programes intensius i formació avançada per a estudiants que desitgen professionalitzar-se. El 'Mètode Farray®' proporciona les eines tècniques, artístiques i escèniques necessàries per desenvolupar una carrera en la dansa. Yunaisy i el seu equip han format ballarins que ara treballen professionalment arreu del món.",
+  // Dancehall Key Stats
+  classMinutes: 'Minuts de Classe',
+  caloriesBurned: 'Calories Cremades',
+  funGuaranteed: 'Diversió Garantida',
+
+  // Trust Indicators
+  yearsExperience: 'Anys d\'Experiència',
+  activeStudents: 'Estudiants Actius',
+  satisfiedStudents: 'Alumnes Satisfets',
+  googleReviews: 'Ressenyes de Google',
+
   dancehallFaqQ1: 'Què és exactament el dancehall?',
   dancehallFaqA1:
     "El dancehall és un estil de música i ball que es va originar a Jamaica als anys 70. Es caracteritza per moviments enèrgics, ritmes potents ('riddims') i una actitud audaç i segura. És molt més que només passos: és una expressió cultural completa amb la seva pròpia història, música i comunitat. A les nostres classes, no només aprens els moviments sinó també la cultura i el context que hi ha darrere.",
@@ -355,7 +366,7 @@ export const ca = {
   dhV3CTA1: 'Inscriu-te Ara',
   dhV3CTA1Subtext: 'Queden poques places aquest mes',
   dhV3CTA2: 'Reserva la teva Classe de Prova',
-  dhV3CTA2Subtext: 'Vàlid per temps limitat — només fins divendres',
+  dhV3CTA2Subtext: 'Vàlid per temps limitat',
 
   dhV3WhatIsTitle: 'Què és el Dancehall i per què està triomfant a Barcelona?',
   dhV3WhatIsP1: 'El Dancehall és una dansa tradicional jamaicana que va néixer als anys 70 i reflecteix una cultura amb fortes arrels en el reggae, referències africanes i caribenyes, i l\'energia del hip-hop i altres danses urbanes.',
@@ -368,16 +379,35 @@ export const ca = {
   dhV3CulturalTitle: 'Història i cultura del Dancehall',
   dhV3CulturalShort: 'El Dancehall va néixer als guetos de Kingston a finals dels anys 70 com una evolució natural del reggae.',
   dhV3CulturalFull: '### Els orígens: Kingston, Jamaica (1970s–1980s)\n\nEl Dancehall va néixer als guetos de Kingston a finals dels anys 70. Va sorgir com una evolució natural del reggae, quan els sound systems (sistemes de so mòbils) van començar a portar la música als carrers i als dancehalls (sales de ball). El nom "dancehall" prové d\'aquests espais on la comunitat es reunia per ballar, socialitzar i expressar-se. Era el lloc on les tensions socials es lliberaven a través de la música i el moviment.\n\n### Les llegendes: Bogle, Passa Passa i els pioners\n\nGerald "Bogle" Levy (1964–2005) és considerat el pare del Dancehall modern. Va crear moviments icònics com Bogle, Row Di Boat, Log On i Willie Bounce, base del vocabulari Dancehall. Passa Passa, les sessions llegendàries de street dancehall a Tivoli Gardens (Kingston), va ser l\'epicentre on naixien nous passos i es consagraven els ballarins. Altres pioners com Ding Dong, Keiva, John Hype i crews com Ravers Clavers van portar el Dancehall a nivell internacional als 2000.\n\n### L\'expansió global (2000s–present)\n\nAls anys 2000, el Dancehall va explotar globalment gràcies a artistes com Sean Paul, Shaggy, Elephant Man i Beenie Man. Les xarxes socials i YouTube van popularitzar passos com Dutty Wine, Daggering i Nuh Linga. Avui, el Dancehall és un fenomen mundial amb comunitats actives a Europa, Àfrica, Àsia i Amèrica; Barcelona és un dels seus epicentres europeus.\n\n### La música: Riddims i cultura Sound System\n\nEl Dancehall es balla sobre riddims (bases instrumentals) que els productors creen i múltiples artistes vocalitzen. Riddims llegendaris com Diwali, Coolie Dance o Dump Truck van definir èpoques senceres. La cultura del sound system —amb els seus selectors, MCs i el famós rewind quan una cançó és tan bona que es torna a posar des del principi— és essencial per entendre el Dancehall.\n\n### Més que ball: identitat i resistència\n\nEl Dancehall ha estat sempre una forma de resistència cultural i expressió d\'identitat per a les comunitats marginades de Jamaica. És la veu dels guetos, una celebració de l\'alegria malgrat les dificultats. Cada pas té un significat: Log On (connectar-se), Willie Bounce (homenatge a Willie Haggart), Nuh Linga (no et demoris). Cada moviment conta una història.',
+  readMore: 'Llegir Més Sobre la Història i Cultura',
+  readLess: 'Llegir Menys',
+
+  // Days of week
+  monday: 'Dilluns',
+  wednesday: 'Dimecres',
+  thursday: 'Dijous',
+  friday: 'Divendres',
+
+  // Levels
+  beginnerLevel: 'Principiants',
+  basicLevel: 'Bàsic',
+  intermediateLevel: 'Intermedi',
+  advancedLevel: 'Avançat',
+
+  // Testimonials
+  testimonialsNotRequested: 'Testimonis No Sol·licitats dels Nostres Estudiants',
+  excellent: 'EXCEL·LENT',
+  basedOnReviews: 'Basat en {count} ressenyes',
 
   dhV3IdentifyTitle: 'T\'identifiques amb alguna d\'aquestes situacions?',
-  dhV3Identify1: 'Estàs cansat/da de la rutina i necessites alguna cosa que et torni l\'energia.',
-  dhV3Identify2: 'Vols guanyar confiança, deixar-te anar i sentir-te segur/a amb tu.',
-  dhV3Identify3: 'Vols mantenir-te en forma sense rutines avorrides de gimnàs.',
-  dhV3Identify4: 'Necessites riure, conèixer gent i divertir-te cada setmana.',
-  dhV3Identify5: 'T\'apassiona la cultura jamaicana i vols viure-la de veritat.',
-  dhV3Identify6: 'T\'encanta ballar i gaudir del moviment, però sents que necessites alguna cosa diferent, amb més flow i personalitat.',
+  dhV3Identify1: 'Estàs tan fart/a de la rutina que ja ni el cafè et vol. Necessites alguna cosa que et desperti JA.',
+  dhV3Identify2: 'Vols mirar-te al mirall i veure confiança pura, actitud real i zero por del què diran.',
+  dhV3Identify3: 'Odies el gimnàs... i el gimnàs també t\'odia. No us suporteu. Mai va ser amor.',
+  dhV3Identify4: 'Et fa falta gent real, bon rotllo, riures i un lloc on ser tu sense filtres ni posturejos.',
+  dhV3Identify5: 'La vibra de Jamaica et mou per dins, però la teva vida sembla més un dilluns etern que una festa a Kingston.',
+  dhV3Identify6: 'T\'encanta ballar, però necessites més flow, més actitud i menys coreografies de robot sense bateria.',
+  dhV3IdentifyTransition: 'Si has dit "sí" a algun d\'aquests punts, ja saps el que necessites.',
   dhV3IdentifyAgitate1: 'Sents que el teu cos et demana alguna cosa diferent... però fas alguna cosa per sentir-te millor?',
-  dhV3IdentifyAgitate2: 'Si no fas alguna cosa, quedaràs atrapat en el teu "jo" d\'avui. És hora de prendre acció.',
   dhV3IdentifySolution: 'Si vols sortir de la rutina, sentir-te millor amb tu mateix/a, conèixer gent nova i posar-te en forma mentre et diverteixes, aquest estil caribeny és per a tu.',
   dhV3IdentifyClosing: 'Deixa\'t seduir per l\'energia i el feeling del Dancehall.',
 

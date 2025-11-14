@@ -305,6 +305,17 @@ export const en = {
   homeFaqQ8: 'Do you offer professional training for those who want to pursue dance?',
   homeFaqA8:
     "Yes, in addition to our regular classes, we offer intensive programs and advanced training for students who wish to professionalize. The 'Farray Method®' provides the technical, artistic, and stage tools necessary to develop a career in dance. Yunaisy and her team have trained dancers who now work professionally around the world.",
+  // Dancehall Key Stats
+  classMinutes: 'Class Minutes',
+  caloriesBurned: 'Calories Burned',
+  funGuaranteed: 'Fun Guaranteed',
+
+  // Trust Indicators
+  yearsExperience: 'Years of Experience',
+  activeStudents: 'Active Students',
+  satisfiedStudents: 'Satisfied Students',
+  googleReviews: 'Google Reviews',
+
   // Dancehall FAQ
   dancehallFaqQ1: 'What exactly is dancehall?',
   dancehallFaqA1:
@@ -355,7 +366,7 @@ export const en = {
   dhV3CTA1: 'Enroll Now',
   dhV3CTA1Subtext: 'Limited spots this month',
   dhV3CTA2: 'Book Your Trial Class',
-  dhV3CTA2Subtext: 'Valid for a limited time — only until Friday',
+  dhV3CTA2Subtext: 'Valid for a limited time',
 
   dhV3WhatIsTitle: 'What is Dancehall and why is it taking Barcelona by storm?',
   dhV3WhatIsP1: 'Dancehall is a traditional Jamaican dance born in the 70s that reflects a culture with strong roots in reggae, African and Caribbean references, and the energy of hip-hop and other urban dances.',
@@ -368,16 +379,35 @@ export const en = {
   dhV3CulturalTitle: 'Dancehall History and Culture',
   dhV3CulturalShort: 'Dancehall was born in the ghettos of Kingston in the late 70s as a natural evolution of reggae.',
   dhV3CulturalFull: '### The origins: Kingston, Jamaica (1970s–1980s)\n\nDancehall was born in the ghettos of Kingston in the late 70s. It emerged as a natural evolution of reggae when sound systems (mobile sound systems) began taking music to the streets and dancehalls. The name "dancehall" comes from those spaces where the community gathered to dance, socialize, and express themselves. It was where social tensions were released through music and movement.\n\n### The legends: Bogle, Passa Passa, and the pioneers\n\nGerald "Bogle" Levy (1964–2005) is considered the father of modern Dancehall. He created iconic moves like Bogle, Row Di Boat, Log On, and Willie Bounce, the foundation of the Dancehall vocabulary. Passa Passa, the legendary street dancehall sessions in Tivoli Gardens (Kingston), was the epicenter where new steps were born and dancers were consecrated. Other pioneers like Ding Dong, Keiva, John Hype, and crews like Ravers Clavers took Dancehall international in the 2000s.\n\n### Global expansion (2000s–present)\n\nIn the 2000s, Dancehall exploded globally thanks to artists like Sean Paul, Shaggy, Elephant Man, and Beenie Man. Social media and YouTube popularized steps like Dutty Wine, Daggering, and Nuh Linga. Today, Dancehall is a worldwide phenomenon with active communities in Europe, Africa, Asia, and America; Barcelona is one of its European epicenters.\n\n### The music: Riddims and Sound System culture\n\nDancehall is danced to riddims (instrumental bases) that producers create and multiple artists voice over. Legendary riddims like Diwali, Coolie Dance, or Dump Truck defined entire eras. Sound system culture—with its selectors, MCs, and the famous rewind when a song is so good it gets replayed from the start—is essential to understanding Dancehall.\n\n### More than dance: identity and resistance\n\nDancehall has always been a form of cultural resistance and identity expression for Jamaica\'s marginalized communities. It\'s the voice of the ghettos, a celebration of joy despite difficulties. Each step has meaning: Log On (connect), Willie Bounce (tribute to Willie Haggart), Nuh Linga (don\'t delay). Every movement tells a story.',
+  readMore: 'Read More About History and Culture',
+  readLess: 'Read Less',
+
+  // Days of week
+  monday: 'Monday',
+  wednesday: 'Wednesday',
+  thursday: 'Thursday',
+  friday: 'Friday',
+
+  // Levels
+  beginnerLevel: 'Beginner',
+  basicLevel: 'Basic',
+  intermediateLevel: 'Intermediate',
+  advancedLevel: 'Advanced',
+
+  // Testimonials
+  testimonialsNotRequested: 'Unsolicited Testimonials from Our Students',
+  excellent: 'EXCELLENT',
+  basedOnReviews: 'Based on {count} reviews',
 
   dhV3IdentifyTitle: 'Do you identify with any of these situations?',
-  dhV3Identify1: 'You\'re tired of routine and need something to give you energy back.',
-  dhV3Identify2: 'You want to gain confidence, let loose, and feel secure with yourself.',
-  dhV3Identify3: 'You want to stay fit without boring gym routines.',
-  dhV3Identify4: 'You need to laugh, meet people, and have fun every week.',
-  dhV3Identify5: 'You\'re fascinated by Jamaican culture and want to truly live it.',
-  dhV3Identify6: 'You love dancing and enjoying movement, but you feel you need something different, with more flow and personality.',
+  dhV3Identify1: 'You\'re so sick of routine that even your coffee doesn\'t want you. You need something to wake you up NOW.',
+  dhV3Identify2: 'You want to look in the mirror and see pure confidence, real attitude, and zero fear of what they\'ll say.',
+  dhV3Identify3: 'You hate the gym... and the gym hates you too. You can\'t stand each other. It was never love.',
+  dhV3Identify4: 'You need real people, good vibes, laughs, and a place to be yourself without filters or posing.',
+  dhV3Identify5: 'Jamaica\'s vibe moves you inside, but your life feels more like an eternal Monday than a party in Kingston.',
+  dhV3Identify6: 'You love dancing, but you need more flow, more attitude, and less dead-battery-robot choreography.',
+  dhV3IdentifyTransition: 'If you said "yes" to any of these points, you already know what you need.',
   dhV3IdentifyAgitate1: 'Do you feel your body asking for something different… but are you doing anything to feel better?',
-  dhV3IdentifyAgitate2: 'If you don\'t do something, you\'ll stay trapped in your current self. It\'s time to take action.',
   dhV3IdentifySolution: 'If you want to break routine, feel better about yourself, meet new people, and get fit while having fun, this Caribbean style is for you.',
   dhV3IdentifyClosing: 'Let yourself be seduced by Dancehall\'s energy and feeling.',
 

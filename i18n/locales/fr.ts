@@ -307,6 +307,17 @@ export const fr = {
     'Proposez-vous une formation professionnelle pour ceux qui veulent se consacrer à la danse ?',
   homeFaqA8:
     "Oui, en plus de nos cours réguliers, nous proposons des programmes intensifs et une formation avancée pour les étudiants qui souhaitent se professionnaliser. La 'Méthode Farray®' fournit les outils techniques, artistiques et scéniques nécessaires pour développer une carrière dans la danse. Yunaisy et son équipe ont formé des danseurs qui travaillent maintenant professionnellement partout dans le monde.",
+  // Dancehall Key Stats
+  classMinutes: 'Minutes de Cours',
+  caloriesBurned: 'Calories Brûlées',
+  funGuaranteed: 'Plaisir Garanti',
+
+  // Trust Indicators
+  yearsExperience: 'Années d\'Expérience',
+  activeStudents: 'Étudiants Actifs',
+  satisfiedStudents: 'Élèves Satisfaits',
+  googleReviews: 'Avis Google',
+
   // Dancehall FAQ
   dancehallFaqQ1: "Qu'est-ce que le dancehall exactement ?",
   dancehallFaqA1:
@@ -357,7 +368,7 @@ export const fr = {
   dhV3CTA1: 'Inscris-toi Maintenant',
   dhV3CTA1Subtext: 'Places limitées ce mois-ci',
   dhV3CTA2: 'Réservez Votre Cours d\'Essai',
-  dhV3CTA2Subtext: 'Valable pour une durée limitée — seulement jusqu\'à vendredi',
+  dhV3CTA2Subtext: 'Valable pour une durée limitée',
 
   dhV3WhatIsTitle: 'Qu\'est-ce que le Dancehall et pourquoi cartonne-t-il à Barcelone ?',
   dhV3WhatIsP1: 'Le Dancehall est une danse traditionnelle jamaïcaine née dans les années 70 qui reflète une culture aux racines profondes dans le reggae, les références africaines et caribéennes, et l\'énergie du hip-hop et d\'autres danses urbaines.',
@@ -370,16 +381,35 @@ export const fr = {
   dhV3CulturalTitle: 'Histoire et culture du Dancehall',
   dhV3CulturalShort: 'Le Dancehall est né dans les ghettos de Kingston à la fin des années 70 comme une évolution naturelle du reggae.',
   dhV3CulturalFull: '### Les origines : Kingston, Jamaïque (1970s–1980s)\n\nLe Dancehall est né dans les ghettos de Kingston à la fin des années 70. Il est apparu comme une évolution naturelle du reggae lorsque les sound systems (systèmes sonores mobiles) ont commencé à amener la musique dans les rues et les dancehalls (salles de danse). Le nom "dancehall" provient de ces espaces où la communauté se réunissait pour danser, socialiser et s\'exprimer. C\'était le lieu où les tensions sociales se libéraient par la musique et le mouvement.\n\n### Les légendes : Bogle, Passa Passa et les pionniers\n\nGerald "Bogle" Levy (1964–2005) est considéré comme le père du Dancehall moderne. Il a créé des mouvements iconiques comme Bogle, Row Di Boat, Log On et Willie Bounce, base du vocabulaire Dancehall. Passa Passa, les sessions légendaires de street dancehall à Tivoli Gardens (Kingston), était l\'épicentre où naissaient de nouveaux pas et où les danseurs étaient consacrés. D\'autres pionniers comme Ding Dong, Keiva, John Hype et des crews comme Ravers Clavers ont porté le Dancehall au niveau international dans les années 2000.\n\n### L\'expansion mondiale (2000s–présent)\n\nDans les années 2000, le Dancehall a explosé mondialement grâce à des artistes comme Sean Paul, Shaggy, Elephant Man et Beenie Man. Les réseaux sociaux et YouTube ont popularisé des pas comme Dutty Wine, Daggering et Nuh Linga. Aujourd\'hui, le Dancehall est un phénomène mondial avec des communautés actives en Europe, Afrique, Asie et Amérique ; Barcelone est l\'un de ses épicentres européens.\n\n### La musique : Riddims et culture Sound System\n\nLe Dancehall se danse sur des riddims (bases instrumentales) que les producteurs créent et que plusieurs artistes vocalisent. Des riddims légendaires comme Diwali, Coolie Dance ou Dump Truck ont défini des époques entières. La culture du sound system —avec ses sélecteurs, MCs et le fameux rewind quand une chanson est si bonne qu\'elle est rejouée depuis le début— est essentielle pour comprendre le Dancehall.\n\n### Plus qu\'une danse : identité et résistance\n\nLe Dancehall a toujours été une forme de résistance culturelle et d\'expression d\'identité pour les communautés marginalisées de la Jamaïque. C\'est la voix des ghettos, une célébration de la joie malgré les difficultés. Chaque pas a une signification : Log On (se connecter), Willie Bounce (hommage à Willie Haggart), Nuh Linga (ne tardez pas). Chaque mouvement raconte une histoire.',
+  readMore: 'En Savoir Plus Sur l\'Histoire et la Culture',
+  readLess: 'Lire Moins',
+
+  // Days of week
+  monday: 'Lundi',
+  wednesday: 'Mercredi',
+  thursday: 'Jeudi',
+  friday: 'Vendredi',
+
+  // Levels
+  beginnerLevel: 'Débutants',
+  basicLevel: 'Basique',
+  intermediateLevel: 'Intermédiaire',
+  advancedLevel: 'Avancé',
+
+  // Testimonials
+  testimonialsNotRequested: 'Témoignages Non Sollicités de Nos Étudiants',
+  excellent: 'EXCELLENT',
+  basedOnReviews: 'Basé sur {count} avis',
 
   dhV3IdentifyTitle: 'Vous vous identifiez à l\'une de ces situations ?',
-  dhV3Identify1: 'Vous êtes fatigué(e) de la routine et avez besoin de quelque chose qui vous redonne de l\'énergie.',
-  dhV3Identify2: 'Vous voulez gagner en confiance, vous lâcher et vous sentir sûr(e) de vous.',
-  dhV3Identify3: 'Vous voulez rester en forme sans les routines ennuyeuses de la salle de sport.',
-  dhV3Identify4: 'Vous avez besoin de rire, de rencontrer des gens et de vous amuser chaque semaine.',
-  dhV3Identify5: 'Vous êtes fasciné(e) par la culture jamaïcaine et voulez vraiment la vivre.',
-  dhV3Identify6: 'Vous aimez danser et profiter du mouvement, mais vous sentez que vous avez besoin de quelque chose de différent, avec plus de flow et de personnalité.',
+  dhV3Identify1: 'Vous en avez tellement marre de la routine que même votre café ne vous veut plus. Vous avez besoin de quelque chose qui vous réveille MAINTENANT.',
+  dhV3Identify2: 'Vous voulez vous regarder dans le miroir et voir une confiance pure, une attitude réelle et zéro peur du qu\'en-dira-t-on.',
+  dhV3Identify3: 'Vous détestez la salle de sport... et la salle de sport vous déteste aussi. Vous ne vous supportez pas. Ça n\'a jamais été de l\'amour.',
+  dhV3Identify4: 'Il vous faut des gens vrais, de bonnes vibes, des rires et un endroit où être vous-même sans filtres ni postures.',
+  dhV3Identify5: 'La vibe de la Jamaïque vous bouge de l\'intérieur, mais votre vie ressemble plus à un lundi éternel qu\'à une fête à Kingston.',
+  dhV3Identify6: 'Vous aimez danser, mais vous avez besoin de plus de flow, plus d\'attitude et moins de chorégraphies de robot sans batterie.',
+  dhV3IdentifyTransition: 'Si vous avez dit "oui" à l\'un de ces points, vous savez déjà ce dont vous avez besoin.',
   dhV3IdentifyAgitate1: 'Vous sentez que votre corps demande quelque chose de différent... mais faites-vous quelque chose pour vous sentir mieux ?',
-  dhV3IdentifyAgitate2: 'Si vous ne faites rien, vous resterez piégé(e) dans votre "moi" d\'aujourd\'hui. Il est temps de passer à l\'action.',
   dhV3IdentifySolution: 'Si vous voulez sortir de la routine, vous sentir mieux dans votre peau, rencontrer de nouvelles personnes et vous mettre en forme tout en vous amusant, ce style caribéen est fait pour vous.',
   dhV3IdentifyClosing: 'Laissez-vous séduire par l\'énergie et le feeling du Dancehall.',
 
