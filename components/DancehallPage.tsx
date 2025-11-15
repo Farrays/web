@@ -300,7 +300,7 @@ const DancehallPage: React.FC = () => {
               <p className="max-w-4xl mx-auto text-xl md:text-2xl text-neutral/90 mt-8 mb-6 leading-relaxed">
                 {t('dhV3HeroDesc')}
               </p>
-              <p className="text-lg md:text-xl text-neutral/80 italic mb-12">
+              <p className="text-lg md:text-xl text-neutral/90 italic mb-12">
                 {t('dhV3HeroLocation')}
               </p>
 
@@ -493,7 +493,7 @@ const DancehallPage: React.FC = () => {
             {/* Texto de transición pequeño */}
             <AnimateOnScroll>
               <div className="text-center mb-8">
-                <p className="text-sm text-neutral/60 italic max-w-2xl mx-auto">
+                <p className="text-sm text-neutral/75 italic max-w-2xl mx-auto">
                   {t('dhV3IdentifyTransition')}
                 </p>
               </div>
@@ -510,7 +510,7 @@ const DancehallPage: React.FC = () => {
             <AnimateOnScroll>
               <div className="max-w-3xl mx-auto text-center space-y-6">
                 <p className="text-xl font-semibold holographic-text">{t('dhV3IdentifyAgitate1')}</p>
-                <p className="text-lg text-neutral/80">{t('dhV3IdentifySolution')}</p>
+                <p className="text-lg text-neutral/90">{t('dhV3IdentifySolution')}</p>
                 <p className="text-xl text-neutral/90 italic">{t('dhV3IdentifyClosing')}</p>
               </div>
             </AnimateOnScroll>
@@ -534,7 +534,7 @@ const DancehallPage: React.FC = () => {
                   <div className="group h-full p-8 bg-black/50 backdrop-blur-md border border-primary-dark/50 hover:border-primary-accent rounded-2xl transition-all duration-500 [transform-style:preserve-3d] hover:[transform:translateY(-0.5rem)_scale(1.05)_rotateY(5deg)] hover:shadow-accent-glow">
                     <div className="text-6xl font-black text-primary-accent mb-4 holographic-text">{num}</div>
                     <h3 className="text-xl font-bold text-neutral mb-3">{t(`dhV3Transform${num}Title`)}</h3>
-                    <p className="text-neutral/80 leading-relaxed">{t(`dhV3Transform${num}Desc`)}</p>
+                    <p className="text-neutral/90 leading-relaxed">{t(`dhV3Transform${num}Desc`)}</p>
                   </div>
                 </AnimateOnScroll>
               ))}
@@ -542,7 +542,7 @@ const DancehallPage: React.FC = () => {
                 <div className="group h-full p-8 bg-black/50 backdrop-blur-md border border-primary-dark/50 hover:border-primary-accent rounded-2xl transition-all duration-500 [transform-style:preserve-3d] hover:[transform:translateY(-0.5rem)_scale(1.05)_rotateY(5deg)] hover:shadow-accent-glow">
                   <div className="text-6xl font-black text-primary-accent mb-4 holographic-text">6</div>
                   <h3 className="text-xl font-bold text-neutral mb-3">{t('dhV3Transform6Title')}</h3>
-                  <p className="text-neutral/80 leading-relaxed">
+                  <p className="text-neutral/90 leading-relaxed">
                     {t('dhV3Transform6Desc')}
                   </p>
                 </div>
@@ -574,7 +574,7 @@ const DancehallPage: React.FC = () => {
                       </div>
                       <div>
                         <h3 className="text-lg font-bold text-neutral mb-2">{t(`dhV3WhyChoose${num}Title`)}</h3>
-                        <p className="text-neutral/80 text-sm leading-relaxed">{t(`dhV3WhyChoose${num}Desc`)}</p>
+                        <p className="text-neutral/90 text-sm leading-relaxed">{t(`dhV3WhyChoose${num}Desc`)}</p>
                       </div>
                     </div>
                   </div>
@@ -590,7 +590,7 @@ const DancehallPage: React.FC = () => {
                     </div>
                     <div>
                       <h3 className="text-lg font-bold text-neutral mb-2">{t(`dhV3WhyChoose${7}Title`)}</h3>
-                      <p className="text-neutral/80 text-sm leading-relaxed">{t(`dhV3WhyChoose${7}Desc`)}</p>
+                      <p className="text-neutral/90 text-sm leading-relaxed">{t(`dhV3WhyChoose${7}Desc`)}</p>
                     </div>
                   </div>
                 </div>
@@ -653,7 +653,7 @@ const DancehallPage: React.FC = () => {
                         className="w-full h-full object-contain"
                       />
                     </div>
-                    <div className="text-neutral/80 font-bold text-sm text-center">CID UNESCO</div>
+                    <div className="text-neutral/90 font-bold text-sm text-center">CID UNESCO</div>
                   </div>
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
@@ -664,7 +664,7 @@ const DancehallPage: React.FC = () => {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <div className="text-neutral/80 font-bold text-sm text-center">Street Dance 2</div>
+                    <div className="text-neutral/90 font-bold text-sm text-center">Street Dance 2</div>
                   </div>
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
@@ -675,7 +675,7 @@ const DancehallPage: React.FC = () => {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <div className="text-neutral/80 font-bold text-sm text-center">The Dancer</div>
+                    <div className="text-neutral/90 font-bold text-sm text-center">The Dancer</div>
                   </div>
                   <div className="flex flex-col items-center gap-3 p-6 bg-black/30 backdrop-blur-sm rounded-xl border border-primary-accent/20 hover:border-primary-accent transition-all duration-300 hover:scale-105">
                     <div className="w-20 h-20 flex items-center justify-center overflow-hidden rounded-lg">
@@ -686,7 +686,7 @@ const DancehallPage: React.FC = () => {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <div className="text-neutral/80 font-bold text-sm text-center">TV 5</div>
+                    <div className="text-neutral/90 font-bold text-sm text-center">TV 5</div>
                   </div>
                 </div>
                 <p className="text-4xl md:text-5xl font-black tracking-tighter holographic-text">
@@ -739,7 +739,7 @@ const DancehallPage: React.FC = () => {
                     <p className="text-primary-accent font-semibold mb-4">
                       {t('dhV3Teacher1Specialty')}
                     </p>
-                    <p className="text-neutral/80 leading-relaxed">{t('dhV3Teacher1Bio')}</p>
+                    <p className="text-neutral/90 leading-relaxed">{t('dhV3Teacher1Bio')}</p>
                   </div>
                 </div>
               </AnimateOnScroll>
@@ -759,14 +759,14 @@ const DancehallPage: React.FC = () => {
                     <p className="text-primary-accent font-semibold mb-4">
                       {t('dhV3Teacher2Specialty')}
                     </p>
-                    <p className="text-neutral/80 leading-relaxed">{t('dhV3Teacher2Bio')}</p>
+                    <p className="text-neutral/90 leading-relaxed">{t('dhV3Teacher2Bio')}</p>
                   </div>
                 </div>
               </AnimateOnScroll>
             </div>
 
             <AnimateOnScroll>
-              <p className="text-center text-lg text-neutral/80 mt-12 max-w-2xl mx-auto">
+              <p className="text-center text-lg text-neutral/90 mt-12 max-w-2xl mx-auto">
                 {t('dhV3TeachersClosing')}
               </p>
             </AnimateOnScroll>
@@ -837,7 +837,7 @@ const DancehallPage: React.FC = () => {
                         <cite className="font-bold text-neutral not-italic text-sm">
                           {testimonial.name}
                         </cite>
-                        <p className="text-xs text-neutral/60">{testimonial.city[locale]}</p>
+                        <p className="text-xs text-neutral/75">{testimonial.city[locale]}</p>
                       </div>
                     </div>
                   </div>
@@ -905,7 +905,7 @@ const DancehallPage: React.FC = () => {
                 <p className="text-xl text-neutral/90">{t('dhV3WhyToday2')}</p>
                 <p className="text-xl text-neutral/90">{t('dhV3WhyToday3')}</p>
                 <p className="text-2xl font-bold holographic-text mt-8">{t('dhV3WhyTodayClosing1')}</p>
-                <p className="text-lg text-neutral/80 italic">{t('dhV3WhyTodayClosing2')}</p>
+                <p className="text-lg text-neutral/90 italic">{t('dhV3WhyTodayClosing2')}</p>
               </div>
             </AnimateOnScroll>
           </div>
@@ -936,7 +936,7 @@ const DancehallPage: React.FC = () => {
                 <p className="text-xl text-neutral/90 mb-8 leading-relaxed">
                   {t('dhV3FinalCTADesc')}
                 </p>
-                <p className="text-lg text-neutral/80 mb-10 italic">
+                <p className="text-lg text-neutral/90 mb-10 italic">
                   {t('dhV3FinalCTAFunny')}
                 </p>
 

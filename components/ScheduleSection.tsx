@@ -31,7 +31,7 @@ const ScheduleSection: React.FC<ScheduleSectionProps> = ({
             <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4 holographic-text">
               {t(titleKey)}
             </h2>
-            <p className="text-lg text-neutral/80">{t(subtitleKey)}</p>
+            <p className="text-lg text-neutral/90">{t(subtitleKey)}</p>
           </div>
         </AnimateOnScroll>
 
@@ -48,12 +48,12 @@ const ScheduleSection: React.FC<ScheduleSectionProps> = ({
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-neutral mb-1">{schedule.className}</h3>
-                      <p className="text-sm text-neutral/60">{schedule.level}</p>
+                      <p className="text-sm text-neutral/75">{schedule.level}</p>
                     </div>
                   </div>
                   <div className="flex flex-col md:items-end gap-1">
                     <span className="text-2xl font-bold holographic-text">{schedule.time}</span>
-                    <span className="text-sm text-neutral/80">{schedule.teacher}</span>
+                    <span className="text-sm text-neutral/90">{schedule.teacher}</span>
                   </div>
                 </div>
               </div>

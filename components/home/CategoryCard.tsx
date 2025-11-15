@@ -46,7 +46,7 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ category }) => {
 
           {/* Expandable Description + CTA Text - Always visible on mobile, hover on desktop */}
           <div className="h-28 md:h-0 md:group-hover:h-28 overflow-hidden transition-all duration-300 ease-in-out">
-            <p className="text-neutral/80 text-sm mt-2 leading-relaxed opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 md:delay-150">
+            <p className="text-neutral/90 text-sm mt-2 leading-relaxed opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 md:delay-150">
               {intro}
             </p>
             <div className="mt-3 inline-block text-primary-accent font-bold text-sm opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 md:delay-150">

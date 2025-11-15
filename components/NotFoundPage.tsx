@@ -51,8 +51,8 @@ const NotFoundPage: React.FC = () => {
       <div className="text-center max-w-2xl">
         <h1 className="text-9xl font-extrabold text-primary-accent holographic-text mb-6">404</h1>
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">{msg.title}</h2>
-        <p className="text-lg sm:text-xl text-neutral/80 mb-2">{msg.subtitle}</p>
-        <p className="text-neutral/60 mb-12">{msg.description}</p>
+        <p className="text-lg sm:text-xl text-neutral/90 mb-2">{msg.subtitle}</p>
+        <p className="text-neutral/75 mb-12">{msg.description}</p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link
@@ -69,7 +69,7 @@ const NotFoundPage: React.FC = () => {
           </Link>
         </div>
 
-        <div className="mt-12 flex flex-wrap gap-6 justify-center text-neutral/60">
+        <div className="mt-12 flex flex-wrap gap-6 justify-center text-neutral/75">
           <Link to={`/${locale}/dancehall`} className="hover:text-primary-accent transition-colors">
             {msg.dancehall}
           </Link>

@@ -22,7 +22,7 @@ const HowToGetHere: React.FC = () => {
             <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4 holographic-text">
               {t('howToGetHereTitle')}
             </h2>
-            <p className="text-lg text-neutral/80">{t('howToGetHereIntro')}</p>
+            <p className="text-lg text-neutral/90">{t('howToGetHereIntro')}</p>
           </div>
         </AnimateOnScroll>
 

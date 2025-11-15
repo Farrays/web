@@ -55,7 +55,7 @@ const CulturalHistorySection: React.FC<CulturalHistorySectionProps> = ({
               // Replace **text** with <strong> tags
               const parts = trimmed.split(/\*\*([^*]+)\*\*/);
               return (
-                <p key={idx} className="text-neutral/80 leading-relaxed">
+                <p key={idx} className="text-neutral/90 leading-relaxed">
                   {parts.map((part, i) => (i % 2 === 1 ? <strong key={i}>{part}</strong> : part))}
                 </p>
               );
@@ -78,7 +78,7 @@ const CulturalHistorySection: React.FC<CulturalHistorySectionProps> = ({
             )}
 
             {/* Short description - always visible */}
-            <div className="text-lg text-neutral/80 leading-relaxed mb-6">
+            <div className="text-lg text-neutral/90 leading-relaxed mb-6">
               <p>{t(shortDescKey)}</p>
             </div>
 
@@ -91,7 +91,7 @@ const CulturalHistorySection: React.FC<CulturalHistorySectionProps> = ({
               role="region"
               aria-labelledby="cultural-history-toggle"
             >
-              <div className="space-y-6 text-neutral/80 leading-relaxed">
+              <div className="space-y-6 text-neutral/90 leading-relaxed">
                 {/* Parse markdown-style content and render safely */}
                 {parseContent(t(fullHistoryKey))}
               </div>

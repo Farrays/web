@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
         <p className="text-xl md:text-2xl font-semibold text-neutral/90 mb-6 italic">
           {t('heroSubtitle')}
         </p>
-        <p className="max-w-3xl mx-auto text-lg md:text-xl text-neutral/80 mb-10 min-h-[60px]">
+        <p className="max-w-3xl mx-auto text-lg md:text-xl text-neutral/90 mb-10 min-h-[60px]">
           {t('heroValue')}
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

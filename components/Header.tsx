@@ -145,7 +145,7 @@ const Header: React.FC = () => {
                     className={`transition-colors duration-300 ${
                       location.pathname === link.path
                         ? 'text-white'
-                        : 'text-neutral/60 hover:text-white'
+                        : 'text-neutral/75 hover:text-white'
                     }`}
                     aria-current={location.pathname === link.path ? 'page' : undefined}
                   >
@@ -251,7 +251,7 @@ const Header: React.FC = () => {
                 className={`text-2xl font-bold transition-colors duration-300 ${
                   location.pathname === link.path
                     ? 'text-primary-accent'
-                    : 'text-neutral/80 hover:text-white'
+                    : 'text-neutral/90 hover:text-white'
                 }`}
                 aria-current={location.pathname === link.path ? 'page' : undefined}
               >
@@ -277,7 +277,7 @@ const Header: React.FC = () => {
                     className={`w-full text-left px-4 py-3 rounded-xl text-base font-bold transition-all duration-300 flex items-center justify-between ${
                       locale === lang
                         ? 'bg-primary-accent text-white shadow-lg'
-                        : 'text-neutral/80 hover:bg-white/10 hover:text-white'
+                        : 'text-neutral/90 hover:bg-white/10 hover:text-white'
                     }`}
                     aria-label={`Switch to ${languageNames[lang]}`}
                   >

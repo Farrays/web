@@ -41,6 +41,32 @@
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #c82260, 0 0 30px #c82260, 0 0 40px #c82260, 0 0 55px #c82260, 0 0 75px #c82260;
   }
 
+  /* Accessibility: Focus-visible styles for keyboard navigation */
+  *:focus {
+    outline: none;
+  }
+
+  *:focus-visible {
+    outline: 2px solid #c82260;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  button:focus-visible,
+  a:focus-visible,
+  [role="button"]:focus-visible {
+    outline: 2px solid #c82260;
+    outline-offset: 2px;
+  }
+
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    outline: 2px solid #c82260;
+    outline-offset: 1px;
+    border-color: #c82260;
+  }
+
   /* Accessibility: Reduce motion */
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {

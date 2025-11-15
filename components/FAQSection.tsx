@@ -100,7 +100,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({ title, faqs }) => {
                       }`}
                     >
                       <div
-                        className="px-6 pb-5 text-neutral/80 leading-relaxed"
+                        className="px-6 pb-5 text-neutral/90 leading-relaxed"
                         dangerouslySetInnerHTML={{ __html: faq.answer }}
                       />
                     </div>

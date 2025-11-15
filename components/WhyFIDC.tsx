@@ -201,7 +201,7 @@ const WhyFIDC: React.FC = () => {
                     </div>
                   </div>
                   <h3 className="text-2xl font-bold mb-4 text-neutral group-hover:text-white transition-colors duration-300">{t(pillar.titleKey)}</h3>
-                  <p className="text-neutral/80 leading-relaxed flex-grow group-hover:text-neutral/90 transition-colors duration-300">
+                  <p className="text-neutral/90 leading-relaxed flex-grow group-hover:text-neutral/90 transition-colors duration-300">
                     {t(pillar.contentKey)}
                   </p>
                 </div>

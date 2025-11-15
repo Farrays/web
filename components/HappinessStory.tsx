@@ -33,7 +33,7 @@ const HappinessStory: React.FC = () => {
 
         {/* Fourth line: Partial bold */}
         <AnimateOnScroll delay={400}>
-          <p className="text-lg md:text-xl text-neutral/80 mb-8 leading-relaxed">
+          <p className="text-lg md:text-xl text-neutral/90 mb-8 leading-relaxed">
             {t('happinessStoryLine4Part1')}{' '}
             <span className="font-bold">{t('happinessStoryLine4Part2')}</span>
           </p>
@@ -48,7 +48,7 @@ const HappinessStory: React.FC = () => {
 
         {/* Main narrative paragraphs */}
         <AnimateOnScroll delay={600}>
-          <div className="space-y-6 text-lg md:text-xl text-neutral/80 leading-relaxed">
+          <div className="space-y-6 text-lg md:text-xl text-neutral/90 leading-relaxed">
             <p>
               {t('happinessStoryPara1Part1')}{' '}
               <span className="font-bold">{t('happinessStoryPara1Part2')}</span>

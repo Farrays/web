@@ -58,7 +58,7 @@ const FinalCTA: React.FC = () => {
           </h2>
         </AnimateOnScroll>
         <AnimateOnScroll delay={200}>
-          <p className="max-w-3xl mx-auto text-lg md:text-xl text-neutral/80 mb-12">
+          <p className="max-w-3xl mx-auto text-lg md:text-xl text-neutral/90 mb-12">
             {t('finalCtaSubtitle')}
           </p>
         </AnimateOnScroll>
