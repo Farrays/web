@@ -1032,7 +1032,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   danzaBarcelona_breadcrumb_current: 'Clases de Danza en Barcelona',
   danzaBarcelona_h1: 'Clases de Danza en Barcelona',
   danzaBarcelona_intro:
-    'Explora la técnica, elegancia y expresión de la danza clásica y contemporánea en Barcelona. En Farray\'s Center ofrecemos formación de élite en Ballet Clásico (Escuela Cubana), Danza Contemporánea, Modern Jazz, Afro Jazz y Afro Contemporáneo con profesores titulados y reconocidos internacionalmente.',
+    'Explora la técnica, elegancia y expresión de la danza clásica y contemporánea en Barcelona. En Farray\'s Center ofrecemos formación de élite en Ballet Clásico (Escuela Cubana), Danza Contemporánea, Modern Jazz, Afro Jazz y Afro Contemporáneo con profesores graduados de la Escuela Nacional de Arte de Cuba.',
 
   danzaBarcelona_styles_title: 'Estilos de Danza que Ofrecemos',
   danzaBarcelona_styles_description:
@@ -1061,7 +1061,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   // Career Opportunities - Danza Barcelona
   danzaWhyCareerTitle: 'Bolsa de Trabajo y Competiciones',
   danzaWhyCareerContent:
-    'Accede a ofertas de trabajo exclusivas, castings profesionales y preparación especializada para competiciones nacionales e internacionales. Te conectamos con oportunidades reales en el mundo de la danza y te ayudamos a dar el siguiente paso en tu carrera profesional.',
+    'Accede a ofertas de trabajo, castings profesionales y preparación especializada para competiciones nacionales e internacionales. Te conectamos con oportunidades reales en el mundo de la danza y te preparamos para tu carrera profesional.',
 
   // Cuban School - Danza Barcelona
   danzaWhyCubanSchoolTitle: 'Escuela Cubana',
