@@ -242,7 +242,7 @@ const DanzasUrbanasBarcelonaPage: React.FC = () => {
                           {t(`danceClassesHub_style_${style.key}_desc`)}
                         </p>
                         <div className="mt-3 inline-block text-primary-accent font-bold text-sm opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 md:delay-150">
-                          Ver más →
+                          {t('danzasUrbanas_viewMore')}
                         </div>
                       </div>
                     </div>
@@ -337,13 +337,13 @@ const DanzasUrbanasBarcelonaPage: React.FC = () => {
           <div className="container mx-auto px-6 text-center">
             <AnimateOnScroll>
               <h2 className="text-4xl md:text-6xl font-black tracking-tighter mb-6 holographic-text">
-                Tu Primera Clase de Urbano Te Está Esperando
+                {t('danzasUrbanas_finalCTA_title')}
               </h2>
               <p className="max-w-2xl mx-auto text-xl text-neutral/90 mb-4">
-                No dejes pasar más tiempo. Cada semana que esperas es una semana menos bailando.
+                {t('danzasUrbanas_finalCTA_subtitle')}
               </p>
               <p className="max-w-xl mx-auto text-lg text-neutral/75 mb-10">
-                Únete a centenas de estudiantes —desde principiantes hasta profesionales— que están dominando Hip Hop, Dancehall, K-Pop y Reggaeton con profesores internacionales en Barcelona.
+                {t('danzasUrbanas_finalCTA_description')}
               </p>
             </AnimateOnScroll>
 
