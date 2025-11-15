@@ -6,52 +6,19 @@ import { HUB_CATEGORIES } from '../constants/danceClassesHub';
 import AnimateOnScroll from './AnimateOnScroll';
 import FAQSection from './FAQSection';
 import AnimatedCounter from './AnimatedCounter';
+import Icon, { type IconName } from './Icon';
 import type { ValuePillar } from '../types';
 
-// --- Icons for Why Study at FIDC  ---
-const GlobeEuropeAfricaIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.111 1.157-4.418" />
-  </svg>
-);
+// Type extension for ValuePillar with icon names instead of components
+type ValuePillarWithIcon = Omit<ValuePillar, 'Icon'> & { iconName: IconName };
 
-const SparklesIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
-  </svg>
-);
-
-const BuildingOffice2Icon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h6M9 12h6m-6 5.25h6M5.25 6h.008v.008H5.25V6zm.75 0h.008v.008H6V6zm.75 0h.008v.008H6.75V6zm.75 0h.008v.008H7.5V6zm.75 0h.008v.008H8.25V6zm.75 0h.008v.008H9V6zm.75 0h.008v.008H9.75V6zm.75 0h.008v.008H10.5V6zm.75 0h.008v.008H11.25V6zm.75 0h.008v.008H12V6zm.75 0h.008v.008H12.75V6zm.75 0h.008v.008H13.5V6zm.75 0h.008v.008H14.25V6zm.75 0h.008v.008H15V6zm.75 0h.008v.008H15.75V6zm.75 0h.008v.008H16.5V6zm.75 0h.008v.008H17.25V6zm.75 0h.008v.008H18V6zm.75 0h.008v.008H18.75V6z" />
-  </svg>
-);
-
-const StarIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-  </svg>
-);
-
-const TrophyIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 0 1 3 3h-15a3 3 0 0 1 3-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 0 1-.982-3.172M9.497 14.25a7.454 7.454 0 0 0 .981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 0 0 7.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 0 0 2.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 0 1 2.916.52 6.003 6.003 0 0 1-5.395 4.972m0 0a6.726 6.726 0 0 1-2.749 1.35m0 0a6.772 6.772 0 0 1-3.044 0" />
-  </svg>
-);
-
-const AcademicCapIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
-  </svg>
-);
-
-const valuePillars: ValuePillar[] = [
-  { id: 'instructors', titleKey: 'whyPillar1Title', contentKey: 'whyPillar1Content', Icon: GlobeEuropeAfricaIcon },
-  { id: 'method', titleKey: 'whyPillar2Title', contentKey: 'whyPillar2Content', Icon: SparklesIcon },
-  { id: 'cuban_school', titleKey: 'danzaWhyCubanSchoolTitle', contentKey: 'danzaWhyCubanSchoolContent', Icon: StarIcon },
-  { id: 'career', titleKey: 'danzaWhyCareerTitle', contentKey: 'danzaWhyCareerContent', Icon: TrophyIcon },
-  { id: 'prestige', titleKey: 'whyPillar6Title', contentKey: 'whyPillar6Content', Icon: AcademicCapIcon },
-  { id: 'facilities', titleKey: 'whyPillar3Title', contentKey: 'whyPillar3Content', Icon: BuildingOffice2Icon },
+const valuePillars: ValuePillarWithIcon[] = [
+  { id: 'instructors', titleKey: 'whyPillar1Title', contentKey: 'whyPillar1Content', iconName: 'globe' },
+  { id: 'method', titleKey: 'whyPillar2Title', contentKey: 'whyPillar2Content', iconName: 'sparkles' },
+  { id: 'cuban_school', titleKey: 'danzaWhyCubanSchoolTitle', contentKey: 'danzaWhyCubanSchoolContent', iconName: 'star' },
+  { id: 'career', titleKey: 'danzaWhyCareerTitle', contentKey: 'danzaWhyCareerContent', iconName: 'trophy' },
+  { id: 'prestige', titleKey: 'whyPillar6Title', contentKey: 'whyPillar6Content', iconName: 'academic-cap' },
+  { id: 'facilities', titleKey: 'whyPillar3Title', contentKey: 'whyPillar3Content', iconName: 'building' },
 ];
 
 const DanzaBarcelonaPage: React.FC = () => {
@@ -303,7 +270,7 @@ const DanzaBarcelonaPage: React.FC = () => {
                     <div className="group p-8 bg-black/50 backdrop-blur-md border border-primary-dark/50 rounded-2xl shadow-lg transition-all duration-500 hover:border-primary-accent hover:shadow-accent-glow hover:-translate-y-3 hover:scale-[1.02] h-full flex flex-col">
                       <div className="mb-6">
                         <div className="bg-primary-dark/30 group-hover:bg-primary-accent/20 p-4 rounded-xl inline-block shadow-inner transition-all duration-500 group-hover:scale-110 group-hover:rotate-3">
-                          <pillar.Icon className="h-10 w-10 text-primary-accent transition-all duration-500 group-hover:scale-110" />
+                          <Icon name={pillar.iconName} className="h-10 w-10 text-primary-accent transition-all duration-500 group-hover:scale-110" />
                         </div>
                       </div>
                       <h3 className="text-2xl font-bold mb-4 text-neutral group-hover:text-white transition-colors duration-300">{t(pillar.titleKey)}</h3>
