@@ -45,13 +45,6 @@ const AcademicCapIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
   </svg>
 );
 
-const MapPinIcon: React.FC<React.SVGProps<SVGSVGElement>> = props => (
-  <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-  </svg>
-);
-
 const valuePillars: ValuePillar[] = [
   { id: 'instructors', titleKey: 'whyPillar1Title', contentKey: 'whyPillar1Content', Icon: GlobeEuropeAfricaIcon },
   { id: 'method', titleKey: 'whyPillar2Title', contentKey: 'whyPillar2Content', Icon: SparklesIcon },
@@ -59,7 +52,6 @@ const valuePillars: ValuePillar[] = [
   { id: 'atmosphere', titleKey: 'whyPillar4Title', contentKey: 'whyPillar4Content', Icon: HeartIcon },
   { id: 'career', titleKey: 'danzaWhyCareerTitle', contentKey: 'danzaWhyCareerContent', Icon: TrophyIcon },
   { id: 'prestige', titleKey: 'whyPillar6Title', contentKey: 'whyPillar6Content', Icon: AcademicCapIcon },
-  { id: 'location', titleKey: 'whyPillar7Title', contentKey: 'whyPillar7Content', Icon: MapPinIcon },
 ];
 
 const DanzaBarcelonaPage: React.FC = () => {
@@ -324,7 +316,7 @@ const DanzaBarcelonaPage: React.FC = () => {
         </section>
 
         {/* Stats Widget Section */}
-        <section className="py-12 md:py-16 bg-black">
+        <section className="py-8 md:py-12 bg-black">
           <div className="container mx-auto px-6">
             <AnimateOnScroll>
               <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-16 max-w-5xl mx-auto">

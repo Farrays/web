@@ -86,7 +86,7 @@ export const es = {
   classCatWorldDesc:
     'Viaja por el mundo a través del baile con Flamenco, Pole Dance, Telas Aéreas y más estilos únicos.',
   // Why FIDC
-  whyTitle: 'La Diferencia FIDC: ¿Por qué elegir nuestra escuela de baile en Barcelona?',
+  whyTitle: 'La Diferencia FIDC: ¿Por qué elegir nuestra Academia de danza en Barcelona?',
   whyPillar1Title: 'Profesores de Clase Mundial',
   whyPillar1Content:
     'Déjate guiar por un claustro de maestros reconocidos internacionalmente, con amplia experiencia y calidad docente para acelerar tu aprendizaje.',
