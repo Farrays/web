@@ -1,0 +1,187 @@
+import React, { useEffect, lazy, Suspense } from 'react';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useLocation,
+  useParams,
+  Navigate,
+  useNavigate,
+} from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
+import { I18nProvider, useI18n } from './hooks/useI18n';
+import type { Locale } from './types';
+import ErrorBoundary from './components/ErrorBoundary';
+import SEO from './components/SEO';
+import Header from './components/Header';
+import SkipLink from './components/SkipLink';
+import HomePage from './components/HomePage';
+import Footer from './components/Footer';
+import LoadingSpinner from './components/LoadingSpinner';
+import NotFoundPage from './components/NotFoundPage';
+import BackToTop from './components/BackToTop';
+
+// Code splitting: Lazy load secondary pages to reduce initial bundle size
+const DanceClassesPage = lazy(() => import('./components/DanceClassesPage'));
+const DancehallPage = lazy(() => import('./components/DancehallPage'));
+
+// Valid locales
+const VALID_LOCALES: Locale[] = ['es', 'en', 'ca', 'fr'];
+
+const ScrollToTop: React.FC = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
+  return null;
+};
+
+// Component to sync URL locale with i18n context and validate
+const LocaleSync: React.FC = () => {
+  const { locale: urlLocale } = useParams<{ locale: Locale }>();
+  const { setLocale, locale: currentLocale } = useI18n();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (urlLocale) {
+      if (VALID_LOCALES.includes(urlLocale as Locale)) {
+        // Only update if the locale from the URL is different
+        if (urlLocale !== currentLocale) {
+          setLocale(urlLocale as Locale);
+        }
+      } else {
+        // If the locale in the URL is invalid, redirect to the current valid locale's equivalent page
+        navigate(`/${currentLocale}`, { replace: true });
+      }
+    }
+  }, [urlLocale, currentLocale, setLocale, navigate]);
+
+  return null;
+};
+
+const AppContent: React.FC = () => {
+  const { locale } = useI18n();
+
+  useEffect(() => {
+    document.documentElement.lang = locale;
+  }, [locale]);
+
+  return (
+    <div className="bg-black text-neutral antialiased font-sans overflow-x-hidden">
+      <ScrollToTop />
+      <SEO />
+      <SkipLink />
+      <Header />
+      <main id="main-content">
+        <Suspense fallback={<LoadingSpinner />}>
+          <Routes>
+            {/* Redirect root to default locale */}
+            <Route path="/" element={<Navigate to={`/${locale}`} replace />} />
+
+            {/* Locale-based routes */}
+            <Route
+              path="/:locale"
+              element={
+                <>
+                  <LocaleSync />
+                  <HomePage />
+                </>
+              }
+            />
+            <Route
+              path="/:locale/clases/baile-barcelona"
+              element={
+                <>
+                  <LocaleSync />
+                  <DanceClassesPage />
+                </>
+              }
+            />
+            {/* Redirect old /clases route to new /clases/baile-barcelona */}
+            <Route
+              path="/:locale/clases"
+              element={<Navigate to={`/${locale}/clases/baile-barcelona`} replace />}
+            />
+
+            <Route
+              path="/:locale/clases/dancehall-barcelona"
+              element={
+                <>
+                  <LocaleSync />
+                  <DancehallPage />
+                </>
+              }
+            />
+
+            {/* 404 pages - localized */}
+            <Route
+              path="/:locale/404"
+              element={
+                <>
+                  <LocaleSync />
+                  <NotFoundPage />
+                </>
+              }
+            />
+
+            {/* Redirects from old URLs to new SEO-friendly URLs */}
+            <Route
+              path="/:locale/dancehall"
+              element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
+            />
+            <Route
+              path="/:locale/clases/dancehall-v2"
+              element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
+            />
+            <Route
+              path="/:locale/clases/dancehall-v3"
+              element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
+            />
+
+            {/* Legacy routes without locale - redirect to current locale */}
+            <Route path="/clases" element={<Navigate to={`/${locale}/clases/baile-barcelona`} replace />} />
+            <Route
+              path="/dancehall"
+              element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
+            />
+            <Route
+              path="/clases/dancehall-barcelona"
+              element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
+            />
+            <Route
+              path="/clases/dancehall-v2"
+              element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
+            />
+            <Route
+              path="/clases/dancehall-v3"
+              element={<Navigate to={`/${locale}/clases/dancehall-barcelona`} replace />}
+            />
+
+            {/* Catch-all for 404 - redirect to localized 404 page */}
+            <Route path="*" element={<Navigate to={`/${locale}/404`} replace />} />
+          </Routes>
+        </Suspense>
+      </main>
+      <Footer />
+      <BackToTop />
+    </div>
+  );
+};
+
+const App: React.FC = () => {
+  return (
+    <ErrorBoundary>
+      <HelmetProvider>
+        <I18nProvider>
+          <BrowserRouter>
+            <AppContent />
+          </BrowserRouter>
+        </I18nProvider>
+      </HelmetProvider>
+    </ErrorBoundary>
+  );
+};
+
+export default App;
