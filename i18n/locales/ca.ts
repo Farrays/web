@@ -6,6 +6,7 @@ export const ca = {
   // Header
   navHome: 'Inici',
   navClasses: 'Classes de Ball',
+  navDanza: 'Classes de Dansa',
   navDancehall: 'Dancehall',
   enrollNow: 'Inscriu-te Ara',
   // Hero

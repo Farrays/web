@@ -6,6 +6,7 @@ export const es = {
   // Header
   navHome: 'Inicio',
   navClasses: 'Clases de Baile',
+  navDanza: 'Clases de Danza',
   navDancehall: 'Dancehall',
   enrollNow: 'Inscríbete Ahora',
   // Hero

@@ -122,6 +122,7 @@ const Header: React.FC = () => {
   const navLinks: { path: string; textKey: string }[] = [
     { path: `/${locale}`, textKey: 'navHome' },
     { path: `/${locale}/clases/baile-barcelona`, textKey: 'navClasses' },
+    { path: `/${locale}/clases/danza-barcelona`, textKey: 'navDanza' },
     { path: `/${locale}/clases/dancehall-barcelona`, textKey: 'navDancehall' },
   ];
 
