@@ -55,6 +55,13 @@
   - ✅ 6 iconos centralizados: globe, sparkles, building, star, trophy, academic-cap
   - ✅ TypeScript types seguros implementados
   - 📄 Ver reporte completo: `SVG_SPRITE_OPTIMIZATION_REPORT.md`
+- [ ] Agregar preload del sprite SVG en `<head>` para FCP óptimo
+  - Añadir: `<link rel="preload" href="/icons/sprite.svg" as="image" type="image/svg+xml">`
+  - Beneficio: Carga anticipada del sprite antes de React hydration
+- [ ] Migrar otros componentes al SVG sprite (reutilización)
+  - WhyFIDC.tsx (usa los mismos iconos)
+  - Home.tsx (si usa iconos similares)
+  - Beneficio: Mayor ahorro de bundle size en toda la app
 - [ ] Agregar preload para hero background si es necesario
 
 ### 🟢 BAJA PRIORIDAD
@@ -63,10 +70,30 @@
 - [ ] Agregar "Skip to content" link (mejora accesibilidad)
 - [ ] Revisar contraste en modo alto contraste del sistema
 
+#### Optimización SVG Sprite (Mejoras Opcionales)
+- [ ] Considerar sprite para iconos de redes sociales (Facebook, Instagram, etc.)
+  - Beneficio: Centralizar todos los iconos en un solo sprite
+- [ ] Evaluar sprite para logos de partners (CID-UNESCO, Got Talent, etc.)
+  - Beneficio: Reducir peso de logos individuales
+- [ ] Automatizar generación de TypeScript types desde sprite
+  - Herramienta: Script que lea sprite.svg y genere tipos automáticamente
+  - Beneficio: Evitar actualizar manualmente Icon.tsx cuando se añaden iconos
+- [ ] Crear documentación Storybook para componente Icon
+  - Mostrar todos los iconos disponibles
+  - Ejemplos de uso con diferentes tamaños y colores
+  - Beneficio: Mejor DX (Developer Experience)
+
 #### UX Mejoras
 - [ ] Considerar agregar testimonios de estudiantes de danza
+  - Con fotos y nombres reales
+  - Citando progreso específico (técnica, competiciones, etc.)
 - [ ] Evaluar agregar galería de fotos de clases reales
+  - Fotos de estudiantes en clases de Ballet, Contemporáneo, Jazz
+  - Galas y presentaciones anuales
 - [ ] Considerar video promocional de clases
+  - Video corto (30-60s) mostrando clases en acción
+  - Testimonios de estudiantes hablando
+  - Mejora engagement y conversión
 
 ---
 
