@@ -16,7 +16,7 @@ export const es = {
   heroTagline: 'Bailar es trabajar tu felicidad.',
   heroValue:
     'Si buscas clases de baile en Barcelona donde por fin avances y no te sientas un número, estás en el sitio correcto. Con el Método Farray® aprendes bien, rápido y con estilo… y te diviertes más que en cualquier gimnasio.',
-  heroCTA1: 'Prueba una Clase Gratis',
+  heroCTA1: 'Reserva tu Clase de Prueba',
   heroCTA2: 'Explora las Clases',
   heroScroll: 'Despliega Tu Potencial',
   // Philosophy

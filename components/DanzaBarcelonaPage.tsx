@@ -375,7 +375,7 @@ const DanzaBarcelonaPage: React.FC = () => {
           <div className="container mx-auto px-6 text-center">
             <AnimateOnScroll>
               <h2 className="text-4xl md:text-6xl font-black tracking-tighter mb-6 holographic-text">
-                Tu Primera Clase DE DANZA Te Está Esperando
+                Tu Primera Clase de Danza Te Está Esperando
               </h2>
               <p className="max-w-2xl mx-auto text-xl text-neutral/90 mb-4">
                 No dejes pasar más tiempo. Cada semana que esperas es una semana menos bailando.
