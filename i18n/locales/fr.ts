@@ -810,6 +810,7 @@ export const fr = {
   danzaCTA_subtitle: 'Ne laissez pas passer plus de temps. Chaque semaine que vous attendez est une semaine de moins à danser.',
   danzaCTA_description:
     'Rejoignez des centaines d\'étudiants—des débutants aux professionnels—qui transforment leur technique de ballet, contemporain et jazz avec des professeurs cubains diplômés à Barcelone.',
+  danzaBarcelona_viewMore: 'Voir plus →',
 
   // ==========================================
   // DANSES URBAINES BARCELONE PAGE

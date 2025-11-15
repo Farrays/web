@@ -242,7 +242,7 @@ const DanzaBarcelonaPage: React.FC = () => {
                           {t(`danceClassesHub_style_${style.key}_desc`)}
                         </p>
                         <div className="mt-3 inline-block text-primary-accent font-bold text-sm opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 md:delay-150">
-                          Ver más →
+                          {t('danzaBarcelona_viewMore')}
                         </div>
                       </div>
                     </div>
