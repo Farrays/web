@@ -89,10 +89,10 @@ export const en = {
   whyTitle: 'The FIDC Difference: Why choose our dance school in Barcelona?',
   whyPillar1Title: 'World-Class Instructors',
   whyPillar1Content:
-    'Be guided by a group of internationally recognized masters with extensive experience and teaching quality to accelerate your learning.',
+    'Learn with internationally recognized masters with extensive experience and teaching quality that accelerates your learning.',
   whyPillar2Title: "Exclusive 'Método Farray®'",
   whyPillar2Content:
-    'Learn with a teaching system unique in the world, created by Yunaisy Farray, which ensures fast, solid, and proven results.',
+    'Learn with a teaching system created by Yunaisy Farray that ensures fast and solid results.',
   whyPillar3Title: '700 m² Premium Facilities',
   whyPillar3Content:
     'Enjoy 700 m² of first-class facilities, with spacious dance studios, professional equipment, and air conditioning for your maximum comfort.',
@@ -104,7 +104,7 @@ export const en = {
     'We adapt dance to your life. We offer a wide variety of schedules, including morning classes and intensive programs, so you can always find your moment to dance.',
   whyPillar6Title: 'CID-UNESCO Prestige & Collaborations',
   whyPillar6Content:
-    'Train at a CID-UNESCO member center that collaborates on major TV projects and live shows, a hallmark of the highest quality.',
+    'CID-UNESCO member center that collaborates on major TV projects and live shows. A seal of international quality.',
   whyPillar7Title: 'Privileged Location',
   whyPillar7Content:
     'We are located in the heart of Barcelona, just a 5-minute walk from Plaza España and Sants Station.',
@@ -704,7 +704,7 @@ export const en = {
   danzaBarcelona_breadcrumb_current: 'Dance Classes in Barcelona',
   danzaBarcelona_h1: 'Dance Classes in Barcelona',
   danzaBarcelona_intro:
-    'Explore the technique, elegance and expression of classical and contemporary dance in Barcelona. At Farray\'s Center we offer elite training in Classical Ballet (Cuban School), Contemporary Dance, Modern Jazz, Afro Jazz and Afro Contemporary with internationally recognized and certified teachers.',
+    'Explore the technique, elegance and expression of classical and contemporary dance in Barcelona. At Farray\'s Center we offer elite training in Classical Ballet (Cuban School), Contemporary Dance, Modern Jazz, Afro Jazz and Afro Contemporary with teachers graduated from the National School of Arts of Cuba.',
 
   danzaBarcelona_styles_title: 'Dance Styles We Offer',
   danzaBarcelona_styles_description:
@@ -771,5 +771,22 @@ export const en = {
 
   danzaFaqQ10: 'Can I try a class before enrolling?',
   danzaFaqA10:
-    'Yes. We offer a free trial class without commitment so you can meet the teacher, the level of the group and the facilities. Book your spot by clicking the "Try a Free Class" button at the top of this page.',
+    'Yes. We offer a free trial class without commitment so you can meet the teacher, the level of the group and the facilities. Book your spot by clicking the "Book Your Trial Class" button at the top of this page.',
+
+  // Career Opportunities - Danza Barcelona
+  danzaWhyCareerTitle: 'Job Board & Competitions',
+  danzaWhyCareerContent:
+    'Access job offers, professional castings, and specialized preparation for national and international competitions. We connect you with real opportunities in the dance world and prepare you for your professional career.',
+
+  // Cuban School - Danza Barcelona
+  danzaWhyCubanSchoolTitle: 'Cuban School',
+  danzaWhyCubanSchoolContent:
+    'Technique, art and soul. Combines Russian rigor and discipline with Afro-Caribbean rhythm, expressiveness and musicality. A methodology that creates complete, strong, expressive and brilliant dancers on stage.',
+
+  // CTA Final - Danza Barcelona
+  danzaCTA_title: 'Your First Dance Class Is Waiting for You',
+  danzaCTA_subtitle: 'Don\'t let more time pass. Every week you wait is one week less dancing.',
+  danzaCTA_description:
+    'Join hundreds of students—from beginners to professionals—who are transforming their ballet, contemporary and jazz technique with Cuban graduated teachers in Barcelona.',
 };
+
