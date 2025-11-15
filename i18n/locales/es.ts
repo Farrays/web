@@ -1202,4 +1202,11 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   urbanFaqQ10: '¿Puedo probar una clase de Hip Hop o Dancehall antes de inscribirme?',
   urbanFaqA10:
     'Sí. Ofrecemos una clase de prueba gratuita sin compromiso en el estilo urbano que prefieras. Conoce al profesor, el ambiente, el nivel del grupo y las instalaciones. Reserva tu plaza pulsando el botón "Reserva tu Clase de Prueba" en la parte superior de esta página.',
+
+  // Urban-specific CTA
+  danzasUrbanas_viewMore: 'Ver más →',
+  danzasUrbanas_finalCTA_title: 'Tu Primera Clase de Urbano Te Está Esperando',
+  danzasUrbanas_finalCTA_subtitle: 'No dejes pasar más tiempo. Cada semana que esperas es una semana menos bailando.',
+  danzasUrbanas_finalCTA_description:
+    'Únete a centenas de estudiantes —desde principiantes hasta profesionales— que están dominando Hip Hop, Dancehall, K-Pop y Reggaeton con profesores internacionales en Barcelona.',
 };

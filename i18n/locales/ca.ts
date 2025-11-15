@@ -788,5 +788,98 @@ export const ca = {
   danzaCTA_subtitle: 'No deixis passar més temps. Cada setmana que esperes és una setmana menys ballant.',
   danzaCTA_description:
     'Uneix-te a centenars d\'estudiants —des de principiants fins a professionals— que estan transformant la seva tècnica de ballet, contemporani i jazz amb professors cubans graduats a Barcelona.',
+
+  // ==========================================
+  // DANSES URBANES BARCELONA PAGE
+  // ==========================================
+  danzasUrbanas_title: 'Classes de Danses Urbanes a Barcelona | Hip Hop, Dancehall, K-Pop i Reggaeton | Farray\'s Center',
+  danzasUrbanas_description:
+    'Descobreix les nostres classes de danses urbanes a Barcelona: Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat i més. Acadèmia de referència en estils urbans. Prova una classe gratis.',
+  danzasUrbanas_breadcrumb_home: 'Inici',
+  danzasUrbanas_breadcrumb_current: 'Classes de Danses Urbanes a Barcelona',
+  danzasUrbanas_h1: 'Classes de Danses Urbanes a Barcelona',
+  danzasUrbanas_intro:
+    'Farray\'s Center és referència a Barcelona per a danses urbanes. Aprèn Hip Hop, Dancehall, K-Pop, Reggaeton Cubà, Twerk, Afrobeat, Femmology Heels i Commercial Dance amb professors formats a les capitals de l\'urbà: Kingston, Seül, Nova York i L\'Havana.',
+
+  danzasUrbanas_styles_title: 'Estils Urbans que Oferim',
+  danzasUrbanas_styles_description:
+    'Onze estils urbans amb classes per a tots els nivells. Des de fonaments de Hip Hop fins a coreografies K-Pop completes. Troba el teu ritme i desenvolupa\'l.',
+
+  danzasUrbanas_why_title: 'Per què estudiar danses urbanes a Farray\'s Center?',
+
+  // Urban-specific cards content
+  urbanWhyInternationalTitle: 'Professors Internacionals',
+  urbanWhyInternationalContent:
+    'Aprèn amb professors que han treballat en videoclips, gires internacionals i competicions mundials de Hip Hop, Dancehall i K-Pop. Formació directa de qui viu la cultura urbana des de dins.',
+
+  urbanWhyAuthenticStyleTitle: 'Estils Autèntics',
+  urbanWhyAuthenticStyleContent:
+    'Dancehall de Kingston amb els steps que marquen tendència. Hip Hop amb fonaments d\'Old School i New Style. K-Pop amb coreografies oficials de grups reals. Reggaeton Cubà directe des de L\'Havana. Aprèn cada estil des de les seves arrels.',
+
+  urbanWhyCareerTitle: 'Borsa de Treball i Audicions',
+  urbanWhyCareerContent:
+    'Accedeix a càstings per a videoclips, gires d\'artistes, competicions urbanes nacionals i internacionals, i esdeveniments a Barcelona. Et connectem amb la indústria de l\'entreteniment i et preparem per a audicions reals.',
+
+  urbanWhyDiversityTitle: '11 Estils Urbans',
+  urbanWhyDiversityContent:
+    'Onze estils urbans en un sol centre: Hip Hop, Dancehall, K-Pop, Reggaeton Cubà, Sexy Reggaeton, Twerk, Afrobeat, Femmology Heels, Commercial Dance, Sexy Style i Hip Hop Reggaeton. Combina estils i troba la teva identitat urbana pròpia.',
+
+  urbanWhyPrestigeTitle: 'Reconeixement Internacional',
+  urbanWhyPrestigeContent:
+    'Escola acreditada per CID-UNESCO amb professors que han actuat a Got Talent Espanya, videoclips internacionals i gales d\'alt nivell. Formació urbana amb prestigi i credibilitat internacional.',
+
+  urbanWhyFacilitiesTitle: 'Instal·lacions Professionals',
+  urbanWhyFacilitiesContent:
+    'Sales àmplies de 700 m² amb sòl professional esmorteït (ideal per a moviments d\'impacte), miralls de paret completa, sistema de so d\'alta qualitat, aire condicionat i ventilació centralitzada. L\'espai perfecte per entrenar urbà.',
+
+  // FAQ - Danses Urbanes Barcelona
+  danzasUrbanas_faq_title: 'Preguntes freqüents sobre les nostres classes de danses urbanes a Barcelona',
+
+  urbanFaqQ1: 'Quins estils de danses urbanes ensenyeu a Farray\'s Center Barcelona?',
+  urbanFaqA1:
+    'Tenim 11 estils urbans: Hip Hop (Old School i New Style), Dancehall jamaicà, K-Pop, Reggaeton Cubà, Sexy Reggaeton, Twerk, Afrobeat, Femmology Heels, Commercial Dance, Sexy Style i Hip Hop Reggaeton. Cada estil amb classes específiques per nivells.',
+
+  urbanFaqQ2: 'Necessito experiència prèvia per prendre classes de Hip Hop o Dancehall?',
+  urbanFaqA2:
+    'No. Tenim grups per a principiants absoluts que mai han ballat urbà. Cada estil té nivells des d\'iniciació fins a avançat. Aprendràs els fonaments pas a pas amb professors especialitzats.',
+
+  urbanFaqQ3: 'Quina diferència té el Dancehall de Farray\'s Center d\'altres escoles?',
+  urbanFaqA3:
+    'Ensenyem Dancehall jamaicà tal com es balla a Kingston, amb els steps que marquen tendència a l\'escena mundial: Wacky Dip, Willy Bounce, Log On, Nuh Linga. Aprens el vocabulari original amb el flow caribeny real, no adaptacions. Formació directa de la font.',
+
+  urbanFaqQ4: 'Quina roba i sabatilles necessito per a les classes de danses urbanes?',
+  urbanFaqA4:
+    'Roba còmoda esportiva (joggers, samarreta ampla o crop top) i sabatilles de street dance o sneakers amb bona amortització. Per a Heels: talons de 8-12 cm amb plataforma i sola de goma. Per a Twerk: roba ajustada (shorts o malles). T\'assessorem a la teva primera classe.',
+
+  urbanFaqQ5: 'Puc combinar Hip Hop amb Dancehall o K-Pop?',
+  urbanFaqA5:
+    'Sí, és molt recomanable. Hip Hop desenvolupa la teva musicalitat i fonaments, Dancehall aporta flow caribeny, i K-Pop millora precisió i performance. Molts estudiants combinen 2-3 estils per desenvolupar versatilitat completa.',
+
+  urbanFaqQ6: 'Organitzeu battles o esdeveniments urbans on els alumnes puguin participar?',
+  urbanFaqA6:
+    'Sí. Organitzem Battles de Hip Hop i Dancehall durant l\'any, Showcases urbans en locals de Barcelona, i participem en competicions nacionals. També organitzem una Gala Anual amb coreografies de tots els estils urbans en teatre professional.',
+
+  urbanFaqQ7: 'En quant temps aprenc una coreografia de K-Pop o Hip Hop?',
+  urbanFaqA7:
+    'Depèn del nivell. Principiants aprenen coreografies simples en 4-6 classes. Amb nivell intermedi, pots dominar una coreografia de K-Pop completa (3-4 minuts) en 6-8 classes. El Hip Hop freestyle requereix més temps (3-6 mesos) per desenvolupar el teu propi estil.',
+
+  urbanFaqQ8: 'Hi ha classes de danses urbanes per a adults sense experiència?',
+  urbanFaqA8:
+    'Absolutament. Molts adults comencen de zero en urbà i descobreixen la seva passió. Tenim grups específics d\'adults principiants en Hip Hop, Dancehall, K-Pop i Reggaeton. La cultura urbana no té límit d\'edat, només requereix actitud i ganes.',
+
+  urbanFaqQ9: 'On està ubicada l\'escola de danses urbanes?',
+  urbanFaqA9:
+    'Estem al Carrer Entença 100, 08015 Barcelona, a només 5 minuts caminant de Plaça Espanya i l\'Estació de Sants. Metro: L1 (Hostafrancs) / L3 (Tarragona, Plaça Espanya). Tren: Sants Estació. Autobusos: 13, 37, 65, 79, 109, 165.',
+
+  urbanFaqQ10: 'Puc provar una classe de Hip Hop o Dancehall abans d\'inscriure\'m?',
+  urbanFaqA10:
+    'Sí. Oferim una classe de prova gratuïta sense compromís en l\'estil urbà que prefereixis. Coneix el professor, l\'ambient, el nivell del grup i les instal·lacions. Reserva la teva plaça prement el botó "Reserva la teva Classe de Prova" a la part superior d\'aquesta pàgina.',
+
+  // Urban-specific CTA
+  danzasUrbanas_viewMore: 'Veure més →',
+  danzasUrbanas_finalCTA_title: 'La Teva Primera Classe d\'Urbà T\'Està Esperant',
+  danzasUrbanas_finalCTA_subtitle: 'No deixis passar més temps. Cada setmana que esperes és una setmana menys ballant.',
+  danzasUrbanas_finalCTA_description:
+    'Uneix-te a centenars d\'estudiants —des de principiants fins a professionals— que estan dominant Hip Hop, Dancehall, K-Pop i Reggaeton amb professors internacionals a Barcelona.',
 };
 
