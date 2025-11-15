@@ -17,7 +17,7 @@ export const ca = {
   heroTagline: 'Ballar és treballar la teva felicitat.',
   heroValue:
     'Si busques classes de ball a Barcelona on per fi avancis i no et sentis un número, estàs al lloc correcte. Amb el Mètode Farray® aprens bé, ràpid i amb estil… i et diverteixes més que a qualsevol gimnàs.',
-  heroCTA1: 'Prova una Classe Gratis',
+  heroCTA1: 'Reserva la teva Classe de Prova',
   heroCTA2: 'Explora les Classes',
   heroScroll: 'Desplega el Teu Potencial',
   // Philosophy
@@ -719,7 +719,7 @@ export const ca = {
   // ====================
   danzaBarcelona_title: 'Classes de Dansa a Barcelona | Ballet, Contemporani i Jazz | Farray\'s Center',
   danzaBarcelona_description:
-    'Descobreix les nostres classes de dansa a Barcelona: Ballet Clàssic Cubà, Dansa Contemporània, Modern Jazz, Afro Jazz i més. Acadèmia reconeguda per CID-UNESCO. Prova una classe gratis.',
+    'Descobreix les nostres classes de dansa a Barcelona: Ballet Clàssic Cubà, Dansa Contemporània, Modern Jazz, Afro Jazz i més. Acadèmia reconeguda per CID-UNESCO. Reserva la teva classe de prova.',
   danzaBarcelona_breadcrumb_home: 'Inici',
   danzaBarcelona_breadcrumb_current: 'Classes de Dansa a Barcelona',
   danzaBarcelona_h1: 'Classes de Dansa a Barcelona',
@@ -814,7 +814,7 @@ export const ca = {
   // ==========================================
   danzasUrbanas_title: 'Classes de Danses Urbanes a Barcelona | Hip Hop, Dancehall, K-Pop i Reggaeton | Farray\'s Center',
   danzasUrbanas_description:
-    'Descobreix les nostres classes de danses urbanes a Barcelona: Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat i més. Acadèmia de referència en estils urbans. Prova una classe gratis.',
+    'Descobreix les nostres classes de danses urbanes a Barcelona: Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat i més. Acadèmia de referència en estils urbans. Reserva la teva classe de prova.',
   danzasUrbanas_breadcrumb_home: 'Inici',
   danzasUrbanas_breadcrumb_current: 'Classes de Danses Urbanes a Barcelona',
   danzasUrbanas_h1: 'Classes de Danses Urbanes a Barcelona',

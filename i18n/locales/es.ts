@@ -1027,7 +1027,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   // ====================
   danzaBarcelona_title: 'Clases de Danza en Barcelona | Ballet, Contemporáneo y Jazz | Farray\'s Center',
   danzaBarcelona_description:
-    'Descubre nuestras clases de danza en Barcelona: Ballet Clásico Cubano, Danza Contemporánea, Modern Jazz, Afro Jazz y más. Academia reconocida por CID-UNESCO. Prueba una clase gratis.',
+    'Descubre nuestras clases de danza en Barcelona: Ballet Clásico Cubano, Danza Contemporánea, Modern Jazz, Afro Jazz y más. Academia reconocida por CID-UNESCO. Reserva tu clase de prueba.',
   danzaBarcelona_breadcrumb_home: 'Inicio',
   danzaBarcelona_breadcrumb_current: 'Clases de Danza en Barcelona',
   danzaBarcelona_h1: 'Clases de Danza en Barcelona',
@@ -1122,7 +1122,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   // ==========================================
   danzasUrbanas_title: 'Clases de Danzas Urbanas en Barcelona | Hip Hop, Dancehall, K-Pop y Reggaeton | Farray\'s Center',
   danzasUrbanas_description:
-    'Descubre nuestras clases de danzas urbanas en Barcelona: Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat y más. Academia de referencia en estilos urbanos. Prueba una clase gratis.',
+    'Descubre nuestras clases de danzas urbanas en Barcelona: Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat y más. Academia de referencia en estilos urbanos. Reserva tu clase de prueba.',
   danzasUrbanas_breadcrumb_home: 'Inicio',
   danzasUrbanas_breadcrumb_current: 'Clases de Danzas Urbanas en Barcelona',
   danzasUrbanas_h1: 'Clases de Danzas Urbanas en Barcelona',

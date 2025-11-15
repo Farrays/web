@@ -17,7 +17,7 @@ export const en = {
   heroTagline: 'Dancing is working on your happiness.',
   heroValue:
     'If you\'re looking for dance classes in Barcelona where you finally make progress and don\'t feel like just a number, you\'re in the right place. With the Farray Method® you learn well, fast and with style… and you have more fun than in any gym.',
-  heroCTA1: 'Start Your Free Trial',
+  heroCTA1: 'Book Your Trial Class',
   heroCTA2: 'Explore Classes',
   heroScroll: 'Unfold Your Potential',
   // Philosophy
@@ -719,7 +719,7 @@ export const en = {
   // ====================
   danzaBarcelona_title: 'Dance Classes in Barcelona | Ballet, Contemporary & Jazz | Farray\'s Center',
   danzaBarcelona_description:
-    'Discover our dance classes in Barcelona: Cuban Classical Ballet, Contemporary Dance, Modern Jazz, Afro Jazz and more. CID-UNESCO accredited academy. Try a free class.',
+    'Discover our dance classes in Barcelona: Cuban Classical Ballet, Contemporary Dance, Modern Jazz, Afro Jazz and more. CID-UNESCO accredited academy. Book your trial class.',
   danzaBarcelona_breadcrumb_home: 'Home',
   danzaBarcelona_breadcrumb_current: 'Dance Classes in Barcelona',
   danzaBarcelona_h1: 'Dance Classes in Barcelona',
@@ -814,7 +814,7 @@ export const en = {
   // ==========================================
   danzasUrbanas_title: 'Urban Dance Classes in Barcelona | Hip Hop, Dancehall, K-Pop & Reggaeton | Farray\'s Center',
   danzasUrbanas_description:
-    'Discover our urban dance classes in Barcelona: Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat and more. Leading academy in urban styles. Try a free class.',
+    'Discover our urban dance classes in Barcelona: Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat and more. Leading academy in urban styles. Book your trial class.',
   danzasUrbanas_breadcrumb_home: 'Home',
   danzasUrbanas_breadcrumb_current: 'Urban Dance Classes in Barcelona',
   danzasUrbanas_h1: 'Urban Dance Classes in Barcelona',

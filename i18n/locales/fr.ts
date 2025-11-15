@@ -17,7 +17,7 @@ export const fr = {
   heroTagline: "Danser, c'est travailler à son bonheur.",
   heroValue:
     'Si vous cherchez des cours de danse à Barcelone où vous progressez enfin et ne vous sentez pas comme un simple numéro, vous êtes au bon endroit. Avec la Méthode Farray®, vous apprenez bien, vite et avec style… et vous vous amusez plus que dans n\'importe quelle salle de sport.',
-  heroCTA1: "Cours d'Essai Gratuit",
+  heroCTA1: 'Réservez Votre Cours d\'Essai',
   heroCTA2: 'Découvrir les Cours',
   heroScroll: 'Révélez Votre Potentiel',
   // Philosophy
@@ -721,7 +721,7 @@ export const fr = {
   // ====================
   danzaBarcelona_title: 'Cours de Danse à Barcelone | Ballet, Contemporain et Jazz | Farray\'s Center',
   danzaBarcelona_description:
-    'Découvrez nos cours de danse à Barcelone : Ballet Classique Cubain, Danse Contemporaine, Modern Jazz, Afro Jazz et plus. Académie accréditée par CID-UNESCO. Essayez un cours gratuit.',
+    'Découvrez nos cours de danse à Barcelone : Ballet Classique Cubain, Danse Contemporaine, Modern Jazz, Afro Jazz et plus. Académie accréditée par CID-UNESCO. Réservez votre cours d\'essai.',
   danzaBarcelona_breadcrumb_home: 'Accueil',
   danzaBarcelona_breadcrumb_current: 'Cours de Danse à Barcelone',
   danzaBarcelona_h1: 'Cours de Danse à Barcelone',
@@ -816,7 +816,7 @@ export const fr = {
   // ==========================================
   danzasUrbanas_title: 'Cours de Danses Urbaines à Barcelone | Hip Hop, Dancehall, K-Pop et Reggaeton | Farray\'s Center',
   danzasUrbanas_description:
-    'Découvrez nos cours de danses urbaines à Barcelone : Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat et plus. Académie de référence en styles urbains. Essayez un cours gratuit.',
+    'Découvrez nos cours de danses urbaines à Barcelone : Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat et plus. Académie de référence en styles urbains. Réservez votre cours d\'essai.',
   danzasUrbanas_breadcrumb_home: 'Accueil',
   danzasUrbanas_breadcrumb_current: 'Cours de Danses Urbaines à Barcelone',
   danzasUrbanas_h1: 'Cours de Danses Urbaines à Barcelone',
