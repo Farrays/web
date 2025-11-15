@@ -1081,7 +1081,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   danzaFaqA6:
     'Sí. Cada año organizamos una Gala Anual en un teatro profesional de Barcelona donde los alumnos de todos los niveles pueden presentar coreografías preparadas durante el curso. Es una experiencia inolvidable.',
 
-  danzaFaqQ7: '¿Cuánto tiempo tarda en ver progreso en ballet o danza contemporánea?',
+  danzaFaqQ7: '¿En cuánto tiempo veo progreso en ballet o danza contemporánea?',
   danzaFaqA7:
     'Con constancia (2-3 clases por semana), los primeros cambios en postura, flexibilidad y conciencia corporal se notan en 4-6 semanas. El progreso técnico visible (como mejora en piruetas, saltos, extensiones) puede verse en 3-6 meses. La danza requiere paciencia y dedicación, pero cada clase te acerca más a tus objetivos.',
 
@@ -1095,7 +1095,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   danzaFaqQ10: '¿Puedo probar una clase antes de inscribirme?',
   danzaFaqA10:
-    'Sí. Ofrecemos una clase de prueba gratuita sin compromiso para que conozcas al profesor, el nivel del grupo y las instalaciones. Reserva tu plaza pulsando el botón "Prueba una Clase Gratis" en la parte superior de esta página.',
+    'Sí. Ofrecemos una clase de prueba gratuita sin compromiso para que conozcas al profesor, el nivel del grupo y las instalaciones. Reserva tu plaza pulsando el botón "Reserva tu Clase de Prueba" en la parte superior de esta página.',
 
   // ==========================================
   // DANZAS URBANAS BARCELONA PAGE
