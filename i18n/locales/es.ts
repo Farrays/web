@@ -997,4 +997,83 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   home_categories_otras_styles_sevillanas: 'Sevillanas',
   home_categories_otras_styles_telas_aereas: 'Telas Aéreas y Aro',
   home_categories_otras_styles_acro_yoga: 'Acro Yoga',
+
+  // ====================
+  // DANZA BARCELONA PAGE (Category Pillar Page)
+  // ====================
+  danzaBarcelona_title: 'Clases de Danza en Barcelona | Ballet, Contemporáneo y Jazz | Farray\'s Center',
+  danzaBarcelona_description:
+    'Descubre nuestras clases de danza en Barcelona: Ballet Clásico Cubano, Danza Contemporánea, Modern Jazz, Afro Jazz y más. Academia reconocida por CID-UNESCO. Prueba una clase gratis.',
+  danzaBarcelona_breadcrumb_home: 'Inicio',
+  danzaBarcelona_breadcrumb_current: 'Clases de Danza en Barcelona',
+  danzaBarcelona_h1: 'Clases de Danza en Barcelona',
+  danzaBarcelona_intro:
+    'Explora la técnica, elegancia y expresión de la danza clásica y contemporánea en Barcelona. En Farray\'s Center ofrecemos formación de élite en Ballet Clásico (Escuela Cubana), Danza Contemporánea, Modern Jazz, Afro Jazz y Afro Contemporáneo con profesores titulados y reconocidos internacionalmente.',
+
+  danzaBarcelona_styles_title: 'Estilos de Danza que Ofrecemos',
+  danzaBarcelona_styles_description:
+    'Desde la técnica clásica del Ballet Cubano hasta la expresión libre de la Danza Contemporánea, encuentra el estilo que mejor se adapte a ti.',
+
+  danzaBarcelona_why_title: '¿Por qué estudiar danza en Farray\'s Center?',
+  danzaBarcelona_why_reason1_title: 'Escuela Cubana de Ballet',
+  danzaBarcelona_why_reason1_desc:
+    'Formación con la prestigiosa metodología cubana, reconocida mundialmente por su rigor, disciplina y resultados excepcionales.',
+  danzaBarcelona_why_reason2_title: 'Profesores con Titulación Oficial',
+  danzaBarcelona_why_reason2_desc:
+    'Aprende con bailarines profesionales graduados de la Escuela Nacional de Arte de Cuba (ENA) y reconocidos por CID-UNESCO.',
+  danzaBarcelona_why_reason3_title: 'Técnica + Expresión',
+  danzaBarcelona_why_reason3_desc:
+    'Combinamos la precisión técnica del ballet clásico con la libertad expresiva del contemporáneo, jazz y afro.',
+  danzaBarcelona_why_reason4_title: 'Clases para Todos los Niveles',
+  danzaBarcelona_why_reason4_desc:
+    'Desde principiantes absolutos hasta bailarines avanzados. Cada nivel tiene su espacio para crecer con seguridad.',
+  danzaBarcelona_why_reason5_title: 'Ubicación Céntrica',
+  danzaBarcelona_why_reason5_desc:
+    'A 5 minutos de Plaza España y Sants. Fácil acceso en metro, tren y bus.',
+  danzaBarcelona_why_reason6_title: 'Instalaciones de 700 m²',
+  danzaBarcelona_why_reason6_desc:
+    'Salas amplias con suelo profesional, espejos de pared completa, barras fijas, aire acondicionado y ventilación centralizada.',
+
+  // FAQ - Danza Barcelona
+  danzaBarcelona_faq_title: 'Preguntas frecuentes sobre nuestras clases de danza en Barcelona',
+
+  danzaFaqQ1: '¿Qué estilos de danza enseñan en Farray\'s Center Barcelona?',
+  danzaFaqA1:
+    'Enseñamos Ballet Clásico (Escuela Cubana), Danza Contemporánea (Lírico y Suelo & Flow), Modern Jazz, Afro Jazz (Técnica Cubana) y Afro Contemporáneo (Técnica Cubana). También ofrecemos Stretching específico para bailarines.',
+
+  danzaFaqQ2: '¿Necesito experiencia previa para tomar clases de danza?',
+  danzaFaqA2:
+    'No. Tenemos grupos para principiantes absolutos que nunca han bailado ballet o danza contemporánea. Cada nivel tiene su propio grupo adaptado al ritmo de aprendizaje correspondiente.',
+
+  danzaFaqQ3: '¿Qué diferencia la Escuela Cubana de Ballet de otras metodologías?',
+  danzaFaqA3:
+    'La Escuela Cubana de Ballet combina el rigor técnico de la escuela rusa con la musicalidad y expresividad caribeña. Es conocida mundialmente por producir bailarines con técnica impecable, extensión excepcional y una calidad artística única. Nuestros profesores están formados en la Escuela Nacional de Arte de Cuba (ENA).',
+
+  danzaFaqQ4: '¿Qué ropa y zapatillas necesito para las clases de danza?',
+  danzaFaqA4:
+    'Para Ballet: Mallas o ropa ajustada que permita ver la línea del cuerpo, zapatillas de media punta (ballet slippers). Para Danza Contemporánea y Modern Jazz: Ropa cómoda que permita movimiento libre, descalzo o calcetines antideslizantes. Te recomendaremos marcas específicas en tu primera clase.',
+
+  danzaFaqQ5: '¿Puedo combinar Ballet con Contemporáneo o Jazz?',
+  danzaFaqA5:
+    'Sí, es muy recomendable. El ballet proporciona la base técnica y Contemporáneo/Jazz desarrollan expresión y versatilidad. Muchos estudiantes toman ambos para un desarrollo completo como bailarines.',
+
+  danzaFaqQ6: '¿Organizan galas o presentaciones donde los alumnos puedan actuar?',
+  danzaFaqA6:
+    'Sí. Cada año organizamos una Gala Anual en un teatro profesional de Barcelona donde los alumnos de todos los niveles pueden presentar coreografías preparadas durante el curso. Es una experiencia inolvidable.',
+
+  danzaFaqQ7: '¿Cuánto tiempo tarda en ver progreso en ballet o danza contemporánea?',
+  danzaFaqA7:
+    'Con constancia (2-3 clases por semana), los primeros cambios en postura, flexibilidad y conciencia corporal se notan en 4-6 semanas. El progreso técnico visible (como mejora en piruetas, saltos, extensiones) puede verse en 3-6 meses. La danza requiere paciencia y dedicación, pero cada clase te acerca más a tus objetivos.',
+
+  danzaFaqQ8: '¿Hay clases de danza para adultos sin experiencia?',
+  danzaFaqA8:
+    'Absolutamente. Tenemos grupos específicos de adultos principiantes tanto en Ballet como en Danza Contemporánea y Jazz. Nunca es tarde para empezar a bailar. Muchos de nuestros estudiantes empezaron de cero en edad adulta y ahora bailan con hermosa técnica y expresión.',
+
+  danzaFaqQ9: '¿Dónde está ubicada la escuela de danza?',
+  danzaFaqA9:
+    'Estamos en Calle Entença 100, 08015 Barcelona, a solo 5 minutos andando de Plaza España y la Estación de Sants. Metro: L1 (Hostafrancs) / L3 (Tarragona, Plaza España). Tren: Sants Estació. Buses: 13, 37, 65, 79, 109, 165.',
+
+  danzaFaqQ10: '¿Puedo probar una clase antes de inscribirme?',
+  danzaFaqA10:
+    'Sí. Ofrecemos una clase de prueba gratuita sin compromiso para que conozcas al profesor, el nivel del grupo y las instalaciones. Reserva tu plaza pulsando el botón "Prueba una Clase Gratis" en la parte superior de esta página.',
 };

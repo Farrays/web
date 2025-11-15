@@ -10,6 +10,7 @@ const SEO: React.FC = () => {
   // Detect current page from route
   const getPageFromPath = (path: string): string => {
     if (path === '/' || path === '') return 'home';
+    if (path.includes('/clases/danza-barcelona')) return 'danza';
     if (path.includes('/dancehall')) return 'dancehall';
     if (path.includes('/clases/baile-barcelona')) return 'classes';
     return 'home';
@@ -23,6 +24,7 @@ const SEO: React.FC = () => {
   const pageToPath = {
     home: '',
     classes: 'clases/baile-barcelona',
+    danza: 'clases/danza-barcelona',
     dancehall: 'clases/dancehall-barcelona',
   };
 
@@ -41,6 +43,11 @@ const SEO: React.FC = () => {
       titleKey: 'danceClassesHub_title',
       descKey: 'danceClassesHub_description',
       image: `${baseUrl}/images/og-classes-hub.jpg`, // TODO: Create this image (1200x630px)
+    },
+    danza: {
+      titleKey: 'danzaBarcelona_title',
+      descKey: 'danzaBarcelona_description',
+      image: `${baseUrl}/images/og-danza-barcelona.jpg`, // TODO: Create this image (1200x630px)
     },
     dancehall: {
       titleKey: 'dancehallPageTitle',
