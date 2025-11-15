@@ -47,7 +47,7 @@ const SEO: React.FC = () => {
     danza: {
       titleKey: 'danzaBarcelona_title',
       descKey: 'danzaBarcelona_description',
-      image: `${baseUrl}/images/og-danza-barcelona.jpg`, // TODO: Create this image (1200x630px)
+      image: `${baseUrl}/images/og-classes.jpg`, // TEMPORAL: Usar og-classes.jpg hasta crear og-danza-barcelona.jpg (1200x630px)
     },
     dancehall: {
       titleKey: 'dancehallPageTitle',
