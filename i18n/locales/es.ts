@@ -1022,7 +1022,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   danzaBarcelona_styles_title: 'Estilos de Danza que Ofrecemos',
   danzaBarcelona_styles_description:
-    'Desde la técnica clásica del Ballet Cubano hasta la expresión libre de la Danza Contemporánea, encuentra el estilo que mejor se adapte a ti.',
+    'Desde la técnica clásica del Ballet Cubano hasta la expresión libre de la Danza Contemporánea. Encuentra tu estilo y nivel, desde principiante hasta avanzado.',
 
   danzaBarcelona_why_title: '¿Por qué estudiar danza en Farray\'s Center?',
   danzaBarcelona_why_reason1_title: 'Escuela Cubana de Ballet',
