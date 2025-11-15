@@ -13,37 +13,37 @@ import type { ValuePillar } from '../types';
 type ValuePillarWithIcon = Omit<ValuePillar, 'Icon'> & { iconName: IconName };
 
 const valuePillars: ValuePillarWithIcon[] = [
-  { id: 'instructors', titleKey: 'whyPillar1Title', contentKey: 'whyPillar1Content', iconName: 'globe' },
+  { id: 'international', titleKey: 'urbanWhyInternationalTitle', contentKey: 'urbanWhyInternationalContent', iconName: 'globe' },
   { id: 'method', titleKey: 'whyPillar2Title', contentKey: 'whyPillar2Content', iconName: 'sparkles' },
-  { id: 'cuban_school', titleKey: 'danzaWhyCubanSchoolTitle', contentKey: 'danzaWhyCubanSchoolContent', iconName: 'star' },
-  { id: 'career', titleKey: 'danzaWhyCareerTitle', contentKey: 'danzaWhyCareerContent', iconName: 'trophy' },
-  { id: 'prestige', titleKey: 'whyPillar6Title', contentKey: 'whyPillar6Content', iconName: 'academic-cap' },
-  { id: 'facilities', titleKey: 'whyPillar3Title', contentKey: 'whyPillar3Content', iconName: 'building' },
+  { id: 'authentic_style', titleKey: 'urbanWhyAuthenticStyleTitle', contentKey: 'urbanWhyAuthenticStyleContent', iconName: 'star' },
+  { id: 'career', titleKey: 'urbanWhyCareerTitle', contentKey: 'urbanWhyCareerContent', iconName: 'trophy' },
+  { id: 'prestige', titleKey: 'urbanWhyPrestigeTitle', contentKey: 'urbanWhyPrestigeContent', iconName: 'academic-cap' },
+  { id: 'facilities', titleKey: 'urbanWhyFacilitiesTitle', contentKey: 'urbanWhyFacilitiesContent', iconName: 'building' },
 ];
 
-const DanzaBarcelonaPage: React.FC = () => {
+const DanzasUrbanasBarcelonaPage: React.FC = () => {
   const { t, locale } = useI18n();
   const baseUrl = 'https://www.farrayscenter.com';
 
-  // Get the "contemporary" category data from HUB_CATEGORIES
-  const danzaCategory = HUB_CATEGORIES.find(cat => cat.key === 'contemporary');
+  // Get the "urban" category data from HUB_CATEGORIES
+  const urbanCategory = HUB_CATEGORIES.find(cat => cat.key === 'urban');
 
-  if (!danzaCategory) {
-    throw new Error('Category "contemporary" not found in HUB_CATEGORIES');
+  if (!urbanCategory) {
+    throw new Error('Category "urban" not found in HUB_CATEGORIES');
   }
 
-  // FAQ data for Danza
-  const danzaFaqs = [
-    { id: 'danza-1', question: t('danzaFaqQ1'), answer: t('danzaFaqA1') },
-    { id: 'danza-2', question: t('danzaFaqQ2'), answer: t('danzaFaqA2') },
-    { id: 'danza-3', question: t('danzaFaqQ3'), answer: t('danzaFaqA3') },
-    { id: 'danza-4', question: t('danzaFaqQ4'), answer: t('danzaFaqA4') },
-    { id: 'danza-5', question: t('danzaFaqQ5'), answer: t('danzaFaqA5') },
-    { id: 'danza-6', question: t('danzaFaqQ6'), answer: t('danzaFaqA6') },
-    { id: 'danza-7', question: t('danzaFaqQ7'), answer: t('danzaFaqA7') },
-    { id: 'danza-8', question: t('danzaFaqQ8'), answer: t('danzaFaqA8') },
-    { id: 'danza-9', question: t('danzaFaqQ9'), answer: t('danzaFaqA9') },
-    { id: 'danza-10', question: t('danzaFaqQ10'), answer: t('danzaFaqA10') },
+  // FAQ data for Danzas Urbanas
+  const urbanFaqs = [
+    { id: 'urban-1', question: t('urbanFaqQ1'), answer: t('urbanFaqA1') },
+    { id: 'urban-2', question: t('urbanFaqQ2'), answer: t('urbanFaqA2') },
+    { id: 'urban-3', question: t('urbanFaqQ3'), answer: t('urbanFaqA3') },
+    { id: 'urban-4', question: t('urbanFaqQ4'), answer: t('urbanFaqA4') },
+    { id: 'urban-5', question: t('urbanFaqQ5'), answer: t('urbanFaqA5') },
+    { id: 'urban-6', question: t('urbanFaqQ6'), answer: t('urbanFaqA6') },
+    { id: 'urban-7', question: t('urbanFaqQ7'), answer: t('urbanFaqA7') },
+    { id: 'urban-8', question: t('urbanFaqQ8'), answer: t('urbanFaqA8') },
+    { id: 'urban-9', question: t('urbanFaqQ9'), answer: t('urbanFaqA9') },
+    { id: 'urban-10', question: t('urbanFaqQ10'), answer: t('urbanFaqA10') },
   ];
 
 
@@ -55,24 +55,24 @@ const DanzaBarcelonaPage: React.FC = () => {
       {
         '@type': 'ListItem',
         position: 1,
-        name: t('danzaBarcelona_breadcrumb_home'),
+        name: t('danzasUrbanas_breadcrumb_home'),
         item: `${baseUrl}/${locale}`,
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: t('danzaBarcelona_breadcrumb_current'),
-        item: `${baseUrl}/${locale}/clases/danza-barcelona`,
+        name: t('danzasUrbanas_breadcrumb_current'),
+        item: `${baseUrl}/${locale}/clases/danzas-urbanas-barcelona`,
       },
     ],
   };
 
-  // Schema Markup - ItemList (Dance Styles)
+  // Schema Markup - ItemList (Urban Dance Styles)
   const itemListSchema = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: 'Estilos de Danza en Barcelona - Farray\'s Center',
-    itemListElement: danzaCategory.allStyles.map((style, idx) => ({
+    name: 'Estilos de Danzas Urbanas en Barcelona - Farray\'s Center',
+    itemListElement: urbanCategory.allStyles.map((style, idx) => ({
       '@type': 'ListItem',
       position: idx + 1,
       name: t(`danceClassesHub_style_${style.key}`),
@@ -84,7 +84,7 @@ const DanzaBarcelonaPage: React.FC = () => {
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: danzaFaqs.map(faq => ({
+    mainEntity: urbanFaqs.map(faq => ({
       '@type': 'Question',
       name: faq.question,
       acceptedAnswer: {
@@ -98,14 +98,14 @@ const DanzaBarcelonaPage: React.FC = () => {
   const courseSchema = {
     '@context': 'https://schema.org',
     '@type': 'Course',
-    name: 'Clases de Danza en Barcelona',
-    description: t('danzaBarcelona_description'),
+    name: 'Clases de Danzas Urbanas en Barcelona',
+    description: t('danzasUrbanas_description'),
     provider: {
       '@type': 'Organization',
       name: 'Farray\'s International Dance Center',
       sameAs: 'https://www.farrayscenter.com',
     },
-    hasCourseInstance: danzaCategory.allStyles.map(style => ({
+    hasCourseInstance: urbanCategory.allStyles.map(style => ({
       '@type': 'CourseInstance',
       name: t(`danceClassesHub_style_${style.key}`),
       courseMode: 'onsite',
@@ -138,7 +138,7 @@ const DanzaBarcelonaPage: React.FC = () => {
       <div className="pt-20 md:pt-24">
         {/* Hero Section */}
         <section
-          id="danza-barcelona-hero"
+          id="danzas-urbanas-hero"
           className="relative text-center py-32 md:py-40 overflow-hidden flex items-center justify-center min-h-[600px]"
         >
           {/* Background */}
@@ -152,12 +152,12 @@ const DanzaBarcelonaPage: React.FC = () => {
               <ol className="flex items-center justify-center gap-2 text-sm text-neutral/75">
                 <li>
                   <Link to={`/${locale}`} className="hover:text-primary-accent transition-colors">
-                    {t('danzaBarcelona_breadcrumb_home')}
+                    {t('danzasUrbanas_breadcrumb_home')}
                   </Link>
                 </li>
                 <li aria-hidden="true">/</li>
                 <li className="text-neutral/90" aria-current="page">
-                  {t('danzaBarcelona_breadcrumb_current')}
+                  {t('danzasUrbanas_breadcrumb_current')}
                 </li>
               </ol>
             </nav>
@@ -165,10 +165,10 @@ const DanzaBarcelonaPage: React.FC = () => {
             {/* H1 + Intro */}
             <AnimateOnScroll>
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-tight mb-6 holographic-text">
-                {t('danzaBarcelona_h1')}
+                {t('danzasUrbanas_h1')}
               </h1>
               <p className="max-w-4xl mx-auto text-xl md:text-2xl text-neutral/90 mt-8 leading-relaxed">
-                {t('danzaBarcelona_intro')}
+                {t('danzasUrbanas_intro')}
               </p>
             </AnimateOnScroll>
 
@@ -195,31 +195,31 @@ const DanzaBarcelonaPage: React.FC = () => {
           </div>
         </section>
 
-        {/* Dance Styles Grid Section */}
+        {/* Urban Dance Styles Grid Section */}
         <section aria-labelledby="styles-title" className="py-12 md:py-20 bg-primary-dark/10">
           <div className="container mx-auto px-6 text-center">
             <AnimateOnScroll>
               <h2 id="styles-title" className="text-4xl md:text-5xl font-black tracking-tighter mb-4 holographic-text">
-                {t('danzaBarcelona_styles_title')}
+                {t('danzasUrbanas_styles_title')}
               </h2>
             </AnimateOnScroll>
             <AnimateOnScroll delay={200}>
               <p className="max-w-3xl mx-auto text-lg text-neutral/90 mb-12">
-                {t('danzaBarcelona_styles_description')}
+                {t('danzasUrbanas_styles_description')}
               </p>
             </AnimateOnScroll>
 
-            {/* Grid of Dance Styles */}
+            {/* Grid of Urban Dance Styles */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {danzaCategory.allStyles.map((style, index) => (
+              {urbanCategory.allStyles.map((style, index) => (
                 <AnimateOnScroll key={style.key} delay={index * 100}>
                   <Link
                     to={`/${locale}${style.url}`}
                     className="group block relative rounded-xl overflow-hidden shadow-lg h-80 bg-black text-white transition-all duration-500 ease-in-out hover:shadow-accent-glow hover:scale-105"
                   >
-                    {/* Background Image - Using same image for all contemporary styles */}
+                    {/* Background Image - Using same image for all urban styles */}
                     <img
-                      src={danzaCategory.imageUrl}
+                      src={urbanCategory.imageUrl}
                       alt={`${t(`danceClassesHub_style_${style.key}`)} - Clases en Barcelona`}
                       className="absolute inset-0 w-full h-full object-cover transition-all duration-500 ease-in-out group-hover:scale-110 opacity-40 group-hover:opacity-60"
                       loading={index < 3 ? 'eager' : 'lazy'}
@@ -327,9 +327,9 @@ const DanzaBarcelonaPage: React.FC = () => {
 
         {/* FAQ Section */}
         <FAQSection
-          title={t('danzaBarcelona_faq_title')}
-          faqs={danzaFaqs}
-          pageUrl={`${baseUrl}/${locale}/clases/danza-barcelona`}
+          title={t('danzasUrbanas_faq_title')}
+          faqs={urbanFaqs}
+          pageUrl={`${baseUrl}/${locale}/clases/danzas-urbanas-barcelona`}
         />
 
         {/* Final CTA Section - Conversion Optimized */}
@@ -337,13 +337,13 @@ const DanzaBarcelonaPage: React.FC = () => {
           <div className="container mx-auto px-6 text-center">
             <AnimateOnScroll>
               <h2 className="text-4xl md:text-6xl font-black tracking-tighter mb-6 holographic-text">
-                Tu Primera Clase de Danza Te Está Esperando
+                Tu Primera Clase de Urbano Te Está Esperando
               </h2>
               <p className="max-w-2xl mx-auto text-xl text-neutral/90 mb-4">
                 No dejes pasar más tiempo. Cada semana que esperas es una semana menos bailando.
               </p>
               <p className="max-w-xl mx-auto text-lg text-neutral/75 mb-10">
-                Únete a centenas de estudiantes —desde principiantes hasta profesionales— que están transformando su técnica de ballet, contemporáneo y jazz con profesores cubanos titulados en Barcelona.
+                Únete a centenas de estudiantes —desde principiantes hasta profesionales— que están dominando Hip Hop, Dancehall, K-Pop y Reggaeton con profesores internacionales en Barcelona.
               </p>
             </AnimateOnScroll>
 
@@ -373,4 +373,4 @@ const DanzaBarcelonaPage: React.FC = () => {
   );
 };
 
-export default DanzaBarcelonaPage;
+export default DanzasUrbanasBarcelonaPage;
