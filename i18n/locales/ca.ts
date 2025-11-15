@@ -808,6 +808,7 @@ export const ca = {
   danzaCTA_subtitle: 'No deixis passar més temps. Cada setmana que esperes és una setmana menys ballant.',
   danzaCTA_description:
     'Uneix-te a centenars d\'estudiants —des de principiants fins a professionals— que estan transformant la seva tècnica de ballet, contemporani i jazz amb professors cubans graduats a Barcelona.',
+  danzaBarcelona_viewMore: 'Veure més →',
 
   // ==========================================
   // DANSES URBANES BARCELONA PAGE

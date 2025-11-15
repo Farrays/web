@@ -808,6 +808,7 @@ export const en = {
   danzaCTA_subtitle: 'Don\'t let more time pass. Every week you wait is one week less dancing.',
   danzaCTA_description:
     'Join hundreds of students—from beginners to professionals—who are transforming their ballet, contemporary and jazz technique with Cuban graduated teachers in Barcelona.',
+  danzaBarcelona_viewMore: 'View more →',
 
   // ==========================================
   // URBAN DANCES BARCELONA PAGE

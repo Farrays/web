@@ -1116,6 +1116,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   danzaCTA_subtitle: 'No dejes pasar más tiempo. Cada semana que esperas es una semana menos bailando.',
   danzaCTA_description:
     'Únete a cientos de estudiantes —desde principiantes hasta profesionales— que están transformando su técnica de ballet, contemporáneo y jazz con profesores cubanos graduados en Barcelona.',
+  danzaBarcelona_viewMore: 'Ver más →',
 
   // ==========================================
   // DANZAS URBANAS BARCELONA PAGE
