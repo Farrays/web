@@ -1035,6 +1035,11 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   danzaBarcelona_why_reason6_desc:
     'Salas amplias con suelo profesional, espejos de pared completa, barras fijas, aire acondicionado y ventilación centralizada.',
 
+  // Career Opportunities - Danza Barcelona
+  danzaWhyCareerTitle: 'Bolsa de Trabajo y Competiciones',
+  danzaWhyCareerContent:
+    'Accede a ofertas de trabajo exclusivas, castings profesionales y preparación especializada para competiciones nacionales e internacionales. Te conectamos con oportunidades reales en el mundo de la danza y te ayudamos a dar el siguiente paso en tu carrera profesional.',
+
   // FAQ - Danza Barcelona
   danzaBarcelona_faq_title: 'Preguntas frecuentes sobre nuestras clases de danza en Barcelona',
 
