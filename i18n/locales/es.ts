@@ -435,17 +435,17 @@ export const es = {
   danceClassesHub_style_stretching_desc: 'Flexibilidad específica para bailarines. Previene lesiones y mejora tu técnica.',
 
   // Urban Styles Descriptions (for hover cards)
-  danceClassesHub_style_afrobeat_desc: 'Ritmos africanos con energía contagiosa. Movimientos naturales llenos de groove y cultura.',
-  danceClassesHub_style_dancehall_desc: 'Auténtico estilo jamaicano. Energía pura, groove caribeño y steps originales de Kingston.',
-  danceClassesHub_style_femmology_heels_desc: 'Feminidad y poder en tacones. Técnica, sensualidad y confianza en cada movimiento.',
-  danceClassesHub_style_hip_hop_desc: 'Cultura urbana desde sus raíces. Old School y New Style con fundamentos reales.',
-  danceClassesHub_style_hip_hop_reggaeton_desc: 'Fusión única de Hip Hop y Reggaeton. Lo mejor de dos mundos urbanos.',
-  danceClassesHub_style_reggaeton_cubano_desc: 'Reggaeton auténtico desde La Habana. Reparto con sabor cubano y técnica única.',
-  danceClassesHub_style_sexy_reggaeton_desc: 'Reggaeton con actitud sensual. Movimiento, ritmo latino y expresión sin límites.',
-  danceClassesHub_style_sexy_style_desc: 'Estilo femenino urbano con carácter. Sensualidad, técnica y empoderamiento total.',
-  danceClassesHub_style_twerk_desc: 'Técnica de glúteos con control total. Fortalecimiento, ritmo y movimiento explosivo.',
-  danceClassesHub_style_commercial_dance_desc: 'Estilo de videoclips comerciales. Coreografías modernas con técnica pulida y presencia escénica.',
-  danceClassesHub_style_k_pop_desc: 'Coreografías oficiales K-Pop. Precisión, sincronización y energía de tus artistas favoritos.',
+  danceClassesHub_style_afrobeat_desc: 'Ritmos africanos con percusión viva y movimientos terrestres. Celebra la conexión con tus raíces.',
+  danceClassesHub_style_dancehall_desc: 'Steps de Kingston que marcan tendencia mundial. Aprende el Wacky Dip, Willy Bounce y más.',
+  danceClassesHub_style_femmology_heels_desc: 'Domina los tacones con técnica segura. Elegancia, fuerza y actitud en cada movimiento.',
+  danceClassesHub_style_hip_hop_desc: 'Fundamentos del Old School y New Style. Desarrolla tu propio flow y musicalidad urbana.',
+  danceClassesHub_style_hip_hop_reggaeton_desc: 'Dos mundos urbanos en uno. Aprende a fusionar beats de hip hop con sabor latino.',
+  danceClassesHub_style_reggaeton_cubano_desc: 'El reparto habanero en Barcelona. Aprende el Cubatón con clave y movimiento caribeño real.',
+  danceClassesHub_style_sexy_reggaeton_desc: 'Sensualidad con control y ritmo latino. Desarrolla confianza bailando con personalidad propia.',
+  danceClassesHub_style_sexy_style_desc: 'Feminidad urbana con actitud. Combina sensualidad, fuerza y presencia escénica potente.',
+  danceClassesHub_style_twerk_desc: 'Fortalece glúteos bailando. Aprende aislaciones, control muscular y movimientos de impacto.',
+  danceClassesHub_style_commercial_dance_desc: 'Baila como en los videoclips. Aprende coreografías pulidas con presencia de cámara.',
+  danceClassesHub_style_k_pop_desc: 'Coreografías de tus grupos favoritos. Aprende formaciones, sincronización y faciales K-Pop.',
 
   danceClassesHub_style_bum_bum_gluteos: 'Bum Bum Glúteos Maravillosos',
   danceClassesHub_style_afrobeat: 'Afrobeat',
@@ -1121,30 +1121,30 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   danzasUrbanas_breadcrumb_current: 'Clases de Danzas Urbanas en Barcelona',
   danzasUrbanas_h1: 'Clases de Danzas Urbanas en Barcelona',
   danzasUrbanas_intro:
-    'Sumérgete en el mundo de las danzas urbanas en Barcelona. En Farray\'s Center ofrecemos formación especializada en Hip Hop, Dancehall, K-Pop, Reggaeton Cubano, Twerk, Afrobeat, Femmology Heels, Commercial Dance y más estilos urbanos con profesores internacionales que dominan la escena urbana global.',
+    'Farray\'s Center es referencia en Barcelona para danzas urbanas. Aprende Hip Hop, Dancehall, K-Pop, Reggaeton Cubano, Twerk, Afrobeat, Femmology Heels y Commercial Dance con profesores formados en las capitales del urbano: Kingston, Seúl, Nueva York y La Habana.',
 
   danzasUrbanas_styles_title: 'Estilos Urbanos que Ofrecemos',
   danzasUrbanas_styles_description:
-    'Desde el groove del Hip Hop hasta la energía del Dancehall y K-Pop. Encuentra tu estilo urbano y nivel, desde principiante hasta avanzado.',
+    'Once estilos urbanos con clases para todos los niveles. Desde fundamentos de Hip Hop hasta coreografías K-Pop completas. Encuentra tu ritmo y desarróllalo.',
 
   danzasUrbanas_why_title: '¿Por qué estudiar danzas urbanas en Farray\'s Center?',
 
   // Urban-specific cards content
   urbanWhyInternationalTitle: 'Profesores Internacionales',
   urbanWhyInternationalContent:
-    'Aprende con profesores que han trabajado en videoclips, tours internacionales y competiciones mundiales de Hip Hop, Dancehall y K-Pop. Traemos la cultura urbana auténtica de Jamaica, Corea, Estados Unidos y el Caribe a Barcelona.',
+    'Aprende con profesores que han trabajado en videoclips, tours internacionales y competiciones mundiales de Hip Hop, Dancehall y K-Pop. Formación directa de quien vive la cultura urbana desde dentro.',
 
   urbanWhyAuthenticStyleTitle: 'Estilos Auténticos',
   urbanWhyAuthenticStyleContent:
-    'No enseñamos versiones diluidas. Dancehall jamaicano auténtico, Hip Hop con fundamentos de Old School y New Style, K-Pop con coreografías oficiales, y Reggaeton Cubano directo desde La Habana. Aprende los estilos en su forma más pura y original.',
+    'Dancehall de Kingston con los steps que marcan tendencia. Hip Hop con fundamentos de Old School y New Style. K-Pop con coreografías oficiales de grupos reales. Reggaeton Cubano directo desde La Habana. Aprende cada estilo desde sus raíces.',
 
   urbanWhyCareerTitle: 'Bolsa de Trabajo y Audiciones',
   urbanWhyCareerContent:
-    'Accede a castings para videoclips, tours de artistas, competiciones urbanas nacionales e internacionales, y eventos en Barcelona. Te conectamos con la industria del entretenimiento y te preparamos para audiciones profesionales.',
+    'Accede a castings para videoclips, tours de artistas, competiciones urbanas nacionales e internacionales, y eventos en Barcelona. Te conectamos con la industria del entretenimiento y te preparamos para audiciones reales.',
 
   urbanWhyDiversityTitle: '11 Estilos Urbanos',
   urbanWhyDiversityContent:
-    'La mayor variedad de estilos urbanos en Barcelona: Hip Hop, Dancehall, K-Pop, Reggaeton Cubano, Sexy Reggaeton, Twerk, Afrobeat, Femmology Heels, Commercial Dance, Sexy Style y Hip Hop Reggaeton. Encuentra tu flow único combinando diferentes estilos.',
+    'Once estilos urbanos en un solo centro: Hip Hop, Dancehall, K-Pop, Reggaeton Cubano, Sexy Reggaeton, Twerk, Afrobeat, Femmology Heels, Commercial Dance, Sexy Style e Hip Hop Reggaeton. Combina estilos y encuentra tu identidad urbana propia.',
 
   urbanWhyPrestigeTitle: 'Reconocimiento Internacional',
   urbanWhyPrestigeContent:
@@ -1159,7 +1159,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   urbanFaqQ1: '¿Qué estilos de danzas urbanas enseñan en Farray\'s Center Barcelona?',
   urbanFaqA1:
-    'Enseñamos Hip Hop (Old School y New Style), Dancehall jamaicano, K-Pop, Reggaeton Cubano, Sexy Reggaeton, Twerk, Afrobeat, Femmology Heels, Commercial Dance, Sexy Style e Hip Hop Reggaeton. Tenemos la mayor variedad de estilos urbanos en Barcelona.',
+    'Tenemos 11 estilos urbanos: Hip Hop (Old School y New Style), Dancehall jamaicano, K-Pop, Reggaeton Cubano, Sexy Reggaeton, Twerk, Afrobeat, Femmology Heels, Commercial Dance, Sexy Style e Hip Hop Reggaeton. Cada estilo con clases específicas por niveles.',
 
   urbanFaqQ2: '¿Necesito experiencia previa para tomar clases de Hip Hop o Dancehall?',
   urbanFaqA2:
@@ -1167,7 +1167,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   urbanFaqQ3: '¿Qué diferencia tiene el Dancehall de Farray\'s Center de otras escuelas?',
   urbanFaqA3:
-    'Nuestros profesores de Dancehall han vivido y entrenado en Jamaica, la cuna del Dancehall. Enseñamos el estilo auténtico tal como se baila en las calles de Kingston, con los steps originales, el groove real y la energía caribeña pura. No es una versión comercial, es Dancehall verdadero.',
+    'Enseñamos Dancehall jamaicano tal como se baila en Kingston, con los steps que marcan tendencia en la escena mundial: Wacky Dip, Willy Bounce, Log On, Nuh Linga. Aprendes el vocabulario original con el flow caribeño real, no adaptaciones. Formación directa de la fuente.',
 
   urbanFaqQ4: '¿Qué ropa y zapatillas necesito para las clases de danzas urbanas?',
   urbanFaqA4:
@@ -1175,7 +1175,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   urbanFaqQ5: '¿Puedo combinar Hip Hop con Dancehall o K-Pop?',
   urbanFaqA5:
-    'Sí, es muy recomendable. Hip Hop desarrolla tu musicalidad y fundamentos, Dancehall aporta groove caribeño, y K-Pop mejora precisión y performance. Muchos estudiantes combinan 2-3 estilos urbanos para desarrollar versatilidad total.',
+    'Sí, es muy recomendable. Hip Hop desarrolla tu musicalidad y fundamentos, Dancehall aporta flow caribeño, y K-Pop mejora precisión y performance. Muchos estudiantes combinan 2-3 estilos para desarrollar versatilidad completa.',
 
   urbanFaqQ6: '¿Organizan battles o eventos urbanos donde los alumnos puedan participar?',
   urbanFaqA6:
@@ -1187,7 +1187,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   urbanFaqQ8: '¿Hay clases de danzas urbanas para adultos sin experiencia?',
   urbanFaqA8:
-    'Absolutamente. Muchos adultos empiezan urbano de cero y se enganchan totalmente. Tenemos grupos específicos de adultos principiantes en Hip Hop, Dancehall, K-Pop y Reggaeton. La cultura urbana no tiene edad, solo actitud y ganas de disfrutar.',
+    'Absolutamente. Muchos adultos empiezan de cero en urbano y descubren su pasión. Tenemos grupos específicos de adultos principiantes en Hip Hop, Dancehall, K-Pop y Reggaeton. La cultura urbana no tiene límite de edad, solo requiere actitud y ganas.',
 
   urbanFaqQ9: '¿Dónde está ubicada la escuela de danzas urbanas?',
   urbanFaqA9:
