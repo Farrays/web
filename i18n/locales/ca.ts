@@ -7,6 +7,7 @@ export const ca = {
   navHome: 'Inici',
   navClasses: 'Classes de Ball',
   navDanza: 'Classes de Dansa',
+  navDanzasUrbanas: 'Danses Urbanes',
   navDancehall: 'Dancehall',
   enrollNow: 'Inscriu-te Ara',
   // Hero
@@ -16,7 +17,7 @@ export const ca = {
   heroTagline: 'Ballar és treballar la teva felicitat.',
   heroValue:
     'Si busques classes de ball a Barcelona on per fi avancis i no et sentis un número, estàs al lloc correcte. Amb el Mètode Farray® aprens bé, ràpid i amb estil… i et diverteixes més que a qualsevol gimnàs.',
-  heroCTA1: 'Prova una Classe Gratis',
+  heroCTA1: 'Reserva la teva Classe de Prova',
   heroCTA2: 'Explora les Classes',
   heroScroll: 'Desplega el Teu Potencial',
   // Philosophy
@@ -666,6 +667,25 @@ export const ca = {
   danceClassesHub_style_telas_aereas: 'Teles Aèries i Aro',
   danceClassesHub_style_acro_yoga: 'Acro Yoga',
 
+  // Dance Style Descriptions
+  danceClassesHub_style_afro_contemporaneo_desc: 'Fusió única de moviments afrocaribenys amb tècnica contemporània.',
+  danceClassesHub_style_afro_jazz_desc: 'Jazz amb arrels afrocaribenyesи tècnica cubana que et fa vibrar.',
+  danceClassesHub_style_ballet_clasico_desc: 'Ballet amb metodologia cubana. Tècnica impecable i expressivitat única.',
+  danceClassesHub_style_danza_contemporanea_desc: 'Explora la teva expressió amb líric, terra i flow contemporani.',
+  danceClassesHub_style_modern_jazz_desc: 'Jazz modern amb dinamisme, tècnica neta i personalitat.',
+  danceClassesHub_style_stretching_desc: 'Flexibilitat específica per a ballarins. Preveu lesions i millora la teva tècnica.',
+  danceClassesHub_style_afrobeat_desc: 'Ritmes africans amb percussió viva i moviments terrestres. Celebra la connexió amb les teves arrels.',
+  danceClassesHub_style_dancehall_desc: 'Steps de Kingston que marquen tendència mundial. Aprèn el Wacky Dip, Willy Bounce i més.',
+  danceClassesHub_style_femmology_heels_desc: 'Domina els talons amb tècnica segura. Elegància, força i actitud en cada moviment.',
+  danceClassesHub_style_hip_hop_desc: 'Fonaments de l\'Old School i New Style. Desenvolupa el teu propi flow i musicalitat urbana.',
+  danceClassesHub_style_hip_hop_reggaeton_desc: 'Dos móns urbans en un. Aprèn a fusionar beats de hip hop amb sabor llatí.',
+  danceClassesHub_style_reggaeton_cubano_desc: 'El reparto havanès a Barcelona. Aprèn el Cubatón amb clau i moviment caribeny real.',
+  danceClassesHub_style_sexy_reggaeton_desc: 'Sensualitat amb control i ritme llatí. Desenvolupa confiança ballant amb personalitat pròpia.',
+  danceClassesHub_style_sexy_style_desc: 'Feminitat urbana amb actitud. Combina sensualitat, força i presència escènica potent.',
+  danceClassesHub_style_twerk_desc: 'Enforteix glutis ballant. Aprèn aïllacions, control muscular i moviments d\'impacte.',
+  danceClassesHub_style_commercial_dance_desc: 'Balla com als videoclips. Aprèn coreografies polides amb presència de càmera.',
+  danceClassesHub_style_k_pop_desc: 'Coreografies dels teus grups favorits. Aprèn formacions, sincronització i facials K-Pop.',
+
   // Featured Styles Section
   danceClassesHub_featured_title: 'Estils de Ball Destacats',
   danceClassesHub_featured_description:
@@ -699,7 +719,7 @@ export const ca = {
   // ====================
   danzaBarcelona_title: 'Classes de Dansa a Barcelona | Ballet, Contemporani i Jazz | Farray\'s Center',
   danzaBarcelona_description:
-    'Descobreix les nostres classes de dansa a Barcelona: Ballet Clàssic Cubà, Dansa Contemporània, Modern Jazz, Afro Jazz i més. Acadèmia reconeguda per CID-UNESCO. Prova una classe gratis.',
+    'Descobreix les nostres classes de dansa a Barcelona: Ballet Clàssic Cubà, Dansa Contemporània, Modern Jazz, Afro Jazz i més. Acadèmia reconeguda per CID-UNESCO. Reserva la teva classe de prova.',
   danzaBarcelona_breadcrumb_home: 'Inici',
   danzaBarcelona_breadcrumb_current: 'Classes de Dansa a Barcelona',
   danzaBarcelona_h1: 'Classes de Dansa a Barcelona',
@@ -794,7 +814,7 @@ export const ca = {
   // ==========================================
   danzasUrbanas_title: 'Classes de Danses Urbanes a Barcelona | Hip Hop, Dancehall, K-Pop i Reggaeton | Farray\'s Center',
   danzasUrbanas_description:
-    'Descobreix les nostres classes de danses urbanes a Barcelona: Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat i més. Acadèmia de referència en estils urbans. Prova una classe gratis.',
+    'Descobreix les nostres classes de danses urbanes a Barcelona: Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat i més. Acadèmia de referència en estils urbans. Reserva la teva classe de prova.',
   danzasUrbanas_breadcrumb_home: 'Inici',
   danzasUrbanas_breadcrumb_current: 'Classes de Danses Urbanes a Barcelona',
   danzasUrbanas_h1: 'Classes de Danses Urbanes a Barcelona',

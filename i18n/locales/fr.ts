@@ -7,6 +7,7 @@ export const fr = {
   navHome: 'Accueil',
   navClasses: 'Cours de Danse',
   navDanza: 'Danse Classique',
+  navDanzasUrbanas: 'Danses Urbaines',
   navDancehall: 'Dancehall',
   enrollNow: 'Inscrivez-vous',
   // Hero
@@ -16,7 +17,7 @@ export const fr = {
   heroTagline: "Danser, c'est travailler à son bonheur.",
   heroValue:
     'Si vous cherchez des cours de danse à Barcelone où vous progressez enfin et ne vous sentez pas comme un simple numéro, vous êtes au bon endroit. Avec la Méthode Farray®, vous apprenez bien, vite et avec style… et vous vous amusez plus que dans n\'importe quelle salle de sport.',
-  heroCTA1: "Cours d'Essai Gratuit",
+  heroCTA1: 'Réservez Votre Cours d\'Essai',
   heroCTA2: 'Découvrir les Cours',
   heroScroll: 'Révélez Votre Potentiel',
   // Philosophy
@@ -667,6 +668,25 @@ export const fr = {
   danceClassesHub_style_telas_aereas: 'Tissus Aériens et Cerceau',
   danceClassesHub_style_acro_yoga: 'Acro Yoga',
 
+  // Dance Style Descriptions
+  danceClassesHub_style_afro_contemporaneo_desc: 'Fusion unique de mouvements afro-caribéens avec la technique contemporaine.',
+  danceClassesHub_style_afro_jazz_desc: 'Jazz avec des racines afro-caribéennes et une technique cubaine qui vous fait vibrer.',
+  danceClassesHub_style_ballet_clasico_desc: 'Ballet avec méthodologie cubaine. Technique impeccable et expressivité unique.',
+  danceClassesHub_style_danza_contemporanea_desc: 'Explorez votre expression avec le lyrique, le travail au sol et le flow contemporain.',
+  danceClassesHub_style_modern_jazz_desc: 'Jazz moderne avec dynamisme, technique propre et personnalité.',
+  danceClassesHub_style_stretching_desc: 'Flexibilité spécifique pour danseurs. Prévient les blessures et améliore votre technique.',
+  danceClassesHub_style_afrobeat_desc: 'Rythmes africains avec percussion live et mouvements terrestres. Célébrez la connexion avec vos racines.',
+  danceClassesHub_style_dancehall_desc: 'Steps de Kingston qui font tendance mondiale. Apprenez le Wacky Dip, Willy Bounce et plus.',
+  danceClassesHub_style_femmology_heels_desc: 'Maîtrisez les talons avec une technique sûre. Élégance, force et attitude dans chaque mouvement.',
+  danceClassesHub_style_hip_hop_desc: 'Fondamentaux de l\'Old School et New Style. Développez votre propre flow et musicalité urbaine.',
+  danceClassesHub_style_hip_hop_reggaeton_desc: 'Deux mondes urbains en un. Apprenez à fusionner les beats hip hop avec la saveur latine.',
+  danceClassesHub_style_reggaeton_cubano_desc: 'Le reparto havanais à Barcelone. Apprenez le Cubatón avec groove et mouvement caribéen réel.',
+  danceClassesHub_style_sexy_reggaeton_desc: 'Sensualité avec contrôle et rythme latin. Développez la confiance en dansant avec votre propre personnalité.',
+  danceClassesHub_style_sexy_style_desc: 'Féminité urbaine avec attitude. Combine sensualité, force et présence scénique puissante.',
+  danceClassesHub_style_twerk_desc: 'Renforcez les fessiers en dansant. Apprenez isolations, contrôle musculaire et mouvements d\'impact.',
+  danceClassesHub_style_commercial_dance_desc: 'Dansez comme dans les vidéoclips. Apprenez des chorégraphies polies avec présence caméra.',
+  danceClassesHub_style_k_pop_desc: 'Chorégraphies de vos groupes préférés. Apprenez formations, synchronisation et facials K-Pop.',
+
   // Featured Styles Section
   danceClassesHub_featured_title: 'Styles de Danse en Vedette',
   danceClassesHub_featured_description:
@@ -701,7 +721,7 @@ export const fr = {
   // ====================
   danzaBarcelona_title: 'Cours de Danse à Barcelone | Ballet, Contemporain et Jazz | Farray\'s Center',
   danzaBarcelona_description:
-    'Découvrez nos cours de danse à Barcelone : Ballet Classique Cubain, Danse Contemporaine, Modern Jazz, Afro Jazz et plus. Académie accréditée par CID-UNESCO. Essayez un cours gratuit.',
+    'Découvrez nos cours de danse à Barcelone : Ballet Classique Cubain, Danse Contemporaine, Modern Jazz, Afro Jazz et plus. Académie accréditée par CID-UNESCO. Réservez votre cours d\'essai.',
   danzaBarcelona_breadcrumb_home: 'Accueil',
   danzaBarcelona_breadcrumb_current: 'Cours de Danse à Barcelone',
   danzaBarcelona_h1: 'Cours de Danse à Barcelone',
@@ -796,7 +816,7 @@ export const fr = {
   // ==========================================
   danzasUrbanas_title: 'Cours de Danses Urbaines à Barcelone | Hip Hop, Dancehall, K-Pop et Reggaeton | Farray\'s Center',
   danzasUrbanas_description:
-    'Découvrez nos cours de danses urbaines à Barcelone : Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat et plus. Académie de référence en styles urbains. Essayez un cours gratuit.',
+    'Découvrez nos cours de danses urbaines à Barcelone : Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat et plus. Académie de référence en styles urbains. Réservez votre cours d\'essai.',
   danzasUrbanas_breadcrumb_home: 'Accueil',
   danzasUrbanas_breadcrumb_current: 'Cours de Danses Urbaines à Barcelone',
   danzasUrbanas_h1: 'Cours de Danses Urbaines à Barcelone',
