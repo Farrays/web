@@ -197,7 +197,7 @@ const DanzaBarcelonaPage: React.FC = () => {
                   to={`/${locale}#enroll`}
                   className="inline-flex items-center justify-center bg-primary-accent text-white font-bold text-lg py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-accent-glow animate-glow"
                 >
-                  Prueba una Clase Gratis
+                  {t('enrollNow')}
                   <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
@@ -206,12 +206,9 @@ const DanzaBarcelonaPage: React.FC = () => {
                   to={`/${locale}#enroll`}
                   className="inline-flex items-center justify-center bg-transparent border-2 border-primary-accent text-primary-accent font-bold text-lg py-4 px-10 rounded-full transition-all duration-300 hover:bg-primary-accent hover:text-white"
                 >
-                  Ver Horarios
+                  {t('heroCTA1')}
                 </Link>
               </div>
-              <p className="mt-4 text-sm text-neutral/75">
-                ✓ Sin compromiso · ✓ Plazas limitadas este mes
-              </p>
             </AnimateOnScroll>
           </div>
         </section>
@@ -297,6 +294,32 @@ const DanzaBarcelonaPage: React.FC = () => {
           </div>
         </section>
 
+        {/* Stats Widget Section */}
+        <section className="py-16 md:py-24 bg-gradient-to-br from-primary-dark/30 to-black">
+          <div className="container mx-auto px-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              <AnimateOnScroll delay={0}>
+                <div className="text-center">
+                  <div className="text-5xl md:text-6xl font-black text-primary-accent mb-2">8+</div>
+                  <div className="text-lg md:text-xl text-neutral/90 font-medium">AÑOS DE EXPERIENCIA</div>
+                </div>
+              </AnimateOnScroll>
+              <AnimateOnScroll delay={100}>
+                <div className="text-center">
+                  <div className="text-5xl md:text-6xl font-black text-primary-accent mb-2">1500+</div>
+                  <div className="text-lg md:text-xl text-neutral/90 font-medium">ESTUDIANTES ACTIVOS</div>
+                </div>
+              </AnimateOnScroll>
+              <AnimateOnScroll delay={200}>
+                <div className="text-center">
+                  <div className="text-5xl md:text-6xl font-black text-primary-accent mb-2">15000+</div>
+                  <div className="text-lg md:text-xl text-neutral/90 font-medium">ALUMNOS SATISFECHOS</div>
+                </div>
+              </AnimateOnScroll>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ Section */}
         <FAQSection
           title={t('danzaBarcelona_faq_title')}
@@ -320,42 +343,23 @@ const DanzaBarcelonaPage: React.FC = () => {
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={200}>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link
                   to={`/${locale}#enroll`}
                   className="inline-flex items-center justify-center bg-primary-accent text-white font-bold text-xl py-5 px-12 rounded-full transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-accent-glow animate-glow"
                 >
-                  Reserva Tu Clase Gratis Ahora
+                  {t('enrollNow')}
                   <svg className="w-6 h-6 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
                 </Link>
+                <Link
+                  to={`/${locale}#enroll`}
+                  className="inline-flex items-center justify-center bg-transparent border-2 border-primary-accent text-primary-accent font-bold text-xl py-5 px-12 rounded-full transition-all duration-300 hover:bg-primary-accent hover:text-white"
+                >
+                  {t('heroCTA1')}
+                </Link>
               </div>
-
-              <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-neutral/90">
-                <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  <span>Clase de prueba 100% gratis</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  <span>Sin permanencia</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  <span>Grupos reducidos</span>
-                </div>
-              </div>
-
-              <p className="mt-8 text-sm text-neutral/75 italic">
-                "Nunca es tarde para empezar, pero hoy es el mejor día para hacerlo."
-              </p>
             </AnimateOnScroll>
           </div>
         </section>
