@@ -269,11 +269,14 @@ const DanzaBarcelonaPage: React.FC = () => {
                     <div className="relative flex flex-col justify-end h-full p-6 text-left">
                       <h3 className="text-2xl font-bold mb-2">{t(`danceClassesHub_style_${style.key}`)}</h3>
 
-                      {/* CTA appears on hover */}
-                      <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-3">
-                        <span className="inline-flex items-center text-sm font-bold text-primary-accent">
+                      {/* Expandable Description + CTA - Always visible on mobile, hover on desktop */}
+                      <div className="h-24 md:h-0 md:group-hover:h-24 overflow-hidden transition-all duration-300 ease-in-out">
+                        <p className="text-neutral/90 text-sm mt-2 leading-relaxed opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 md:delay-150">
+                          {t(`danceClassesHub_style_${style.key}_desc`)}
+                        </p>
+                        <div className="mt-3 inline-block text-primary-accent font-bold text-sm opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 md:delay-150">
                           Ver más →
-                        </span>
+                        </div>
                       </div>
                     </div>
                   </Link>

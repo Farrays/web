@@ -424,6 +424,15 @@ export const es = {
   danceClassesHub_style_danza_contemporanea: 'Danza Contemporánea',
   danceClassesHub_style_modern_jazz: 'Modern Jazz',
   danceClassesHub_style_stretching: 'Stretching',
+
+  // Style Descriptions (for hover cards)
+  danceClassesHub_style_afro_contemporaneo_desc: 'Fusión única de movimientos afrocaribeños con técnica contemporánea. Expresión, ritmo y conexión cultural.',
+  danceClassesHub_style_afro_jazz_desc: 'Jazz con raíces afrocaribeñas. Energía, musicalidad y técnica cubana que te hace vibrar.',
+  danceClassesHub_style_ballet_clasico_desc: 'Ballet con metodología cubana reconocida mundialmente. Técnica impecable, extensión excepcional y expresividad única.',
+  danceClassesHub_style_danza_contemporanea_desc: 'Explora tu expresión a través del movimiento contemporáneo. Lírico, suelo y flow para liberar tu creatividad.',
+  danceClassesHub_style_modern_jazz_desc: 'Jazz moderno con estilo y personalidad. Dinamismo, técnica limpia y coreografías que te hacen brillar.',
+  danceClassesHub_style_stretching_desc: 'Flexibilidad específica para bailarines. Mejora tu rango de movimiento, previene lesiones y perfecciona tu técnica.',
+
   danceClassesHub_style_bum_bum_gluteos: 'Bum Bum Glúteos Maravillosos',
   danceClassesHub_style_afrobeat: 'Afrobeat',
   danceClassesHub_style_dancehall: 'Dancehall',
