@@ -7,6 +7,7 @@ export const en = {
   navHome: 'Home',
   navClasses: 'Dance Classes',
   navDanza: 'Classical Dance',
+  navDanzasUrbanas: 'Urban Dances',
   navDancehall: 'Dancehall',
   enrollNow: 'Enroll Now',
   // Hero
@@ -665,6 +666,25 @@ export const en = {
   danceClassesHub_style_sevillanas: 'Sevillanas',
   danceClassesHub_style_telas_aereas: 'Aerial Silks & Hoop',
   danceClassesHub_style_acro_yoga: 'Acro Yoga',
+
+  // Dance Style Descriptions
+  danceClassesHub_style_afro_contemporaneo_desc: 'Unique fusion of Afro-Caribbean movements with contemporary technique.',
+  danceClassesHub_style_afro_jazz_desc: 'Jazz with Afro-Caribbean roots and Cuban technique that makes you vibrate.',
+  danceClassesHub_style_ballet_clasico_desc: 'Ballet with Cuban methodology. Impeccable technique and unique expressiveness.',
+  danceClassesHub_style_danza_contemporanea_desc: 'Explore your expression with lyrical, floor work and contemporary flow.',
+  danceClassesHub_style_modern_jazz_desc: 'Modern jazz with dynamism, clean technique and personality.',
+  danceClassesHub_style_stretching_desc: 'Dance-specific flexibility. Prevents injuries and improves your technique.',
+  danceClassesHub_style_afrobeat_desc: 'African rhythms with live percussion and grounded movements. Celebrate connection with your roots.',
+  danceClassesHub_style_dancehall_desc: 'Steps from Kingston that set worldwide trends. Learn Wacky Dip, Willy Bounce and more.',
+  danceClassesHub_style_femmology_heels_desc: 'Master heels with safe technique. Elegance, strength and attitude in every movement.',
+  danceClassesHub_style_hip_hop_desc: 'Old School and New Style fundamentals. Develop your own flow and urban musicality.',
+  danceClassesHub_style_hip_hop_reggaeton_desc: 'Two urban worlds in one. Learn to fuse hip hop beats with Latin flavor.',
+  danceClassesHub_style_reggaeton_cubano_desc: 'Havana\'s reparto in Barcelona. Learn Cubatón with real Caribbean groove and movement.',
+  danceClassesHub_style_sexy_reggaeton_desc: 'Sensuality with control and Latin rhythm. Build confidence dancing with your own personality.',
+  danceClassesHub_style_sexy_style_desc: 'Urban femininity with attitude. Combines sensuality, strength and powerful stage presence.',
+  danceClassesHub_style_twerk_desc: 'Strengthen glutes while dancing. Learn isolations, muscle control and impactful movements.',
+  danceClassesHub_style_commercial_dance_desc: 'Dance like in music videos. Learn polished choreographies with camera presence.',
+  danceClassesHub_style_k_pop_desc: 'Choreographies from your favorite groups. Learn formations, synchronization and K-Pop facials.',
 
   // Featured Styles Section
   danceClassesHub_featured_title: 'Featured Dance Styles',
