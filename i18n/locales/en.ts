@@ -728,7 +728,7 @@ export const en = {
 
   danzaBarcelona_styles_title: 'Dance Styles We Offer',
   danzaBarcelona_styles_description:
-    'From the classical technique of Cuban Ballet to the free expression of Contemporary Dance, find the style that suits you best.',
+    'From the classical technique of Cuban Ballet to the free expression of Contemporary Dance. Find your style and level, from beginner to advanced.',
 
   danzaBarcelona_why_title: 'Why study dance at Farray\'s Center?',
   danzaBarcelona_why_reason1_title: 'Cuban School of Ballet',
@@ -791,7 +791,7 @@ export const en = {
 
   danzaFaqQ10: 'Can I try a class before enrolling?',
   danzaFaqA10:
-    'Yes. We offer a free trial class without commitment so you can meet the teacher, the level of the group and the facilities. Book your spot by clicking the "Book Your Trial Class" button at the top of this page.',
+    'Yes. We offer a trial class without commitment so you can meet the teacher, the level of the group and the facilities. Book your spot by clicking the "Book Your Trial Class" button at the top of this page.',
 
   // Career Opportunities - Danza Barcelona
   danzaWhyCareerTitle: 'Job Board & Competitions',
@@ -894,7 +894,7 @@ export const en = {
 
   urbanFaqQ10: 'Can I try a Hip Hop or Dancehall class before enrolling?',
   urbanFaqA10:
-    'Yes. We offer a free trial class without commitment in the urban style you prefer. Meet the teacher, the atmosphere, the group level and the facilities. Book your spot by clicking the "Book Your Trial Class" button at the top of this page.',
+    'Yes. We offer a trial class without commitment in the urban style you prefer. Meet the teacher, the atmosphere, the group level and the facilities. Book your spot by clicking the "Book Your Trial Class" button at the top of this page.',
 
   // Urban-specific CTA
   danzasUrbanas_viewMore: 'View more →',

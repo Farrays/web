@@ -730,7 +730,7 @@ export const fr = {
 
   danzaBarcelona_styles_title: 'Styles de Danse que Nous Offrons',
   danzaBarcelona_styles_description:
-    'De la technique classique du Ballet Cubain à l\'expression libre de la Danse Contemporaine, trouvez le style qui vous convient le mieux.',
+    'De la technique classique du Ballet Cubain à l\'expression libre de la Danse Contemporaine. Trouvez votre style et niveau, du débutant à l\'avancé.',
 
   danzaBarcelona_why_title: 'Pourquoi étudier la danse chez Farray\'s Center?',
   danzaBarcelona_why_reason1_title: 'École Cubaine de Ballet',
@@ -793,7 +793,7 @@ export const fr = {
 
   danzaFaqQ10: 'Puis-je essayer un cours avant de m\'inscrire?',
   danzaFaqA10:
-    'Oui. Nous offrons un cours d\'essai gratuit sans engagement pour que vous puissiez rencontrer le professeur, le niveau du groupe et les installations. Réservez votre place en cliquant sur le bouton "Réservez Votre Cours d\'Essai" en haut de cette page.',
+    'Oui. Nous offrons un cours d\'essai sans engagement pour que vous puissiez rencontrer le professeur, le niveau du groupe et les installations. Réservez votre place en cliquant sur le bouton "Réservez Votre Cours d\'Essai" en haut de cette page.',
 
   // Career Opportunities - Danza Barcelona
   danzaWhyCareerTitle: 'Bourse d\'Emploi et Compétitions',
@@ -896,7 +896,7 @@ export const fr = {
 
   urbanFaqQ10: 'Puis-je essayer un cours de Hip Hop ou Dancehall avant de m\'inscrire ?',
   urbanFaqA10:
-    'Oui. Nous offrons un cours d\'essai gratuit sans engagement dans le style urbain que vous préférez. Rencontrez le professeur, l\'ambiance, le niveau du groupe et les installations. Réservez votre place en cliquant sur le bouton "Réservez Votre Cours d\'Essai" en haut de cette page.',
+    'Oui. Nous offrons un cours d\'essai sans engagement dans le style urbain que vous préférez. Rencontrez le professeur, l\'ambiance, le niveau du groupe et les installations. Réservez votre place en cliquant sur le bouton "Réservez Votre Cours d\'Essai" en haut de cette page.',
 
   // Urban-specific CTA
   danzasUrbanas_viewMore: 'Voir plus →',

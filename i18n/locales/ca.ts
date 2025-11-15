@@ -728,7 +728,7 @@ export const ca = {
 
   danzaBarcelona_styles_title: 'Estils de Dansa que Oferim',
   danzaBarcelona_styles_description:
-    'Des de la tècnica clàssica del Ballet Cubà fins a l\'expressió lliure de la Dansa Contemporània, troba l\'estil que millor s\'adapti a tu.',
+    'Des de la tècnica clàssica del Ballet Cubà fins a l\'expressió lliure de la Dansa Contemporània. Troba el teu estil i nivell, des de principiant fins a avançat.',
 
   danzaBarcelona_why_title: 'Per què estudiar dansa a Farray\'s Center?',
   danzaBarcelona_why_reason1_title: 'Escola Cubana de Ballet',
@@ -791,7 +791,7 @@ export const ca = {
 
   danzaFaqQ10: 'Puc provar una classe abans d\'inscriure\'m?',
   danzaFaqA10:
-    'Sí. Oferim una classe de prova gratuïta sense compromís perquè coneguis el professor, el nivell del grup i les instal·lacions. Reserva la teva plaça prement el botó "Reserva la teva Classe de Prova" a la part superior d\'aquesta pàgina.',
+    'Sí. Oferim una classe de prova sense compromís perquè coneguis el professor, el nivell del grup i les instal·lacions. Reserva la teva plaça prement el botó "Reserva la teva Classe de Prova" a la part superior d\'aquesta pàgina.',
 
   // Career Opportunities - Danza Barcelona
   danzaWhyCareerTitle: 'Borsa de Treball i Competicions',
@@ -894,7 +894,7 @@ export const ca = {
 
   urbanFaqQ10: 'Puc provar una classe de Hip Hop o Dancehall abans d\'inscriure\'m?',
   urbanFaqA10:
-    'Sí. Oferim una classe de prova gratuïta sense compromís en l\'estil urbà que prefereixis. Coneix el professor, l\'ambient, el nivell del grup i les instal·lacions. Reserva la teva plaça prement el botó "Reserva la teva Classe de Prova" a la part superior d\'aquesta pàgina.',
+    'Sí. Oferim una classe de prova sense compromís en l\'estil urbà que prefereixis. Coneix el professor, l\'ambient, el nivell del grup i les instal·lacions. Reserva la teva plaça prement el botó "Reserva la teva Classe de Prova" a la part superior d\'aquesta pàgina.',
 
   // Urban-specific CTA
   danzasUrbanas_viewMore: 'Veure més →',
