@@ -1052,7 +1052,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   // Cuban School - Danza Barcelona
   danzaWhyCubanSchoolTitle: 'Escuela Cubana',
   danzaWhyCubanSchoolContent:
-    'Técnica, arte y alma. La formación Cubana es reconocida mundialmente por algo único: la mezcla perfecta entre el rigor y la disciplina rusa y el ritmo, la expresividad y la musicalidad de los pueblos afrodescendientes. Una combinación incomparable que crea bailarines completos, fuertes, expresivos… y brillantes en escena.',
+    'Técnica, arte y alma. La formación cubana es reconocida mundialmente por algo único: la mezcla perfecta entre el rigor y la disciplina rusa y el ritmo, la expresividad y la musicalidad de los pueblos afrodescendientes. Una combinación incomparable que crea bailarines completos, fuertes, expresivos… y brillantes en escena.',
 
   // FAQ - Danza Barcelona
   danzaBarcelona_faq_title: 'Preguntas frecuentes sobre nuestras clases de danza en Barcelona',
