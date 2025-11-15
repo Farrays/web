@@ -6,6 +6,7 @@ export const en = {
   // Header
   navHome: 'Home',
   navClasses: 'Dance Classes',
+  navDanza: 'Classical Dance',
   navDancehall: 'Dancehall',
   enrollNow: 'Enroll Now',
   // Hero
@@ -692,4 +693,83 @@ export const en = {
 
   // Back to Top Button
   backToTop: 'Back to top',
+
+  // ====================
+  // DANZA BARCELONA PAGE (Category Pillar Page)
+  // ====================
+  danzaBarcelona_title: 'Dance Classes in Barcelona | Ballet, Contemporary & Jazz | Farray\'s Center',
+  danzaBarcelona_description:
+    'Discover our dance classes in Barcelona: Cuban Classical Ballet, Contemporary Dance, Modern Jazz, Afro Jazz and more. CID-UNESCO accredited academy. Try a free class.',
+  danzaBarcelona_breadcrumb_home: 'Home',
+  danzaBarcelona_breadcrumb_current: 'Dance Classes in Barcelona',
+  danzaBarcelona_h1: 'Dance Classes in Barcelona',
+  danzaBarcelona_intro:
+    'Explore the technique, elegance and expression of classical and contemporary dance in Barcelona. At Farray\'s Center we offer elite training in Classical Ballet (Cuban School), Contemporary Dance, Modern Jazz, Afro Jazz and Afro Contemporary with internationally recognized and certified teachers.',
+
+  danzaBarcelona_styles_title: 'Dance Styles We Offer',
+  danzaBarcelona_styles_description:
+    'From the classical technique of Cuban Ballet to the free expression of Contemporary Dance, find the style that suits you best.',
+
+  danzaBarcelona_why_title: 'Why study dance at Farray\'s Center?',
+  danzaBarcelona_why_reason1_title: 'Cuban School of Ballet',
+  danzaBarcelona_why_reason1_desc:
+    'Training with the prestigious Cuban methodology, recognized worldwide for its rigor, discipline and exceptional results.',
+  danzaBarcelona_why_reason2_title: 'Officially Certified Teachers',
+  danzaBarcelona_why_reason2_desc:
+    'Learn with professional dancers graduated from the National School of Art of Cuba (ENA) and recognized by CID-UNESCO.',
+  danzaBarcelona_why_reason3_title: 'Technique + Expression',
+  danzaBarcelona_why_reason3_desc:
+    'We combine the technical precision of classical ballet with the expressive freedom of contemporary, jazz and afro.',
+  danzaBarcelona_why_reason4_title: 'Classes for All Levels',
+  danzaBarcelona_why_reason4_desc:
+    'From absolute beginners to advanced dancers. Each level has its space to grow safely.',
+  danzaBarcelona_why_reason5_title: 'Central Location',
+  danzaBarcelona_why_reason5_desc:
+    '5 minutes from Plaza España and Sants. Easy access by metro, train and bus.',
+  danzaBarcelona_why_reason6_title: '700 m² Facilities',
+  danzaBarcelona_why_reason6_desc:
+    'Spacious rooms with professional flooring, full-wall mirrors, fixed barres, air conditioning and centralized ventilation.',
+
+  // FAQ - Danza Barcelona
+  danzaBarcelona_faq_title: 'Frequently asked questions about our dance classes in Barcelona',
+
+  danzaFaqQ1: 'What dance styles do you teach at Farray\'s Center Barcelona?',
+  danzaFaqA1:
+    'We teach Classical Ballet (Cuban School), Contemporary Dance (Lyrical and Floor & Flow), Modern Jazz, Afro Jazz (Cuban Technique) and Afro Contemporary (Cuban Technique). We also offer Stretching specific for dancers.',
+
+  danzaFaqQ2: 'Do I need previous experience to take dance classes?',
+  danzaFaqA2:
+    'No. We have groups for absolute beginners who have never danced ballet or contemporary dance. Each level has its own group adapted to the corresponding learning pace.',
+
+  danzaFaqQ3: 'What makes the Cuban School of Ballet different from other methodologies?',
+  danzaFaqA3:
+    'The Cuban School of Ballet combines the technical rigor of the Russian school with Caribbean musicality and expressiveness. It is known worldwide for producing dancers with impeccable technique, exceptional extension and unique artistic quality. Our teachers are trained at the National School of Art of Cuba (ENA).',
+
+  danzaFaqQ4: 'What clothes and shoes do I need for dance classes?',
+  danzaFaqA4:
+    'For Ballet: Tights or fitted clothing that allows you to see the body line, pointe shoes (ballet slippers). For Contemporary Dance and Modern Jazz: Comfortable clothing that allows free movement, barefoot or non-slip socks. We will recommend specific brands in your first class.',
+
+  danzaFaqQ5: 'Can I combine Ballet with Contemporary or Jazz?',
+  danzaFaqA5:
+    'Yes, it is highly recommended. Ballet provides the technical foundation and Contemporary/Jazz develop expression and versatility. Many students take both for complete development as dancers.',
+
+  danzaFaqQ6: 'Do you organize galas or presentations where students can perform?',
+  danzaFaqA6:
+    'Yes. Every year we organize an Annual Gala in a professional theater in Barcelona where students of all levels can present choreographies prepared during the course. It is an unforgettable experience.',
+
+  danzaFaqQ7: 'How long does it take to see progress in ballet or contemporary dance?',
+  danzaFaqA7:
+    'With consistency (2-3 classes per week), the first changes in posture, flexibility and body awareness are noticeable in 4-6 weeks. Visible technical progress (such as improvement in pirouettes, jumps, extensions) can be seen in 3-6 months. Dance requires patience and dedication, but each class brings you closer to your goals.',
+
+  danzaFaqQ8: 'Are there dance classes for adults with no experience?',
+  danzaFaqA8:
+    'Absolutely. We have specific groups for beginner adults in both Ballet and Contemporary Dance and Jazz. It\'s never too late to start dancing. Many of our students started from scratch in adulthood and now dance with beautiful technique and expression.',
+
+  danzaFaqQ9: 'Where is the dance school located?',
+  danzaFaqA9:
+    'We are at Calle Entença 100, 08015 Barcelona, just 5 minutes walking from Plaza España and Sants Station. Metro: L1 (Hostafrancs) / L3 (Tarragona, Plaza España). Train: Sants Estació. Buses: 13, 37, 65, 79, 109, 165.',
+
+  danzaFaqQ10: 'Can I try a class before enrolling?',
+  danzaFaqA10:
+    'Yes. We offer a free trial class without commitment so you can meet the teacher, the level of the group and the facilities. Book your spot by clicking the "Try a Free Class" button at the top of this page.',
 };

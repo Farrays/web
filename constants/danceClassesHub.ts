@@ -38,7 +38,6 @@ export const HUB_CATEGORIES: HubCategory[] = [
       { key: 'danza_contemporanea', url: '/clases/danza-contemporanea-barcelona/' },
       { key: 'modern_jazz', url: '/clases/modern-jazz-barcelona/' },
       { key: 'stretching', url: '/clases/stretching-barcelona/' },
-      { key: 'bum_bum_gluteos', url: '/clases/bum-bum-gluteos-barcelona/' },
     ],
   },
 

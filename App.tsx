@@ -24,6 +24,7 @@ import BackToTop from './components/BackToTop';
 // Code splitting: Lazy load secondary pages to reduce initial bundle size
 const DanceClassesPage = lazy(() => import('./components/DanceClassesPage'));
 const DancehallPage = lazy(() => import('./components/DancehallPage'));
+const DanzaBarcelonaPage = lazy(() => import('./components/DanzaBarcelonaPage'));
 
 // Valid locales
 const VALID_LOCALES: Locale[] = ['es', 'en', 'ca', 'fr'];
@@ -111,6 +112,16 @@ const AppContent: React.FC = () => {
                 <>
                   <LocaleSync />
                   <DancehallPage />
+                </>
+              }
+            />
+
+            <Route
+              path="/:locale/clases/danza-barcelona"
+              element={
+                <>
+                  <LocaleSync />
+                  <DanzaBarcelonaPage />
                 </>
               }
             />

@@ -9,18 +9,22 @@ const routes = [
   { path: '', lang: 'es', page: 'home' },
   { path: 'es', lang: 'es', page: 'home' },
   { path: 'es/clases/baile-barcelona', lang: 'es', page: 'classes' },
+  { path: 'es/clases/danza-barcelona', lang: 'es', page: 'danza' },
   { path: 'es/clases/dancehall-barcelona', lang: 'es', page: 'dancehall' },
 
   { path: 'ca', lang: 'ca', page: 'home' },
   { path: 'ca/clases/baile-barcelona', lang: 'ca', page: 'classes' },
+  { path: 'ca/clases/danza-barcelona', lang: 'ca', page: 'danza' },
   { path: 'ca/clases/dancehall-barcelona', lang: 'ca', page: 'dancehall' },
 
   { path: 'en', lang: 'en', page: 'home' },
   { path: 'en/clases/baile-barcelona', lang: 'en', page: 'classes' },
+  { path: 'en/clases/danza-barcelona', lang: 'en', page: 'danza' },
   { path: 'en/clases/dancehall-barcelona', lang: 'en', page: 'dancehall' },
 
   { path: 'fr', lang: 'fr', page: 'home' },
   { path: 'fr/clases/baile-barcelona', lang: 'fr', page: 'classes' },
+  { path: 'fr/clases/danza-barcelona', lang: 'fr', page: 'danza' },
   { path: 'fr/clases/dancehall-barcelona', lang: 'fr', page: 'dancehall' },
 ];
 
@@ -34,6 +38,10 @@ const metadata = {
     classes: {
       title: 'Clases de Baile - FarRays Center Barcelona',
       description: 'Clases de Dancehall y baile urbano para todos los niveles. Horarios flexibles en Barcelona.',
+    },
+    danza: {
+      title: 'Clases de Danza en Barcelona | Ballet, Contemporáneo y Jazz | Farray\'s Center',
+      description: 'Descubre nuestras clases de danza en Barcelona: Ballet Clásico Cubano, Danza Contemporánea, Modern Jazz, Afro Jazz y más. Academia reconocida por CID-UNESCO. Prueba una clase gratis.',
     },
     dancehall: {
       title: 'Clases de Dancehall en Barcelona - Academia de Baile Urbano | FarRays Center',
@@ -49,6 +57,10 @@ const metadata = {
       title: 'Classes de Ball - FarRays Center Barcelona',
       description: 'Classes de Dancehall i ball urbà per a tots els nivells. Horaris flexibles a Barcelona.',
     },
+    danza: {
+      title: 'Classes de Dansa a Barcelona | Ballet, Contemporani i Jazz | Farray\'s Center',
+      description: 'Descobreix les nostres classes de dansa a Barcelona: Ballet Clàssic Cubà, Dansa Contemporània, Modern Jazz, Afro Jazz i més. Acadèmia reconeguda per CID-UNESCO. Prova una classe gratis.',
+    },
     dancehall: {
       title: 'Classes de Dancehall a Barcelona - Acadèmia de Ball Urbà | FarRays Center',
       description: 'Aprèn Dancehall autèntic a Barcelona amb professors experts. Classes per a tots els nivells. Descobreix el ritme de Jamaica.',
@@ -63,6 +75,10 @@ const metadata = {
       title: 'Dance Classes - FarRays Center Barcelona',
       description: 'Dancehall and urban dance classes for all levels. Flexible schedules in Barcelona.',
     },
+    danza: {
+      title: 'Dance Classes in Barcelona | Ballet, Contemporary & Jazz | Farray\'s Center',
+      description: 'Discover our dance classes in Barcelona: Cuban Classical Ballet, Contemporary Dance, Modern Jazz, Afro Jazz and more. CID-UNESCO accredited academy. Try a free class.',
+    },
     dancehall: {
       title: 'Dancehall Classes in Barcelona - Urban Dance Academy | FarRays Center',
       description: 'Learn authentic Dancehall in Barcelona with expert teachers. Classes for all levels. Discover the rhythm of Jamaica.',
@@ -76,6 +92,10 @@ const metadata = {
     classes: {
       title: 'Cours de Danse - FarRays Center Barcelone',
       description: 'Cours de Dancehall et danse urbaine pour tous les niveaux. Horaires flexibles à Barcelone.',
+    },
+    danza: {
+      title: 'Cours de Danse à Barcelone | Ballet, Contemporain et Jazz | Farray\'s Center',
+      description: 'Découvrez nos cours de danse à Barcelone : Ballet Classique Cubain, Danse Contemporaine, Modern Jazz, Afro Jazz et plus. Académie accréditée par CID-UNESCO. Essayez un cours gratuit.',
     },
     dancehall: {
       title: 'Cours de Dancehall à Barcelone - Académie de Danse Urbaine | FarRays Center',
@@ -122,6 +142,16 @@ const initialContent = {
         </p>
       </main>
     `,
+    danza: `
+      <main id="main-content" class="relative z-0 pt-20 pb-32 px-6 sm:px-12">
+        <h1 class="text-4xl sm:text-5xl font-bold text-neutral mb-8 text-center holographic-text">
+          Clases de Danza en Barcelona
+        </h1>
+        <p class="text-lg text-neutral/80 max-w-3xl mx-auto mb-12 text-center">
+          Explora la técnica, elegancia y expresión de la danza clásica y contemporánea. Ballet Clásico Cubano, Danza Contemporánea, Modern Jazz, Afro Jazz y más. Academia reconocida por CID-UNESCO.
+        </p>
+      </main>
+    `,
     dancehall: `
       <main id="main-content" class="relative z-0 pt-20 pb-32 px-6 sm:px-12">
         <h1 class="text-4xl sm:text-5xl font-bold text-neutral mb-8 text-center holographic-text">
@@ -137,16 +167,19 @@ const initialContent = {
   ca: {
     home: `<main id="main-content"><h1 class="holographic-text text-5xl font-extrabold">FarRays Center</h1><p class="text-xl">Escola de ball urbà a Barcelona. Aprèn Dancehall i més.</p></main>`,
     classes: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Les nostres Classes</h1><p>Classes de Dancehall i ball urbà per a tots els nivells.</p></main>`,
+    danza: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Classes de Dansa a Barcelona</h1><p>Explora la tècnica, elegància i expressió de la dansa clàssica i contemporània. Ballet Clàssic Cubà, Dansa Contemporània, Modern Jazz i més. Acadèmia reconeguda per CID-UNESCO.</p></main>`,
     dancehall: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Classes de Dancehall a Barcelona</h1><p>Descobreix l'autèntic Dancehall de Jamaica a Barcelona. Energia, cultura i ritme a cada classe.</p></main>`,
   },
   en: {
     home: `<main id="main-content"><h1 class="holographic-text text-5xl font-extrabold">FarRays Center</h1><p class="text-xl">Urban dance school in Barcelona. Learn Dancehall and more.</p></main>`,
     classes: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Our Classes</h1><p>Dancehall and urban dance classes for all levels.</p></main>`,
+    danza: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Dance Classes in Barcelona</h1><p>Explore the technique, elegance and expression of classical and contemporary dance. Cuban Classical Ballet, Contemporary Dance, Modern Jazz and more. CID-UNESCO accredited academy.</p></main>`,
     dancehall: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Dancehall Classes in Barcelona</h1><p>Discover authentic Dancehall from Jamaica in Barcelona. Energy, culture and rhythm in every class.</p></main>`,
   },
   fr: {
     home: `<main id="main-content"><h1 class="holographic-text text-5xl font-extrabold">FarRays Center</h1><p class="text-xl">École de danse urbaine à Barcelone. Apprenez le Dancehall et plus.</p></main>`,
     classes: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Nos Cours</h1><p>Cours de Dancehall et danse urbaine pour tous les niveaux.</p></main>`,
+    danza: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Cours de Danse à Barcelone</h1><p>Explorez la technique, l'élégance et l'expression de la danse classique et contemporaine. Ballet Classique Cubain, Danse Contemporaine, Modern Jazz et plus. Académie accréditée par CID-UNESCO.</p></main>`,
     dancehall: `<main id="main-content"><h1 class="holographic-text text-4xl font-bold">Cours de Dancehall à Barcelone</h1><p>Découvrez le véritable Dancehall de Jamaïque à Barcelone. Énergie, culture et rythme à chaque cours.</p></main>`,
   },
 };
@@ -178,7 +211,9 @@ routes.forEach(route => {
   if (page === 'home') {
     pagePath = '';
   } else if (page === 'classes') {
-    pagePath = 'clases';
+    pagePath = 'clases/baile-barcelona';
+  } else if (page === 'danza') {
+    pagePath = 'clases/danza-barcelona';
   } else if (page === 'dancehall') {
     pagePath = 'clases/dancehall-barcelona';
   }
@@ -282,7 +317,7 @@ console.log(`\n🎉 Prerendering complete! Generated ${generatedCount} pages.`);
 console.log('\n📊 Summary:');
 console.log(`   - Total pages: ${generatedCount}`);
 console.log(`   - Languages: es, ca, en, fr (4)`);
-console.log(`   - Pages per language: home, clases, dancehall-barcelona (3)`);
+console.log(`   - Pages per language: home, baile-barcelona, danza-barcelona, dancehall-barcelona (4)`);
 console.log(`   - SEO: ✅ Metadata, ✅ hreflang, ✅ Canonical, ✅ Open Graph`);
 console.log(`   - Locale: ✅ Pre-set via localStorage + cookie before React hydration`);
 console.log('\n🔍 Verify: Run "npm run preview" and view page source to see prerendered content\n');
