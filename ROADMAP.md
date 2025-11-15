@@ -28,13 +28,25 @@
 ### 🟡 MEDIA PRIORIDAD
 
 #### SEO & Configuración
-- [ ] Verificar que `/clases/danza-barcelona` está en `sitemap.xml`
-- [ ] Verificar configuración en `robots.txt`
-- [ ] Configurar prerender en Vercel para esta ruta específica
-- [ ] Añadir página a `prerender.mjs` si no está
+- [x] ✅ Verificar que `/clases/danza-barcelona` está en `sitemap.xml` - **COMPLETADO**
+  - ✅ Presente en 4 idiomas (es, ca, en, fr)
+  - ✅ Priority: 0.85 (buena prioridad)
+  - ✅ Changefreq: weekly
+  - ✅ Hreflang correctamente configurado
+- [x] ✅ Verificar configuración en `robots.txt` - **COMPLETADO**
+  - ✅ Allow: / (permite todas las rutas)
+  - ✅ Sitemap incluido
+  - ✅ Crawl delay configurado
+- [x] ✅ Configurar prerender en Vercel para esta ruta - **COMPLETADO**
+  - ✅ Incluido en `prerender.mjs` (líneas 12, 17, 22, 27)
+  - ✅ Metadata configurada para los 4 idiomas
+  - ✅ Contenido inicial prerenderizado
+- [x] ✅ Optimización WebP/AVIF para imágenes - **YA OPTIMIZADO**
+  - ✅ Imágenes de Unsplash usan `auto=format` (WebP automático)
+  - ✅ Imágenes locales ya están en WebP
+  - ✅ Imágenes OG en JPG (requerido para redes sociales)
 
 #### Optimización de Rendimiento
-- [ ] Considerar WebP/AVIF para imágenes (mejor compresión)
 - [ ] Evaluar implementar sprite SVG para iconos (reducir bundle size)
 - [ ] Agregar preload para hero background si es necesario
 
