@@ -376,7 +376,7 @@ const DanzaBarcelonaPage: React.FC = () => {
                 No dejes pasar más tiempo. Cada semana que esperas es una semana menos bailando.
               </p>
               <p className="max-w-xl mx-auto text-lg text-neutral/75 mb-10">
-                Únete a decenas de bailarines que ya están transformando su técnica, postura y expresión con nosotros.
+                Únete a centenas de estudiantes —desde principiantes hasta profesionales— que están transformando su técnica de ballet, contemporáneo y jazz con profesores cubanos titulados en Barcelona.
               </p>
             </AnimateOnScroll>
 
