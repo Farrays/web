@@ -10,21 +10,25 @@ const routes = [
   { path: 'es', lang: 'es', page: 'home' },
   { path: 'es/clases/baile-barcelona', lang: 'es', page: 'classes' },
   { path: 'es/clases/danza-barcelona', lang: 'es', page: 'danza' },
+  { path: 'es/clases/danzas-urbanas-barcelona', lang: 'es', page: 'danzasUrbanas' },
   { path: 'es/clases/dancehall-barcelona', lang: 'es', page: 'dancehall' },
 
   { path: 'ca', lang: 'ca', page: 'home' },
   { path: 'ca/clases/baile-barcelona', lang: 'ca', page: 'classes' },
   { path: 'ca/clases/danza-barcelona', lang: 'ca', page: 'danza' },
+  { path: 'ca/clases/danzas-urbanas-barcelona', lang: 'ca', page: 'danzasUrbanas' },
   { path: 'ca/clases/dancehall-barcelona', lang: 'ca', page: 'dancehall' },
 
   { path: 'en', lang: 'en', page: 'home' },
   { path: 'en/clases/baile-barcelona', lang: 'en', page: 'classes' },
   { path: 'en/clases/danza-barcelona', lang: 'en', page: 'danza' },
+  { path: 'en/clases/danzas-urbanas-barcelona', lang: 'en', page: 'danzasUrbanas' },
   { path: 'en/clases/dancehall-barcelona', lang: 'en', page: 'dancehall' },
 
   { path: 'fr', lang: 'fr', page: 'home' },
   { path: 'fr/clases/baile-barcelona', lang: 'fr', page: 'classes' },
   { path: 'fr/clases/danza-barcelona', lang: 'fr', page: 'danza' },
+  { path: 'fr/clases/danzas-urbanas-barcelona', lang: 'fr', page: 'danzasUrbanas' },
   { path: 'fr/clases/dancehall-barcelona', lang: 'fr', page: 'dancehall' },
 ];
 
@@ -42,6 +46,10 @@ const metadata = {
     danza: {
       title: 'Clases de Danza en Barcelona | Ballet, Contemporáneo y Jazz | Farray\'s Center',
       description: 'Descubre nuestras clases de danza en Barcelona: Ballet Clásico Cubano, Danza Contemporánea, Modern Jazz, Afro Jazz y más. Academia reconocida por CID-UNESCO. Prueba una clase gratis.',
+    },
+    danzasUrbanas: {
+      title: 'Clases de Danzas Urbanas en Barcelona | Hip Hop, Dancehall, K-Pop y Reggaeton | Farray\'s Center',
+      description: 'Descubre nuestras clases de danzas urbanas en Barcelona: Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat y más. Academia de referencia en estilos urbanos. Prueba una clase gratis.',
     },
     dancehall: {
       title: 'Clases de Dancehall en Barcelona - Academia de Baile Urbano | FarRays Center',
@@ -61,6 +69,10 @@ const metadata = {
       title: 'Classes de Dansa a Barcelona | Ballet, Contemporani i Jazz | Farray\'s Center',
       description: 'Descobreix les nostres classes de dansa a Barcelona: Ballet Clàssic Cubà, Dansa Contemporània, Modern Jazz, Afro Jazz i més. Acadèmia reconeguda per CID-UNESCO. Prova una classe gratis.',
     },
+    danzasUrbanas: {
+      title: 'Classes de Danses Urbanes a Barcelona | Hip Hop, Dancehall, K-Pop i Reggaeton | Farray\'s Center',
+      description: 'Descobreix les nostres classes de danses urbanes a Barcelona: Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat i més. Acadèmia de referència en estils urbans. Prova una classe gratis.',
+    },
     dancehall: {
       title: 'Classes de Dancehall a Barcelona - Acadèmia de Ball Urbà | FarRays Center',
       description: 'Aprèn Dancehall autèntic a Barcelona amb professors experts. Classes per a tots els nivells. Descobreix el ritme de Jamaica.',
@@ -79,6 +91,10 @@ const metadata = {
       title: 'Dance Classes in Barcelona | Ballet, Contemporary & Jazz | Farray\'s Center',
       description: 'Discover our dance classes in Barcelona: Cuban Classical Ballet, Contemporary Dance, Modern Jazz, Afro Jazz and more. CID-UNESCO accredited academy. Try a free class.',
     },
+    danzasUrbanas: {
+      title: 'Urban Dance Classes in Barcelona | Hip Hop, Dancehall, K-Pop & Reggaeton | Farray\'s Center',
+      description: 'Discover our urban dance classes in Barcelona: Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat and more. Leading academy for urban styles. Try a free class.',
+    },
     dancehall: {
       title: 'Dancehall Classes in Barcelona - Urban Dance Academy | FarRays Center',
       description: 'Learn authentic Dancehall in Barcelona with expert teachers. Classes for all levels. Discover the rhythm of Jamaica.',
@@ -96,6 +112,10 @@ const metadata = {
     danza: {
       title: 'Cours de Danse à Barcelone | Ballet, Contemporain et Jazz | Farray\'s Center',
       description: 'Découvrez nos cours de danse à Barcelone : Ballet Classique Cubain, Danse Contemporaine, Modern Jazz, Afro Jazz et plus. Académie accréditée par CID-UNESCO. Essayez un cours gratuit.',
+    },
+    danzasUrbanas: {
+      title: 'Cours de Danses Urbaines à Barcelone | Hip Hop, Dancehall, K-Pop et Reggaeton | Farray\'s Center',
+      description: 'Découvrez nos cours de danses urbaines à Barcelone : Hip Hop, Dancehall, K-Pop, Reggaeton, Twerk, Afrobeat et plus. Académie de référence pour les styles urbains. Essayez un cours gratuit.',
     },
     dancehall: {
       title: 'Cours de Dancehall à Barcelone - Académie de Danse Urbaine | FarRays Center',
@@ -214,6 +234,8 @@ routes.forEach(route => {
     pagePath = 'clases/baile-barcelona';
   } else if (page === 'danza') {
     pagePath = 'clases/danza-barcelona';
+  } else if (page === 'danzasUrbanas') {
+    pagePath = 'clases/danzas-urbanas-barcelona';
   } else if (page === 'dancehall') {
     pagePath = 'clases/dancehall-barcelona';
   }
@@ -317,7 +339,7 @@ console.log(`\n🎉 Prerendering complete! Generated ${generatedCount} pages.`);
 console.log('\n📊 Summary:');
 console.log(`   - Total pages: ${generatedCount}`);
 console.log(`   - Languages: es, ca, en, fr (4)`);
-console.log(`   - Pages per language: home, baile-barcelona, danza-barcelona, dancehall-barcelona (4)`);
+console.log(`   - Pages per language: home, baile-barcelona, danza-barcelona, danzas-urbanas-barcelona, dancehall-barcelona (5)`);
 console.log(`   - SEO: ✅ Metadata, ✅ hreflang, ✅ Canonical, ✅ Open Graph`);
 console.log(`   - Locale: ✅ Pre-set via localStorage + cookie before React hydration`);
 console.log('\n🔍 Verify: Run "npm run preview" and view page source to see prerendered content\n');
