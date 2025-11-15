@@ -728,7 +728,7 @@ export const ca = {
 
   danzaBarcelona_styles_title: 'Estils de Dansa que Oferim',
   danzaBarcelona_styles_description:
-    'Des de la tècnica clàssica del Ballet Cubà fins a l\'expressió lliure de la Dansa Contemporània, troba l\'estil que millor s\'adapti a tu.',
+    'Des de la tècnica clàssica del Ballet Cubà fins a l\'expressió lliure de la Dansa Contemporània. Troba el teu estil i nivell, des de principiant fins a avançat.',
 
   danzaBarcelona_why_title: 'Per què estudiar dansa a Farray\'s Center?',
   danzaBarcelona_why_reason1_title: 'Escola Cubana de Ballet',

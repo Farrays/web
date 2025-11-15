@@ -728,7 +728,7 @@ export const en = {
 
   danzaBarcelona_styles_title: 'Dance Styles We Offer',
   danzaBarcelona_styles_description:
-    'From the classical technique of Cuban Ballet to the free expression of Contemporary Dance, find the style that suits you best.',
+    'From the classical technique of Cuban Ballet to the free expression of Contemporary Dance. Find your style and level, from beginner to advanced.',
 
   danzaBarcelona_why_title: 'Why study dance at Farray\'s Center?',
   danzaBarcelona_why_reason1_title: 'Cuban School of Ballet',
