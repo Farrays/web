@@ -123,6 +123,7 @@ const Header: React.FC = () => {
     { path: `/${locale}`, textKey: 'navHome' },
     { path: `/${locale}/clases/baile-barcelona`, textKey: 'navClasses' },
     { path: `/${locale}/clases/danza-barcelona`, textKey: 'navDanza' },
+    { path: `/${locale}/clases/danzas-urbanas-barcelona`, textKey: 'navDanzasUrbanas' },
     { path: `/${locale}/clases/dancehall-barcelona`, textKey: 'navDancehall' },
   ];
 

@@ -7,6 +7,7 @@ export const es = {
   navHome: 'Inicio',
   navClasses: 'Clases de Baile',
   navDanza: 'Clases de Danza',
+  navDanzasUrbanas: 'Danzas Urbanas',
   navDancehall: 'Dancehall',
   enrollNow: 'Inscríbete Ahora',
   // Hero
@@ -432,6 +433,19 @@ export const es = {
   danceClassesHub_style_danza_contemporanea_desc: 'Explora tu expresión con lírico, suelo y flow contemporáneo.',
   danceClassesHub_style_modern_jazz_desc: 'Jazz moderno con dinamismo, técnica limpia y personalidad.',
   danceClassesHub_style_stretching_desc: 'Flexibilidad específica para bailarines. Previene lesiones y mejora tu técnica.',
+
+  // Urban Styles Descriptions (for hover cards)
+  danceClassesHub_style_afrobeat_desc: 'Ritmos africanos con energía contagiosa. Movimientos naturales llenos de groove y cultura.',
+  danceClassesHub_style_dancehall_desc: 'Auténtico estilo jamaicano. Energía pura, groove caribeño y steps originales de Kingston.',
+  danceClassesHub_style_femmology_heels_desc: 'Feminidad y poder en tacones. Técnica, sensualidad y confianza en cada movimiento.',
+  danceClassesHub_style_hip_hop_desc: 'Cultura urbana desde sus raíces. Old School y New Style con fundamentos reales.',
+  danceClassesHub_style_hip_hop_reggaeton_desc: 'Fusión única de Hip Hop y Reggaeton. Lo mejor de dos mundos urbanos.',
+  danceClassesHub_style_reggaeton_cubano_desc: 'Reggaeton auténtico desde La Habana. Reparto con sabor cubano y técnica única.',
+  danceClassesHub_style_sexy_reggaeton_desc: 'Reggaeton con actitud sensual. Movimiento, ritmo latino y expresión sin límites.',
+  danceClassesHub_style_sexy_style_desc: 'Estilo femenino urbano con carácter. Sensualidad, técnica y empoderamiento total.',
+  danceClassesHub_style_twerk_desc: 'Técnica de glúteos con control total. Fortalecimiento, ritmo y movimiento explosivo.',
+  danceClassesHub_style_commercial_dance_desc: 'Estilo de videoclips comerciales. Coreografías modernas con técnica pulida y presencia escénica.',
+  danceClassesHub_style_k_pop_desc: 'Coreografías oficiales K-Pop. Precisión, sincronización y energía de tus artistas favoritos.',
 
   danceClassesHub_style_bum_bum_gluteos: 'Bum Bum Glúteos Maravillosos',
   danceClassesHub_style_afrobeat: 'Afrobeat',
@@ -1167,7 +1181,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   urbanFaqA6:
     'Sí. Organizamos Battles de Hip Hop y Dancehall durante el año, Showcases urbanos en locales de Barcelona, y participamos en competiciones nacionales. También organizamos una Gala Anual con coreografías de todos los estilos urbanos en teatro profesional.',
 
-  urbanFaqQ7: '¿Cuánto tiempo tarda en aprender una coreografía de K-Pop o Hip Hop?',
+  urbanFaqQ7: '¿En cuánto tiempo aprendo una coreografía de K-Pop o Hip Hop?',
   urbanFaqA7:
     'Depende del nivel. Principiantes aprenden coreografías simples en 4-6 clases. Con nivel intermedio, puedes dominar una coreografía de K-Pop completa (3-4 minutos) en 6-8 clases. El Hip Hop freestyle requiere más tiempo (3-6 meses) para desarrollar tu propio estilo.',
 
