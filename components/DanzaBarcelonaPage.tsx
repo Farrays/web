@@ -324,7 +324,7 @@ const DanzaBarcelonaPage: React.FC = () => {
         </section>
 
         {/* Stats Widget Section */}
-        <section className="py-20 md:py-32 bg-black">
+        <section className="py-12 md:py-16 bg-black">
           <div className="container mx-auto px-6">
             <AnimateOnScroll>
               <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-16 max-w-5xl mx-auto">
@@ -375,7 +375,7 @@ const DanzaBarcelonaPage: React.FC = () => {
           <div className="container mx-auto px-6 text-center">
             <AnimateOnScroll>
               <h2 className="text-4xl md:text-6xl font-black tracking-tighter mb-6 holographic-text">
-                Tu Primera Clase Te Está Esperando
+                Tu Primera Clase DE DANZA Te Está Esperando
               </h2>
               <p className="max-w-2xl mx-auto text-xl text-neutral/90 mb-4">
                 No dejes pasar más tiempo. Cada semana que esperas es una semana menos bailando.
