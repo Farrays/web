@@ -692,4 +692,83 @@ export const ca = {
 
   // Back to Top Button
   backToTop: 'Tornar a dalt',
+
+  // ====================
+  // DANZA BARCELONA PAGE (Category Pillar Page)
+  // ====================
+  danzaBarcelona_title: 'Classes de Dansa a Barcelona | Ballet, Contemporani i Jazz | Farray\'s Center',
+  danzaBarcelona_description:
+    'Descobreix les nostres classes de dansa a Barcelona: Ballet Clàssic Cubà, Dansa Contemporània, Modern Jazz, Afro Jazz i més. Acadèmia reconeguda per CID-UNESCO. Prova una classe gratis.',
+  danzaBarcelona_breadcrumb_home: 'Inici',
+  danzaBarcelona_breadcrumb_current: 'Classes de Dansa a Barcelona',
+  danzaBarcelona_h1: 'Classes de Dansa a Barcelona',
+  danzaBarcelona_intro:
+    'Explora la tècnica, elegància i expressió de la dansa clàssica i contemporània a Barcelona. A Farray\'s Center oferim formació d\'elit en Ballet Clàssic (Escola Cubana), Dansa Contemporània, Modern Jazz, Afro Jazz i Afro Contemporani amb professors titulats i reconeguts internacionalment.',
+
+  danzaBarcelona_styles_title: 'Estils de Dansa que Oferim',
+  danzaBarcelona_styles_description:
+    'Des de la tècnica clàssica del Ballet Cubà fins a l\'expressió lliure de la Dansa Contemporània, troba l\'estil que millor s\'adapti a tu.',
+
+  danzaBarcelona_why_title: 'Per què estudiar dansa a Farray\'s Center?',
+  danzaBarcelona_why_reason1_title: 'Escola Cubana de Ballet',
+  danzaBarcelona_why_reason1_desc:
+    'Formació amb la prestigiosa metodologia cubana, reconeguda mundialment pel seu rigor, disciplina i resultats excepcionals.',
+  danzaBarcelona_why_reason2_title: 'Professors amb Titulació Oficial',
+  danzaBarcelona_why_reason2_desc:
+    'Aprèn amb ballarins professionals graduats de l\'Escola Nacional d\'Art de Cuba (ENA) i reconeguts per CID-UNESCO.',
+  danzaBarcelona_why_reason3_title: 'Tècnica + Expressió',
+  danzaBarcelona_why_reason3_desc:
+    'Combinem la precisió tècnica del ballet clàssic amb la llibertat expressiva del contemporani, jazz i afro.',
+  danzaBarcelona_why_reason4_title: 'Classes per a Tots els Nivells',
+  danzaBarcelona_why_reason4_desc:
+    'Des de principiants absoluts fins a ballarins avançats. Cada nivell té el seu espai per créixer amb seguretat.',
+  danzaBarcelona_why_reason5_title: 'Ubicació Cèntrica',
+  danzaBarcelona_why_reason5_desc:
+    'A 5 minuts de Plaça Espanya i Sants. Fàcil accés en metro, tren i bus.',
+  danzaBarcelona_why_reason6_title: 'Instal·lacions de 700 m²',
+  danzaBarcelona_why_reason6_desc:
+    'Sales àmplies amb sòl professional, miralls de paret completa, barres fixes, aire condicionat i ventilació centralitzada.',
+
+  // FAQ - Danza Barcelona
+  danzaBarcelona_faq_title: 'Preguntes freqüents sobre les nostres classes de dansa a Barcelona',
+
+  danzaFaqQ1: 'Quins estils de dansa ensenyeu a Farray\'s Center Barcelona?',
+  danzaFaqA1:
+    'Ensenyem Ballet Clàssic (Escola Cubana), Dansa Contemporània (Líric i Sòl & Flow), Modern Jazz, Afro Jazz (Tècnica Cubana) i Afro Contemporani (Tècnica Cubana). També oferim Stretching específic per a ballarins.',
+
+  danzaFaqQ2: 'Necessito experiència prèvia per prendre classes de dansa?',
+  danzaFaqA2:
+    'No. Tenim grups per a principiants absoluts que mai han ballat ballet o dansa contemporània. Cada nivell té el seu propi grup adaptat al ritme d\'aprenentatge corresponent.',
+
+  danzaFaqQ3: 'Què diferencia l\'Escola Cubana de Ballet d\'altres metodologies?',
+  danzaFaqA3:
+    'L\'Escola Cubana de Ballet combina el rigor tècnic de l\'escola russa amb la musicalitat i expressivitat caribenyes. És coneguda mundialment per produir ballarins amb tècnica impecable, extensió excepcional i una qualitat artística única. Els nostres professors estan formats a l\'Escola Nacional d\'Art de Cuba (ENA).',
+
+  danzaFaqQ4: 'Quina roba i sabatilles necessito per a les classes de dansa?',
+  danzaFaqA4:
+    'Per a Ballet: Malles o roba ajustada que permeti veure la línia del cos, sabatilles de mitja punta (ballet slippers). Per a Dansa Contemporània i Modern Jazz: Roba còmoda que permeti moviment lliure, descalç o mitjons antilliscants. Et recomanarem marques específiques en la teva primera classe.',
+
+  danzaFaqQ5: 'Puc combinar Ballet amb Contemporani o Jazz?',
+  danzaFaqA5:
+    'Sí, és molt recomanable. El ballet proporciona la base tècnica i Contemporani/Jazz desenvolupen expressió i versatilitat. Molts estudiants prenen tots dos per a un desenvolupament complet com a ballarins.',
+
+  danzaFaqQ6: 'Organitzeu gales o presentacions on els alumnes puguin actuar?',
+  danzaFaqA6:
+    'Sí. Cada any organitzem una Gala Anual en un teatre professional de Barcelona on els alumnes de tots els nivells poden presentar coreografies preparades durant el curs. És una experiència inoblidable.',
+
+  danzaFaqQ7: 'Quant temps triga en veure progrés en ballet o dansa contemporània?',
+  danzaFaqA7:
+    'Amb constància (2-3 classes per setmana), els primers canvis en postura, flexibilitat i consciència corporal es noten en 4-6 setmanes. El progrés tècnic visible (com millora en piruetes, salts, extensions) pot veure\'s en 3-6 mesos. La dansa requereix paciència i dedicació, però cada classe t\'acosta més als teus objectius.',
+
+  danzaFaqQ8: 'Hi ha classes de dansa per a adults sense experiència?',
+  danzaFaqA8:
+    'Absolutament. Tenim grups específics d\'adults principiants tant en Ballet com en Dansa Contemporània i Jazz. Mai és tard per començar a ballar. Molts dels nostres estudiants van començar de zero en edat adulta i ara ballen amb bonica tècnica i expressió.',
+
+  danzaFaqQ9: 'On està ubicada l\'escola de dansa?',
+  danzaFaqA9:
+    'Estem al Carrer d\'Entença 100, 08015 Barcelona, només a 5 minuts caminant de Plaça Espanya i l\'Estació de Sants. Metro: L1 (Hostafrancs) / L3 (Tarragona, Plaça Espanya). Tren: Sants Estació. Autobusos: 13, 37, 65, 79, 109, 165.',
+
+  danzaFaqQ10: 'Puc provar una classe abans d\'inscriure\'m?',
+  danzaFaqA10:
+    'Sí. Oferim una classe de prova gratuïta sense compromís perquè coneguis el professor, el nivell del grup i les instal·lacions. Reserva la teva plaça prement el botó "Prova una Classe Gratis" a la part superior d\'aquesta pàgina.',
 };
