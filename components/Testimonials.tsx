@@ -179,7 +179,7 @@ const Testimonials: React.FC = () => {
                     <cite className="font-bold text-lg text-neutral not-italic">
                       {testimonial.name}
                     </cite>
-                    <p className="text-sm text-neutral/60">{testimonial.city[locale]}</p>
+                    <p className="text-sm text-neutral/75">{testimonial.city[locale]}</p>
                   </div>
                 </div>
               </div>

@@ -45,7 +45,7 @@ const CategoriesSection: React.FC = () => {
           </h2>
         </AnimateOnScroll>
         <AnimateOnScroll delay={200}>
-          <p className="max-w-3xl mx-auto text-lg text-neutral/80 mb-12">{sectionDescription}</p>
+          <p className="max-w-3xl mx-auto text-lg text-neutral/90 mb-12">{sectionDescription}</p>
         </AnimateOnScroll>
 
         {/* Cards Grid */}

@@ -73,7 +73,7 @@ const MethodInfographic: React.FC = () => {
             >
               {t(activePillar.titleKey)}
             </h4>
-            <p className="text-neutral/80 mb-6">{t(activePillar.descriptionKey)}</p>
+            <p className="text-neutral/90 mb-6">{t(activePillar.descriptionKey)}</p>
             <button
               onClick={handleClose}
               className="font-bold text-white border-2 border-white rounded-full px-6 py-2 hover:bg-white hover:text-black transition-colors"

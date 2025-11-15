@@ -12,7 +12,7 @@ const SocialIcon: React.FC<{ href: string; ariaLabel: string; children: React.Re
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    className="text-neutral/60 hover:text-primary-accent transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary-accent/50 rounded-lg p-1"
+    className="text-neutral/75 hover:text-primary-accent transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary-accent/50 rounded-lg p-1"
     aria-label={ariaLabel}
   >
     {children}
@@ -95,7 +95,7 @@ const Footer: React.FC = () => {
               </SocialIcon>
             </div>
           </div>
-          <div className="text-neutral/80 space-y-2 text-sm">
+          <div className="text-neutral/90 space-y-2 text-sm">
             <h4 className="font-bold text-neutral text-lg mb-3">{t('footerContact')}</h4>
             <p>
               {t('footerAddressValue')
@@ -140,7 +140,7 @@ const Footer: React.FC = () => {
               <p className="text-neutral/70">{t('footerPhoneHoursContent')}</p>
             </div>
           </div>
-          <div className="text-neutral/80">
+          <div className="text-neutral/90">
             <h4 className="font-bold text-neutral text-lg mb-4">{t('footerSitemapTitle')}</h4>
             <div className="grid grid-cols-2 gap-x-4 gap-y-2">
               <ul className="space-y-2 text-sm">

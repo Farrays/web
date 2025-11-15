@@ -37,9 +37,9 @@ class ErrorBoundary extends Component<Props, State> {
 
       return (
         <div className="min-h-screen flex items-center justify-center bg-black text-white p-6">
-          <div className="max-w-md text-center">
+          <div className="max-w-md text-center" role="alert" aria-live="assertive">
             <h1 className="text-4xl font-bold text-primary-accent mb-4">Oops! Algo salió mal</h1>
-            <p className="text-neutral/80 mb-6">Lo sentimos, ha ocurrido un error inesperado.</p>
+            <p className="text-neutral/90 mb-6">Lo sentimos, ha ocurrido un error inesperado.</p>
             <button
               onClick={() => window.location.reload()}
               className="bg-primary-accent text-white px-6 py-3 rounded-lg hover:bg-primary-accent/90 transition font-bold"

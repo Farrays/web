@@ -74,7 +74,7 @@ const Teachers: React.FC = () => {
                   <p className="text-primary-accent font-semibold text-lg mb-3 transition-colors duration-300 group-hover:text-white">
                     {t(teacher.specialtyKey)}
                   </p>
-                  <p className="text-neutral/80 leading-relaxed group-hover:text-neutral/90 transition-colors duration-300">{t(teacher.bioKey)}</p>
+                  <p className="text-neutral/90 leading-relaxed group-hover:text-neutral/90 transition-colors duration-300">{t(teacher.bioKey)}</p>
                 </div>
               </div>
             </AnimateOnScroll>

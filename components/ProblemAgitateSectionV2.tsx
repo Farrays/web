@@ -139,7 +139,7 @@ const ProblemAgitateSectionV2: React.FC<ProblemAgitateSectionV2Props> = ({
                   <h3 className="text-xl font-bold text-neutral mb-3 text-center">
                     {t(problem.titleKey)}
                   </h3>
-                  <p className="text-neutral/80 leading-relaxed text-center">
+                  <p className="text-neutral/90 leading-relaxed text-center">
                     {t(problem.descKey)}
                   </p>
                 </div>

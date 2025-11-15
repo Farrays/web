@@ -99,7 +99,7 @@ const HowItWorksSection: React.FC<HowItWorksSectionProps> = ({ t }) => {
             <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-6">
               {t('howItWorksTitle')}
             </h2>
-            <p className="text-lg text-neutral/80 leading-relaxed">{t('howItWorksIntro')}</p>
+            <p className="text-lg text-neutral/90 leading-relaxed">{t('howItWorksIntro')}</p>
           </div>
         </AnimateOnScroll>
 
@@ -114,7 +114,7 @@ const HowItWorksSection: React.FC<HowItWorksSectionProps> = ({ t }) => {
                   </div>
                 </div>
                 <h3 className="text-2xl font-bold text-neutral mb-4">{t(pillar.titleKey)}</h3>
-                <p className="text-neutral/80 leading-relaxed">{t(pillar.descKey)}</p>
+                <p className="text-neutral/90 leading-relaxed">{t(pillar.descKey)}</p>
               </div>
             </AnimateOnScroll>
           ))}
@@ -136,7 +136,7 @@ const HowItWorksSection: React.FC<HowItWorksSectionProps> = ({ t }) => {
                     </div>
                     <div>
                       <h4 className="text-xl font-bold text-neutral mb-2">{t(item.titleKey)}</h4>
-                      <p className="text-neutral/80 leading-relaxed">{t(item.descKey)}</p>
+                      <p className="text-neutral/90 leading-relaxed">{t(item.descKey)}</p>
                     </div>
                   </div>
                 </AnimateOnScroll>

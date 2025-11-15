@@ -250,7 +250,7 @@ const Services: React.FC = () => {
             <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4 holographic-text">
               {t('servicesTitle')}
             </h2>
-            <p className="text-lg text-neutral/80">{t('servicesIntro')}</p>
+            <p className="text-lg text-neutral/90">{t('servicesIntro')}</p>
           </div>
         </AnimateOnScroll>
         <div className="flex flex-wrap justify-center -m-4">
@@ -264,7 +264,7 @@ const Services: React.FC = () => {
                     </div>
                   </div>
                   <h3 className="text-2xl font-bold mb-4 text-neutral group-hover:text-white transition-colors duration-300">{t(service.titleKey)}</h3>
-                  <p className="text-neutral/80 leading-relaxed flex-grow mb-6 group-hover:text-neutral/90 transition-colors duration-300">
+                  <p className="text-neutral/90 leading-relaxed flex-grow mb-6 group-hover:text-neutral/90 transition-colors duration-300">
                     {t(service.descriptionKey)}
                   </p>
                   <div className="mt-auto">

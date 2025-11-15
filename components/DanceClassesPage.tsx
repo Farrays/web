@@ -127,7 +127,7 @@ const DanceClassesPage: React.FC = () => {
               </h2>
             </AnimateOnScroll>
             <AnimateOnScroll delay={200}>
-              <p className="max-w-3xl mx-auto text-lg text-neutral/80 mb-12">{t('danceClassesHub_categories_description')}</p>
+              <p className="max-w-3xl mx-auto text-lg text-neutral/90 mb-12">{t('danceClassesHub_categories_description')}</p>
             </AnimateOnScroll>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -165,7 +165,7 @@ const DanceClassesPage: React.FC = () => {
 
                         {/* Description - Always visible on mobile, expandable on hover on desktop */}
                         <div className="h-auto md:h-0 md:group-hover:h-auto overflow-hidden transition-all duration-300 ease-in-out">
-                          <p className="text-neutral/80 text-sm mb-3 leading-relaxed opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 md:delay-150">
+                          <p className="text-neutral/90 text-sm mb-3 leading-relaxed opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 md:delay-150">
                             {t(category.descriptionKey)}
                           </p>
 
@@ -229,7 +229,7 @@ const DanceClassesPage: React.FC = () => {
               </h2>
             </AnimateOnScroll>
             <AnimateOnScroll delay={200}>
-              <p className="max-w-3xl mx-auto text-lg text-neutral/80 mb-12">{t('danceClassesHub_featured_description')}</p>
+              <p className="max-w-3xl mx-auto text-lg text-neutral/90 mb-12">{t('danceClassesHub_featured_description')}</p>
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={300}>

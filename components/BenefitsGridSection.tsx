@@ -53,7 +53,7 @@ const BenefitsGridSection: React.FC<BenefitsGridSectionProps> = ({
                     <h3 className="text-2xl font-bold text-neutral mb-3 group-hover:holographic-text transition-colors duration-300">
                       {t(benefit.titleKey)}
                     </h3>
-                    <p className="text-neutral/80 leading-relaxed">{t(benefit.descKey)}</p>
+                    <p className="text-neutral/90 leading-relaxed">{t(benefit.descKey)}</p>
                   </div>
                 </div>
               </div>
