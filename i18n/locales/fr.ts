@@ -89,10 +89,10 @@ export const fr = {
   whyTitle: 'La Différence FIDC : Pourquoi choisir notre école de danse à Barcelone ?',
   whyPillar1Title: 'Professeurs de Classe Mondiale',
   whyPillar1Content:
-    "Laissez-vous guider par un corps professoral de maîtres de renommée internationale, dotés d'une vaste expérience et d'une qualité d'enseignement pour accélérer votre apprentissage.",
+    "Apprenez avec des maîtres de renommée internationale, dotés d'une vaste expérience et d'une qualité d'enseignement qui accélère votre apprentissage.",
   whyPillar2Title: "Méthode Exclusive 'Farray®'",
   whyPillar2Content:
-    "Apprenez avec un système d'enseignement unique au monde, créé par Yunaisy Farray, qui garantit des résultats rapides, solides et éprouvés.",
+    "Apprenez avec un système d'enseignement créé par Yunaisy Farray qui garantit des résultats rapides et solides.",
   whyPillar3Title: 'Installations Premium de 700 m²',
   whyPillar3Content:
     "Profitez de 700 m² d'installations de première classe, avec de grands studios de danse, un équipement professionnel et la climatisation pour votre confort maximal.",
@@ -104,7 +104,7 @@ export const fr = {
     "Nous adaptons la danse à votre vie. Nous offrons une grande variété d'horaires, y compris des cours du matin et des programmes intensifs, pour que vous trouviez toujours votre moment pour danser.",
   whyPillar6Title: 'Prestige CID-UNESCO et Collaborations',
   whyPillar6Content:
-    'Formez-vous dans un centre membre du CID-UNESCO qui collabore à de grands projets télévisés et spectacles vivants, un gage de la plus haute qualité.',
+    'Centre membre du CID-UNESCO qui collabore à de grands projets télévisés et spectacles vivants. Un sceau de qualité internationale.',
   whyPillar7Title: 'Emplacement Privilégié',
   whyPillar7Content:
     'Nous sommes situés au cœur de Barcelone, à seulement 5 minutes à pied de la Plaza España et de la gare de Sants.',
@@ -706,7 +706,7 @@ export const fr = {
   danzaBarcelona_breadcrumb_current: 'Cours de Danse à Barcelone',
   danzaBarcelona_h1: 'Cours de Danse à Barcelone',
   danzaBarcelona_intro:
-    'Explorez la technique, l\'élégance et l\'expression de la danse classique et contemporaine à Barcelone. Chez Farray\'s Center, nous offrons une formation d\'élite en Ballet Classique (École Cubaine), Danse Contemporaine, Modern Jazz, Afro Jazz et Afro Contemporain avec des professeurs titrés et reconnus internationalement.',
+    'Explorez la technique, l\'élégance et l\'expression de la danse classique et contemporaine à Barcelone. Chez Farray\'s Center, nous offrons une formation d\'élite en Ballet Classique (École Cubaine), Danse Contemporaine, Modern Jazz, Afro Jazz et Afro Contemporain avec des professeurs diplômés de l\'École Nationale d\'Art de Cuba.',
 
   danzaBarcelona_styles_title: 'Styles de Danse que Nous Offrons',
   danzaBarcelona_styles_description:
@@ -773,5 +773,22 @@ export const fr = {
 
   danzaFaqQ10: 'Puis-je essayer un cours avant de m\'inscrire?',
   danzaFaqA10:
-    'Oui. Nous offrons un cours d\'essai gratuit sans engagement pour que vous puissiez rencontrer le professeur, le niveau du groupe et les installations. Réservez votre place en cliquant sur le bouton "Essayez un Cours Gratuit" en haut de cette page.',
+    'Oui. Nous offrons un cours d\'essai gratuit sans engagement pour que vous puissiez rencontrer le professeur, le niveau du groupe et les installations. Réservez votre place en cliquant sur le bouton "Réservez Votre Cours d\'Essai" en haut de cette page.',
+
+  // Career Opportunities - Danza Barcelona
+  danzaWhyCareerTitle: 'Bourse d\'Emploi et Compétitions',
+  danzaWhyCareerContent:
+    'Accédez à des offres d\'emploi, des castings professionnels et une préparation spécialisée pour les compétitions nationales et internationales. Nous vous connectons avec des opportunités réelles dans le monde de la danse et vous préparons pour votre carrière professionnelle.',
+
+  // Cuban School - Danza Barcelona
+  danzaWhyCubanSchoolTitle: 'École Cubaine',
+  danzaWhyCubanSchoolContent:
+    'Technique, art et âme. Combine la rigueur et la discipline russe avec le rythme, l\'expressivité et la musicalité afro-caribéenne. Une méthodologie qui forme des danseurs complets, forts, expressifs et brillants sur scène.',
+
+  // CTA Final - Danza Barcelona
+  danzaCTA_title: 'Votre Premier Cours de Danse Vous Attend',
+  danzaCTA_subtitle: 'Ne laissez pas passer plus de temps. Chaque semaine que vous attendez est une semaine de moins à danser.',
+  danzaCTA_description:
+    'Rejoignez des centaines d\'étudiants—des débutants aux professionnels—qui transforment leur technique de ballet, contemporain et jazz avec des professeurs cubains diplômés à Barcelone.',
 };
+

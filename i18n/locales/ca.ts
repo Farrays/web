@@ -89,10 +89,10 @@ export const ca = {
   whyTitle: 'La Diferència FIDC: Per què escollir la nostra escola de ball a Barcelona?',
   whyPillar1Title: 'Professors de Classe Mundial',
   whyPillar1Content:
-    "Deixa't guiar per un claustre de mestres reconeguts internacionalment, amb àmplia experiència i qualitat docent per accelerar el teu aprenentatge.",
+    "Aprèn amb mestres reconeguts internacionalment, amb àmplia experiència i qualitat docent que accelera el teu aprenentatge.",
   whyPillar2Title: "Exclusiu 'Mètode Farray®'",
   whyPillar2Content:
-    "Aprèn amb un sistema d'ensenyament únic al món, creat per Yunaisy Farray, que assegura resultats ràpids, sòlids i contrastats.",
+    "Aprèn amb un sistema d'ensenyament creat per Yunaisy Farray que assegura resultats ràpids i sòlids.",
   whyPillar3Title: "700 m² d'Instal·lacions Premium",
   whyPillar3Content:
     "Gaudeix de 700 m² d'instal·lacions de primer nivell, amb àmplies sales de ball, equipament professional i climatització per al teu màxim confort.",
@@ -104,7 +104,7 @@ export const ca = {
     "Adaptem el ball a la teva vida. Oferim una gran varietat d'horaris, incloent-hi classes als matins i programes intensius, perquè sempre trobis el teu moment per ballar.",
   whyPillar6Title: 'Prestigi CID-UNESCO i Col·laboracions',
   whyPillar6Content:
-    "Forma't en un centre membre de CID-UNESCO que col·labora en grans projectes de TV i espectacles en viu, un segell de la més alta qualitat.",
+    "Centre membre de CID-UNESCO que col·labora en grans projectes de TV i espectacles en viu. Un segell de qualitat internacional.",
   whyPillar7Title: 'Ubicació Privilegiada',
   whyPillar7Content:
     'Estem ubicats al cor de Barcelona, a només 5 minuts caminant de Plaça Espanya i Estació de Sants.',
@@ -704,7 +704,7 @@ export const ca = {
   danzaBarcelona_breadcrumb_current: 'Classes de Dansa a Barcelona',
   danzaBarcelona_h1: 'Classes de Dansa a Barcelona',
   danzaBarcelona_intro:
-    'Explora la tècnica, elegància i expressió de la dansa clàssica i contemporània a Barcelona. A Farray\'s Center oferim formació d\'elit en Ballet Clàssic (Escola Cubana), Dansa Contemporània, Modern Jazz, Afro Jazz i Afro Contemporani amb professors titulats i reconeguts internacionalment.',
+    'Explora la tècnica, elegància i expressió de la dansa clàssica i contemporània a Barcelona. A Farray\'s Center oferim formació d\'elit en Ballet Clàssic (Escola Cubana), Dansa Contemporània, Modern Jazz, Afro Jazz i Afro Contemporani amb professors graduats de l\'Escola Nacional d\'Art de Cuba.',
 
   danzaBarcelona_styles_title: 'Estils de Dansa que Oferim',
   danzaBarcelona_styles_description:
@@ -771,5 +771,22 @@ export const ca = {
 
   danzaFaqQ10: 'Puc provar una classe abans d\'inscriure\'m?',
   danzaFaqA10:
-    'Sí. Oferim una classe de prova gratuïta sense compromís perquè coneguis el professor, el nivell del grup i les instal·lacions. Reserva la teva plaça prement el botó "Prova una Classe Gratis" a la part superior d\'aquesta pàgina.',
+    'Sí. Oferim una classe de prova gratuïta sense compromís perquè coneguis el professor, el nivell del grup i les instal·lacions. Reserva la teva plaça prement el botó "Reserva la teva Classe de Prova" a la part superior d\'aquesta pàgina.',
+
+  // Career Opportunities - Danza Barcelona
+  danzaWhyCareerTitle: 'Borsa de Treball i Competicions',
+  danzaWhyCareerContent:
+    'Accedeix a ofertes de treball, càstings professionals i preparació especialitzada per a competicions nacionals i internacionals. Et connectem amb oportunitats reals en el món de la dansa i et preparem per a la teva carrera professional.',
+
+  // Cuban School - Danza Barcelona
+  danzaWhyCubanSchoolTitle: 'Escola Cubana',
+  danzaWhyCubanSchoolContent:
+    'Tècnica, art i ànima. Combina el rigor i la disciplina russa amb el ritme, l\'expressivitat i la musicalitat afrocaribeny. Una metodologia que forma ballarins complets, forts, expressius i brillants a l\'escenari.',
+
+  // CTA Final - Danza Barcelona
+  danzaCTA_title: 'La Teva Primera Classe de Dansa T\'Està Esperant',
+  danzaCTA_subtitle: 'No deixis passar més temps. Cada setmana que esperes és una setmana menys ballant.',
+  danzaCTA_description:
+    'Uneix-te a centenars d\'estudiants —des de principiants fins a professionals— que estan transformant la seva tècnica de ballet, contemporani i jazz amb professors cubans graduats a Barcelona.',
 };
+
