@@ -90,10 +90,10 @@ export const es = {
   whyTitle: 'La Diferencia FIDC: ¿Por qué elegir nuestra Academia de danza en Barcelona?',
   whyPillar1Title: 'Profesores de Clase Mundial',
   whyPillar1Content:
-    'Déjate guiar por un claustro de maestros reconocidos internacionalmente, con amplia experiencia y calidad docente para acelerar tu aprendizaje.',
+    'Aprende con maestros reconocidos internacionalmente, con amplia experiencia y calidad docente que acelera tu aprendizaje.',
   whyPillar2Title: "Exclusivo 'Método Farray®'",
   whyPillar2Content:
-    'Aprende con un sistema de enseñanza único en el mundo, creado por Yunaisy Farray, que asegura resultados rápidos, sólidos y contrastados.',
+    'Aprende con un sistema de enseñanza creado por Yunaisy Farray que asegura resultados rápidos y sólidos.',
   whyPillar3Title: '700 m² de Instalaciones Premium',
   whyPillar3Content:
     'Disfruta de 700 m² de instalaciones de primer nivel, con amplias salas de baile, equipamiento profesional y climatización para tu máximo confort.',
@@ -105,7 +105,7 @@ export const es = {
     'Adaptamos el baile a tu vida. Ofrecemos una gran variedad de horarios, incluyendo clases por las mañanas y programas intensivos, para que siempre encuentres tu momento para bailar.',
   whyPillar6Title: 'Prestigio CID-UNESCO y Colaboraciones',
   whyPillar6Content:
-    'Fórmate en un centro miembro de CID-UNESCO que colabora en grandes proyectos de TV y espectáculos en vivo, un sello de la más alta calidad.',
+    'Centro miembro de CID-UNESCO que colabora en grandes proyectos de TV y espectáculos en vivo. Un sello de calidad internacional.',
   whyPillar7Title: 'Ubicación Privilegiada',
   whyPillar7Content:
     'Estamos ubicados en el corazón de Barcelona, a tan solo 5 minutos caminando de Plaza España y Estación de Sants.',
@@ -1066,7 +1066,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   // Cuban School - Danza Barcelona
   danzaWhyCubanSchoolTitle: 'Escuela Cubana',
   danzaWhyCubanSchoolContent:
-    'Técnica, arte y alma. Reconocida mundialmente por ser la mezcla perfecta entre el rigor y la disciplina rusa y el ritmo, la expresividad y la musicalidad de los pueblos afrodescendientes. Una combinación incomparable que crea bailarines completos, fuertes, expresivos… y brillantes en escena.',
+    'Técnica, arte y alma. Combina el rigor y la disciplina rusa con el ritmo, la expresividad y la musicalidad afrocaribeña. Una metodología que forma bailarines completos, fuertes, expresivos y brillantes en escena.',
 
   // FAQ - Danza Barcelona
   danzaBarcelona_faq_title: 'Preguntas frecuentes sobre nuestras clases de danza en Barcelona',
@@ -1110,6 +1110,12 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   danzaFaqQ10: '¿Puedo probar una clase antes de inscribirme?',
   danzaFaqA10:
     'Sí. Ofrecemos una clase de prueba gratuita sin compromiso para que conozcas al profesor, el nivel del grupo y las instalaciones. Reserva tu plaza pulsando el botón "Reserva tu Clase de Prueba" en la parte superior de esta página.',
+
+  // CTA Final - Danza Barcelona
+  danzaCTA_title: 'Tu Primera Clase de Danza Te Está Esperando',
+  danzaCTA_subtitle: 'No dejes pasar más tiempo. Cada semana que esperas es una semana menos bailando.',
+  danzaCTA_description:
+    'Únete a cientos de estudiantes —desde principiantes hasta profesionales— que están transformando su técnica de ballet, contemporáneo y jazz con profesores cubanos graduados en Barcelona.',
 
   // ==========================================
   // DANZAS URBANAS BARCELONA PAGE
