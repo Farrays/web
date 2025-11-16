@@ -515,7 +515,7 @@ export const fr = {
   dhV3FaqQ8: 'Avez-vous une réduction spéciale ?',
   dhV3FaqA8: 'Oui. Nous offrons des réductions si vous vous inscrivez à plus d\'un cours. Consultez le site web ou demandez-nous directement pour plus de détails.',
   dhV3FaqQ9: 'Puis-je essayer un cours de Dancehall avant de m\'inscrire ?',
-  dhV3FaqA9: 'Bien sûr. Vous pouvez venir à un cours d\'essai gratuit et sans engagement. Montez en haut de la page, cliquez sur le bouton "Essayez 1 Cours Gratuit" et réservez votre place.',
+  dhV3FaqA9: 'Selon la saison, le cours d\'essai pour les résidents peut être gratuit ou avoir un prix symbolique de bienvenue. L\'idée est que vous puissiez essayer l\'expérience sans engagement. Réservez votre place en cliquant sur le bouton "Réservez Votre Cours d\'Essai" en haut de cette page.',
   dhV3FaqQ10: 'Que se passe-t-il si je manque un cours pour le travail ou des engagements ?',
   dhV3FaqA10: 'Si vous avez un abonnement et annulez un cours, vous disposez de 30 jours pour le rattraper à partir de la date du cours annulé. Si vous avez un forfait d\'heures, vous gérez vos cours de manière flexible : annulez et réservez un autre jour dans la période d\'expiration. Toutes les gestions se font exclusivement via l\'application numérique de l\'académie.',
   dhV3FaqQ11: 'Si je manque un cours, dois-je le rattraper en faisant le même style ou puis-je en faire un différent ?',

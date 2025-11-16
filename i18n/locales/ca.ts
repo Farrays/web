@@ -514,7 +514,7 @@ export const ca = {
   dhV3FaqQ8: 'Teniu algun descompte especial?',
   dhV3FaqA8: 'Sí. Oferim descomptes si t\'apuntes a més d\'un curs. Consulta el web o pregunta\'ns directament per a més detalls.',
   dhV3FaqQ9: 'Puc provar una classe de Dancehall abans d\'inscriure\'m?',
-  dhV3FaqA9: 'Per descomptat. Pots venir a una classe de prova gratuïta i sense compromís. Puja a l\'inici de la pàgina, prem el botó "Prova 1 Classe Gratis" i reserva la teva plaça.',
+  dhV3FaqA9: 'Segons la temporada, la classe de prova per a residents pot ser gratuïta o tenir un preu simbòlic de benvinguda. La idea és que puguis provar l\'experiència sense compromís. Reserva la teva plaça prement el botó "Reserva la teva Classe de Prova" a la part superior d\'aquesta pàgina.',
   dhV3FaqQ10: 'I si falto a una classe per feina o compromisos?',
   dhV3FaqA10: 'Si tens una membresía i cancel·les una classe, disposes de 30 dies per recuperar-la des de la data de la classe cancel·lada. Si tens un abonament d\'hores, gestiones les teves classes de forma flexible: cancel·la i reserva un altre dia dins del període de caducitat. Totes les gestions es realitzen exclusivament des de l\'aplicació digital de l\'acadèmia.',
   dhV3FaqQ11: 'Si falto a una classe, haig de recuperar-la fent el mateix estil o puc fer-ne un altre de diferent?',
