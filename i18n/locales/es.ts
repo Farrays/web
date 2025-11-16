@@ -7,6 +7,7 @@ export const es = {
   navHome: 'Inicio',
   navClasses: 'Clases de Baile',
   navDanza: 'Clases de Danza',
+  navSalsaBachata: 'Salsa y Bachata',
   navDanzasUrbanas: 'Danzas Urbanas',
   navDancehall: 'Dancehall',
   enrollNow: 'Inscríbete Ahora',
