@@ -91,10 +91,10 @@ export const es = {
   whyTitle: 'La Diferencia FIDC: ¿Por qué elegir nuestra Academia de danza en Barcelona?',
   whyPillar1Title: 'Profesores de Clase Mundial',
   whyPillar1Content:
-    'Aprende con maestros reconocidos internacionalmente, con amplia experiencia y calidad docente que acelera tu aprendizaje.',
+    'Aprende con maestros cubanos reconocidos internacionalmente, con amplia experiencia y calidad docente que acelera tu aprendizaje.',
   whyPillar2Title: "Exclusivo 'Método Farray®'",
   whyPillar2Content:
-    'Aprende con un sistema de enseñanza creado por Yunaisy Farray que asegura resultados rápidos y sólidos.',
+    'Aprende con un sistema de enseñanza creado por Yunaisy Farray nuestra maestra cubana, que asegura resultados rápidos, sólidos y contrastados.',
   whyPillar3Title: '700 m² de Instalaciones Premium',
   whyPillar3Content:
     'Disfruta de 700 m² de instalaciones de primer nivel, con amplias salas de baile, equipamiento profesional y climatización para tu máximo confort.',
@@ -1143,15 +1143,15 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
     'Aprende a bailar Salsa Cubana, Bachata Sensual y Dominicana, Timba, Son y más en Barcelona. Escuela fundada por maestros cubanos con experiencia en las mejores academias de La Habana. Reserva tu clase de prueba.',
   salsaBachataBarcelona_breadcrumb_home: 'Inicio',
   salsaBachataBarcelona_breadcrumb_current: 'Clases de Salsa y Bachata en Barcelona',
-  salsaBachataBarcelona_h1: 'Clases de Salsa y Bachata en Barcelona',
+  salsaBachataBarcelona_h1: 'Aprende a bailar Salsa y Bachata Como Siempre Soñaste',
   salsaBachataBarcelona_intro:
-    'Descubre la pasión, el ritmo y la conexión del baile latino en Barcelona. En Farray\'s Center ofrecemos clases de Salsa Cubana, Bachata (Sensual y Dominicana), Timba, Son Cubano, Folklore y más con profesores formados en La Habana. Ya sea que quieras bailar en pareja o desarrollar tu estilo individual, aquí encontrarás tu comunidad latina.',
+    'En Farray\'s Center no solo aprendes coreografías: aprendes a bailar de verdad. Enseñamos Salsa Cubana, Bachata, Timba, Lady Style y Folklore desde la raíz, con musicalidad, técnica y propiedad corporal. Nuestros profesores cubanos, formados en La Habana y con trayectoria internacional, te enseñan a entender el movimiento, dominar tu estilo y bailar con calidad, presencia y sentido. Si buscas avanzar de verdad y sentirte parte de la comunidad latina más comprometida de Barcelona, este es tu lugar.',
 
   salsaBachataBarcelona_styles_title: 'Estilos de Salsa y Bachata que Ofrecemos',
   salsaBachataBarcelona_styles_description:
     'Desde la alegría contagiosa de la Salsa Cubana hasta la sensualidad de la Bachata. Clases para todos los niveles, tanto para baile en pareja como para estilos individuales (Lady Style, Men Style). Encuentra tu ritmo latino preferido.',
 
-  salsaBachataBarcelona_why_title: '¿Por qué estudiar Salsa y Bachata en Farray\'s Center?',
+  salsaBachataBarcelona_why_title: '¿Por qué elegir nuestra Escuela de Salsa y Bachata en Barcelona?',
 
   // Salsa/Bachata-specific cards content (solo 2 cards específicos)
   salsaBachataWhyCubanSchoolTitle: 'Escuela Cubana de Baile',
@@ -1160,14 +1160,14 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   salsaBachataWhyPartnerTitle: 'Baila Solo o en Pareja',
   salsaBachataWhyPartnerContent:
-    'No necesitas venir con pareja. Nuestras clases están diseñadas para que rotes con diferentes compañeros y desarrolles tu habilidad de conexión. También ofrecemos clases de Lady Style y Men Style para perfeccionar tu técnica individual y lucirte en la pista.',
+    'No necesitas venir con pareja. Nuestras clases están diseñadas para que rotes con diferentes compañeros y desarrolles tu habilidad de conexión. También ofrecemos clases de Lady Style y Men Style para perfeccionar tu técnica individual.',
 
-  salsaBachataBarcelona_faq_title: 'Preguntas Frecuentes sobre Salsa y Bachata',
+  salsaBachataBarcelona_faq_title: 'Preguntas Frecuentes sobre nuestra academia Salsa y Bachata',
 
   // FAQs optimizadas para AI search engines (10 preguntas)
   salsaBachataFaqQ1: '¿Qué estilos de salsa y bachata se enseñan en Farray\'s Center Barcelona?',
   salsaBachataFaqA1:
-    'En Farray\'s Center enseñamos Salsa Cubana (Casino), Bachata Sensual, Bachata Lady Style, Timba Cubana, Son Cubano, Salsa Lady Style, Salsa Lady Timba, Men Style y Folklore Cubano. Nuestros profesores son graduados de la Escuela Nacional de Arte de Cuba y tienen experiencia en las mejores academias de La Habana, garantizando autenticidad y calidad en cada clase.',
+    'En Farray\'s Center enseñamos Salsa Cubana, Bachata Sensual, Bachata Lady Style, Timba Cubana, Son Cubano, Salsa Lady Style, Salsa Lady Timba, Men Style y Folklore Cubano. Nuestros profesores son graduados de la Escuela Nacional de Arte de Cuba y tienen experiencia en las mejores academias de La Habana, garantizando autenticidad y calidad en cada clase.',
 
   salsaBachataFaqQ2: '¿Necesito venir con pareja para las clases de salsa o bachata?',
   salsaBachataFaqA2:
@@ -1175,7 +1175,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   salsaBachataFaqQ3: '¿Cuál es la diferencia entre Salsa Cubana y otros estilos de salsa?',
   salsaBachataFaqA3:
-    'La Salsa Cubana (también llamada Casino) se baila en círculo y tiene un estilo más circular, alegre y "de la calle" comparado con la Salsa en Línea (LA Style o NY Style). La Cubana incorpora movimientos de afro-cubano, son y rumba. Es muy social: puedes bailar en rueda de casino (varios bailarines en círculo) o en pareja. En Farray\'s enseñamos auténtica salsa cubana con profesores de La Habana.',
+    'La Salsa Cubana se baila en círculo y tiene un estilo más circular, alegre y "de la calle" comparado con la Salsa en Línea (LA Style o NY Style). La Cubana incorpora movimientos de afro-cubano, son y rumba. Es muy social: puedes bailar en rueda de casino (varios bailarines en círculo) o en pareja. En Farray\'s enseñamos auténtica salsa cubana con profesores de La Habana.',
 
   salsaBachataFaqQ4: '¿Qué nivel necesito para empezar clases de salsa o bachata?',
   salsaBachataFaqA4:

@@ -90,10 +90,10 @@ export const fr = {
   whyTitle: 'La Différence FIDC : Pourquoi choisir notre école de danse à Barcelone ?',
   whyPillar1Title: 'Professeurs de Classe Mondiale',
   whyPillar1Content:
-    "Apprenez avec des maîtres de renommée internationale, dotés d'une vaste expérience et d'une qualité d'enseignement qui accélère votre apprentissage.",
+    "Apprenez avec des maîtres cubains de renommée internationale, dotés d'une vaste expérience et d'une qualité d'enseignement qui accélère votre apprentissage.",
   whyPillar2Title: "Méthode Exclusive 'Farray®'",
   whyPillar2Content:
-    "Apprenez avec un système d'enseignement créé par Yunaisy Farray qui garantit des résultats rapides et solides.",
+    "Apprenez avec un système d'enseignement créé par Yunaisy Farray notre professeure cubaine, garantissant des résultats rapides, solides et éprouvés.",
   whyPillar3Title: 'Installations Premium de 700 m²',
   whyPillar3Content:
     "Profitez de 700 m² d'installations de première classe, avec de grands studios de danse, un équipement professionnel et la climatisation pour votre confort maximal.",
@@ -930,15 +930,15 @@ export const fr = {
     'Apprenez à danser la Salsa Cubaine, la Bachata Sensuelle et Dominicaine, la Timba, le Son et plus à Barcelone. École fondée par des maîtres cubains avec expérience dans les meilleures académies de La Havane. Réservez votre cours d\'essai.',
   salsaBachataBarcelona_breadcrumb_home: 'Accueil',
   salsaBachataBarcelona_breadcrumb_current: 'Cours de Salsa et Bachata à Barcelone',
-  salsaBachataBarcelona_h1: 'Cours de Salsa et Bachata à Barcelone',
+  salsaBachataBarcelona_h1: 'Apprenez à Danser la Salsa et la Bachata Comme Vous en Avez Toujours Rêvé',
   salsaBachataBarcelona_intro:
-    'Découvrez la passion, le rythme et la connexion de la danse latine à Barcelone. Au Farray\'s Center nous proposons des cours de Salsa Cubaine, Bachata (Sensuelle et Dominicaine), Timba, Son Cubain, Folklore et plus avec des professeurs formés à La Havane. Que vous souhaitiez danser en couple ou développer votre style individuel, vous trouverez ici votre communauté latine.',
+    'Au Farray\'s Center vous n\'apprenez pas seulement des chorégraphies : vous apprenez à vraiment danser. Nous enseignons la Salsa Cubaine, la Bachata, la Timba, le Lady Style et le Folklore depuis les racines, avec musicalité, technique et conscience corporelle. Nos professeurs cubains, formés à La Havane avec une expérience internationale, vous enseignent à comprendre le mouvement, maîtriser votre style et danser avec qualité, présence et sens. Si vous cherchez à vraiment progresser et à faire partie de la communauté latine la plus engagée de Barcelone, c\'est votre place.',
 
   salsaBachataBarcelona_styles_title: 'Styles de Salsa et Bachata que Nous Proposons',
   salsaBachataBarcelona_styles_description:
     'De la joie contagieuse de la Salsa Cubaine à la sensualité de la Bachata. Cours pour tous les niveaux, aussi bien pour la danse en couple que pour les styles individuels (Lady Style, Men Style). Trouvez votre rythme latin préféré.',
 
-  salsaBachataBarcelona_why_title: 'Pourquoi étudier la Salsa et la Bachata au Farray\'s Center ?',
+  salsaBachataBarcelona_why_title: 'Pourquoi choisir notre École de Salsa et Bachata à Barcelone ?',
 
   // Salsa/Bachata-specific cards content (seulement 2 cards spécifiques)
   salsaBachataWhyCubanSchoolTitle: 'École Cubaine de Danse',
@@ -947,14 +947,14 @@ export const fr = {
 
   salsaBachataWhyPartnerTitle: 'Dansez Seul ou en Couple',
   salsaBachataWhyPartnerContent:
-    'Vous n\'avez pas besoin de venir avec un partenaire. Nos cours sont conçus pour que vous tourniez avec différents partenaires et développiez votre capacité de connexion. Nous proposons également des cours de Lady Style et Men Style pour perfectionner votre technique individuelle et briller sur la piste.',
+    'Vous n\'avez pas besoin de venir avec un partenaire. Nos cours sont conçus pour que vous tourniez avec différents partenaires et développiez votre capacité de connexion. Nous proposons également des cours de Lady Style et Men Style pour perfectionner votre technique individuelle.',
 
-  salsaBachataBarcelona_faq_title: 'Questions Fréquentes sur la Salsa et la Bachata',
+  salsaBachataBarcelona_faq_title: 'Questions Fréquentes sur notre académie Salsa et Bachata',
 
   // FAQs optimisées pour les moteurs de recherche AI (10 questions)
   salsaBachataFaqQ1: 'Quels styles de salsa et bachata sont enseignés au Farray\'s Center Barcelone ?',
   salsaBachataFaqA1:
-    'Au Farray\'s Center nous enseignons la Salsa Cubaine (Casino), la Bachata Sensuelle, la Bachata Lady Style, la Timba Cubaine, le Son Cubain, le Salsa Lady Style, le Salsa Lady Timba, le Men Style et le Folklore Cubain. Nos professeurs sont diplômés de l\'École Nationale d\'Art de Cuba et ont une expérience dans les meilleures académies de La Havane, garantissant authenticité et qualité dans chaque cours.',
+    'Au Farray\'s Center nous enseignons la Salsa Cubaine, la Bachata Sensuelle, la Bachata Lady Style, la Timba Cubaine, le Son Cubain, le Salsa Lady Style, le Salsa Lady Timba, le Men Style et le Folklore Cubain. Nos professeurs sont diplômés de l\'École Nationale d\'Art de Cuba et ont une expérience dans les meilleures académies de La Havane, garantissant authenticité et qualité dans chaque cours.',
 
   salsaBachataFaqQ2: 'Dois-je venir avec un partenaire pour les cours de salsa ou bachata ?',
   salsaBachataFaqA2:
@@ -962,7 +962,7 @@ export const fr = {
 
   salsaBachataFaqQ3: 'Quelle est la différence entre la Salsa Cubaine et les autres styles de salsa ?',
   salsaBachataFaqA3:
-    'La Salsa Cubaine (aussi appelée Casino) se danse en cercle et a un style plus circulaire, joyeux et "de la rue" comparé à la Salsa en Ligne (LA Style ou NY Style). La Cubaine incorpore des mouvements afro-cubains, son et rumba. C\'est très social : vous pouvez danser en rueda de casino (plusieurs danseurs en cercle) ou en couple. Au Farray\'s nous enseignons la salsa cubaine authentique avec des professeurs de La Havane.',
+    'La Salsa Cubaine se danse en cercle et a un style plus circulaire, joyeux et "de la rue" comparé à la Salsa en Ligne (LA Style ou NY Style). La Cubaine incorpore des mouvements afro-cubains, son et rumba. C\'est très social : vous pouvez danser en rueda de casino (plusieurs danseurs en cercle) ou en couple. Au Farray\'s nous enseignons la salsa cubaine authentique avec des professeurs de La Havane.',
 
   salsaBachataFaqQ4: 'Quel niveau faut-il pour commencer les cours de salsa ou bachata ?',
   salsaBachataFaqA4:

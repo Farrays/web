@@ -90,10 +90,10 @@ export const en = {
   whyTitle: 'The FIDC Difference: Why choose our dance school in Barcelona?',
   whyPillar1Title: 'World-Class Instructors',
   whyPillar1Content:
-    'Learn with internationally recognized masters with extensive experience and teaching quality that accelerates your learning.',
+    'Learn with internationally recognized Cuban masters with extensive experience and teaching quality that accelerates your learning.',
   whyPillar2Title: "Exclusive 'Método Farray®'",
   whyPillar2Content:
-    'Learn with a teaching system created by Yunaisy Farray that ensures fast and solid results.',
+    'Learn with a teaching system created by Yunaisy Farray our Cuban teacher, ensuring fast, solid, and proven results.',
   whyPillar3Title: '700 m² Premium Facilities',
   whyPillar3Content:
     'Enjoy 700 m² of first-class facilities, with spacious dance studios, professional equipment, and air conditioning for your maximum comfort.',
@@ -928,15 +928,15 @@ export const en = {
     'Learn to dance Cuban Salsa, Sensual and Dominican Bachata, Timba, Son and more in Barcelona. School founded by Cuban masters with experience in Havana\'s best academies. Book your trial class.',
   salsaBachataBarcelona_breadcrumb_home: 'Home',
   salsaBachataBarcelona_breadcrumb_current: 'Salsa and Bachata Classes in Barcelona',
-  salsaBachataBarcelona_h1: 'Salsa and Bachata Classes in Barcelona',
+  salsaBachataBarcelona_h1: 'Learn to Dance Salsa and Bachata As You Always Dreamed',
   salsaBachataBarcelona_intro:
-    'Discover the passion, rhythm and connection of Latin dance in Barcelona. At Farray\'s Center we offer Cuban Salsa, Bachata (Sensual and Dominican), Timba, Son Cubano, Folklore and more classes with teachers trained in Havana. Whether you want to dance with a partner or develop your individual style, here you\'ll find your Latin community.',
+    'At Farray\'s Center you don\'t just learn choreographies: you learn to dance for real. We teach Cuban Salsa, Bachata, Timba, Lady Style and Folklore from the roots, with musicality, technique and body awareness. Our Cuban teachers, trained in Havana with international experience, teach you to understand movement, master your style and dance with quality, presence and meaning. If you\'re looking to truly advance and be part of Barcelona\'s most committed Latin community, this is your place.',
 
   salsaBachataBarcelona_styles_title: 'Salsa and Bachata Styles We Offer',
   salsaBachataBarcelona_styles_description:
     'From the infectious joy of Cuban Salsa to the sensuality of Bachata. Classes for all levels, both for partner dancing and individual styles (Lady Style, Men Style). Find your preferred Latin rhythm.',
 
-  salsaBachataBarcelona_why_title: 'Why study Salsa and Bachata at Farray\'s Center?',
+  salsaBachataBarcelona_why_title: 'Why choose our Salsa and Bachata School in Barcelona?',
 
   // Salsa/Bachata-specific cards content (only 2 specific cards)
   salsaBachataWhyCubanSchoolTitle: 'Cuban Dance School',
@@ -945,14 +945,14 @@ export const en = {
 
   salsaBachataWhyPartnerTitle: 'Dance Solo or with a Partner',
   salsaBachataWhyPartnerContent:
-    'You don\'t need to bring a partner. Our classes are designed so you rotate with different partners and develop your connection skills. We also offer Lady Style and Men Style classes to perfect your individual technique and shine on the dance floor.',
+    'You don\'t need to bring a partner. Our classes are designed so you rotate with different partners and develop your connection skills. We also offer Lady Style and Men Style classes to perfect your individual technique.',
 
-  salsaBachataBarcelona_faq_title: 'Frequently Asked Questions about Salsa and Bachata',
+  salsaBachataBarcelona_faq_title: 'Frequently Asked Questions about our Salsa and Bachata academy',
 
   // FAQs optimized for AI search engines (10 questions)
   salsaBachataFaqQ1: 'What styles of salsa and bachata are taught at Farray\'s Center Barcelona?',
   salsaBachataFaqA1:
-    'At Farray\'s Center we teach Cuban Salsa (Casino), Sensual Bachata, Bachata Lady Style, Cuban Timba, Son Cubano, Salsa Lady Style, Salsa Lady Timba, Men Style and Cuban Folklore. Our teachers are graduates of the National School of Art of Cuba and have experience in Havana\'s best academies, guaranteeing authenticity and quality in every class.',
+    'At Farray\'s Center we teach Cuban Salsa, Sensual Bachata, Bachata Lady Style, Cuban Timba, Son Cubano, Salsa Lady Style, Salsa Lady Timba, Men Style and Cuban Folklore. Our teachers are graduates of the National School of Art of Cuba and have experience in Havana\'s best academies, guaranteeing authenticity and quality in every class.',
 
   salsaBachataFaqQ2: 'Do I need to bring a partner for salsa or bachata classes?',
   salsaBachataFaqA2:
@@ -960,7 +960,7 @@ export const en = {
 
   salsaBachataFaqQ3: 'What\'s the difference between Cuban Salsa and other salsa styles?',
   salsaBachataFaqA3:
-    'Cuban Salsa (also called Casino) is danced in a circle and has a more circular, joyful and "street" style compared to Salsa on Line (LA Style or NY Style). Cuban incorporates Afro-Cuban, son and rumba movements. It\'s very social: you can dance in rueda de casino (several dancers in a circle) or in pairs. At Farray\'s we teach authentic Cuban salsa with teachers from Havana.',
+    'Cuban Salsa is danced in a circle and has a more circular, joyful and "street" style compared to Salsa on Line (LA Style or NY Style). Cuban incorporates Afro-Cuban, son and rumba movements. It\'s very social: you can dance in rueda de casino (several dancers in a circle) or in pairs. At Farray\'s we teach authentic Cuban salsa with teachers from Havana.',
 
   salsaBachataFaqQ4: 'What level do I need to start salsa or bachata classes?',
   salsaBachataFaqA4:
