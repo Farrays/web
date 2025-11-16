@@ -461,13 +461,29 @@ export const es = {
   danceClassesHub_style_commercial_dance: 'Commercial Dance',
   danceClassesHub_style_k_pop: 'K-Pop',
   danceClassesHub_style_salsa_cubana: 'Salsa Cubana',
+  danceClassesHub_style_salsa_cubana_desc:
+    'También conocida como Casino, es la salsa auténtica de Cuba: circular, alegre y muy social. Aprende a bailar en rueda de casino con giros, figuras y el sabor inconfundible de La Habana.',
   danceClassesHub_style_bachata: 'Bachata',
+  danceClassesHub_style_bachata_desc:
+    'El baile sensual caribeño por excelencia: conexión, ondas corporales y movimientos fluidos al ritmo de la bachata. Perfecta para quienes buscan expresión romántica y técnica de pareja.',
   danceClassesHub_style_timba_cubana: 'Timba Cubana',
+  danceClassesHub_style_timba_cubana_desc:
+    'La salsa más moderna y explosiva de Cuba: rápida, enérgica y llena de actitud. Domina cambios de ritmo, isolaciones y pasos complejos al son de los mejores timbazo cubanos.',
   danceClassesHub_style_folklore_cubano: 'Folklore Cubano',
+  danceClassesHub_style_folklore_cubano_desc:
+    'Las raíces afrocubanas en su forma más pura: Rumba, Yambú, Guaguancó y danzas de Orishas. Conecta con la cultura, los tambores y la historia de Cuba a través del baile tradicional.',
   danceClassesHub_style_salsa_lady_style: 'Salsa Lady Style',
+  danceClassesHub_style_salsa_lady_style_desc:
+    'Técnica femenina individual de salsa: giros, brazos, movimiento de caderas y actitud de reina en la pista. Perfecto para perfeccionar tu estilo personal antes de bailar en pareja.',
   danceClassesHub_style_salsa_lady_timba: 'Salsa Lady Timba',
+  danceClassesHub_style_salsa_lady_timba_desc:
+    'El estilo femenino más poderoso y moderno: combina Lady Style con la energía explosiva de la Timba cubana. Aprende isolaciones, despelote y movimientos con sabor urbano y fuerza.',
   danceClassesHub_style_son_cubano: 'Son Cubano',
+  danceClassesHub_style_son_cubano_desc:
+    'El padre de la salsa: elegante, clásico y lleno de tradición cubana desde los años 20. Pasos básicos, clave 2-3 y el swing auténtico de Buena Vista Social Club.',
   danceClassesHub_style_men_style_salsa: 'Men Style Salsa',
+  danceClassesHub_style_men_style_salsa_desc:
+    'Técnica masculina individual: footwork, actitud, control corporal y presencia escénica en salsa. Desarrolla tu estilo personal, confianza y carisma para destacar en cualquier pista.',
   danceClassesHub_style_bum_bum_fit: 'Bum Bum Cuerpo Fit',
   danceClassesHub_style_body_conditioning: 'Body Conditioning & Stretching',
   danceClassesHub_style_dance_barre: 'Dance Barre',
@@ -1137,7 +1153,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   salsaBachataBarcelona_why_title: '¿Por qué estudiar Salsa y Bachata en Farray\'s Center?',
 
-  // Salsa/Bachata-specific cards content (6 cards con 2 frases cada uno)
+  // Salsa/Bachata-specific cards content (solo 2 cards específicos)
   salsaBachataWhyCubanSchoolTitle: 'Escuela Cubana de Baile',
   salsaBachataWhyCubanSchoolContent:
     'Fundada por maestros cubanos graduados de la Escuela Nacional de Arte de Cuba y con experiencia en las mejores academias de La Habana. Aprende salsa, bachata y timba con la técnica, musicalidad y sabor auténtico de la isla.',
@@ -1145,22 +1161,6 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   salsaBachataWhyPartnerTitle: 'Baila Solo o en Pareja',
   salsaBachataWhyPartnerContent:
     'No necesitas venir con pareja. Nuestras clases están diseñadas para que rotes con diferentes compañeros y desarrolles tu habilidad de conexión. También ofrecemos clases de Lady Style y Men Style para perfeccionar tu técnica individual y lucirte en la pista.',
-
-  salsaBachataWhyAllLevelsTitle: 'Para Todos los Niveles',
-  salsaBachataWhyAllLevelsContent:
-    'Desde principiantes absolutos hasta bailadores avanzados: todos tienen su espacio en Farray\'s. Nuestros grupos están cuidadosamente divididos por nivel para que progreses rápido, te sientas cómodo y disfrutes cada clase sin sentirte ni perdido ni aburrido.',
-
-  salsaBachataWhyMusicTitle: 'Musicalidad Cubana Auténtica',
-  salsaBachataWhyMusicContent:
-    'No solo aprendes pasos: aprendes a sentir la clave, interpretar el son montuno y bailar con el corazón de la música. Nuestros profesores cubanos te enseñan a escuchar la percusión, identificar instrumentos y expresar cada ritmo con tu cuerpo como un verdadero salsero.',
-
-  salsaBachataWhyCommunityTitle: 'Comunidad Latina Vibrante',
-  salsaBachataWhyCommunityContent:
-    'Más que una escuela, somos una familia latina en Barcelona. Fiestas, sociales, salidas a bailar y eventos donde practicas en ambiente real y conoces gente apasionada por el baile como tú.',
-
-  salsaBachataWhyExpertTeachersTitle: 'Profesores de La Habana',
-  salsaBachataWhyExpertTeachersContent:
-    'Aprende de maestros que crecieron bailando en las calles de La Habana y se formaron en las mejores academias de Cuba. Traemos la esencia del Caribe directo a Barcelona: autenticidad, sabor, técnica y mucha pasión en cada clase.',
 
   salsaBachataBarcelona_faq_title: 'Preguntas Frecuentes sobre Salsa y Bachata',
 
