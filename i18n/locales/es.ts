@@ -462,28 +462,28 @@ export const es = {
   danceClassesHub_style_k_pop: 'K-Pop',
   danceClassesHub_style_salsa_cubana: 'Salsa Cubana',
   danceClassesHub_style_salsa_cubana_desc:
-    'También conocida como Casino, es la salsa auténtica de Cuba: circular, alegre y muy social. Aprende a bailar en rueda de casino con giros, figuras y el sabor inconfundible de La Habana.',
+    'Salsa auténtica de Cuba: circular, alegre y social con rueda de casino.',
   danceClassesHub_style_bachata: 'Bachata',
   danceClassesHub_style_bachata_desc:
-    'El baile sensual caribeño por excelencia: conexión, ondas corporales y movimientos fluidos al ritmo de la bachata. Perfecta para quienes buscan expresión romántica y técnica de pareja.',
+    'Baile sensual caribeño con conexión, ondas corporales y movimientos fluidos.',
   danceClassesHub_style_timba_cubana: 'Timba Cubana',
   danceClassesHub_style_timba_cubana_desc:
-    'La salsa más moderna y explosiva de Cuba: rápida, enérgica y llena de actitud. Domina cambios de ritmo, isolaciones y pasos complejos al son de los mejores timbazo cubanos.',
+    'Salsa moderna de Cuba: rápida, enérgica y llena de actitud.',
   danceClassesHub_style_folklore_cubano: 'Folklore Cubano',
   danceClassesHub_style_folklore_cubano_desc:
-    'Las raíces afrocubanas en su forma más pura: Rumba, Yambú, Guaguancó y danzas de Orishas. Conecta con la cultura, los tambores y la historia de Cuba a través del baile tradicional.',
+    'Raíces afrocubanas: Rumba, Yambú, Guaguancó y danzas de Orishas.',
   danceClassesHub_style_salsa_lady_style: 'Salsa Lady Style',
   danceClassesHub_style_salsa_lady_style_desc:
-    'Técnica femenina individual de salsa: giros, brazos, movimiento de caderas y actitud de reina en la pista. Perfecto para perfeccionar tu estilo personal antes de bailar en pareja.',
+    'Técnica femenina individual de salsa: giros, brazos y actitud.',
   danceClassesHub_style_salsa_lady_timba: 'Salsa Lady Timba',
   danceClassesHub_style_salsa_lady_timba_desc:
-    'El estilo femenino más poderoso y moderno: combina Lady Style con la energía explosiva de la Timba cubana. Aprende isolaciones, despelote y movimientos con sabor urbano y fuerza.',
+    'Lady Style con la energía explosiva de la Timba cubana.',
   danceClassesHub_style_son_cubano: 'Son Cubano',
   danceClassesHub_style_son_cubano_desc:
-    'El padre de la salsa: elegante, clásico y lleno de tradición cubana desde los años 20. Pasos básicos, clave 2-3 y el swing auténtico de Buena Vista Social Club.',
+    'El padre de la salsa: elegante, clásico y lleno de tradición cubana.',
   danceClassesHub_style_men_style_salsa: 'Men Style Salsa',
   danceClassesHub_style_men_style_salsa_desc:
-    'Técnica masculina individual: footwork, actitud, control corporal y presencia escénica en salsa. Desarrolla tu estilo personal, confianza y carisma para destacar en cualquier pista.',
+    'Técnica masculina individual: footwork, actitud y presencia escénica.',
   danceClassesHub_style_bum_bum_fit: 'Bum Bum Cuerpo Fit',
   danceClassesHub_style_body_conditioning: 'Body Conditioning & Stretching',
   danceClassesHub_style_dance_barre: 'Dance Barre',
@@ -1143,7 +1143,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
     'Aprende a bailar Salsa Cubana, Bachata Sensual y Dominicana, Timba, Son y más en Barcelona. Escuela fundada por maestros cubanos con experiencia en las mejores academias de La Habana. Reserva tu clase de prueba.',
   salsaBachataBarcelona_breadcrumb_home: 'Inicio',
   salsaBachataBarcelona_breadcrumb_current: 'Clases de Salsa y Bachata en Barcelona',
-  salsaBachataBarcelona_h1: 'Aprende a bailar Salsa y Bachata Como Siempre Soñaste',
+  salsaBachataBarcelona_h1: 'Clases de Salsa y Bachata en Barcelona',
   salsaBachataBarcelona_intro:
     'En Farray\'s Center no solo aprendes coreografías: aprendes a bailar de verdad. Enseñamos Salsa Cubana, Bachata, Timba, Lady Style y Folklore desde la raíz, con musicalidad, técnica y propiedad corporal. Nuestros profesores cubanos, formados en La Habana y con trayectoria internacional, te enseñan a entender el movimiento, dominar tu estilo y bailar con calidad, presencia y sentido. Si buscas avanzar de verdad y sentirte parte de la comunidad latina más comprometida de Barcelona, este es tu lugar.',
 
@@ -1203,13 +1203,13 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   salsaBachataFaqQ10: '¿Puedo probar una clase de salsa o bachata antes de inscribirme?',
   salsaBachataFaqA10:
-    'Según la temporada, la clase de prueba para residentes puede ser gratuita o tener un precio simbólico de bienvenida. La idea es que puedas experimentar nuestra metodología, conocer a los profesores y sentir la energía de la comunidad latina sin compromiso. Reserva tu plaza pulsando el botón "Reserva tu Clase de Prueba" en la parte superior de esta página.',
+    'Según la temporada, la clase de prueba para residentes puede ser gratuita o tener un precio simbólico de bienvenida. La idea es que puedas experimentar nuestra metodología, conocer a los profesores y sentir la energía de nuestra academia de baile sin compromiso. Reserva tu plaza pulsando el botón "Reserva tu Clase de Prueba" en la parte superior de esta página.',
 
   // CTA Final - Salsa/Bachata Barcelona
-  salsaBachataCTA_title: 'Baila Salsa y Bachata Como Siempre Soñaste',
-  salsaBachataCTA_subtitle: 'Tu comunidad latina en Barcelona te está esperando.',
+  salsaBachataCTA_title: 'Aprende a bailar Salsa y Bachata Como Siempre Soñaste',
+  salsaBachataCTA_subtitle: 'Tu Escuela de Salsa y Bachata en Barcelona te está esperando.',
   salsaBachataCTA_description:
-    'Únete a cientos de estudiantes que están descubriendo la pasión del baile latino con maestros cubanos. Desde principiantes absolutos hasta bailadores avanzados. Reserva tu clase de prueba hoy.',
+    'Únete a cientos de estudiantes que están descubriendo la pasión de los bailes latinos con maestros cubanos. Desde principiantes absolutos hasta bailadores avanzados. Reserva tu clase de prueba hoy.',
   salsaBachataBarcelona_viewMore: 'Ver más →',
 
   // ==========================================
