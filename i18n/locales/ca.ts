@@ -789,9 +789,9 @@ export const ca = {
   danzaFaqA9:
     'Estem al Carrer d\'Entença 100, 08015 Barcelona, només a 5 minuts caminant de Plaça Espanya i l\'Estació de Sants. Metro: L1 (Hostafrancs) / L3 (Tarragona, Plaça Espanya). Tren: Sants Estació. Autobusos: 13, 37, 65, 79, 109, 165.',
 
-  danzaFaqQ10: 'Puc provar una classe abans d\'inscriure\'m?',
+  danzaFaqQ10: 'Puc provar una classe de Ballet, Jazz o Contemporani abans d\'inscriure\'m?',
   danzaFaqA10:
-    'Mira, l\'important és que provis. Segons la temporada, la classe de prova per a residents pot ser gratuïta o tenir un preu simbòlic de benvinguda. La idea és que puguis provar l\'experiència sense compromís.',
+    'Segons la temporada, la classe de prova per a residents pot ser gratuïta o tenir un preu simbòlic de benvinguda. La idea és que puguis provar l\'experiència sense compromís. Reserva la teva plaça prement el botó "Reserva la teva Classe de Prova" a la part superior d\'aquesta pàgina.',
 
   // Career Opportunities - Danza Barcelona
   danzaWhyCareerTitle: 'Borsa de Treball i Competicions',

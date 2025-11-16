@@ -1107,9 +1107,9 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   danzaFaqA9:
     'Estamos en Calle Entença 100, 08015 Barcelona, a solo 5 minutos andando de Plaza España y la Estación de Sants. Metro: L1 (Hostafrancs) / L3 (Tarragona, Plaza España). Tren: Sants Estació. Buses: 13, 37, 65, 79, 109, 165.',
 
-  danzaFaqQ10: '¿Puedo probar una clase antes de inscribirme?',
+  danzaFaqQ10: '¿Puedo probar una clase de Ballet, Jazz o Contemporaneo antes de inscribirme?',
   danzaFaqA10:
-    'Mira, lo importante es que pruebes. Según la temporada, la clase de prueba para residentes puede ser gratuita o tener un precio simbólico de bienvenida. La idea es que puedas probar la experiencia sin compromiso.',
+    'Según la temporada, la clase de prueba para residentes puede ser gratuita o tener un precio simbólico de bienvenida. La idea es que puedas probar la experiencia sin compromiso. Reserva tu plaza pulsando el botón "Reserva tu Clase de Prueba" en la parte superior de esta página.',
 
   // CTA Final - Danza Barcelona
   danzaCTA_title: 'Tu Primera Clase de Danza Te Está Esperando',
