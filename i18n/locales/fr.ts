@@ -936,7 +936,7 @@ export const fr = {
 
   salsaBachataBarcelona_styles_title: 'Styles de Salsa et Bachata que Nous Proposons',
   salsaBachataBarcelona_styles_description:
-    'De la joie contagieuse de la Salsa Cubaine à la sensualité de la Bachata. Cours pour tous les niveaux, aussi bien pour la danse en couple que pour les styles individuels (Lady Style, Men Style). Trouvez votre rythme latin.',
+    'De la joie contagieuse de la Salsa Cubaine à la sensualité de la Bachata. Cours pour tous les niveaux, aussi bien pour la danse en couple que pour les styles individuels (Lady Style, Men Style). Trouvez votre rythme latin préféré.',
 
   salsaBachataBarcelona_why_title: 'Pourquoi étudier la Salsa et la Bachata au Farray\'s Center ?',
 
