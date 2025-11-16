@@ -888,7 +888,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
   dhV3FaqQ8: '¿Tenéis algún descuento especial?',
   dhV3FaqA8: 'Sí. Ofrecemos descuentos si te apuntas a más de un curso. Consulta la web o pregúntanos directamente para más detalles.',
   dhV3FaqQ9: '¿Puedo probar una clase de Dancehall antes de inscribirme?',
-  dhV3FaqA9: 'Por supuesto. Puedes venir a una clase de prueba gratuita y sin compromiso. Sube al inicio de la página, pulsa en el botón "Prueba 1 Clase Gratis" y reserva tu plaza.',
+  dhV3FaqA9: 'Según la temporada, la clase de prueba para residentes puede ser gratuita o tener un precio simbólico de bienvenida. La idea es que puedas probar la experiencia sin compromiso. Reserva tu plaza pulsando el botón "Reserva tu Clase de Prueba" en la parte superior de esta página.',
   dhV3FaqQ10: '¿Y si falto a una clase por trabajo o compromisos?',
   dhV3FaqA10: 'Si tienes una membresía y cancelas una clase, dispones de 30 días para recuperarla desde la fecha de la clase cancelada. Si tienes un abono de horas, gestionas tus clases de forma flexible: cancela y reserva otro día dentro del periodo de caducidad. Todas las gestiones se realizan exclusivamente desde la aplicación digital de la academia.',
   dhV3FaqQ11: 'Si falto a una clase, ¿debo recuperarla haciendo el mismo estilo o puedo hacer otro diferente?',

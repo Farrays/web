@@ -514,7 +514,7 @@ export const en = {
   dhV3FaqQ8: 'Do you have any special discounts?',
   dhV3FaqA8: 'Yes. We offer discounts if you sign up for more than one course. Check the website or ask us directly for more details.',
   dhV3FaqQ9: 'Can I try a Dancehall class before enrolling?',
-  dhV3FaqA9: 'Of course. You can come to a free trial class with no commitment. Go to the top of the page, click the "Try 1 Free Class" button and reserve your spot.',
+  dhV3FaqA9: 'Depending on the season, the trial class for residents may be free or have a symbolic welcome price. The idea is that you can try the experience without commitment. Book your spot by clicking the "Book Your Trial Class" button at the top of this page.',
   dhV3FaqQ10: 'What if I miss a class due to work or commitments?',
   dhV3FaqA10: 'If you have a membership and cancel a class, you have 30 days to make it up from the cancelled class date. If you have an hours package, you manage your classes flexibly: cancel and book another day within the expiration period. All management is done exclusively through the academy\'s digital app.',
   dhV3FaqQ11: 'If I miss a class, do I have to make it up doing the same style or can I do a different one?',
