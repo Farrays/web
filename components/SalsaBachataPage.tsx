@@ -13,12 +13,12 @@ import type { ValuePillar } from '../types';
 type ValuePillarWithIcon = Omit<ValuePillar, 'Icon'> & { iconName: IconName };
 
 const valuePillars: ValuePillarWithIcon[] = [
-  { id: 'instructors', titleKey: 'whyPillar1Title', contentKey: 'whyPillar1Content', iconName: 'globe' },
-  { id: 'method', titleKey: 'whyPillar2Title', contentKey: 'whyPillar2Content', iconName: 'sparkles' },
   { id: 'cuban_school', titleKey: 'salsaBachataWhyCubanSchoolTitle', contentKey: 'salsaBachataWhyCubanSchoolContent', iconName: 'star' },
   { id: 'partner_dance', titleKey: 'salsaBachataWhyPartnerTitle', contentKey: 'salsaBachataWhyPartnerContent', iconName: 'users' },
-  { id: 'prestige', titleKey: 'whyPillar6Title', contentKey: 'whyPillar6Content', iconName: 'academic-cap' },
-  { id: 'facilities', titleKey: 'whyPillar3Title', contentKey: 'whyPillar3Content', iconName: 'building' },
+  { id: 'all_levels', titleKey: 'salsaBachataWhyAllLevelsTitle', contentKey: 'salsaBachataWhyAllLevelsContent', iconName: 'academic-cap' },
+  { id: 'music', titleKey: 'salsaBachataWhyMusicTitle', contentKey: 'salsaBachataWhyMusicContent', iconName: 'sparkles' },
+  { id: 'community', titleKey: 'salsaBachataWhyCommunityTitle', contentKey: 'salsaBachataWhyCommunityContent', iconName: 'globe' },
+  { id: 'expert_teachers', titleKey: 'salsaBachataWhyExpertTeachersTitle', contentKey: 'salsaBachataWhyExpertTeachersContent', iconName: 'building' },
 ];
 
 const SalsaBachataPage: React.FC = () => {

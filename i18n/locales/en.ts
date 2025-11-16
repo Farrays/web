@@ -922,7 +922,7 @@ export const en = {
 
   salsaBachataBarcelona_why_title: 'Why study Salsa and Bachata at Farray\'s Center?',
 
-  // Salsa/Bachata-specific cards content
+  // Salsa/Bachata-specific cards content (6 cards with 2 sentences each)
   salsaBachataWhyCubanSchoolTitle: 'Cuban Dance School',
   salsaBachataWhyCubanSchoolContent:
     'Founded by Cuban masters graduated from the National School of Art of Cuba and with experience in Havana\'s best academies. Learn salsa, bachata and timba with the authentic technique, musicality and flavor of the island.',
@@ -931,12 +931,28 @@ export const en = {
   salsaBachataWhyPartnerContent:
     'You don\'t need to bring a partner. Our classes are designed so you rotate with different partners and develop your connection skills. We also offer Lady Style and Men Style classes to perfect your individual technique and shine on the dance floor.',
 
+  salsaBachataWhyAllLevelsTitle: 'For All Levels',
+  salsaBachataWhyAllLevelsContent:
+    'From absolute beginners to advanced dancers: everyone has their place at Farray\'s. Our groups are carefully divided by level so you progress quickly, feel comfortable and enjoy every class without feeling lost or bored.',
+
+  salsaBachataWhyMusicTitle: 'Authentic Cuban Musicality',
+  salsaBachataWhyMusicContent:
+    'You don\'t just learn steps: you learn to feel the clave, interpret the son montuno and dance with the heart of the music. Our Cuban teachers show you how to listen to percussion, identify instruments and express every rhythm with your body like a true salsero.',
+
+  salsaBachataWhyCommunityTitle: 'Vibrant Latin Community',
+  salsaBachataWhyCommunityContent:
+    'More than a school, we\'re a Latin family in Barcelona. Parties, socials, nights out dancing and events where you practice in a real atmosphere and meet people passionate about dancing like you.',
+
+  salsaBachataWhyExpertTeachersTitle: 'Teachers from Havana',
+  salsaBachataWhyExpertTeachersContent:
+    'Learn from masters who grew up dancing on the streets of Havana and trained at Cuba\'s best academies. We bring the essence of the Caribbean straight to Barcelona: authenticity, flavor, technique and lots of passion in every class.',
+
   salsaBachataBarcelona_faq_title: 'Frequently Asked Questions about Salsa and Bachata',
 
   // FAQs optimized for AI search engines (10 questions)
   salsaBachataFaqQ1: 'What styles of salsa and bachata are taught at Farray\'s Center Barcelona?',
   salsaBachataFaqA1:
-    'At Farray\'s Center we teach Cuban Salsa (Casino), Sensual Bachata, Dominican Bachata, Cuban Timba, Son Cubano, Salsa Lady Style, Salsa Lady Timba, Men Style and Cuban Folklore. Our teachers are graduates of the National School of Art of Cuba and have experience in Havana\'s best academies, guaranteeing authenticity and quality in every class.',
+    'At Farray\'s Center we teach Cuban Salsa (Casino), Sensual Bachata, Bachata Lady Style, Cuban Timba, Son Cubano, Salsa Lady Style, Salsa Lady Timba, Men Style and Cuban Folklore. Our teachers are graduates of the National School of Art of Cuba and have experience in Havana\'s best academies, guaranteeing authenticity and quality in every class.',
 
   salsaBachataFaqQ2: 'Do I need to bring a partner for salsa or bachata classes?',
   salsaBachataFaqA2:
@@ -954,9 +970,9 @@ export const en = {
   salsaBachataFaqA5:
     'It depends on your dedication, but with consistent practice (2-3 classes per week) you can dance confidently in 2-3 months. To master the technique, advanced musicality and complex figures, we recommend at least 6-12 months. Many of our advanced students have been perfecting their style for years and never stop learning. What\'s important is to enjoy the process from day one.',
 
-  salsaBachataFaqQ6: 'What\'s the difference between Sensual Bachata and Dominican Bachata?',
+  salsaBachataFaqQ6: 'What\'s the difference between Sensual Bachata and Bachata Lady Style?',
   salsaBachataFaqA6:
-    'Dominican Bachata is the original style: it\'s danced with basic side steps, subtle hip movement and traditional figures. Sensual Bachata is a modern evolution that incorporates body waves, dips, isolations and more fluid movements inspired by zouk, tango and contemporary. At Farray\'s we teach both styles: Dominican to respect the roots and Sensual for those seeking modern expression.',
+    'Sensual Bachata is danced in pairs with connection, body waves, dips and isolations inspired by zouk and contemporary. Bachata Lady Style focuses on individual feminine dancing: footwork technique, hip movement, arms, waves and attitude, perfect for shining alone on the dance floor or perfecting your technique before partner dancing. Both complement each other: Sensual for connection, Lady Style for personal technique.',
 
   salsaBachataFaqQ7: 'Do salsa and bachata classes include live music?',
   salsaBachataFaqA7:
