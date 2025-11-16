@@ -793,7 +793,7 @@ export const fr = {
 
   danzaFaqQ10: 'Puis-je essayer un cours avant de m\'inscrire?',
   danzaFaqA10:
-    'Oui. Nous offrons un cours d\'essai sans engagement pour que vous puissiez rencontrer le professeur, le niveau du groupe et les installations. Réservez votre place en cliquant sur le bouton "Réservez Votre Cours d\'Essai" en haut de cette page.',
+    'Écoutez, l\'important c\'est que vous essayiez. Selon la saison, le cours d\'essai pour les résidents peut être gratuit ou avoir un prix symbolique de bienvenue. L\'idée est que vous puissiez essayer l\'expérience sans engagement.',
 
   // Career Opportunities - Danza Barcelona
   danzaWhyCareerTitle: 'Bourse d\'Emploi et Compétitions',
@@ -896,7 +896,7 @@ export const fr = {
 
   urbanFaqQ10: 'Puis-je essayer un cours de Hip Hop ou Dancehall avant de m\'inscrire ?',
   urbanFaqA10:
-    'Oui. Nous offrons un cours d\'essai sans engagement dans le style urbain que vous préférez. Rencontrez le professeur, l\'ambiance, le niveau du groupe et les installations. Réservez votre place en cliquant sur le bouton "Réservez Votre Cours d\'Essai" en haut de cette page.',
+    'Écoutez, l\'important c\'est que vous essayiez. Selon la saison, le cours d\'essai pour les résidents peut être gratuit ou avoir un prix symbolique de bienvenue. L\'idée est que vous puissiez essayer l\'expérience sans engagement.',
 
   // Urban-specific CTA
   danzasUrbanas_viewMore: 'Voir plus →',

@@ -1109,7 +1109,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   danzaFaqQ10: '¿Puedo probar una clase antes de inscribirme?',
   danzaFaqA10:
-    'Sí. Ofrecemos una clase de prueba sin compromiso para que conozcas al profesor, el nivel del grupo y las instalaciones. Reserva tu plaza pulsando el botón "Reserva tu Clase de Prueba" en la parte superior de esta página.',
+    'Mira, lo importante es que pruebes. Según la temporada, la clase de prueba para residentes puede ser gratuita o tener un precio simbólico de bienvenida. La idea es que puedas probar la experiencia sin compromiso.',
 
   // CTA Final - Danza Barcelona
   danzaCTA_title: 'Tu Primera Clase de Danza Te Está Esperando',
@@ -1202,7 +1202,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   urbanFaqQ10: '¿Puedo probar una clase de Hip Hop o Dancehall antes de inscribirme?',
   urbanFaqA10:
-    'Sí. Ofrecemos una clase de prueba sin compromiso en el estilo urbano que prefieras. Conoce al profesor, el ambiente, el nivel del grupo y las instalaciones. Reserva tu plaza pulsando el botón "Reserva tu Clase de Prueba" en la parte superior de esta página.',
+    'Mira, lo importante es que pruebes. Según la temporada, la clase de prueba para residentes puede ser gratuita o tener un precio simbólico de bienvenida. La idea es que puedas probar la experiencia sin compromiso.',
 
   // Urban-specific CTA
   danzasUrbanas_viewMore: 'Ver más →',

@@ -791,7 +791,7 @@ export const en = {
 
   danzaFaqQ10: 'Can I try a class before enrolling?',
   danzaFaqA10:
-    'Yes. We offer a trial class without commitment so you can meet the teacher, the level of the group and the facilities. Book your spot by clicking the "Book Your Trial Class" button at the top of this page.',
+    'Look, what\'s important is that you try it. Depending on the season, the trial class for residents may be free or have a symbolic welcome price. The idea is that you can try the experience without commitment.',
 
   // Career Opportunities - Danza Barcelona
   danzaWhyCareerTitle: 'Job Board & Competitions',
@@ -894,7 +894,7 @@ export const en = {
 
   urbanFaqQ10: 'Can I try a Hip Hop or Dancehall class before enrolling?',
   urbanFaqA10:
-    'Yes. We offer a trial class without commitment in the urban style you prefer. Meet the teacher, the atmosphere, the group level and the facilities. Book your spot by clicking the "Book Your Trial Class" button at the top of this page.',
+    'Look, what\'s important is that you try it. Depending on the season, the trial class for residents may be free or have a symbolic welcome price. The idea is that you can try the experience without commitment.',
 
   // Urban-specific CTA
   danzasUrbanas_viewMore: 'View more →',
