@@ -791,9 +791,9 @@ export const fr = {
   danzaFaqA9:
     'Nous sommes situés Calle Entença 100, 08015 Barcelone, à seulement 5 minutes à pied de Plaza España et de la Gare de Sants. Métro : L1 (Hostafrancs) / L3 (Tarragona, Plaza España). Train : Sants Estació. Bus : 13, 37, 65, 79, 109, 165.',
 
-  danzaFaqQ10: 'Puis-je essayer un cours avant de m\'inscrire?',
+  danzaFaqQ10: 'Puis-je essayer un cours de Ballet, Jazz ou Contemporain avant de m\'inscrire?',
   danzaFaqA10:
-    'Écoutez, l\'important c\'est que vous essayiez. Selon la saison, le cours d\'essai pour les résidents peut être gratuit ou avoir un prix symbolique de bienvenue. L\'idée est que vous puissiez essayer l\'expérience sans engagement.',
+    'Selon la saison, le cours d\'essai pour les résidents peut être gratuit ou avoir un prix symbolique de bienvenue. L\'idée est que vous puissiez essayer l\'expérience sans engagement. Réservez votre place en cliquant sur le bouton "Réservez Votre Cours d\'Essai" en haut de cette page.',
 
   // Career Opportunities - Danza Barcelona
   danzaWhyCareerTitle: 'Bourse d\'Emploi et Compétitions',

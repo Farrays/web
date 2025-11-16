@@ -789,9 +789,9 @@ export const en = {
   danzaFaqA9:
     'We are at Calle Entença 100, 08015 Barcelona, just 5 minutes walking from Plaza España and Sants Station. Metro: L1 (Hostafrancs) / L3 (Tarragona, Plaza España). Train: Sants Estació. Buses: 13, 37, 65, 79, 109, 165.',
 
-  danzaFaqQ10: 'Can I try a class before enrolling?',
+  danzaFaqQ10: 'Can I try a Ballet, Jazz or Contemporary class before enrolling?',
   danzaFaqA10:
-    'Look, what\'s important is that you try it. Depending on the season, the trial class for residents may be free or have a symbolic welcome price. The idea is that you can try the experience without commitment.',
+    'Depending on the season, the trial class for residents may be free or have a symbolic welcome price. The idea is that you can try the experience without commitment. Book your spot by clicking the "Book Your Trial Class" button at the top of this page.',
 
   // Career Opportunities - Danza Barcelona
   danzaWhyCareerTitle: 'Job Board & Competitions',
