@@ -7,17 +7,17 @@ import type { Category } from '../types/categories';
 export const CATEGORIES: Category[] = [
   {
     key: 'salsa_bachata',
-    pillarSlug: '/clases/salsa-bachata-barcelona/',
+    pillarSlug: '/clases/salsa-bachata-barcelona',
     imageUrl: 'https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=800&h=600&fit=crop&q=80', // Salsa dancers
   },
   {
     key: 'danza',
-    pillarSlug: '/clases-danza-barcelona/',
+    pillarSlug: '/clases/danza-barcelona',
     imageUrl: 'https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=800&h=600&fit=crop&q=80', // Ballet
   },
   {
     key: 'urbano',
-    pillarSlug: '/clases/danzas-urbanas-barcelona/',
+    pillarSlug: '/clases/danzas-urbanas-barcelona',
     imageUrl: 'https://images.unsplash.com/photo-1545224144-b38cd309ef69?w=800&h=600&fit=crop&q=80', // Hip hop dance studio
   },
   {

@@ -902,5 +902,83 @@ export const ca = {
   danzasUrbanas_finalCTA_subtitle: 'No deixis passar més temps. Cada setmana que esperes és una setmana menys ballant.',
   danzasUrbanas_finalCTA_description:
     'Uneix-te a centenars d\'estudiants —des de principiants fins a professionals— que estan dominant Hip Hop, Dancehall, K-Pop i Reggaeton amb professors internacionals a Barcelona.',
+
+  // ==========================================
+  // SALSA I BACHATA BARCELONA PAGE
+  // ==========================================
+  navSalsaBachata: 'Salsa i Bachata',
+  salsaBachataBarcelona_title: 'Classes de Salsa i Bachata a Barcelona | Salsa Cubana, Bachata Sensual i més | Farray\'s Center',
+  salsaBachataBarcelona_description:
+    'Aprèn a ballar Salsa Cubana, Bachata Sensual i Dominicana, Timba, Son i més a Barcelona. Escola fundada per mestres cubans amb experiència en les millors acadèmies de L\'Havana. Reserva la teva classe de prova.',
+  salsaBachataBarcelona_breadcrumb_home: 'Inici',
+  salsaBachataBarcelona_breadcrumb_current: 'Classes de Salsa i Bachata a Barcelona',
+  salsaBachataBarcelona_h1: 'Classes de Salsa i Bachata a Barcelona',
+  salsaBachataBarcelona_intro:
+    'Descobreix la passió, el ritme i la connexió del ball llatí a Barcelona. A Farray\'s Center oferim classes de Salsa Cubana, Bachata (Sensual i Dominicana), Timba, Son Cubà, Folklore i més amb professors formats a L\'Havana. Tant si vols ballar en parella com desenvolupar el teu estil individual, aquí trobaràs la teva comunitat llatina.',
+
+  salsaBachataBarcelona_styles_title: 'Estils de Salsa i Bachata que Oferim',
+  salsaBachataBarcelona_styles_description:
+    'Des de l\'alegria contagiosa de la Salsa Cubana fins a la sensualitat de la Bachata. Classes per a tots els nivells, tant per a ball en parella com per a estils individuals (Lady Style, Men Style). Troba el teu ritme llatí.',
+
+  salsaBachataBarcelona_why_title: 'Per què estudiar Salsa i Bachata a Farray\'s Center?',
+
+  // Salsa/Bachata-specific cards content
+  salsaBachataWhyCubanSchoolTitle: 'Escola Cubana de Ball',
+  salsaBachataWhyCubanSchoolContent:
+    'Fundada per mestres cubans graduats de l\'Escola Nacional d\'Art de Cuba i amb experiència en les millors acadèmies de L\'Havana. Aprèn salsa, bachata i timba amb la tècnica, musicalitat i sabor autèntic de l\'illa.',
+
+  salsaBachataWhyPartnerTitle: 'Balla Sol o en Parella',
+  salsaBachataWhyPartnerContent:
+    'No necessites venir amb parella. Les nostres classes estan dissenyades perquè rotis amb diferents companys i desenvolupis la teva habilitat de connexió. També oferim classes de Lady Style i Men Style per perfeccionar la teva tècnica individual i lluir-te a la pista.',
+
+  salsaBachataBarcelona_faq_title: 'Preguntes Freqüents sobre Salsa i Bachata',
+
+  // FAQs optimizades per a AI search engines (10 preguntes)
+  salsaBachataFaqQ1: 'Quins estils de salsa i bachata s\'ensenyen a Farray\'s Center Barcelona?',
+  salsaBachataFaqA1:
+    'A Farray\'s Center ensenyem Salsa Cubana (Casino), Bachata Sensual, Bachata Dominicana, Timba Cubana, Son Cubà, Salsa Lady Style, Salsa Lady Timba, Men Style i Folklore Cubà. Els nostres professors són graduats de l\'Escola Nacional d\'Art de Cuba i tenen experiència en les millors acadèmies de L\'Havana, garantint autenticitat i qualitat en cada classe.',
+
+  salsaBachataFaqQ2: 'Necessito venir amb parella per a les classes de salsa o bachata?',
+  salsaBachataFaqA2:
+    'No, no necessites venir amb parella. En les nostres classes de ball en parella (salsa, bachata, timba) rotem constantment perquè tots tinguin oportunitat de ballar amb diferents companys. Això t\'ajuda a desenvolupar la teva tècnica de connexió i a sentir-te còmode ballant amb qualsevol persona. També oferim classes individuals de Lady Style i Men Style si prefereixes enfocar-te en la teva tècnica personal.',
+
+  salsaBachataFaqQ3: 'Quina és la diferència entre Salsa Cubana i altres estils de salsa?',
+  salsaBachataFaqA3:
+    'La Salsa Cubana (també anomenada Casino) es balla en cercle i té un estil més circular, alegre i "del carrer" comparat amb la Salsa en Línia (LA Style o NY Style). La Cubana incorpora moviments d\'afro-cubà, son i rumba. És molt social: pots ballar en roda de casino (diversos balladors en cercle) o en parella. A Farray\'s ensenyem autèntica salsa cubana amb professors de L\'Havana.',
+
+  salsaBachataFaqQ4: 'Quin nivell necessito per començar classes de salsa o bachata?',
+  salsaBachataFaqA4:
+    'Cap. Tenim classes per a tots els nivells: Principiant (mai has ballat), Bàsic (coneixes els passos bàsics), Intermedi (balles amb fluïdesa i coneixes figures) i Avançat (domines la tècnica i la musicalitat). Si mai has ballat salsa o bachata, comença en les nostres classes de Principiants on t\'ensenyem des de zero: pas bàsic, temps musical, connexió amb la parella i primeres figures.',
+
+  salsaBachataFaqQ5: 'Quant de temps triga en aprendre a ballar salsa o bachata?',
+  salsaBachataFaqA5:
+    'Depèn de la teva dedicació, però amb pràctica constant (2-3 classes per setmana) pots ballar amb confiança en 2-3 mesos. Per dominar la tècnica, musicalitat avançada i figures complexes, recomanem almenys 6-12 mesos. Molts dels nostres estudiants avançats porten anys perfeccionant el seu estil i mai no deixen d\'aprendre. L\'important és gaudir del procés des del primer dia.',
+
+  salsaBachataFaqQ6: 'Quina diferència hi ha entre Bachata Sensual i Bachata Dominicana?',
+  salsaBachataFaqA6:
+    'La Bachata Dominicana és l\'estil original: es balla amb passos bàsics laterals, moviment de maluc subtil i figures tradicionals. La Bachata Sensual és una evolució moderna que incorpora ones corporals, dips, isolacions i moviments més fluids inspirats en zouk, tango i contemporani. A Farray\'s ensenyem ambdós estils: Dominicana per respectar les arrels i Sensual per a qui busca expressió moderna.',
+
+  salsaBachataFaqQ7: 'Les classes de salsa i bachata inclouen música en viu?',
+  salsaBachataFaqA7:
+    'Les nostres classes regulars fan servir música gravada dels millors artistes de salsa i bachata (Celia Cruz, El Gran Combo, Marc Anthony, Romeo Santos, Prince Royce, etc.). No obstant això, organitzem esdeveniments especials, festes llatines i workshops amb músics en viu on pots practicar el que has après en un ambient festiu i autèntic. A més, col·laborem amb festivals de salsa a Barcelona.',
+
+  salsaBachataFaqQ8: 'Oferiu classes de Roda de Casino?',
+  salsaBachataFaqA8:
+    'Sí, la Roda de Casino és part integral de les nostres classes de Salsa Cubana. La roda és una modalitat on múltiples parelles ballen en cercle i un "cantant" (líder) anuncia les figures que tots executen al mateix temps. És molt divertida, social i tradicional a Cuba. Per ballar en roda necessites dominar primer els passos bàsics de salsa cubana i les figures principals.',
+
+  salsaBachataFaqQ9: 'On està ubicada l\'escola de salsa i bachata?',
+  salsaBachataFaqA9:
+    'Estem al Carrer Entença 100, 08015 Barcelona, a només 5 minuts caminant de Plaça Espanya i l\'Estació de Sants. Metro: L1 (Hostafrancs) / L3 (Tarragona, Plaça Espanya). Tren: Sants Estació. Autobusos: 13, 37, 65, 79, 109, 165. Tenim sales àmplies, climatitzades i amb terra especial per a ball.',
+
+  salsaBachataFaqQ10: 'Puc provar una classe de salsa o bachata abans d\'inscriure\'m?',
+  salsaBachataFaqA10:
+    'Segons la temporada, la classe de prova per a residents pot ser gratuïta o tenir un preu simbòlic de benvinguda. La idea és que puguis experimentar la nostra metodologia, conèixer els professors i sentir l\'energia de la comunitat llatina sense compromís. Reserva la teva plaça polsant el botó "Reserva la teva Classe de Prova" a la part superior d\'aquesta pàgina.',
+
+  // CTA Final - Salsa/Bachata Barcelona
+  salsaBachataCTA_title: 'Balla Salsa i Bachata Com Sempre Vas Somiar',
+  salsaBachataCTA_subtitle: 'La teva comunitat llatina a Barcelona t\'està esperant.',
+  salsaBachataCTA_description:
+    'Uneix-te a centenars d\'estudiants que estan descobrint la passió del ball llatí amb mestres cubans. Des de principiants absoluts fins a balladors avançats. Reserva la teva classe de prova avui.',
+  salsaBachataBarcelona_viewMore: 'Veure més →',
 };
 

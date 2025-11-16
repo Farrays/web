@@ -11,6 +11,7 @@ const SEO: React.FC = () => {
   const getPageFromPath = (path: string): string => {
     if (path === '/' || path === '') return 'home';
     if (path.includes('/clases/danza-barcelona')) return 'danza';
+    if (path.includes('/clases/salsa-bachata-barcelona')) return 'salsaBachata';
     if (path.includes('/clases/danzas-urbanas-barcelona')) return 'danzasUrbanas';
     if (path.includes('/dancehall')) return 'dancehall';
     if (path.includes('/clases/baile-barcelona')) return 'classes';
@@ -26,6 +27,7 @@ const SEO: React.FC = () => {
     home: '',
     classes: 'clases/baile-barcelona',
     danza: 'clases/danza-barcelona',
+    salsaBachata: 'clases/salsa-bachata-barcelona',
     danzasUrbanas: 'clases/danzas-urbanas-barcelona',
     dancehall: 'clases/dancehall-barcelona',
   };
@@ -50,6 +52,11 @@ const SEO: React.FC = () => {
       titleKey: 'danzaBarcelona_title',
       descKey: 'danzaBarcelona_description',
       image: `${baseUrl}/images/og-classes.jpg`, // TEMPORAL: Usar og-classes.jpg hasta crear og-danza-barcelona.jpg (1200x630px)
+    },
+    salsaBachata: {
+      titleKey: 'salsaBachataBarcelona_title',
+      descKey: 'salsaBachataBarcelona_description',
+      image: `${baseUrl}/images/og-classes.jpg`, // TEMPORAL: Usar og-classes.jpg hasta crear og-salsa-bachata-barcelona.jpg (1200x630px)
     },
     danzasUrbanas: {
       titleKey: 'danzasUrbanas_title',
