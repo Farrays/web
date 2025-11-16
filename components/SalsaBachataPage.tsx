@@ -15,7 +15,7 @@ type ValuePillarWithIcon = Omit<ValuePillar, 'Icon'> & { iconName: IconName };
 const valuePillars: ValuePillarWithIcon[] = [
   { id: 'instructors', titleKey: 'whyPillar1Title', contentKey: 'whyPillar1Content', iconName: 'globe' },
   { id: 'method', titleKey: 'whyPillar2Title', contentKey: 'whyPillar2Content', iconName: 'sparkles' },
-  { id: 'cuban_school', titleKey: 'salsaBachataWhyCubanSchoolTitle', contentKey: 'salsaBachataWhyCubanSchoolContent', iconName: 'star' },
+  { id: 'family', titleKey: 'whyPillar4Title', contentKey: 'whyPillar4Content', iconName: 'star' },
   { id: 'partner_dance', titleKey: 'salsaBachataWhyPartnerTitle', contentKey: 'salsaBachataWhyPartnerContent', iconName: 'users' },
   { id: 'prestige', titleKey: 'whyPillar6Title', contentKey: 'whyPillar6Content', iconName: 'academic-cap' },
   { id: 'facilities', titleKey: 'whyPillar3Title', contentKey: 'whyPillar3Content', iconName: 'building' },
@@ -259,7 +259,7 @@ const SalsaBachataPage: React.FC = () => {
             <AnimateOnScroll>
               <div className="text-center mb-16 max-w-3xl mx-auto">
                 <h2 id="why-title" className="text-4xl md:text-5xl font-black tracking-tighter text-neutral mb-4 holographic-text">
-                  {t('whyTitle')}
+                  {t('salsaBachataBarcelona_why_title')}
                 </h2>
               </div>
             </AnimateOnScroll>

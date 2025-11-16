@@ -90,10 +90,10 @@ export const ca = {
   whyTitle: 'La Diferència FIDC: Per què escollir la nostra escola de ball a Barcelona?',
   whyPillar1Title: 'Professors de Classe Mundial',
   whyPillar1Content:
-    "Aprèn amb mestres reconeguts internacionalment, amb àmplia experiència i qualitat docent que accelera el teu aprenentatge.",
+    "Aprèn amb mestres cubans reconeguts internacionalment, amb àmplia experiència i qualitat docent que accelera el teu aprenentatge.",
   whyPillar2Title: "Exclusiu 'Mètode Farray®'",
   whyPillar2Content:
-    "Aprèn amb un sistema d'ensenyament creat per Yunaisy Farray que assegura resultats ràpids i sòlids.",
+    "Aprèn amb un sistema d'ensenyament creat per Yunaisy Farray la nostra mestra cubana, que assegura resultats ràpids, sòlids i contrastats.",
   whyPillar3Title: "700 m² d'Instal·lacions Premium",
   whyPillar3Content:
     "Gaudeix de 700 m² d'instal·lacions de primer nivell, amb àmplies sales de ball, equipament professional i climatització per al teu màxim confort.",
@@ -928,15 +928,15 @@ export const ca = {
     'Aprèn a ballar Salsa Cubana, Bachata Sensual i Dominicana, Timba, Son i més a Barcelona. Escola fundada per mestres cubans amb experiència en les millors acadèmies de L\'Havana. Reserva la teva classe de prova.',
   salsaBachataBarcelona_breadcrumb_home: 'Inici',
   salsaBachataBarcelona_breadcrumb_current: 'Classes de Salsa i Bachata a Barcelona',
-  salsaBachataBarcelona_h1: 'Classes de Salsa i Bachata a Barcelona',
+  salsaBachataBarcelona_h1: 'Aprèn a ballar Salsa i Bachata Com Sempre Vas Somiar',
   salsaBachataBarcelona_intro:
-    'Descobreix la passió, el ritme i la connexió del ball llatí a Barcelona. A Farray\'s Center oferim classes de Salsa Cubana, Bachata (Sensual i Dominicana), Timba, Son Cubà, Folklore i més amb professors formats a L\'Havana. Tant si vols ballar en parella com desenvolupar el teu estil individual, aquí trobaràs la teva comunitat llatina.',
+    'A Farray\'s Center no només aprens coreografies: aprens a ballar de veritat. Ensenyem Salsa Cubana, Bachata, Timba, Lady Style i Folklore des de l\'arrel, amb musicalitat, tècnica i propietat corporal. Els nostres professors cubans, formats a L\'Havana i amb trajectòria internacional, t\'ensenyen a entendre el moviment, dominar el teu estil i ballar amb qualitat, presència i sentit. Si busques avançar de veritat i sentir-te part de la comunitat llatina més compromesa de Barcelona, aquest és el teu lloc.',
 
   salsaBachataBarcelona_styles_title: 'Estils de Salsa i Bachata que Oferim',
   salsaBachataBarcelona_styles_description:
     'Des de l\'alegria contagiosa de la Salsa Cubana fins a la sensualitat de la Bachata. Classes per a tots els nivells, tant per a ball en parella com per a estils individuals (Lady Style, Men Style). Troba el teu ritme llatí preferit.',
 
-  salsaBachataBarcelona_why_title: 'Per què estudiar Salsa i Bachata a Farray\'s Center?',
+  salsaBachataBarcelona_why_title: 'Per què escollir la nostra Escola de Salsa i Bachata a Barcelona?',
 
   // Salsa/Bachata-specific cards content (només 2 cards específics)
   salsaBachataWhyCubanSchoolTitle: 'Escola Cubana de Ball',
@@ -945,14 +945,14 @@ export const ca = {
 
   salsaBachataWhyPartnerTitle: 'Balla Sol o en Parella',
   salsaBachataWhyPartnerContent:
-    'No necessites venir amb parella. Les nostres classes estan dissenyades perquè rotis amb diferents companys i desenvolupis la teva habilitat de connexió. També oferim classes de Lady Style i Men Style per perfeccionar la teva tècnica individual i lluir-te a la pista.',
+    'No necessites venir amb parella. Les nostres classes estan dissenyades perquè rotis amb diferents companys i desenvolupis la teva habilitat de connexió. També oferim classes de Lady Style i Men Style per perfeccionar la teva tècnica individual.',
 
-  salsaBachataBarcelona_faq_title: 'Preguntes Freqüents sobre Salsa i Bachata',
+  salsaBachataBarcelona_faq_title: 'Preguntes Freqüents sobre la nostra acadèmia Salsa i Bachata',
 
   // FAQs optimizades per a AI search engines (10 preguntes)
   salsaBachataFaqQ1: 'Quins estils de salsa i bachata s\'ensenyen a Farray\'s Center Barcelona?',
   salsaBachataFaqA1:
-    'A Farray\'s Center ensenyem Salsa Cubana (Casino), Bachata Sensual, Bachata Lady Style, Timba Cubana, Son Cubà, Salsa Lady Style, Salsa Lady Timba, Men Style i Folklore Cubà. Els nostres professors són graduats de l\'Escola Nacional d\'Art de Cuba i tenen experiència en les millors acadèmies de L\'Havana, garantint autenticitat i qualitat en cada classe.',
+    'A Farray\'s Center ensenyem Salsa Cubana, Bachata Sensual, Bachata Lady Style, Timba Cubana, Son Cubà, Salsa Lady Style, Salsa Lady Timba, Men Style i Folklore Cubà. Els nostres professors són graduats de l\'Escola Nacional d\'Art de Cuba i tenen experiència en les millors acadèmies de L\'Havana, garantint autenticitat i qualitat en cada classe.',
 
   salsaBachataFaqQ2: 'Necessito venir amb parella per a les classes de salsa o bachata?',
   salsaBachataFaqA2:
@@ -960,7 +960,7 @@ export const ca = {
 
   salsaBachataFaqQ3: 'Quina és la diferència entre Salsa Cubana i altres estils de salsa?',
   salsaBachataFaqA3:
-    'La Salsa Cubana (també anomenada Casino) es balla en cercle i té un estil més circular, alegre i "del carrer" comparat amb la Salsa en Línia (LA Style o NY Style). La Cubana incorpora moviments d\'afro-cubà, son i rumba. És molt social: pots ballar en roda de casino (diversos balladors en cercle) o en parella. A Farray\'s ensenyem autèntica salsa cubana amb professors de L\'Havana.',
+    'La Salsa Cubana es balla en cercle i té un estil més circular, alegre i "del carrer" comparat amb la Salsa en Línia (LA Style o NY Style). La Cubana incorpora moviments d\'afro-cubà, son i rumba. És molt social: pots ballar en roda de casino (diversos balladors en cercle) o en parella. A Farray\'s ensenyem autèntica salsa cubana amb professors de L\'Havana.',
 
   salsaBachataFaqQ4: 'Quin nivell necessito per començar classes de salsa o bachata?',
   salsaBachataFaqA4:
