@@ -904,5 +904,83 @@ export const fr = {
   danzasUrbanas_finalCTA_subtitle: 'Ne laissez pas passer plus de temps. Chaque semaine que vous attendez est une semaine de moins à danser.',
   danzasUrbanas_finalCTA_description:
     'Rejoignez des centaines d\'étudiants—des débutants aux professionnels—qui maîtrisent le Hip Hop, Dancehall, K-Pop et Reggaeton avec des professeurs internationaux à Barcelone.',
+
+  // ==========================================
+  // SALSA ET BACHATA BARCELONE PAGE
+  // ==========================================
+  navSalsaBachata: 'Salsa & Bachata',
+  salsaBachataBarcelona_title: 'Cours de Salsa et Bachata à Barcelone | Salsa Cubaine, Bachata Sensuelle et plus | Farray\'s Center',
+  salsaBachataBarcelona_description:
+    'Apprenez à danser la Salsa Cubaine, la Bachata Sensuelle et Dominicaine, la Timba, le Son et plus à Barcelone. École fondée par des maîtres cubains avec expérience dans les meilleures académies de La Havane. Réservez votre cours d\'essai.',
+  salsaBachataBarcelona_breadcrumb_home: 'Accueil',
+  salsaBachataBarcelona_breadcrumb_current: 'Cours de Salsa et Bachata à Barcelone',
+  salsaBachataBarcelona_h1: 'Cours de Salsa et Bachata à Barcelone',
+  salsaBachataBarcelona_intro:
+    'Découvrez la passion, le rythme et la connexion de la danse latine à Barcelone. Au Farray\'s Center nous proposons des cours de Salsa Cubaine, Bachata (Sensuelle et Dominicaine), Timba, Son Cubain, Folklore et plus avec des professeurs formés à La Havane. Que vous souhaitiez danser en couple ou développer votre style individuel, vous trouverez ici votre communauté latine.',
+
+  salsaBachataBarcelona_styles_title: 'Styles de Salsa et Bachata que Nous Proposons',
+  salsaBachataBarcelona_styles_description:
+    'De la joie contagieuse de la Salsa Cubaine à la sensualité de la Bachata. Cours pour tous les niveaux, aussi bien pour la danse en couple que pour les styles individuels (Lady Style, Men Style). Trouvez votre rythme latin.',
+
+  salsaBachataBarcelona_why_title: 'Pourquoi étudier la Salsa et la Bachata au Farray\'s Center ?',
+
+  // Salsa/Bachata-specific cards content
+  salsaBachataWhyCubanSchoolTitle: 'École Cubaine de Danse',
+  salsaBachataWhyCubanSchoolContent:
+    'Fondée par des maîtres cubains diplômés de l\'École Nationale d\'Art de Cuba et avec expérience dans les meilleures académies de La Havane. Apprenez la salsa, la bachata et la timba avec la technique, la musicalité et la saveur authentique de l\'île.',
+
+  salsaBachataWhyPartnerTitle: 'Dansez Seul ou en Couple',
+  salsaBachataWhyPartnerContent:
+    'Vous n\'avez pas besoin de venir avec un partenaire. Nos cours sont conçus pour que vous tourniez avec différents partenaires et développiez votre capacité de connexion. Nous proposons également des cours de Lady Style et Men Style pour perfectionner votre technique individuelle et briller sur la piste.',
+
+  salsaBachataBarcelona_faq_title: 'Questions Fréquentes sur la Salsa et la Bachata',
+
+  // FAQs optimisées pour les moteurs de recherche AI (10 questions)
+  salsaBachataFaqQ1: 'Quels styles de salsa et bachata sont enseignés au Farray\'s Center Barcelone ?',
+  salsaBachataFaqA1:
+    'Au Farray\'s Center nous enseignons la Salsa Cubaine (Casino), la Bachata Sensuelle, la Bachata Dominicaine, la Timba Cubaine, le Son Cubain, le Salsa Lady Style, le Salsa Lady Timba, le Men Style et le Folklore Cubain. Nos professeurs sont diplômés de l\'École Nationale d\'Art de Cuba et ont une expérience dans les meilleures académies de La Havane, garantissant authenticité et qualité dans chaque cours.',
+
+  salsaBachataFaqQ2: 'Dois-je venir avec un partenaire pour les cours de salsa ou bachata ?',
+  salsaBachataFaqA2:
+    'Non, vous n\'avez pas besoin de venir avec un partenaire. Dans nos cours de danse en couple (salsa, bachata, timba) nous tournons constamment pour que tout le monde ait l\'opportunité de danser avec différents partenaires. Cela vous aide à développer votre technique de connexion et à vous sentir à l\'aise en dansant avec n\'importe qui. Nous proposons également des cours individuels de Lady Style et Men Style si vous préférez vous concentrer sur votre technique personnelle.',
+
+  salsaBachataFaqQ3: 'Quelle est la différence entre la Salsa Cubaine et les autres styles de salsa ?',
+  salsaBachataFaqA3:
+    'La Salsa Cubaine (aussi appelée Casino) se danse en cercle et a un style plus circulaire, joyeux et "de la rue" comparé à la Salsa en Ligne (LA Style ou NY Style). La Cubaine incorpore des mouvements afro-cubains, son et rumba. C\'est très social : vous pouvez danser en rueda de casino (plusieurs danseurs en cercle) ou en couple. Au Farray\'s nous enseignons la salsa cubaine authentique avec des professeurs de La Havane.',
+
+  salsaBachataFaqQ4: 'Quel niveau faut-il pour commencer les cours de salsa ou bachata ?',
+  salsaBachataFaqA4:
+    'Aucun. Nous avons des cours pour tous les niveaux : Débutant (vous n\'avez jamais dansé), Basique (vous connaissez les pas de base), Intermédiaire (vous dansez avec fluidité et connaissez des figures) et Avancé (vous maîtrisez la technique et la musicalité). Si vous n\'avez jamais dansé la salsa ou la bachata, commencez dans nos cours Débutants où nous vous enseignons depuis zéro : pas de base, timing musical, connexion avec le partenaire et premières figures.',
+
+  salsaBachataFaqQ5: 'Combien de temps faut-il pour apprendre à danser la salsa ou la bachata ?',
+  salsaBachataFaqA5:
+    'Cela dépend de votre dévouement, mais avec une pratique constante (2-3 cours par semaine) vous pouvez danser avec confiance en 2-3 mois. Pour maîtriser la technique, la musicalité avancée et les figures complexes, nous recommandons au moins 6-12 mois. Beaucoup de nos étudiants avancés passent des années à perfectionner leur style et n\'arrêtent jamais d\'apprendre. L\'important est de profiter du processus dès le premier jour.',
+
+  salsaBachataFaqQ6: 'Quelle est la différence entre la Bachata Sensuelle et la Bachata Dominicaine ?',
+  salsaBachataFaqA6:
+    'La Bachata Dominicaine est le style original : elle se danse avec des pas de base latéraux, un mouvement de hanches subtil et des figures traditionnelles. La Bachata Sensuelle est une évolution moderne qui incorpore des ondulations corporelles, dips, isolations et mouvements plus fluides inspirés du zouk, tango et contemporain. Au Farray\'s nous enseignons les deux styles : Dominicaine pour respecter les racines et Sensuelle pour ceux qui cherchent une expression moderne.',
+
+  salsaBachataFaqQ7: 'Les cours de salsa et bachata incluent-ils de la musique live ?',
+  salsaBachataFaqA7:
+    'Nos cours réguliers utilisent de la musique enregistrée des meilleurs artistes de salsa et bachata (Celia Cruz, El Gran Combo, Marc Anthony, Romeo Santos, Prince Royce, etc.). Cependant, nous organisons des événements spéciaux, des soirées latines et des workshops avec des musiciens live où vous pouvez pratiquer ce que vous avez appris dans une atmosphère festive et authentique. Nous collaborons également avec des festivals de salsa à Barcelone.',
+
+  salsaBachataFaqQ8: 'Proposez-vous des cours de Rueda de Casino ?',
+  salsaBachataFaqA8:
+    'Oui, la Rueda de Casino fait partie intégrante de nos cours de Salsa Cubaine. La rueda est une modalité où plusieurs couples dansent en cercle et un "cantante" (meneur) annonce les figures que tout le monde exécute en même temps. C\'est très amusant, social et traditionnel à Cuba. Pour danser en rueda vous devez d\'abord maîtriser les pas de base de la salsa cubaine et les figures principales.',
+
+  salsaBachataFaqQ9: 'Où se trouve l\'école de salsa et bachata ?',
+  salsaBachataFaqA9:
+    'Nous sommes au Carrer Entença 100, 08015 Barcelone, à seulement 5 minutes à pied de Plaza España et de la Gare de Sants. Métro : L1 (Hostafrancs) / L3 (Tarragona, Plaza España). Train : Sants Estació. Bus : 13, 37, 65, 79, 109, 165. Nous avons des salles spacieuses, climatisées et avec un sol spécial pour la danse.',
+
+  salsaBachataFaqQ10: 'Puis-je essayer un cours de salsa ou bachata avant de m\'inscrire ?',
+  salsaBachataFaqA10:
+    'Selon la saison, le cours d\'essai pour les résidents peut être gratuit ou avoir un prix symbolique de bienvenue. L\'idée est que vous puissiez expérimenter notre méthodologie, rencontrer les professeurs et ressentir l\'énergie de la communauté latine sans engagement. Réservez votre place en cliquant sur le bouton "Réservez Votre Cours d\'Essai" en haut de cette page.',
+
+  // CTA Final - Salsa/Bachata Barcelone
+  salsaBachataCTA_title: 'Dansez la Salsa et la Bachata Comme Vous en Avez Toujours Rêvé',
+  salsaBachataCTA_subtitle: 'Votre communauté latine à Barcelone vous attend.',
+  salsaBachataCTA_description:
+    'Rejoignez des centaines d\'étudiants qui découvrent la passion de la danse latine avec des maîtres cubains. Des débutants absolus aux danseurs avancés. Réservez votre cours d\'essai aujourd\'hui.',
+  salsaBachataBarcelona_viewMore: 'Voir plus →',
 };
 

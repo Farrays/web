@@ -902,5 +902,83 @@ export const en = {
   danzasUrbanas_finalCTA_subtitle: 'Don\'t let more time pass. Every week you wait is one week less dancing.',
   danzasUrbanas_finalCTA_description:
     'Join hundreds of students—from beginners to professionals—who are mastering Hip Hop, Dancehall, K-Pop and Reggaeton with international teachers in Barcelona.',
+
+  // ==========================================
+  // SALSA AND BACHATA BARCELONA PAGE
+  // ==========================================
+  navSalsaBachata: 'Salsa & Bachata',
+  salsaBachataBarcelona_title: 'Salsa and Bachata Classes in Barcelona | Cuban Salsa, Sensual Bachata & more | Farray\'s Center',
+  salsaBachataBarcelona_description:
+    'Learn to dance Cuban Salsa, Sensual and Dominican Bachata, Timba, Son and more in Barcelona. School founded by Cuban masters with experience in Havana\'s best academies. Book your trial class.',
+  salsaBachataBarcelona_breadcrumb_home: 'Home',
+  salsaBachataBarcelona_breadcrumb_current: 'Salsa and Bachata Classes in Barcelona',
+  salsaBachataBarcelona_h1: 'Salsa and Bachata Classes in Barcelona',
+  salsaBachataBarcelona_intro:
+    'Discover the passion, rhythm and connection of Latin dance in Barcelona. At Farray\'s Center we offer Cuban Salsa, Bachata (Sensual and Dominican), Timba, Son Cubano, Folklore and more classes with teachers trained in Havana. Whether you want to dance with a partner or develop your individual style, here you\'ll find your Latin community.',
+
+  salsaBachataBarcelona_styles_title: 'Salsa and Bachata Styles We Offer',
+  salsaBachataBarcelona_styles_description:
+    'From the infectious joy of Cuban Salsa to the sensuality of Bachata. Classes for all levels, both for partner dancing and individual styles (Lady Style, Men Style). Find your Latin rhythm.',
+
+  salsaBachataBarcelona_why_title: 'Why study Salsa and Bachata at Farray\'s Center?',
+
+  // Salsa/Bachata-specific cards content
+  salsaBachataWhyCubanSchoolTitle: 'Cuban Dance School',
+  salsaBachataWhyCubanSchoolContent:
+    'Founded by Cuban masters graduated from the National School of Art of Cuba and with experience in Havana\'s best academies. Learn salsa, bachata and timba with the authentic technique, musicality and flavor of the island.',
+
+  salsaBachataWhyPartnerTitle: 'Dance Solo or with a Partner',
+  salsaBachataWhyPartnerContent:
+    'You don\'t need to bring a partner. Our classes are designed so you rotate with different partners and develop your connection skills. We also offer Lady Style and Men Style classes to perfect your individual technique and shine on the dance floor.',
+
+  salsaBachataBarcelona_faq_title: 'Frequently Asked Questions about Salsa and Bachata',
+
+  // FAQs optimized for AI search engines (10 questions)
+  salsaBachataFaqQ1: 'What styles of salsa and bachata are taught at Farray\'s Center Barcelona?',
+  salsaBachataFaqA1:
+    'At Farray\'s Center we teach Cuban Salsa (Casino), Sensual Bachata, Dominican Bachata, Cuban Timba, Son Cubano, Salsa Lady Style, Salsa Lady Timba, Men Style and Cuban Folklore. Our teachers are graduates of the National School of Art of Cuba and have experience in Havana\'s best academies, guaranteeing authenticity and quality in every class.',
+
+  salsaBachataFaqQ2: 'Do I need to bring a partner for salsa or bachata classes?',
+  salsaBachataFaqA2:
+    'No, you don\'t need to bring a partner. In our partner dance classes (salsa, bachata, timba) we constantly rotate so everyone has the opportunity to dance with different partners. This helps you develop your connection technique and feel comfortable dancing with anyone. We also offer individual Lady Style and Men Style classes if you prefer to focus on your personal technique.',
+
+  salsaBachataFaqQ3: 'What\'s the difference between Cuban Salsa and other salsa styles?',
+  salsaBachataFaqA3:
+    'Cuban Salsa (also called Casino) is danced in a circle and has a more circular, joyful and "street" style compared to Salsa on Line (LA Style or NY Style). Cuban incorporates Afro-Cuban, son and rumba movements. It\'s very social: you can dance in rueda de casino (several dancers in a circle) or in pairs. At Farray\'s we teach authentic Cuban salsa with teachers from Havana.',
+
+  salsaBachataFaqQ4: 'What level do I need to start salsa or bachata classes?',
+  salsaBachataFaqA4:
+    'None. We have classes for all levels: Beginner (you\'ve never danced), Basic (you know the basic steps), Intermediate (you dance fluently and know figures) and Advanced (you master technique and musicality). If you\'ve never danced salsa or bachata, start in our Beginner classes where we teach you from scratch: basic step, musical timing, partner connection and first figures.',
+
+  salsaBachataFaqQ5: 'How long does it take to learn to dance salsa or bachata?',
+  salsaBachataFaqA5:
+    'It depends on your dedication, but with consistent practice (2-3 classes per week) you can dance confidently in 2-3 months. To master the technique, advanced musicality and complex figures, we recommend at least 6-12 months. Many of our advanced students have been perfecting their style for years and never stop learning. What\'s important is to enjoy the process from day one.',
+
+  salsaBachataFaqQ6: 'What\'s the difference between Sensual Bachata and Dominican Bachata?',
+  salsaBachataFaqA6:
+    'Dominican Bachata is the original style: it\'s danced with basic side steps, subtle hip movement and traditional figures. Sensual Bachata is a modern evolution that incorporates body waves, dips, isolations and more fluid movements inspired by zouk, tango and contemporary. At Farray\'s we teach both styles: Dominican to respect the roots and Sensual for those seeking modern expression.',
+
+  salsaBachataFaqQ7: 'Do salsa and bachata classes include live music?',
+  salsaBachataFaqA7:
+    'Our regular classes use recorded music from the best salsa and bachata artists (Celia Cruz, El Gran Combo, Marc Anthony, Romeo Santos, Prince Royce, etc.). However, we organize special events, Latin parties and workshops with live musicians where you can practice what you\'ve learned in a festive and authentic atmosphere. We also collaborate with salsa festivals in Barcelona.',
+
+  salsaBachataFaqQ8: 'Do you offer Rueda de Casino classes?',
+  salsaBachataFaqA8:
+    'Yes, Rueda de Casino is an integral part of our Cuban Salsa classes. Rueda is a modality where multiple couples dance in a circle and a "cantante" (caller) announces the figures that everyone executes at the same time. It\'s very fun, social and traditional in Cuba. To dance rueda you need to first master the basic steps of Cuban salsa and the main figures.',
+
+  salsaBachataFaqQ9: 'Where is the salsa and bachata school located?',
+  salsaBachataFaqA9:
+    'We are at Calle Entença 100, 08015 Barcelona, just 5 minutes walk from Plaza España and Sants Station. Metro: L1 (Hostafrancs) / L3 (Tarragona, Plaza España). Train: Sants Estació. Buses: 13, 37, 65, 79, 109, 165. We have spacious, air-conditioned rooms with special dance flooring.',
+
+  salsaBachataFaqQ10: 'Can I try a salsa or bachata class before enrolling?',
+  salsaBachataFaqA10:
+    'Depending on the season, the trial class for residents may be free or have a symbolic welcome price. The idea is that you can experience our methodology, meet the teachers and feel the energy of the Latin community without commitment. Book your spot by clicking the "Book Your Trial Class" button at the top of this page.',
+
+  // CTA Final - Salsa/Bachata Barcelona
+  salsaBachataCTA_title: 'Dance Salsa and Bachata Like You Always Dreamed',
+  salsaBachataCTA_subtitle: 'Your Latin community in Barcelona is waiting for you.',
+  salsaBachataCTA_description:
+    'Join hundreds of students who are discovering the passion of Latin dance with Cuban masters. From absolute beginners to advanced dancers. Book your trial class today.',
+  salsaBachataBarcelona_viewMore: 'View more →',
 };
 
