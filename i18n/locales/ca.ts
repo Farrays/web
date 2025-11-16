@@ -647,13 +647,29 @@ export const ca = {
   danceClassesHub_style_commercial_dance: 'Commercial Dance',
   danceClassesHub_style_k_pop: 'K-Pop',
   danceClassesHub_style_salsa_cubana: 'Salsa Cubana',
+  danceClassesHub_style_salsa_cubana_desc:
+    'També coneguda com a Casino, és la salsa autèntica de Cuba: circular, alegre i molt social. Aprèn a ballar en roda de casino amb girs, figures i el sabor inconfusible de L\'Havana.',
   danceClassesHub_style_bachata: 'Bachata',
+  danceClassesHub_style_bachata_desc:
+    'El ball sensual caribeny per excel·lència: connexió, ones corporals i moviments fluids al ritme de la bachata. Perfecta per a qui busca expressió romàntica i tècnica de parella.',
   danceClassesHub_style_timba_cubana: 'Timba Cubana',
+  danceClassesHub_style_timba_cubana_desc:
+    'La salsa més moderna i explosiva de Cuba: ràpida, enèrgica i plena d\'actitud. Domina canvis de ritme, isolacions i passos complexos al so dels millors timbazo cubans.',
   danceClassesHub_style_folklore_cubano: 'Folklore Cubà',
+  danceClassesHub_style_folklore_cubano_desc:
+    'Les arrels afrocubanes en la seva forma més pura: Rumba, Yambú, Guaguancó i danses d\'Orishas. Connecta amb la cultura, els tambors i la història de Cuba a través del ball tradicional.',
   danceClassesHub_style_salsa_lady_style: 'Salsa Lady Style',
+  danceClassesHub_style_salsa_lady_style_desc:
+    'Tècnica femenina individual de salsa: girs, braços, moviment de malucs i actitud de reina a la pista. Perfecte per perfeccionar el teu estil personal abans de ballar en parella.',
   danceClassesHub_style_salsa_lady_timba: 'Salsa Lady Timba',
+  danceClassesHub_style_salsa_lady_timba_desc:
+    'L\'estil femení més poderós i modern: combina Lady Style amb l\'energia explosiva de la Timba cubana. Aprèn isolacions, despelote i moviments amb sabor urbà i força.',
   danceClassesHub_style_son_cubano: 'Son Cubà',
+  danceClassesHub_style_son_cubano_desc:
+    'El pare de la salsa: elegant, clàssic i ple de tradició cubana des dels anys 20. Passos bàsics, clau 2-3 i el swing autèntic de Buena Vista Social Club.',
   danceClassesHub_style_men_style_salsa: 'Men Style Salsa',
+  danceClassesHub_style_men_style_salsa_desc:
+    'Tècnica masculina individual: footwork, actitud, control corporal i presència escènica en salsa. Desenvolupa el teu estil personal, confiança i carisma per destacar en qualsevol pista.',
   danceClassesHub_style_bum_bum_fit: 'Bum Bum Cos Fit',
   danceClassesHub_style_body_conditioning: 'Body Conditioning & Stretching',
   danceClassesHub_style_dance_barre: 'Dance Barre',
@@ -922,7 +938,7 @@ export const ca = {
 
   salsaBachataBarcelona_why_title: 'Per què estudiar Salsa i Bachata a Farray\'s Center?',
 
-  // Salsa/Bachata-specific cards content (6 cards amb 2 frases cada un)
+  // Salsa/Bachata-specific cards content (només 2 cards específics)
   salsaBachataWhyCubanSchoolTitle: 'Escola Cubana de Ball',
   salsaBachataWhyCubanSchoolContent:
     'Fundada per mestres cubans graduats de l\'Escola Nacional d\'Art de Cuba i amb experiència en les millors acadèmies de L\'Havana. Aprèn salsa, bachata i timba amb la tècnica, musicalitat i sabor autèntic de l\'illa.',
@@ -930,22 +946,6 @@ export const ca = {
   salsaBachataWhyPartnerTitle: 'Balla Sol o en Parella',
   salsaBachataWhyPartnerContent:
     'No necessites venir amb parella. Les nostres classes estan dissenyades perquè rotis amb diferents companys i desenvolupis la teva habilitat de connexió. També oferim classes de Lady Style i Men Style per perfeccionar la teva tècnica individual i lluir-te a la pista.',
-
-  salsaBachataWhyAllLevelsTitle: 'Per a Tots els Nivells',
-  salsaBachataWhyAllLevelsContent:
-    'Des de principiants absoluts fins a balladors avançats: tots tenen el seu espai a Farray\'s. Els nostres grups estan acuradament dividits per nivell perquè progressis ràpid, et sentis còmode i gaudeixis cada classe sense sentir-te ni perdut ni avorrit.',
-
-  salsaBachataWhyMusicTitle: 'Musicalitat Cubana Autèntica',
-  salsaBachataWhyMusicContent:
-    'No només aprens passos: aprens a sentir la clau, interpretar el son montuno i ballar amb el cor de la música. Els nostres professors cubans t\'ensenyen a escoltar la percussió, identificar instruments i expressar cada ritme amb el teu cos com un veritable salsero.',
-
-  salsaBachataWhyCommunityTitle: 'Comunitat Llatina Vibrant',
-  salsaBachataWhyCommunityContent:
-    'Més que una escola, som una família llatina a Barcelona. Festes, socials, sortides a ballar i esdeveniments on practiques en ambient real i coneixes gent apassionada pel ball com tu.',
-
-  salsaBachataWhyExpertTeachersTitle: 'Professors de L\'Havana',
-  salsaBachataWhyExpertTeachersContent:
-    'Aprèn de mestres que van créixer ballant als carrers de L\'Havana i es van formar en les millors acadèmies de Cuba. Portem l\'essència del Carib directe a Barcelona: autenticitat, sabor, tècnica i molta passió en cada classe.',
 
   salsaBachataBarcelona_faq_title: 'Preguntes Freqüents sobre Salsa i Bachata',
 
