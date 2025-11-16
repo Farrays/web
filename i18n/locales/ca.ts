@@ -791,7 +791,7 @@ export const ca = {
 
   danzaFaqQ10: 'Puc provar una classe abans d\'inscriure\'m?',
   danzaFaqA10:
-    'Sí. Oferim una classe de prova sense compromís perquè coneguis el professor, el nivell del grup i les instal·lacions. Reserva la teva plaça prement el botó "Reserva la teva Classe de Prova" a la part superior d\'aquesta pàgina.',
+    'Mira, l\'important és que provis. Segons la temporada, la classe de prova per a residents pot ser gratuïta o tenir un preu simbòlic de benvinguda. La idea és que puguis provar l\'experiència sense compromís.',
 
   // Career Opportunities - Danza Barcelona
   danzaWhyCareerTitle: 'Borsa de Treball i Competicions',
@@ -894,7 +894,7 @@ export const ca = {
 
   urbanFaqQ10: 'Puc provar una classe de Hip Hop o Dancehall abans d\'inscriure\'m?',
   urbanFaqA10:
-    'Sí. Oferim una classe de prova sense compromís en l\'estil urbà que prefereixis. Coneix el professor, l\'ambient, el nivell del grup i les instal·lacions. Reserva la teva plaça prement el botó "Reserva la teva Classe de Prova" a la part superior d\'aquesta pàgina.',
+    'Mira, l\'important és que provis. Segons la temporada, la classe de prova per a residents pot ser gratuïta o tenir un preu simbòlic de benvinguda. La idea és que puguis provar l\'experiència sense compromís.',
 
   // Urban-specific CTA
   danzasUrbanas_viewMore: 'Veure més →',
