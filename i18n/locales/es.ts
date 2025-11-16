@@ -1149,7 +1149,7 @@ Los pasos tienen nombres con significado: "Log On" (conectarse), "Willie Bounce"
 
   salsaBachataBarcelona_styles_title: 'Estilos de Salsa y Bachata que Ofrecemos',
   salsaBachataBarcelona_styles_description:
-    'Desde la alegría contagiosa de la Salsa Cubana hasta la sensualidad de la Bachata. Clases para todos los niveles, tanto para baile en pareja como para estilos individuales (Lady Style, Men Style). Encuentra tu ritmo latino.',
+    'Desde la alegría contagiosa de la Salsa Cubana hasta la sensualidad de la Bachata. Clases para todos los niveles, tanto para baile en pareja como para estilos individuales (Lady Style, Men Style). Encuentra tu ritmo latino preferido.',
 
   salsaBachataBarcelona_why_title: '¿Por qué estudiar Salsa y Bachata en Farray\'s Center?',
 
