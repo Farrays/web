@@ -922,7 +922,7 @@ export const ca = {
 
   salsaBachataBarcelona_why_title: 'Per què estudiar Salsa i Bachata a Farray\'s Center?',
 
-  // Salsa/Bachata-specific cards content
+  // Salsa/Bachata-specific cards content (6 cards amb 2 frases cada un)
   salsaBachataWhyCubanSchoolTitle: 'Escola Cubana de Ball',
   salsaBachataWhyCubanSchoolContent:
     'Fundada per mestres cubans graduats de l\'Escola Nacional d\'Art de Cuba i amb experiència en les millors acadèmies de L\'Havana. Aprèn salsa, bachata i timba amb la tècnica, musicalitat i sabor autèntic de l\'illa.',
@@ -931,12 +931,28 @@ export const ca = {
   salsaBachataWhyPartnerContent:
     'No necessites venir amb parella. Les nostres classes estan dissenyades perquè rotis amb diferents companys i desenvolupis la teva habilitat de connexió. També oferim classes de Lady Style i Men Style per perfeccionar la teva tècnica individual i lluir-te a la pista.',
 
+  salsaBachataWhyAllLevelsTitle: 'Per a Tots els Nivells',
+  salsaBachataWhyAllLevelsContent:
+    'Des de principiants absoluts fins a balladors avançats: tots tenen el seu espai a Farray\'s. Els nostres grups estan acuradament dividits per nivell perquè progressis ràpid, et sentis còmode i gaudeixis cada classe sense sentir-te ni perdut ni avorrit.',
+
+  salsaBachataWhyMusicTitle: 'Musicalitat Cubana Autèntica',
+  salsaBachataWhyMusicContent:
+    'No només aprens passos: aprens a sentir la clau, interpretar el son montuno i ballar amb el cor de la música. Els nostres professors cubans t\'ensenyen a escoltar la percussió, identificar instruments i expressar cada ritme amb el teu cos com un veritable salsero.',
+
+  salsaBachataWhyCommunityTitle: 'Comunitat Llatina Vibrant',
+  salsaBachataWhyCommunityContent:
+    'Més que una escola, som una família llatina a Barcelona. Festes, socials, sortides a ballar i esdeveniments on practiques en ambient real i coneixes gent apassionada pel ball com tu.',
+
+  salsaBachataWhyExpertTeachersTitle: 'Professors de L\'Havana',
+  salsaBachataWhyExpertTeachersContent:
+    'Aprèn de mestres que van créixer ballant als carrers de L\'Havana i es van formar en les millors acadèmies de Cuba. Portem l\'essència del Carib directe a Barcelona: autenticitat, sabor, tècnica i molta passió en cada classe.',
+
   salsaBachataBarcelona_faq_title: 'Preguntes Freqüents sobre Salsa i Bachata',
 
   // FAQs optimizades per a AI search engines (10 preguntes)
   salsaBachataFaqQ1: 'Quins estils de salsa i bachata s\'ensenyen a Farray\'s Center Barcelona?',
   salsaBachataFaqA1:
-    'A Farray\'s Center ensenyem Salsa Cubana (Casino), Bachata Sensual, Bachata Dominicana, Timba Cubana, Son Cubà, Salsa Lady Style, Salsa Lady Timba, Men Style i Folklore Cubà. Els nostres professors són graduats de l\'Escola Nacional d\'Art de Cuba i tenen experiència en les millors acadèmies de L\'Havana, garantint autenticitat i qualitat en cada classe.',
+    'A Farray\'s Center ensenyem Salsa Cubana (Casino), Bachata Sensual, Bachata Lady Style, Timba Cubana, Son Cubà, Salsa Lady Style, Salsa Lady Timba, Men Style i Folklore Cubà. Els nostres professors són graduats de l\'Escola Nacional d\'Art de Cuba i tenen experiència en les millors acadèmies de L\'Havana, garantint autenticitat i qualitat en cada classe.',
 
   salsaBachataFaqQ2: 'Necessito venir amb parella per a les classes de salsa o bachata?',
   salsaBachataFaqA2:
@@ -954,9 +970,9 @@ export const ca = {
   salsaBachataFaqA5:
     'Depèn de la teva dedicació, però amb pràctica constant (2-3 classes per setmana) pots ballar amb confiança en 2-3 mesos. Per dominar la tècnica, musicalitat avançada i figures complexes, recomanem almenys 6-12 mesos. Molts dels nostres estudiants avançats porten anys perfeccionant el seu estil i mai no deixen d\'aprendre. L\'important és gaudir del procés des del primer dia.',
 
-  salsaBachataFaqQ6: 'Quina diferència hi ha entre Bachata Sensual i Bachata Dominicana?',
+  salsaBachataFaqQ6: 'Quina diferència hi ha entre Bachata Sensual i Bachata Lady Style?',
   salsaBachataFaqA6:
-    'La Bachata Dominicana és l\'estil original: es balla amb passos bàsics laterals, moviment de maluc subtil i figures tradicionals. La Bachata Sensual és una evolució moderna que incorpora ones corporals, dips, isolacions i moviments més fluids inspirats en zouk, tango i contemporani. A Farray\'s ensenyem ambdós estils: Dominicana per respectar les arrels i Sensual per a qui busca expressió moderna.',
+    'La Bachata Sensual es balla en parella amb connexió, ones corporals, dips i isolacions inspirades en zouk i contemporani. La Bachata Lady Style se centra en el ball femení individual: tècnica de peus, moviment de malucs, braços, ones i actitud, perfecte per lluir-te sola a la pista o perfeccionar la teva tècnica abans de ballar en parella. Ambdues es complementen: Sensual per a connexió, Lady Style per a tècnica personal.',
 
   salsaBachataFaqQ7: 'Les classes de salsa i bachata inclouen música en viu?',
   salsaBachataFaqA7:
