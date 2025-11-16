@@ -323,9 +323,9 @@ export const en = {
   homeFaqQ7: 'What is CID-UNESCO and why is it important?',
   homeFaqA7:
     'CID-UNESCO (International Dance Council) is the official UNESCO organization for dance worldwide. That Farray\'s is accredited by them means we meet the highest international teaching standards. Yunaisy Farray is an active member. This guarantees pedagogical quality, international recognition, and serious professionalism.',
-  homeFaqQ8: 'Can I try a class before enrolling?',
+  homeFaqQ8: 'Can I try a dance class before enrolling?',
   homeFaqA8:
-    'Absolutely! Your first class is 100% free and no commitment. Come with comfortable clothes and clean sneakers. Our teachers will guide you from minute one, help you find your level, and explain how we work. Contact us via WhatsApp, Instagram, or phone to book your trial class. We\'re waiting for you.',
+    'Depending on the season, the trial class for residents may be free or have a symbolic welcome price. The idea is that you can try the experience without commitment. Book your spot by clicking the "Book Your Trial Class" button at the top of this page.',
   // Dancehall Key Stats
   classMinutes: 'Class Minutes',
   caloriesBurned: 'Calories Burned',

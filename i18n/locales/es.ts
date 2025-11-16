@@ -325,9 +325,9 @@ export const es = {
   homeFaqQ7: '¿Qué es el CID-UNESCO y por qué es importante?',
   homeFaqA7:
     'El CID-UNESCO (Consejo Internacional de la Danza) es la organización oficial de la UNESCO para la danza a nivel mundial. Que Farray\'s esté acreditado por ellos significa que cumplimos los más altos estándares internacionales de enseñanza. Yunaisy Farray es miembro activa. Esto garantiza calidad pedagógica, reconocimiento internacional y profesionalidad seria.',
-  homeFaqQ8: '¿Puedo probar una clase antes de matricularme?',
+  homeFaqQ8: '¿Puedo probar una clase de baile antes de inscribirme?',
   homeFaqA8:
-    '¡Absolutamente! Tu primera clase es 100% gratuita y sin compromiso. Ven con ropa cómoda y zapatillas limpias. Nuestros profes te guiarán desde el minuto uno, te ayudarán a encontrar tu nivel y te explicarán cómo funcionamos. Contacta con nosotros por WhatsApp, Instagram o teléfono para reservar tu clase de prueba. Te esperamos.',
+    'Según la temporada, la clase de prueba para residentes puede ser gratuita o tener un precio simbólico de bienvenida. La idea es que puedas probar la experiencia sin compromiso. Reserva tu plaza pulsando el botón "Reserva tu Clase de Prueba" en la parte superior de esta página.',
   // Dancehall Key Stats
   classMinutes: 'Minutos de Clase',
   caloriesBurned: 'Calorías Quemadas',
