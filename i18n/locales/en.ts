@@ -648,28 +648,28 @@ export const en = {
   danceClassesHub_style_k_pop: 'K-Pop',
   danceClassesHub_style_salsa_cubana: 'Cuban Salsa',
   danceClassesHub_style_salsa_cubana_desc:
-    'Also known as Casino, it\'s the authentic salsa from Cuba: circular, joyful and very social. Learn to dance rueda de casino with turns, figures and the unmistakable flavor of Havana.',
+    'Authentic salsa from Cuba: circular, joyful and social with rueda de casino.',
   danceClassesHub_style_bachata: 'Bachata',
   danceClassesHub_style_bachata_desc:
-    'The quintessential sensual Caribbean dance: connection, body waves and fluid movements to the rhythm of bachata. Perfect for those seeking romantic expression and partner technique.',
+    'Sensual Caribbean dance with connection, body waves and fluid movements.',
   danceClassesHub_style_timba_cubana: 'Cuban Timba',
   danceClassesHub_style_timba_cubana_desc:
-    'The most modern and explosive salsa from Cuba: fast, energetic and full of attitude. Master rhythm changes, isolations and complex steps to the sound of the best Cuban timbazo.',
+    'Modern salsa from Cuba: fast, energetic and full of attitude.',
   danceClassesHub_style_folklore_cubano: 'Cuban Folklore',
   danceClassesHub_style_folklore_cubano_desc:
-    'Afro-Cuban roots in their purest form: Rumba, Yambú, Guaguancó and Orisha dances. Connect with the culture, drums and history of Cuba through traditional dance.',
+    'Afro-Cuban roots: Rumba, Yambú, Guaguancó and Orisha dances.',
   danceClassesHub_style_salsa_lady_style: 'Salsa Lady Style',
   danceClassesHub_style_salsa_lady_style_desc:
-    'Individual feminine salsa technique: turns, arms, hip movement and queen attitude on the dance floor. Perfect for perfecting your personal style before partner dancing.',
+    'Individual feminine salsa technique: turns, arms and attitude.',
   danceClassesHub_style_salsa_lady_timba: 'Salsa Lady Timba',
   danceClassesHub_style_salsa_lady_timba_desc:
-    'The most powerful and modern feminine style: combines Lady Style with the explosive energy of Cuban Timba. Learn isolations, despelote and movements with urban flavor and strength.',
+    'Lady Style with the explosive energy of Cuban Timba.',
   danceClassesHub_style_son_cubano: 'Son Cubano',
   danceClassesHub_style_son_cubano_desc:
-    'The father of salsa: elegant, classic and full of Cuban tradition since the 1920s. Basic steps, 2-3 clave and the authentic swing of Buena Vista Social Club.',
+    'The father of salsa: elegant, classic and full of Cuban tradition.',
   danceClassesHub_style_men_style_salsa: 'Men Style Salsa',
   danceClassesHub_style_men_style_salsa_desc:
-    'Individual masculine technique: footwork, attitude, body control and stage presence in salsa. Develop your personal style, confidence and charisma to stand out on any dance floor.',
+    'Individual masculine technique: footwork, attitude and stage presence.',
   danceClassesHub_style_bum_bum_fit: 'Bum Bum Body Fit',
   danceClassesHub_style_body_conditioning: 'Body Conditioning & Stretching',
   danceClassesHub_style_dance_barre: 'Dance Barre',
@@ -928,7 +928,7 @@ export const en = {
     'Learn to dance Cuban Salsa, Sensual and Dominican Bachata, Timba, Son and more in Barcelona. School founded by Cuban masters with experience in Havana\'s best academies. Book your trial class.',
   salsaBachataBarcelona_breadcrumb_home: 'Home',
   salsaBachataBarcelona_breadcrumb_current: 'Salsa and Bachata Classes in Barcelona',
-  salsaBachataBarcelona_h1: 'Learn to Dance Salsa and Bachata As You Always Dreamed',
+  salsaBachataBarcelona_h1: 'Salsa and Bachata Classes in Barcelona',
   salsaBachataBarcelona_intro:
     'At Farray\'s Center you don\'t just learn choreographies: you learn to dance for real. We teach Cuban Salsa, Bachata, Timba, Lady Style and Folklore from the roots, with musicality, technique and body awareness. Our Cuban teachers, trained in Havana with international experience, teach you to understand movement, master your style and dance with quality, presence and meaning. If you\'re looking to truly advance and be part of Barcelona\'s most committed Latin community, this is your place.',
 
@@ -988,13 +988,13 @@ export const en = {
 
   salsaBachataFaqQ10: 'Can I try a salsa or bachata class before enrolling?',
   salsaBachataFaqA10:
-    'Depending on the season, the trial class for residents may be free or have a symbolic welcome price. The idea is that you can experience our methodology, meet the teachers and feel the energy of the Latin community without commitment. Book your spot by clicking the "Book Your Trial Class" button at the top of this page.',
+    'Depending on the season, the trial class for residents may be free or have a symbolic welcome price. The idea is that you can experience our methodology, meet the teachers and feel the energy of our dance academy without commitment. Book your spot by clicking the "Book Your Trial Class" button at the top of this page.',
 
   // CTA Final - Salsa/Bachata Barcelona
-  salsaBachataCTA_title: 'Dance Salsa and Bachata Like You Always Dreamed',
-  salsaBachataCTA_subtitle: 'Your Latin community in Barcelona is waiting for you.',
+  salsaBachataCTA_title: 'Learn to Dance Salsa and Bachata As You Always Dreamed',
+  salsaBachataCTA_subtitle: 'Your Salsa and Bachata School in Barcelona is waiting for you.',
   salsaBachataCTA_description:
-    'Join hundreds of students who are discovering the passion of Latin dance with Cuban masters. From absolute beginners to advanced dancers. Book your trial class today.',
+    'Join hundreds of students discovering the passion of Latin dances with Cuban masters. From absolute beginners to advanced dancers. Book your trial class today.',
   salsaBachataBarcelona_viewMore: 'View more →',
 };
 

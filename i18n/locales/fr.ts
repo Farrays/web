@@ -649,28 +649,28 @@ export const fr = {
   danceClassesHub_style_k_pop: 'K-Pop',
   danceClassesHub_style_salsa_cubana: 'Salsa Cubaine',
   danceClassesHub_style_salsa_cubana_desc:
-    'Aussi connue sous le nom de Casino, c\'est la salsa authentique de Cuba : circulaire, joyeuse et très sociale. Apprenez à danser la rueda de casino avec des tours, des figures et la saveur incontournable de La Havane.',
+    'Salsa authentique de Cuba : circulaire, joyeuse et sociale avec rueda de casino.',
   danceClassesHub_style_bachata: 'Bachata',
   danceClassesHub_style_bachata_desc:
-    'La danse sensuelle caribéenne par excellence : connexion, ondulations corporelles et mouvements fluides au rythme de la bachata. Parfaite pour ceux qui recherchent l\'expression romantique et la technique en couple.',
+    'Danse sensuelle caribéenne avec connexion, ondulations et mouvements fluides.',
   danceClassesHub_style_timba_cubana: 'Timba Cubaine',
   danceClassesHub_style_timba_cubana_desc:
-    'La salsa la plus moderne et explosive de Cuba : rapide, énergique et pleine d\'attitude. Maîtrisez les changements de rythme, les isolations et les pas complexes au son des meilleurs timbazo cubains.',
+    'Salsa moderne de Cuba : rapide, énergique et pleine d\'attitude.',
   danceClassesHub_style_folklore_cubano: 'Folklore Cubain',
   danceClassesHub_style_folklore_cubano_desc:
-    'Les racines afro-cubaines dans leur forme la plus pure : Rumba, Yambú, Guaguancó et danses d\'Orishas. Connectez-vous avec la culture, les tambours et l\'histoire de Cuba à travers la danse traditionnelle.',
+    'Racines afro-cubaines : Rumba, Yambú, Guaguancó et danses d\'Orishas.',
   danceClassesHub_style_salsa_lady_style: 'Salsa Lady Style',
   danceClassesHub_style_salsa_lady_style_desc:
-    'Technique féminine individuelle de salsa : tours, bras, mouvement des hanches et attitude de reine sur la piste. Parfait pour perfectionner votre style personnel avant de danser en couple.',
+    'Technique féminine individuelle de salsa : tours, bras et attitude.',
   danceClassesHub_style_salsa_lady_timba: 'Salsa Lady Timba',
   danceClassesHub_style_salsa_lady_timba_desc:
-    'Le style féminin le plus puissant et moderne : combine le Lady Style avec l\'énergie explosive de la Timba cubaine. Apprenez les isolations, le despelote et les mouvements avec saveur urbaine et force.',
+    'Lady Style avec l\'énergie explosive de la Timba cubaine.',
   danceClassesHub_style_son_cubano: 'Son Cubain',
   danceClassesHub_style_son_cubano_desc:
-    'Le père de la salsa : élégant, classique et plein de tradition cubaine depuis les années 1920. Pas de base, clave 2-3 et le swing authentique du Buena Vista Social Club.',
+    'Le père de la salsa : élégant, classique et plein de tradition cubaine.',
   danceClassesHub_style_men_style_salsa: 'Men Style Salsa',
   danceClassesHub_style_men_style_salsa_desc:
-    'Technique masculine individuelle : jeu de jambes, attitude, contrôle corporel et présence scénique en salsa. Développez votre style personnel, votre confiance et votre charisme pour vous démarquer sur n\'importe quelle piste.',
+    'Technique masculine individuelle : jeu de jambes, attitude et présence scénique.',
   danceClassesHub_style_bum_bum_fit: 'Bum Bum Corps Fit',
   danceClassesHub_style_body_conditioning: 'Body Conditioning & Stretching',
   danceClassesHub_style_dance_barre: 'Dance Barre',
@@ -930,7 +930,7 @@ export const fr = {
     'Apprenez à danser la Salsa Cubaine, la Bachata Sensuelle et Dominicaine, la Timba, le Son et plus à Barcelone. École fondée par des maîtres cubains avec expérience dans les meilleures académies de La Havane. Réservez votre cours d\'essai.',
   salsaBachataBarcelona_breadcrumb_home: 'Accueil',
   salsaBachataBarcelona_breadcrumb_current: 'Cours de Salsa et Bachata à Barcelone',
-  salsaBachataBarcelona_h1: 'Apprenez à Danser la Salsa et la Bachata Comme Vous en Avez Toujours Rêvé',
+  salsaBachataBarcelona_h1: 'Cours de Salsa et Bachata à Barcelone',
   salsaBachataBarcelona_intro:
     'Au Farray\'s Center vous n\'apprenez pas seulement des chorégraphies : vous apprenez à vraiment danser. Nous enseignons la Salsa Cubaine, la Bachata, la Timba, le Lady Style et le Folklore depuis les racines, avec musicalité, technique et conscience corporelle. Nos professeurs cubains, formés à La Havane avec une expérience internationale, vous enseignent à comprendre le mouvement, maîtriser votre style et danser avec qualité, présence et sens. Si vous cherchez à vraiment progresser et à faire partie de la communauté latine la plus engagée de Barcelone, c\'est votre place.',
 
@@ -990,13 +990,13 @@ export const fr = {
 
   salsaBachataFaqQ10: 'Puis-je essayer un cours de salsa ou bachata avant de m\'inscrire ?',
   salsaBachataFaqA10:
-    'Selon la saison, le cours d\'essai pour les résidents peut être gratuit ou avoir un prix symbolique de bienvenue. L\'idée est que vous puissiez expérimenter notre méthodologie, rencontrer les professeurs et ressentir l\'énergie de la communauté latine sans engagement. Réservez votre place en cliquant sur le bouton "Réservez Votre Cours d\'Essai" en haut de cette page.',
+    'Selon la saison, le cours d\'essai pour les résidents peut être gratuit ou avoir un prix symbolique de bienvenue. L\'idée est que vous puissiez expérimenter notre méthodologie, rencontrer les professeurs et ressentir l\'énergie de notre académie de danse sans engagement. Réservez votre place en cliquant sur le bouton "Réservez Votre Cours d\'Essai" en haut de cette page.',
 
   // CTA Final - Salsa/Bachata Barcelone
-  salsaBachataCTA_title: 'Dansez la Salsa et la Bachata Comme Vous en Avez Toujours Rêvé',
-  salsaBachataCTA_subtitle: 'Votre communauté latine à Barcelone vous attend.',
+  salsaBachataCTA_title: 'Apprenez à Danser la Salsa et la Bachata Comme Vous en Avez Toujours Rêvé',
+  salsaBachataCTA_subtitle: 'Votre École de Salsa et Bachata à Barcelone vous attend.',
   salsaBachataCTA_description:
-    'Rejoignez des centaines d\'étudiants qui découvrent la passion de la danse latine avec des maîtres cubains. Des débutants absolus aux danseurs avancés. Réservez votre cours d\'essai aujourd\'hui.',
+    'Rejoignez des centaines d\'étudiants qui découvrent la passion des danses latines avec des maîtres cubains. Des débutants absolus aux danseurs avancés. Réservez votre cours d\'essai aujourd\'hui.',
   salsaBachataBarcelona_viewMore: 'Voir plus →',
 };
 
